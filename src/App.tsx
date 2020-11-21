@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, RouteComponentProps, Switch } from "react-router";
+import { BrowserRouter } from "react-router-dom";
+import { Nav, Navbar } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
+const LangTree = () => <div>TODO tree</div>;
+const Translation = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
+const Sources = () => <div>TODO sources</div>;
+const Stats = () => <div>TODO stats</div>;
+const Credits = () => <div>TODO (or not TODO ?)</div>;
+
+const routes = [
+  { path: "/sources", component: Sources, title: "Sources" },
+  { path: "/stats", component: Stats, title: "Stats" },
+  { path: "/credits", component: Credits, title: "Credits" },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar>
+        <Navbar.Brand href="/">Ring Verse</Navbar.Brand>
+        <Nav>
+          {routes.map(r => <Nav.Link key={r.path} href={r.path}>{r.title}</Nav.Link>)}
+        </Nav>
+      </Navbar>
+      <div className="main">
+        <Switch>
+          <Route path="/" exact component={LangTree}/>
+          <Route path="/show/:id" component={Translation}/>
+          {routes.map(r => <Route key={r.path} {...r} />)}
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
