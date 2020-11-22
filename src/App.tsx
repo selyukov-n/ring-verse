@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
 import { Route, RouteComponentProps, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-const LangTree = () => <div>TODO tree</div>;
+import LangTree from "./LangTree";
+
 const Translation = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
+const Language = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
 const Sources = () => <div>TODO sources</div>;
 const Stats = () => <div>TODO stats</div>;
 const Credits = () => <div>TODO (or not TODO ?)</div>;
@@ -30,6 +32,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={LangTree}/>
           <Route path="/show/:id" component={Translation}/>
+          <Route path="/lang/:id" component={Language} />
           {routes.map(r => <Route key={r.path} {...r} />)}
         </Switch>
       </div>

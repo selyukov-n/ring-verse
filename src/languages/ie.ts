@@ -1,0 +1,31 @@
+import { groups as g } from "./names";
+import { group } from "./utils";
+
+export const ie = group(g.ie,
+  "en", "ru",
+  group(g.germanic,
+    group(g.germanic_west, "oe", "afr", "dut", "fri", "lux", "ger", "yid"),
+    group(g.germanic_nordic, "on", "dan", "swe", "nor", "far", "ice"),
+    group(g.germanic_east, "got"),
+  ),
+  group(g.greek, "gre", "ngr"),
+  "alb",
+  group(g.celtic, "iri", "wel"),
+  group(g.italic,
+    "lat",
+    group(g.romance, "por", "spa", "cat", "gal", "fre", "sar", "ita", "swi", "fru", "rum")),
+  group(g.baltic,
+    group(g.east, "lit", "ltv"),
+    group(g.west, "opr")),
+  group(g.slavic_1,
+    group(g.slavic_west, "pol", "cze", "lso", "uso", "ksh"),
+    group(g.slavic_east, "ukr", "lem", "bel"),
+    group(g.slavic_south, "ocs", "cro", "slovak", "slo", "bul", "mac"),
+  ),
+  group(g.indoiranian,
+    group(g.indoaryan, "bng", "rom"),
+    group(g.iranian, "per"),
+  ),
+  "arm",
+);
+//export type IELang = (typeof ie)["id"];
