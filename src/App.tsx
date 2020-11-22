@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, RouteComponentProps, Switch } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -23,9 +23,9 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar>
-        <Navbar.Brand href="/">Ring Verse</Navbar.Brand>
+        <Link to="/" className="navbar-brand">Ring Verse</Link>
         <Nav>
-          {routes.map(r => <Nav.Link key={r.path} href={r.path}>{r.title}</Nav.Link>)}
+          {routes.map(r => <Link key={r.path} to={r.path} className="nav-link">{r.title}</Link>)}
         </Nav>
       </Navbar>
       <div className="main">
