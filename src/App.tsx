@@ -12,12 +12,10 @@ import LangTree, { getTotalCount } from "./LangTree";
 const Translation = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
 const Language = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
 const Sources = () => <div>TODO sources</div>;
-const Stats = () => <div>TODO stats</div>;
 const Credits = () => <div>TODO (or not TODO ?)</div>;
 
 const routes = [
   { path: "/sources", component: Sources, title: "Sources" },
-  { path: "/stats", component: Stats, title: "Stats" },
   { path: "/credits", component: Credits, title: "Credits" },
 ];
 
