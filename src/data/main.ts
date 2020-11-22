@@ -1,5 +1,7 @@
+import { JRRT } from "./authors";
+
 const main = {
-  author: "John Ronald Reuel Tolkien",
+  author: JRRT,
   text: `Three Rings for the Elven-kings under the sky,
 Seven for the Dwarf-lords in their halls of stone,
 Nine for Mortal Men doomed to die,

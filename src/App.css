@@ -19,3 +19,16 @@
 .exp.collapsed > span::after {
   content: "+";
 }
+
+.counter {
+  margin: 0 5px;
+  color: rgba(0, 0, 0, .5);
+}
+.counter > span {
+  margin: 0 5px;
+  color: #f88;
+}
+
+.success {
+  color: #28a745;
+}

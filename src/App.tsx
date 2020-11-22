@@ -5,7 +5,9 @@ import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import LangTree from "./LangTree";
+import { Provider } from "./context";
+import data from "./data";
+import LangTree, { getTotalCount } from "./LangTree";
 
 const Translation = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
 const Language = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
@@ -20,23 +22,31 @@ const routes = [
 ];
 
 function App() {
+  const counts = getTotalCount(data.lang);
   return (
-    <BrowserRouter>
-      <Navbar>
-        <Link to="/" className="navbar-brand">Ring Verse</Link>
-        <Nav>
-          {routes.map(r => <Link key={r.path} to={r.path} className="nav-link">{r.title}</Link>)}
-        </Nav>
-      </Navbar>
-      <div className="main">
-        <Switch>
-          <Route path="/" exact component={LangTree}/>
-          <Route path="/show/:id" component={Translation}/>
-          <Route path="/lang/:id" component={Language} />
-          {routes.map(r => <Route key={r.path} {...r} />)}
-        </Switch>
-      </div>
-    </BrowserRouter>
+    <Provider value={data}>
+      <BrowserRouter>
+        <Navbar>
+          <Link to="/" className="navbar-brand">Ring Verse</Link>
+          <Nav>
+            {routes.map(r => <Link key={r.path} to={r.path} className="nav-link">{r.title}</Link>)}
+          </Nav>
+          <div style={{ marginLeft: "auto" }}>
+            <span className="navbar-text">Всего:&nbsp;</span>
+            {counts.me} / {counts.count}
+          </div>
+
+        </Navbar>
+        <div className="main">
+          <Switch>
+            <Route path="/" exact component={LangTree}/>
+            <Route path="/show/:id" component={Translation}/>
+            <Route path="/lang/:id" component={Language} />
+            {routes.map(r => <Route key={r.path} {...r} />)}
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
