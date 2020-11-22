@@ -5,3 +5,17 @@
 .main {
   padding: 0 15px;
 }
+
+.exp > span {
+  cursor: pointer;
+}
+.exp > span::after {
+  margin: 0 5px;
+  color: #007bff;
+}
+.exp.expanded > span::after {
+  content: "-";
+}
+.exp.collapsed > span::after {
+  content: "+";
+}
