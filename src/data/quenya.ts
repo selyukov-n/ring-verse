@@ -41,6 +41,20 @@ Mine Corma turien te ilye, Mine Corma hirien te,
 Mine Corma tultien te ilye ar huinesse nutien te
 Morinóresse yasse Huini caitar.`
   },
+
+  32: {
+    author: "Maciej Garbowski",
+    comments: ["old variant"],
+    source: makeSource("Q-6", 20, sources.gwaith),
+    content: `Nelde Cormar Eldaron Aranen nu i vilya,
+Otso Heruin Naucoron ondeva mardentassen,
+Nerte Firime Nérin yar i Nuron martyar,
+Mine i More Herun mormahalmaryasse
+Mornóreo Nóresse yasse i Fuini caitar.
+Mine Corma turie te ilye, Mine Corma hirie te,
+Mine Corma hostie te ilye ar mordosse nutie te
+Mornóreo Nóresse yasse i Fuini caitar.`
+  },
 });
 
 export default [
