@@ -43,8 +43,8 @@ Uzbûrz-ishi amal burgûl fauthut.`,
 };
 
 export default map(items, it => ({
+  author: [JRRT, ...Array.isArray(it.author) ? it.author : [it.author]],
   content: [{
-    author: [JRRT, ...Array.isArray(it.author) ? it.author : [it.author]],
     text: <>
       {it.text[0]}
       <b>{jrrt}</b>

@@ -1,7 +1,7 @@
 import { Item } from "./types";
 import { ME } from "./authors";
 
-export const isMine = (item: Item) => item.content.some(c => c.author.includes(ME));
+export const isMine = (item: Item) => item.author.includes(ME);
 
 export const makeSource = (main: string, num: string, page: number) => ({
   main,
@@ -22,3 +22,8 @@ export const map = <T>(input: Record<number, T>, func: (t: T) => Item): Record<n
   });
   return result;
 };
+
+export const make = <K extends keyof Item>(common: Pick<Item, K>, items: Record<number, Omit<Item, K>>) => map(items, it => ({
+  ...common,
+  ...it,
+}) as Item);

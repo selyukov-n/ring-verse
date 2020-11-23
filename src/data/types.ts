@@ -5,8 +5,8 @@ type LangId = ArdaLang | Lang | Conlang | EncodingLang | JokesLang;
 type Content =
   | { type?: "text", text: string | JSX.Element, title?: string } // title - rendered as bold before if specified [don't confuse with the variant name]
   | { type: "image", image: any };
-type Variant = Content & {
-  author: string | string[];
+export type Variant = Content & {
+  author?: string[];
   name?: string; // actual if several variants
   comment?: string;
 };
@@ -14,7 +14,8 @@ type Variant = Content & {
 export type Item = {
   language: LangId;
   name?: string;
-  content: Variant[];
+  author: string | string[];
+  content: Variant[] | string;
   source?: string | {
     main: string | null;
     book?: { page: number, num: string };
