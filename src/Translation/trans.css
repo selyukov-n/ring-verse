@@ -1,0 +1,12 @@
+.comment {
+    font-size: smaller;
+    font-style: italic;
+}
+.card-header .comment {
+    margin-bottom: 0;
+}
+
+.author {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}

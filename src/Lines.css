@@ -1,18 +1,19 @@
+.poem {
+  margin-bottom: 1em;
+}
+
 .poem .card-text {
   white-space: pre-wrap;
 }
 
 .poem .card-footer {
   font-size: smaller;
-  padding: 0;
+  padding-top: 0;
   font-style: italic;
   background-color: inherit;
   border-top: none;
 }
 
-.poem.original {
-  margin-bottom: 1em;
-}
 .poem.original .card-text {
   font-weight: bold;
   font-style: italic;

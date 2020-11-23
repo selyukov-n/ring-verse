@@ -20,7 +20,7 @@ export const getTotalCount = (data: Parameters<typeof getCounts>[0]) => {
 
 const LangTree = () => {
   return <div>
-    <Lines text={original.text} footer={"© " + original.author} className={"original"} />
+    <Lines text={original.content} footer={"© " + original.author} className={"original"} />
 
     <ol>
       <Node item={arda} names={names.arda} defaultOpen />
