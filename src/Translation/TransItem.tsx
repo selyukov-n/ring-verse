@@ -28,6 +28,31 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   return <Lines {...variant} text={getContent(variant)} header={linesHeader} />;
 };
 
+const renderSource = ({ source }: ItemNum) => {
+  if (!source) return null;
+
+  if (typeof source === "string")
+    source = { main: source };
+
+
+  const book = source.book && <>Book {source.book.num}, p. {source.book.page}</>;
+  const sources: JSX.Element[] = [];
+  if (source.main === "book" && book)
+    sources.push(<p key="main">{book}</p>);
+  else {
+    if (source.main)
+      sources.push(<p key="main">{source.main}</p>);
+    if (book)
+      sources.push(<p key="book">См. также {book}</p>);
+  }
+
+  return <section className="sources">
+    <header>Ссылки и источники</header>
+    {sources}
+    {source.other?.map((t, i) => <p key={i}>{t}</p>)}
+  </section>;
+};
+
 export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
   const author = (Array.isArray(item.author) ? item.author : [item.author])
     .filter(Boolean)
@@ -41,6 +66,6 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
 
     {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
 
-    {item.source && "TODO source"}
+    {renderSource(item)}
   </>;
 };

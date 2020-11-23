@@ -3,7 +3,6 @@ import { ME } from "./authors";
 
 const q = make({ language: "quenya" }, {
   6: {
-    source: "My translation",
     author: ME,
     content: `Nelde Cormar Eldaranin nu ilwenna,
 Otso Nauco-herin sarne hrótantassen,

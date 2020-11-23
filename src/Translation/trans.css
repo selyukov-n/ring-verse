@@ -8,5 +8,18 @@
 
 .author {
     font-style: italic;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.sources {
+    font-size: smaller;
+}
+.sources header {
+    font-weight: 600;
+}
+.sources p {
+    margin-bottom: 0;
+}
+.sources p::before {
+    content: "- ";
 }
