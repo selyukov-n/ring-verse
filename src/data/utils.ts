@@ -3,7 +3,7 @@ import { ME } from "./authors";
 
 export const isMine = (item: Item) => item.author.includes(ME);
 
-export const makeSource = (main: string, num: string, page: number) => ({
+export const makeSource = (num: string, page: number, main: string | null = null) => ({
   main,
   book: { page, num },
 });

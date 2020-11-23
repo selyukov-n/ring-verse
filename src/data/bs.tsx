@@ -15,7 +15,7 @@ ash nazg thrakatulûk agh burzum-ishi krimpatul
 const items: Record<number, Item> = {
   7: {
     source: {
-      ...makeSource("", "BS-1", 33),
+      ...makeSource("BS-1", 33),
       other: ["Duplicated in the Book (BS-5, p.35)"]
     },
     author: "Julian Bradfield",
@@ -31,7 +31,7 @@ Uzg-Mordor-ishi amal fauthut burgûli.`,
   },
   109: {
     name: "Модификация #7",
-    source: makeSource("", "BS-4", 34),
+    source: makeSource("BS-4", 34),
     author: ME,
     text: [
       `Gakh Nazg Golug-durub-ûr nût-lata,

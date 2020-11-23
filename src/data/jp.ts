@@ -6,7 +6,7 @@ export const jp: ItemGroup = {
   49: {
     language: "jap",
     name: "из перевода ВК",
-    source: makeSource("не помню источник", "J", 180),
+    source: makeSource("J", 180),
     author: [],
     comments: ["some comments"],
     content: [
