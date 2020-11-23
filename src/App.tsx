@@ -7,6 +7,7 @@ import "./App.css";
 
 import { Provider, useDataContext } from "./context";
 import data from "./data";
+import History from "./History";
 import LangTree, { getTotalCount } from "./LangTree";
 import RouterLink from "./RouterLink";
 import { TransItem, Translation } from "./Translation";
@@ -30,6 +31,7 @@ const Credits = () => <div>TODO (or not TODO ?)</div>;
 
 const routes = [
   { path: "/sources", component: Sources, title: "Sources" },
+  { path: "/history", component: History, title: "History" },
   { path: "/credits", component: Credits, title: "Credits" },
 ];
 

@@ -1,6 +1,8 @@
+import { HistoryDate } from "./History";
+
 type HistoryItem = {
   ver: string;
-  date?: [number, number, number?] | [number, "spring" | "summer" | "autumn" | "winter"];
+  date?: HistoryDate;
   count: number;
 };
 
