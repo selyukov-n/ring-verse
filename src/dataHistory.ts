@@ -13,5 +13,6 @@ const hist: HistoryItem[] = [
   { ver: "0.0.7", date: [2002, "summer"], count: 1 },
   { ver: "0.1.0", date: [2002, 12, 25], count: 1 },
   { ver: "0.1.1", count: 2 },
+  { ver: "0.1.2", date: [2003, "winter"], count: 1 },
 ];
 export default hist;
