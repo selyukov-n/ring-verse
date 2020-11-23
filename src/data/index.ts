@@ -1,4 +1,3 @@
-import { ME } from "./authors";
 import original from "./main";
 import { Item, ItemGroup, Variant as V } from "./types";
 import { forEach } from "./utils";
@@ -42,6 +41,8 @@ export default mergeGroups(
   { 1: main },
   ...require("./quenya").default,
   require("./bs").default,
+  ...require("./sindarin").default,
+
   ...require("./ie").default,
   require("./jp").jp,
 
