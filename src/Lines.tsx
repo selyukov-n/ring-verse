@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import "./Lines.css";
 
 type Props = {
-  text: string;
+  text: React.ReactNode;
   header?: string;
   footer?: string;
   className?: string;

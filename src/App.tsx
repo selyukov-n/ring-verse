@@ -1,16 +1,30 @@
 import React from "react";
 import { Route, RouteComponentProps, Switch } from "react-router";
 import { BrowserRouter, Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
+import { ListGroup, Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import { Provider } from "./context";
+import { Provider, useDataContext } from "./context";
 import data from "./data";
 import LangTree, { getTotalCount } from "./LangTree";
+import RouterLink from "./RouterLink";
+import { TransItem, Translation } from "./Translation";
 
-const Translation = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
-const Language = (props: RouteComponentProps<{ id: string }>) => <div>TODO {props.match.params.id}</div>;
+const Language = (props: RouteComponentProps<{ id: string }>) => {
+  const { lang } = useDataContext();
+  const items = lang[props.match.params.id];
+  if (items.length === 1) {
+    return <TransItem item={items[0]} />;
+  }
+
+  return <ListGroup>
+    {items.map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
+      #{it.index} {it.name}
+    </ListGroup.Item>)}
+  </ListGroup>
+};
+
 const Sources = () => <div>TODO sources</div>;
 const Credits = () => <div>TODO (or not TODO ?)</div>;
 
@@ -33,7 +47,6 @@ function App() {
             <span className="navbar-text">Всего:&nbsp;</span>
             {counts.me} / {counts.count}
           </div>
-
         </Navbar>
         <div className="main">
           <Switch>

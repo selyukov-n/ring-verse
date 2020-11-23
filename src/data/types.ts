@@ -1,5 +1,9 @@
+import { ArdaLang, Lang, Conlang, EncodingLang, JokesLang } from "../languages";
+
+type LangId = ArdaLang | Lang | Conlang | EncodingLang | JokesLang;
+
 type Content =
-  | { type?: "text", text: string, title?: string } // title - rendered as bold before if specified [don't confuse with the variant name]
+  | { type?: "text", text: string | JSX.Element, title?: string } // title - rendered as bold before if specified [don't confuse with the variant name]
   | { type: "image", image: any };
 type Variant = Content & {
   author: string | string[];
@@ -8,7 +12,7 @@ type Variant = Content & {
 };
 
 export type Item = {
-  language: string;
+  language: LangId;
   name?: string;
   content: Variant[];
   source?: string | {
