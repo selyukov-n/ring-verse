@@ -1,3 +1,5 @@
+import * as ru from "./ru";
+
 export default [
-  require("./ru").default,
+  ru.ru1,
 ];

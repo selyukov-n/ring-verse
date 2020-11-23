@@ -11,20 +11,6 @@ export const main: Item = {
   ...original
 };
 
-const q: Item = {
-  language: "quenya",
-  source: "My translation",
-  author: ME,
-  content: `Nelde Cormar Eldaranin nu ilwenna,
-Otso Nauco-herin sarne hrótantassen,
-Nerte Firin ambartanen firienna,
-Mine Herumoren mormahalmaryasse
-Morinóresse yasse Huini caitar.
-Mine Corma turien te ilya, Mine Corma tuvien te,
-Mine Corma tultien te ilya ar huinesse nutien te
-Morinóresse yasse Huini caitar.`
-};
-
 export type ItemNum = Item & { index: number };
 
 const mergeGroups = (...groups: ItemGroup[]) => {
@@ -54,7 +40,7 @@ export type ItemVariant = V;
 
 export default mergeGroups(
   { 1: main },
-  { 6: q },
+  ...require("./quenya").default,
   require("./bs").default,
   ...require("./ie").default,
   require("./jp").jp,
