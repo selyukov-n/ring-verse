@@ -44,4 +44,6 @@ export default mergeGroups(
   require("./bs").default,
   ...require("./ie").default,
   require("./jp").jp,
+
+  ...require("./jokes").default,
 );
