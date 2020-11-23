@@ -1,7 +1,7 @@
 import { Item } from "./types";
 import { ME } from "./authors";
 
-export const isMine = (item: Item) => item.author.includes(ME);
+export const isMine = (item: Item) => Array.isArray(item.author) ? item.author.includes(ME) : item.author === ME;
 
 export const makeSource = (num: string, page: number, main: string | null = null) => ({
   main,

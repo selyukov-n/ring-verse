@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 import { Provider, useDataContext } from "./context";
-import data from "./data";
+import data, { isMine } from "./data";
 import History from "./History";
 import LangTree, { getTotalCount } from "./LangTree";
 import RouterLink from "./RouterLink";
@@ -21,7 +21,7 @@ const Language = (props: RouteComponentProps<{ id: string }>) => {
 
   return <ListGroup>
     {items.map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
-      #{it.index} {it.name}
+      #{it.index} {!it.name && isMine(it) ? "[my translation]" : it.name}
     </ListGroup.Item>)}
   </ListGroup>
 };
