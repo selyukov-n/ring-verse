@@ -16,7 +16,7 @@ export type Item = {
   name?: string;
   author: string | string[];
   content: Variant[] | string;
-  source?: string | {
+  source?: {
     main: string | null;
     book?: { page: number, num: string };
     other?: string[];
