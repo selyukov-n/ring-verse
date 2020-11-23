@@ -38,10 +38,10 @@ const renderSource = ({ source }: ItemNum) => {
   const book = source.book && <>Book {source.book.num}, p. {source.book.page}</>;
   const sources: JSX.Element[] = [];
   if (source.main === "book" && book)
-    sources.push(<p key="main">{book}</p>);
+    sources.push(<p key="main">Источник: {book}</p>);
   else {
     if (source.main)
-      sources.push(<p key="main">{source.main}</p>);
+      sources.push(<p key="main">Источник: {source.main}</p>);
     if (book)
       sources.push(<p key="book">См. также {book}</p>);
   }
