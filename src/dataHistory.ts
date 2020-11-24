@@ -1,4 +1,4 @@
-import { HistoryDate } from "./History";
+import { HistoryDate } from "./data/history";
 
 type HistoryItem = {
   ver: string;

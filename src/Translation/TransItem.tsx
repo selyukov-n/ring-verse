@@ -1,6 +1,5 @@
 import React, { FC } from "react";
-import { inputs, ItemNum, ItemVariant } from "../data";
-import { formatDate } from "../History";
+import { formatDate, Input, inputs, ItemNum, ItemVariant } from "../data";
 import { Lines } from "../Lines";
 import "./trans.css";
 
@@ -29,12 +28,12 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   return <Lines {...variant} text={getContent(variant)} header={linesHeader} />;
 };
 
-const renderSource = (item: ItemNum) => {
-  const book = item.book && <>
-      Book {item.book.num}, p. {item.book.page} {item.book.comment && `[${item.book.comment}]`}
+const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
+  const book = b && <>
+      Book {b.num}, p. {b.page}
+      {b.comment && <><br />* {b.comment}</>}
   </>;
 
-  const input = item.input && inputs[item.input];
   const source = item.source || input && input.mainSource;
 
   const sources: JSX.Element[] = [];
@@ -47,7 +46,6 @@ const renderSource = (item: ItemNum) => {
 
   return sources.length === 0 ? null : <section className="sources">
     {sources}
-    {input.date && <footer>Добавлено {formatDate(input.date)}</footer>}
   </section>;
 };
 
@@ -56,14 +54,18 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
     .filter(Boolean)
     .join(", ");
   const content = typeof item.content === "string" ? [{ text: item.content }] : item.content;
+  const input = item.input && inputs[item.input];
+  const date = item.index > 1 && input.date
+    && <span className="date" title="when added to the collection">{formatDate(input.date)}</span>;
   return <>
     <h6>
       #{item.index} {makeHeader(item.name, author || "?")}
+      {date}
     </h6>
     {item.comments?.map((c, i) => <Comment key={i}>{c}</Comment>)}
 
     {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
 
-    {renderSource(item)}
+    {renderSource(item, input)}
   </>;
 };

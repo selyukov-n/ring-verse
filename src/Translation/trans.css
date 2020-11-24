@@ -1,3 +1,8 @@
+h6 .date {
+    font-style: italic;
+    float: right;
+}
+
 .comment {
     font-size: smaller;
     font-style: italic;
@@ -19,8 +24,4 @@
 }
 .sources p {
     margin-bottom: 0;
-}
-.sources footer {
-    margin-top: 1em;
-    font-style: italic;
 }

@@ -1,7 +1,9 @@
+import { Input as I } from "./history";
 import original from "./main";
 import { Item, ItemGroup, Variant as V } from "./types";
 import { forEach } from "./utils";
 
+export { formatDate } from "./history";
 export { inputs } from "./inputs";
 export { isMine } from "./utils";
 
@@ -14,6 +16,7 @@ export const main: Item = {
 
 export type ItemNum = Item & { index: number };
 export type DataItem = Item;
+export type Input = I;
 
 const mergeGroups = (...groups: ItemGroup[]) => {
   const result = {

@@ -1,8 +1,9 @@
 import React from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
+import { formatDate } from "../data";
 import hist from "../dataHistory";
-import { formatDate, StatsCounter } from "./utils";
+import { StatsCounter } from "./utils";
 
 export const Table = () => {
   const { num } = useDataContext();
