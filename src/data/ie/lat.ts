@@ -1,10 +1,11 @@
-import { make, makeSource } from "../utils";
+import { book, make } from "../utils";
 import { ME } from "../authors";
 
 export const lat = make({ language: "lat" }, {
   10: {
     author: ME,
-    source: makeSource("L-9", 194),
+    book: book("L-9", 194),
+    input: "0.0.2",
     content: `Tres Orbes Alperegĭbus sub caelo,
 Septem Pumilonĭbus in aulis saxialĭbus eōrum,
 Nov' Hominĭbus Mortalĭbus, qui moritūri sunt fatalĭter,

@@ -2,11 +2,13 @@ import original from "./main";
 import { Item, ItemGroup, Variant as V } from "./types";
 import { forEach } from "./utils";
 
+export { inputs } from "./inputs";
 export { isMine } from "./utils";
 
 export const main: Item = {
   language: "en",
   name: "Original",
+  input: "0.0.1",
   ...original
 };
 

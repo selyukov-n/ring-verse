@@ -1,5 +1,6 @@
 import React, { FC } from "react";
-import { ItemNum, ItemVariant } from "../data";
+import { inputs, ItemNum, ItemVariant } from "../data";
+import { formatDate } from "../History";
 import { Lines } from "../Lines";
 import "./trans.css";
 
@@ -28,28 +29,25 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   return <Lines {...variant} text={getContent(variant)} header={linesHeader} />;
 };
 
-const renderSource = ({ source }: ItemNum) => {
-  if (!source) return null;
+const renderSource = (item: ItemNum) => {
+  const book = item.book && <>
+      Book {item.book.num}, p. {item.book.page} {item.book.comment && `[${item.book.comment}]`}
+  </>;
 
-  if (typeof source === "string")
-    source = { main: source };
+  const input = item.input && inputs[item.input];
+  const source = item.source || input && input.mainSource;
 
-
-  const book = source.book && <>Book {source.book.num}, p. {source.book.page}</>;
   const sources: JSX.Element[] = [];
-  if (source.main === "book" && book)
-    sources.push(<p key="main">Источник: {book}</p>);
-  else {
-    if (source.main)
-      sources.push(<p key="main">Источник: {source.main}</p>);
-    if (book)
-      sources.push(<p key="book">См. также {book}</p>);
+  if (source === "book" && book) {
+    sources.push(<p key="main">Источник: {book}</p>)
+  } else {
+    if (source) sources.push(<p key="main">Источник: {source}</p>);
+    if (book) sources.push(<p key="book">См. также {book}</p>);
   }
 
-  return <section className="sources">
-    <header>Ссылки и источники</header>
+  return sources.length === 0 ? null : <section className="sources">
     {sources}
-    {source.other?.map((t, i) => <p key={i}>{t}</p>)}
+    {input.date && <footer>Добавлено {formatDate(input.date)}</footer>}
   </section>;
 };
 

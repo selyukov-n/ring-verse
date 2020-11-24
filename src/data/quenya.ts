@@ -1,10 +1,11 @@
-import { make, makeSource } from "./utils";
+import { book, make } from "./utils";
 import { ME } from "./authors";
 import { sources } from "./sources";
 
 const q = make({ language: "quenya" }, {
   6: {
     author: ME,
+    input: "0.0.1",
     content: `Nelde Cormar Eldaranin nu ilwenna,
 Otso Nauco-herin sarne hrótantassen,
 Nerte Firin ambartanen firienna,
@@ -16,10 +17,9 @@ Morinóresse yasse Huini caitar.`
   },
   12: {
     author: "Björn Fromén aka Findegil",
-    source: {
-      ...makeSource("Q-7", 21, sources.md),
-      other: ["Duplicated in the Book (Q-12, p.24)"]
-    },
+    book: book("Q-7", 21, "Duplicated in the Book (Q-12, p.24)"),
+    input: "0.0.5",
+    source: sources.md,
     content: `Nelde Cormar Eldatárin nu Tarmenel,
 Otso Herunaicoin mardessen ondova,
 Nerte Firye martain nurunen,
@@ -31,7 +31,8 @@ Morinóreva mí arda, már i fuinion`
   },
   30: {
     author: ME,
-    source: makeSource("Q-10", 23),
+    book: book("Q-10", 23),
+    input: "0.0.7",
     content: `Nelde Cormar i Eldaranin nu Menel,
 Otso i Naucoheruin ondova hrótantassen,
 Nerte Fírimain, ambartanen i firir,
@@ -45,7 +46,8 @@ Morinóresse yasse Huini caitar.`
   32: {
     author: "Maciej Garbowski",
     comments: ["old variant"],
-    source: makeSource("Q-6", 20, sources.gwaith),
+    book: book("Q-6", 20, sources.gwaith),
+    input: "0.1.1",
     content: `Nelde Cormar Eldaron Aranen nu i vilya,
 Otso Heruin Naucoron ondeva mardentassen,
 Nerte Firime Nérin yar i Nuron martyar,

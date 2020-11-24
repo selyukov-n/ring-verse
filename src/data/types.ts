@@ -1,4 +1,5 @@
 import { ArdaLang, Lang, Conlang, EncodingLang, JokesLang } from "../languages";
+import { InputKey } from "./inputs";
 
 type LangId = ArdaLang | Lang | Conlang | EncodingLang | JokesLang;
 
@@ -16,11 +17,9 @@ export type Item = {
   name?: string;
   author: string | string[];
   content: Variant[] | string;
-  source?: {
-    main: string | null;
-    book?: { page: number, num: string };
-    other?: string[];
-  };
+  input: InputKey;
+  source?: string; // if differ from input.mainSource
+  book?: { page: number, num: string, comment?: string };
   comments?: string[];
   credits?: string[];
 };

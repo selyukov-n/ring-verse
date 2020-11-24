@@ -3,10 +3,7 @@ import { ME } from "./authors";
 
 export const isMine = (item: Item) => Array.isArray(item.author) ? item.author.includes(ME) : item.author === ME;
 
-export const makeSource = (num: string, page: number, main: string | null = null) => ({
-  main,
-  book: { page, num },
-});
+export const book = (num: string, page: number, comment?: string) => ({ num, page, comment });
 
 export const fromLotR = (name?: string) => "из перевода ВК" + (name ? `, ${name}` : "");
 

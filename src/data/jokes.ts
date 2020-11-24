@@ -1,9 +1,9 @@
 import { make, map } from "./utils";
-import { sources } from "./sources";
 
 const ru = make({ language: "j.ru" }, {
   9: {
     author: "Реактопласт Ультрафиолетовый",
+    input: "0.0.2",
     content: `Три стакана наливаю эльфам из графина,
 Гномам - семь, пускай ужрутся, серые дубины.
 Своим людям девять ставлю,
@@ -13,7 +13,7 @@ const ru = make({ language: "j.ru" }, {
   },
 });
 
-const ru_ank = make({ language: "j.ru", source: { main: sources.ank } }, {
+const ru_ank = make({ language: "j.ru", input: "0.0.5" }, {
   21: {
     author: "Ю. и В.Казаковы",
     content: `Три для эльфов-разгильдяев,
@@ -117,7 +117,7 @@ One Ring to rule them all, one Ring to find them,
 One Ring to bring them all, and the GPF will bind them,
 In the Land of Redmond, where the Bugs lie.`
   }
-}, t => ({ language: "j.en", source: { main: sources.ank }, author: [], ...t }));
+}, t => ({ language: "j.en", input: "0.0.5", author: [], ...t }));
 
 export default [
   ru,

@@ -20,6 +20,7 @@
 .sources p {
     margin-bottom: 0;
 }
-.sources p::before {
-    content: "- ";
+.sources footer {
+    margin-top: 1em;
+    font-style: italic;
 }

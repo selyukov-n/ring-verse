@@ -1,11 +1,10 @@
 import { ME } from "../authors";
-import { fromLotR, make, makeSource, map } from "../utils";
-import { sources } from "../sources";
+import { book, fromLotR, make } from "../utils";
 
-export const ru1 = make({ language: "ru" }, {
+export const ru1 = make({ language: "ru", input: "0.0.1" }, {
   2: {
     name: fromLotR("Г&Г"),
-    source: makeSource( "R-4", 128),
+    book: book( "R-4", 128),
     author: "Илья Гриншпун",
     content:  `Три - эльфийским владыкам в подзвездный предел;
 Семь - для гномов, царящих в подгорном просторе;
@@ -18,7 +17,7 @@ export const ru1 = make({ language: "ru" }, {
   },
   3: {
     name: fromLotR("К&К"),
-    source: makeSource("R-8", 132),
+    book: book("R-8", 132),
     author: "М.Медведев, М.Каменкович",
     content: `Три кольца - высшим Эльфам под кровом светил,
 Семь - властителям Гномов под кровом земли.
@@ -31,7 +30,7 @@ export const ru1 = make({ language: "ru" }, {
   },
   4: {
     name: fromLotR(),
-    source: makeSource("R-6", 130),
+    book: book("R-6", 130),
     author: "В.Г.Тихомиров [В.Воседой ??]",
     content: `Эльфам - Три Кольца - во владенья светлые.
 Гномам - Семь Колец - в копи горные.
@@ -44,7 +43,7 @@ export const ru1 = make({ language: "ru" }, {
   },
   5: {
     name: fromLotR("КистяМур"),
-    source: makeSource("R-2", 126),
+    book: book("R-2", 126),
     author: "Андрей А. Кистяковский",
     content: `Три кольца премудрым эльфам - для добра их гордого,
 Семь колец пещерным гномам - для труда их горного,
@@ -56,7 +55,7 @@ export const ru1 = make({ language: "ru" }, {
 Под владычеством всесильным Властелина Мордора.`
   },
   8: {
-    source: makeSource("R-14", 138),
+    book: book("R-14", 138),
     author: ME,
     content: `Три - эльфийским царям, под небесную твердь,
 Семь - правителям гномов, под каменный свод,
@@ -66,11 +65,14 @@ export const ru1 = make({ language: "ru" }, {
 Одно - всеми чтоб править, чтоб их отыскать,
 Всех во мраке созвать и во мраке сковать
 В земле Мордора, где вечно Тени лежать.`
-  },
+  }
+});
 
+export const ru2 = make({ language: "ru" }, {
   11: {
     name: fromLotR(),
-    source: makeSource("R-7", 131),
+    book: book("R-7", 131),
+    input: "0.0.2",
     author: "А.В.Немирова ?",
     content: `Три кольца эльфам, под небом поющим,
 Семь колец гномам, в пещерах живущим,
@@ -84,6 +86,7 @@ export const ru1 = make({ language: "ru" }, {
   },
 
   34: {
+    input: "0.1.2",
     author: "А.В.Застырец",
     content: `Три Кольца - Эльфам-Королям в поднебесной долине,
 Семь - Гномам-Властителям в чертоге горном,
@@ -93,16 +96,13 @@ export const ru1 = make({ language: "ru" }, {
 Одно - чтоб всеми управлять, Одно - чтоб все их отыскать,
 Одно Кольцо - чтоб всех собрать и в темноте навек связать
 В стране Мордор, где притаились Тени.`,
-    source: {
-      main: "переписано с книги в магазине",
-    },
   },
 });
 
-export const ru2 = map(make({ language: "ru" }, {
+export const ru3 = make({ language: "ru", input: "0.0.5" }, {
   13: {
     name: fromLotR(),
-    source: makeSource("R-3", 127),
+    book: book("R-3", 127),
     author: "В.А.М. aka Валерия А. Маторина",
     content: `Три Кольца - Владыкам Эльфов под высоким небом.
 Семь - для Гномьих Королей в каменных дворцах,
@@ -140,7 +140,7 @@ export const ru2 = map(make({ language: "ru" }, {
   },
   16: {
     author: "Крутт (?)",
-    source: makeSource("R-15", 139),
+    book: book("R-15", 139),
     content: `Три - для Дивного народа,
 Семь - для гномов из Горы,
 Девять - людям Нуменора,
@@ -152,7 +152,7 @@ export const ru2 = map(make({ language: "ru" }, {
   },
   17: {
     author: "О.Лошманов",
-    source: makeSource("R-16", 140),
+    book: book("R-16", 140),
     content: `Три кольца для Эльфийских царей, что под небом,
   Семь - для Гномов - хозяев чертогов подгорных,
 Девять - Смертным, чьё Время покроется снегом,
@@ -166,7 +166,7 @@ export const ru2 = map(make({ language: "ru" }, {
   18: {
     name: fromLotR(),
     author: "В.Муравьев",
-    source: makeSource("R-1", 125),
+    book: book("R-1", 125),
     content: `Три Кольца - для царственных эльфов в небесных шатрах,
 Семь - для властительных гномов, гранильщиков в каменном лоне,
 Девять - для Девятерых, облеченных в могильный прах,
@@ -199,4 +199,4 @@ export const ru2 = map(make({ language: "ru" }, {
 Кольцо Одно, чтоб всех сковать и в темноте свести
 В стране Мордор, где мрак царит`
   }
-}), t => ({ ...t, source: { ...t.source, main: sources.ank } }));
+});

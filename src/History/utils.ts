@@ -37,8 +37,9 @@ export class StatsCounter {
         this.langs.me.add(item.language);
     }
 
-    const src = item.source?.main;
-    if (src) this.sources.add(src);
+    // todo?
+    // const src = item.source?.main;
+    // if (src) this.sources.add(src);
   }
 
   getCurrent() {

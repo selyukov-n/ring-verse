@@ -1,12 +1,13 @@
 import { ItemGroup } from "./types";
-import { makeSource } from "./utils";
+import { book } from "./utils";
 import pic49 from "./pic/49jap.png";
 
 export const jp: ItemGroup = {
   49: {
     language: "jap",
     name: "из перевода ВК",
-    source: makeSource("J", 180),
+    book: book("J", 180),
+    input: "TODO",
     author: [],
     comments: ["some comments"],
     content: [

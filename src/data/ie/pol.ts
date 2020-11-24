@@ -1,11 +1,10 @@
-import { sources } from "../sources";
-import { make, makeSource } from "../utils";
+import { book, make } from "../utils";
 
-const pol_drops = make({ language: "pol" }, {
+const pol_drops = make({ language: "pol", input: "0.1.5" }, {
   35: {
     name: "официальная версия",
     author: "Jerzy Łoziński",
-    source: makeSource("P-2", 42, sources.drops),
+    book: book("P-2", 42),
     content: `Trzy Pierścienie elfowym władcom szlachetnego miana,
 Siedem krzatów monarchom w kamiennych sal koronie,
 Dziewięć ludzkim istotom, którym śmierć pisana,
@@ -18,10 +17,7 @@ W Mordorze, moc którego zwycięży nie chciana.`
   36: {
     name: "официальная версия",
     author: "Maria Skibniewska",
-    source: {
-      ...makeSource("P-1", 38, sources.drops),
-      other: ["но там немного другая версия"],
-    },
+    book: book("P-1", 38, "но там немного другая версия"),
     content: `Trzy pierścienie dla królów Elfów pod otwartym niebem,
 Siedem dla władców krasnali w ich kamiennych pałacach,
 Dziewięć dla śmiertelników, ludzi śmierci podległych.
@@ -34,7 +30,6 @@ W Krainie Mordor, gdzie zaległy cienie.`
   37: {
     name: "дословный перевод",
     author: "-",
-    source: { main: sources.drops },
     content: `Trzy pierścienie dla Elfowych królów pod niebem,
 Siedem dla Lordów Krasnoludów (Krzatów) w ich zalach z kamienia,
 Dziewięć dla śmiertelnych ludzi skazanych na śmierć,
