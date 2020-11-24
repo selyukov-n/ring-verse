@@ -1,50 +1,34 @@
-import { DataItem, isMine } from "../data";
+import { Data, DataItem } from "../data";
 
-export class StatsCounter {
-  private readonly sources = new Set<string>();
-  private readonly langs = { total: new Set<string>(), me: new Set<string>(), current: new Set<string>() };
+const compareVersions = (a: string, b: string): number => {
+  const compareValue = (a: number, b: number) => isNaN(a) ? 1 : isNaN(b) ? -1 : (a - b);
 
-  private count = 0;
+  const ap = a.split(".");
+  const bp = b.split(".");
+  const max = Math.max(ap.length, bp.length);
+  for(let i = 0; i < max; i++) {
+    const ai = ap[i] || "0";
+    const bi = bp[i] || "0";
+    const an = parseInt(ai);
+    const bn = parseInt(bi);
 
-  next(items: Record<number, DataItem>, count: number) {
-    for(let i = 0; i < count; i++) {
-      const index = ++this.count;
-      if (index > 1)
-        this.add(items[index]);
-    }
+    const compare = isNaN(an) && isNaN(bn)
+      ? ai.localeCompare(bi)
+      : compareValue(an, bn);
+    if (compare) return compare;
   }
 
-  add(item: DataItem) {
-    if (!item.language.startsWith("j.")) {
-      if (!this.langs.total.has(item.language)) {
-        this.langs.current.add(item.language);
-      }
-      this.langs.total.add(item.language);
-      if (isMine(item))
-        this.langs.me.add(item.language);
-    }
+  return 0;
+};
 
-    // todo?
-    // const src = item.source?.main;
-    // if (src) this.sources.add(src);
-  }
+export const getHistoryItems = (data: Data) => {
+  const byVer: Record<string, DataItem[]> = {};
+  Object.values(data.num).forEach(t => {
+    const arr = byVer[t.input] || [];
+    byVer[t.input] = [...arr, t];
+  });
 
-  getCurrent() {
-    const result = {
-      sources: Array.from(this.sources),
-      lang: {
-        current: Array.from(this.langs.current),
-        total: this.langs.total.size,
-        me: this.langs.me.size,
-      },
-      count: this.count,
-    };
-    this.reset();
-    return result;
-  }
-
-  reset() {
-    this.sources.clear();
-    this.langs.current.clear();
-  }
-}
+  return Object.values(byVer)
+    .map(items => ({ input: items[0].input, items }))
+    .sort((a, b) => compareVersions(a.input, b.input));
+};
