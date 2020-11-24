@@ -11,6 +11,7 @@ export const main: Item = {
 };
 
 export type ItemNum = Item & { index: number };
+export type DataItem = Item;
 
 const mergeGroups = (...groups: ItemGroup[]) => {
   const result = {

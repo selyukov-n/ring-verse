@@ -2,39 +2,26 @@ import React from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
 import hist from "../dataHistory";
-import { formatDate } from "./utils";
+import { formatDate, StatsCounter } from "./utils";
 
 export const Table = () => {
   const { num } = useDataContext();
 
-  let total = 0;
-  const langs = new Set<string>();
+  const counter = new StatsCounter();
   const rows = hist.map(h => {
     const date = h.date ? formatDate(h.date) : "?";
+    counter.next(num, h.count);
 
-    const iter = {
-      langs: new Set<string>(),
-      sources: new Set<string>(),
-    };
-
-    for(let t = 1; t <= h.count; t++, total++) {
-      const { language: l, source } = num[total + 1];
-      if (!langs.has(l)) {
-        langs.add(l);
-        iter.langs.add(l);
-      }
-      if (source?.main)
-        iter.sources.add(source.main);
-    }
+    const curr = counter.getCurrent();
 
     return <tr key={h.ver}>
       <td>{h.ver}</td>
       <td>{date}</td>
       <td>{h.count}</td>
-      <td>{total}</td>
-      <td>{Array.from(iter.langs).join(", ")}</td>
-      <td>{Array.from(iter.sources).join(", ")}</td>
-      <td>TODO total</td>
+      <td>{curr.count}</td>
+      <td>{curr.lang.current.join(", ")}</td>
+      <td>{curr.sources.join(", ")}</td>
+      <td>{curr.lang.total} ({curr.lang.me})</td>
     </tr>;
   });
 
