@@ -39,7 +39,20 @@ Ash Bûrz-durub-ûr ulîma-tab-ishi
 Uzbûrz-ishi amal burgûl fauthut.`,
       'Uzbûrz-ishi amal burgûl fauthut.',
     ]
-  }
+  },
+  118: {
+    book: book("BS-3", 34),
+    input: "0.4.4",
+    author: "David Salo",
+    text: [
+      `Shre nazg golugranu kilmi-nudu
+Ombi kuzddurbagu gundum-ishi
+Nugu gurunkilu bard gurutu
+Ash Burz-Durbagu burzum-ishi
+Daghburz-ishi makha gulshu darulu.`,
+      'Daghburz-ishi makha gulshu darulu.'
+    ]
+  },
 };
 
 const bs = map(items, it => ({
