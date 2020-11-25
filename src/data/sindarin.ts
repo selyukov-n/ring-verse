@@ -48,6 +48,20 @@ Min Côr a thorthad hain phain, Min Côr a chiriad hain,
 Min Côr a theged hain a nedhi vorn gweded hain
 Ned Mordor nedhi gaenar i ngwaith.`
   },
+
+  99: {
+    input: "0.3.0",
+    author: "H.Reiter",
+    book: book("S-9", 31),
+    content: `Neledh cŷr an erain Edhellen nuin giliath,
+Neder cŷr an Edain amarthen an gûr,
+Odog cŷr an Nogothrim ned rondiath,
+Min côr an Hîr Vorn ned Barad-dûr
+Ned Mordor ias dúath cuinai.
+Min côr bauglo hain phain, ned côr hiro hain,
+Min côr togo hain phain, ned duir gwedho hain
+Ned Mordor ias dúath cuinai.`
+  },
 });
 
 export default [

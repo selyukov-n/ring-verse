@@ -73,6 +73,33 @@ Mordórev' ardasse yasse lumbor caitar.`
   },
 });
 
+const q2 = make({ language: "quenya", input: "0.3.0" }, {
+  102: {
+    book: book("Q-11", 24),
+    author: "Fredrik Ström",
+    content: `Milli nelde aranin Eldaron nu telume,
+Otso heruin Casárion ondomardielta,
+Nerte Firyain firien ambartina,
+Mine Morituren, morimahalmaryasse
+Mí Moranóre, Mordor, yasse lumbor caitar.
+Mine mille turien ilye te, mine mille tuvien te,
+Mine mille tultien ilye te ar morniesse nitien te
+Mí Moranóre, Mordor, yasse lumbor caitar.`
+  },
+  105: {
+    author: [],
+    content: `Nelde cormar Eldaranin telume nu,
+Otso Casarceruvin ondomardintassen,
+Nerte Fírimain umbarte firien,
+Mine Heruen Morna mormahalmaryassen
+Mi arda Morinor yasse lumbor caitar.
+Mine corma sen-turien ilye, mine corma sen-tuvien,
+Mine corma sen-tultien ilye ar morniesse sen-mandien
+Mi arda Morinor yasse lumbor caitar.`
+  }
+});
+
 export default [
   q,
+  q2,
 ];

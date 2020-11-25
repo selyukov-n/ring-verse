@@ -2,7 +2,7 @@ import { book, make } from "../utils";
 import { ME } from "../authors";
 
 // āăēĕīĭōŏūŭ
-export const lat = make({ language: "lat" }, {
+const lat = make({ language: "lat" }, {
   10: {
     author: ME,
     book: book("L-9", 194),
@@ -44,3 +44,47 @@ Et qui ad sese addūcat eos tenĕbrisque capistret
 Mordŏre terra illa, qua sunt caligĭnis umbrae.`
   },
 });
+
+const lat2 = make({ language: "lat", input: "0.3.0" }, {
+  101: {
+    author: "Lalaith",
+    content: `Tres anŭli pro regĭbus Albōrum sub caelo,
+Nanōrum pro principĭbus in atriis saxeis septem,
+Novem pro Mortalĭbus qui obĭtus damnātis,
+Unusque pro Domĭno Tenebrĭco in solio suo tenebricōso
+Mordŏre in terra qua umbrae sternunt.
+Unĭcus anŭlus ad regnātum omnes, unĭcus anŭlus ad reperĭtum eos,
+Unĭcus anŭlus ad latātum omnes, atque in tenĕbris ad lacerrĭtum eos
+Mordŏre in terra qua umbrae sternunt.`
+  },
+  103: {
+    name: "рифмованная версия",
+    author: "A.Hooi",
+    book: book("L-10", 194),
+    content: `Sub caelo anŭli tres regĭbus Albōrum,
+Lapideis in atriis septem Nanōrum eris,
+Mortūris novem Mortalĭbus Virōrum,
+Domĭno Atro atris unus in soliis
+Mordōre in terra quo adferuntur umbrae.
+Unus omnipotens et omnipetens alter
+Tertius omniducens caliginōsus carcer
+Mordōre in terra quo adferuntur umbrae.`
+  },
+  104: {
+    author: "R.Alderson",
+    book: book("L-11", 195),
+    content: `Anŭli tres pro regĭbus Albōrum sub caelo,
+Nanōrum pro principĭbus septem in atriis lapideis,
+Novem pro Mortalĭbus obĭtus damnātis,
+Unus pro Domĭno Atro in solio atro
+Mordōre in terra sternunt qua umbrae.
+Anŭlus illos regĭtum, Anŭlusque reperĭtum,
+Anŭlus illos ferĭtum et in tenĕbris victim
+Mordōre in terra sternunt qua umbrae.`
+  },
+});
+
+export const list = [
+  lat,
+  lat2,
+];

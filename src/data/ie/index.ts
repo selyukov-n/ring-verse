@@ -1,10 +1,9 @@
-import * as lat from "./lat";
 import { list as germanic } from "./germanic";
 import { list as romance } from "./romance";
 
 export default [
   ...require("./ru").list,
-  lat.lat,
+  ...require("./lat").list,
 
   ...germanic,
   ...romance,
@@ -15,6 +14,7 @@ export default [
   ...require("./pol").default,
   require("./sloven").sloven,
 
+  require("./greek").ancient,
   require("./irish").irish,
   require("./romani").rom,
 ];

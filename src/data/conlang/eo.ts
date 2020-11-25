@@ -28,4 +28,18 @@ Unu Ringo ilin regas, Unu ilin prenas,
 Unu Ringo en mallumon ilin gvidas kaj katenas
 Kie kuŝas Ombroj en Mordora Land'.`
   },
+
+  106: {
+    input: "0.3.0",
+    author: "da Hiasl",
+    comments: [{ type: "warning", text: "смесь нескольких языков ?" }],
+    content: `Ringoj tri havas la reĝo de la Alboj sub la nubo
+Kaj la reĝoj de la malgranduloj havas sep en ejoj ŝtonaj iliaj,
+Naŭ havas la mortuloj kiu decidita morti
+Kaj la sinjoro de la malhelo havas unu en sia trono malgranda
+En Mordorujo kie la ombroj kuŝas.
+Ringo estas por reoi ilin kaj por retrovi ilin,
+Ringo estas por konduki ilin en la malhelon
+En la Mordoron, kiu estas lando kie la ombroj kuŝas.`
+  },
 });
