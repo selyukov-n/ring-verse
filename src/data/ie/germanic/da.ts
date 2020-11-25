@@ -28,6 +28,23 @@ i Mordors land hvor skyggerne bestå.`
   },
 });
 
+const da2 = make({ language: "dan" }, {
+  139: {
+    input: "0.7.0",
+    author: "Jonathan Avidan",
+    book: book("D-3", 70),
+    content: `Tre ringer til Elleve-Damer under himmelen,
+Syv til Dvarg-Herrene i sin haller på sten,
+Ni ringer til Dödelige-mennesker dømmt til dø,
+En til Herre-mørk på hans tron-mørk
+I landet på Mordor hvor skyggeren ligger.
+En ring till regere dem al, en ring till finde dem,
+En ring till bringe dem al og i mørket binde dem
+I landet på Mordor hvor skyggeren ligger.`
+  }
+});
+
 export default [
   da,
+  da2,
 ];

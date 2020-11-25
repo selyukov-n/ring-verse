@@ -29,6 +29,23 @@ en la Tierra de Mordor donde las sombras se extienden.`
   }
 });
 
+const es2 = make({ language: "es" }, {
+  140: {
+    input: "0.7.0",
+    author: "Jonathan Avidan",
+    book: book("S-2", 82),
+    content: `Tres anillos para los Reines Elficos bajo el cielo,
+Siete para los Principes de Enanos en sus salones de piedra,
+Nueve para los Mortales que morirán,
+Una para el Principe Tenebroso oscuro sobre su silla oscura,
+En el Reinado de Mordor donde están las neblinas.
+Un anillo para dominarlos, Un anillo para encontrarlos,
+Un anillo para traerlos y en la oscuridad ligarlos
+En el Reinado de Mordor donde están las neblinas.`
+  },
+});
+
 export const list = [
   es,
+  es2,
 ];

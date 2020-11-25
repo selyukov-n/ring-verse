@@ -1,3 +1,4 @@
+import { JAvidan } from "../../authors";
 import { book, make } from "../../utils";
 
 const br = make({ language: "pt", name: "бразильский вариант" }, {
@@ -13,6 +14,20 @@ Na terra de Mordo onde as sombras se deitam.
 Um Anel para todos governar, Um Anel para encontrá-los,
 Um Anel para a todos trazer e na escuridão aprisioná-los
 Na Terra de Mordor onde as sombras se deitam.`
+  },
+
+  171: {
+    input: "0.7.0",
+    author: JAvidan,
+    book: book("Pb-2", 90),
+    content: `Três aneles p'ra os Elfos-reies sob o céu,
+Sete p'ra os Anões-Senhores na delas pedras de pedra,
+Nove p'ra os Homens-Morteiros que morerrerem,
+Um p'ra o Senhor-escuro sobre dele trono-escuro
+Na a terra do Mordor onde estão as sombras.
+Um anel p'ra regrar a eles tudos, um anel p'ra descubrir a eles,
+Um anel p'ra traer a eles tudos e na a escuridão ligar a eles
+Na a terra do Mordor onde estão as sombras.`
   },
 });
 

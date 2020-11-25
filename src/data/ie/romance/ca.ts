@@ -15,4 +15,18 @@ Un Anell per manar a tots, un per trobar-los,
 Un Anell per reunir-los, i en les Tenebres tenir-los
 Tots lligats a Mórdor on s'estén l'Ombra.`
   },
+
+  149: {
+    input: "0.7.0",
+    author: "Roger Rocamora",
+    book: book("C-2", 86),
+    content: `Tres anells pels reis dels elfs, sota el cel,
+Set per els senyors dels nans, als seus salons de pedra,
+Nou per als homes mortals, condemnats a morir,
+Un per el Senyor Fosc, en son fosc tron
+A la terra de Mórdor, on s'estenen les ombres.
+un anell per manar-los a tots, un anell per trobar-los,
+un anell per reunir-los a tots i a les tenebres lligar-los
+a la terra de Mórdor, on s'estenen les ombres.`
+  },
 });

@@ -1,5 +1,6 @@
+import { JAvidan, ME } from "../authors";
+import { sources } from "../sources";
 import { book, make } from "../utils";
-import { ME } from "../authors";
 
 // āăēĕīĭōŏūŭ
 const lat = make({ language: "lat" }, {
@@ -43,6 +44,37 @@ Unus qui moderētur eis, et qui appĕtat omnis,
 Et qui ad sese addūcat eos tenĕbrisque capistret
 Mordŏre terra illa, qua sunt caligĭnis umbrae.`
   },
+
+  146: {
+    input: "0.7.0",
+    book: book("L-5", 192),
+    author: JAvidan,
+    comments: [{ type: "error", text: "много сомнительных мест" }],
+    content: `Tres anŭli ad Elf-reges sub caelum,
+Septa ad Pumĭlos-migister in suum domum petrae,
+Nova ad Mortalium-home que sunt moritūrum,
+Unus ad Obscūrum Migistrem super suum obscūrum tronum
+In terram Mordris qua umbrae cubātis.
+Unus anŭlus gubernāre eōrum totum, unus anŭlus encontrāre eōrum,
+Unus anŭlus trahĕre eōrum totum et in calĭgum ligāre eōrum
+In terram Mordris qua umbrae cubātis.`
+  },
+  166: {
+    input: "0.7.0",
+    book: book("L-7", 193),
+    source: sources.hfilippo,
+    author: "H.Filippo ?",
+    content: `Tres anŭli pro regĭbus Quendōrum sub caelo,
+Septem pro domĭnis Nanōrum in regia lapidea eōrum,
+Novem pro Viris Mortālis mori condemnātis,
+Unus pro domĭno nefario in solio obscūro eius
+In terra Mordoris ubi umbrae iacent.
+Unus Anŭlus ea omnia superāre,
+Unus Anŭlus ea invenīre,
+Unus Anŭlus ea omnia collocāre
+Et ea in tenĕbris nectĕre,
+In terra Mordoris ubi umbrae iacent.`
+  }
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

@@ -12,6 +12,7 @@ export default [
   ...require("./cro").list,
   require("./cz").cz,
   ...require("./pol").default,
+  require("./slovak").slovak,
   require("./sloven").sloven,
   require("./ukr").ukr,
 

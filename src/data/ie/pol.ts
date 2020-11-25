@@ -43,6 +43,23 @@ W krainie Mordor, gdzie leżą cienie.`
   },
 });
 
+const pol = make({ language: "pol" }, {
+  138: {
+    input: "0.7.0",
+    author: ["Marek Gumkowski", "Paulina Braiter"],
+    book: book("P-4a", 43),
+    content: `Dla elfich władców pod niebem jasnym są Trzy Pierścienie,
+Dla krasnoludzkich w podziemiach królów Pierścieni Siedem,
+Dziewięć dla ludzi - tych ostatecznym śmierć przeznaczeniem,
+Dla Władcy Mroku na czarnym tronie jest Pierścien Jeden
+W Krainie Mordor, w wieczystej nocy spowitej cienie.
+Jeden Pierścień, by innymi władać, czarem je opętać,
+Jeden, by wszystkie zebrać i w ciemnościach spętać
+W Krainie Mordor, w wieczystej nocy spowitej cienie.`
+  },
+});
+
 export default [
   pol_drops,
+  pol,
 ];

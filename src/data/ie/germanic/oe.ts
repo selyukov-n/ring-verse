@@ -15,4 +15,25 @@ Scinscyppende Mordor   sceadwa meðelstede
 Alle þe hentaþ     hæftas þe healdaþ
 Mislice metudsceafte   mánfremmende Mordor.`
   },
+
+  168: {
+    name: "мерсийский диалект",
+    input: "0.7.0",
+    book: book("OE-m1", 183),
+    source: "OE ring verse",
+    author: "Carl Edlund Anderson",
+    content: `Hringas þríe       þéodnum Ælfa,
+allra ældestum,     ofer eormengrunde (or under eormenrodore).
+Hringas seofun     innan sele stænnum
+Dwergdryhtnum.     Derc heara hús.
+Hringas nigon     néote Moncynn,
+hláfordas méra     mégas déaðfæge.
+Heolstres Hearra     hring ánne weardað
+in dryhtsele dimmum   on dercan þrymmsetle
+þér licgað scedwa     in londe Mordores.
+Hring án gewalde,     hring án gefinde,
+hring án gebringe,     hring án gebinde
+þéoda swá þéowas    in þéostrum tógedere
+þér licgað scedwa     in londe Mordores.`
+  },
 });

@@ -1,4 +1,5 @@
 import { book, make } from "../../utils";
+import { JAvidan } from "../../authors";
 
 export const nb = make({ language: "nor-b" }, {
   74: {
@@ -30,5 +31,20 @@ I det dunkle Mordor der skuggane rår.
 Éin Ring skal samla dei, éin Ring skal finna dei,
 Éin Ring skal føra dei og i mørket binda dei
 I det dunkle Mordor der skuggane rår.`
+  },
+
+  145: {
+    input: "0.7.0",
+    name: "nynorsk or bokmal ??",
+    book: book("Nn-3", 74),
+    author: JAvidan,
+    content: `Tre ringer til De Elleve-konger under himmelen,
+Sju til Dverg-Herrene i deras Saler av stein,
+Ni til Dødelige-menn dømt til å dø,
+En til Mørkets-Herre på sin mørk trone
+I landet av Mordor hvor skyggeren ligger.
+En ring skal styre dem alle, en ring skal finne dem,
+En ring skal bringe dem alle og i mørket til binde dem
+I landet av Mordor hvor skyggeren ligger.`
   },
 });

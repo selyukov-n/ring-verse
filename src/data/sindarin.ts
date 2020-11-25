@@ -62,6 +62,19 @@ Min côr bauglo hain phain, ned côr hiro hain,
 Min côr togo hain phain, ned duir gwedho hain
 Ned Mordor ias dúath cuinai.`
   },
+
+  172: {
+    input: "0.7.0",
+    author: "Taramiluiel",
+    content: `Neled cyrf an Erain Edhellin nuin menel,
+Odog a Chîr Nogothrim min thaim hernen huin,
+Neder an Edain Firib beraid af fired,
+Er enin Brannon-dûr bo archam vorn hún
+Min Ardh Mordor ias i Núath caedar.
+Min Corf a thorthad hain phain, Min Corf a chired hain,
+Min Corf a thoged hain phain a ne môr an noded hain,
+Min Ardh Mordor ias i Núath caedar.`
+  },
 });
 
 export default [

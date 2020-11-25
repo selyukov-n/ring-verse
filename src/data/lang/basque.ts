@@ -14,6 +14,20 @@ Eraztun bat denak menperatzeko, Eraztun bat aurkitzeko,
 Eraztun bat denak erakartzeko eta ilunpeetan lotzeko
 Itzalak zabaltzen diren Mordor-eko Lurrean.`
   },
+
+  170: {
+    input: "0.7.0",
+    author: "Luis Alberto Maneero López",
+    book: book("B-4", 159),
+    content: `Hiru eraztun zerupeko Errege Elfikoentzat,
+Zazpi Ipotxen Printzeentzat beren harrizko aretoetan,
+Bederatzi hilko diren hikorrentzat.
+Bat Jaun Itzalarentzat bere aulki itzal gainean,
+aizaroak dauden Mordor Erreinuan.
+Eraztun bat guztiak menperatzeko, eraztun bat aurkitzeko,
+eraztun bat ekartzeko eta ilunpetan lotzeko
+aizaroak dauden Mordor Erreinuan.`
+  },
 });
 
 export const list = [

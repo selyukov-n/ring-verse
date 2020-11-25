@@ -1,5 +1,5 @@
 import React from "react";
-import { JRRT, ME } from "./authors";
+import { JAvidan, JRRT, ME } from "./authors";
 import { Item as I } from "./types";
 import { book, make, map } from "./utils";
 
@@ -9,7 +9,7 @@ type Item =
 
 const jrrt = `
 Ash nazg durbatulûk, ash nazg gimbatul,
-ash nazg thrakatulûk agh burzum-ishi krimpatul
+Ash nazg thrakatulûk agh burzum-ishi krimpatul
 `;
 
 const items: Record<number, Item> = {
@@ -51,6 +51,20 @@ Nugu gurunkilu bard gurutu
 Ash Burz-Durbagu burzum-ishi
 Daghburz-ishi makha gulshu darulu.`,
       'Daghburz-ishi makha gulshu darulu.'
+    ]
+  },
+
+  155: {
+    input: "0.7.0",
+    book: book("BS-2", 33),
+    author: JAvidan,
+    text: [
+      `Psugh nazgê Purkuz-zâ-Khempê krait-ust,
+Likh Khazd-zâ-Khôrê Kuska-ishi terpê rakh-în,
+Uzd âtanê-zâ-Kukhuz primbatek khukhat,
+Ash Turp-zâ-Búrzuz Rump-okh-Búrz,
+Hukh-ishi Gurkhshu pu kagnedê drompa.`,
+      'Hukh-ishi Gurkhshu pu kagnedê drompa.'
     ]
   },
 };

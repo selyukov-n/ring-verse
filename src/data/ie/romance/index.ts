@@ -5,4 +5,5 @@ export const list = [
   require("./glg").glg,
   ...require("./it").list,
   ...require("./pt").list,
+  require("./rum").rumanian,
 ];
