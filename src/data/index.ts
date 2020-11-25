@@ -46,7 +46,7 @@ export type ItemVariant = V;
 export default mergeGroups(
   { 1: main },
   ...require("./quenya").default,
-  require("./bs").default,
+  ...require("./bs").default,
   ...require("./sindarin").default,
 
   ...require("./ie").default,

@@ -19,6 +19,7 @@ export const inputs = indexed({
   "0.2.10": { date: [2003, 5], mainSource: null },
   "0.3.0": { date: [2003, 6, 6], mainSource: "TolkLang, ElfLing" },
   "0.3.5": { date: [2003, 6, 6], mainSource: sources.c },
+  "0.3.7": { date: [2003, 6, 7], mainSource: null },
 
   TODO: { mainSource: "TODO" },
 });

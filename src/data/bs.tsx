@@ -1,7 +1,7 @@
 import React from "react";
 import { JRRT, ME } from "./authors";
 import { Item as I } from "./types";
-import { book, map } from "./utils";
+import { book, make, map } from "./utils";
 
 type Item =
   & Pick<I, "book" | "source" | "author" | "name" | "input">
@@ -29,7 +29,7 @@ Uzg-Mordor-ishi amal fauthut burgûli.`,
   109: {
     name: "Модификация #7",
     book: book("BS-4", 34),
-    input: "TODO",
+    input: "0.3.7",
     author: ME,
     text: [
       `Gakh Nazg Golug-durub-ûr nût-lata,
@@ -42,7 +42,7 @@ Uzbûrz-ishi amal burgûl fauthut.`,
   }
 };
 
-export default map(items, it => ({
+const bs = map(items, it => ({
   ...it,
   author: [JRRT, ...Array.isArray(it.author) ? it.author : [it.author]],
   content: [{
@@ -55,3 +55,26 @@ export default map(items, it => ({
   language: "black-speech",
   comments: it.comments ? [it.comments] : undefined,
 }));
+
+const dbs = make({ language: "black-speech" }, {
+  110: {
+    input: "0.3.7",
+    name: 'испорченное ("debased") Черное наречие',
+    comments: ["лексика - как в №7, №109"],
+    book: book("BS-6", 35),
+    author: ME,
+    content: `Gakh Nazg ûr durob-golug lata nût,
+Udu ûr durob-gazat ishi gundrûlub,
+Krith ûr tark matûrz dûmpuga matat,
+Ash ûr Durubûrz ishi ulîma-tab
+Ishi Lugbûrz amal bergûl fauthut.
+Ash Nazg durbat ulûk, Ash Nazg gimbat ul,
+Ash Nazg thrakat ulûk agh ishi burzum krimpat ul
+Ishi Lugbûrz amal bergûl fauthut.`
+  }
+});
+
+export default [
+  bs,
+  dbs,
+];
