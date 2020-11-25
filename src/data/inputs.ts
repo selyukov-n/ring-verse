@@ -24,6 +24,7 @@ export const inputs = indexed({
   "0.4.0": { date: [2003, 7], mainSource: "ХА, из печатного издания" },
   "0.4.1": { date: [2003, 7], mainSource: "ХА" },
   "0.4.2": { date: [2003, 7, 22], mainSource: "ХА" },
+  "0.4.3": { date: [2003, 7, 22], mainSource: "AnK" },
 
   TODO: { mainSource: "TODO" },
 });
