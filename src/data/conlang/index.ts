@@ -6,4 +6,7 @@ export default [
   require("./elder").elder,
   require("./kkh").kh,
   require("./tlh").default,
+
+  ...require("./ang").list,
+  ...require("./misc").list,
 ];

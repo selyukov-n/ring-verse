@@ -42,4 +42,18 @@ Ringo estas por reoi ilin kaj por retrovi ilin,
 Ringo estas por konduki ilin en la malhelon
 En la Mordoron, kiu estas lando kie la ombroj kuŝas.`
   },
+
+  144: {
+    input: "0.7.0",
+    author: "Dotan Brom",
+    book: book("E-3", 200),
+    content: `Tri Ringoj por la regoj de Elfoj sub la ĉielo,
+Sep por la lordoj de Nanoj en haloj de ŝtono,
+Naŭ por Mortema Homoj, ke kondamnita morti,
+Unu por la Malluma Lordo en lia malluma trono
+En la Lando de Mordor, kie la Ombroj kuŝas.
+Un Ringo regi ĉiujn, Un Ringo trovi ilin,
+Un Ringo alporti ĉiujn kaj en la mallomo bindi ilin
+En la Lando de Mordor, kie la Ombroj kuŝas.`
+  },
 });
