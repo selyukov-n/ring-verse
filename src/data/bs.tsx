@@ -14,7 +14,7 @@ ash nazg thrakatulûk agh burzum-ishi krimpatul
 
 const items: Record<number, Item> = {
   7: {
-    book: book("BS-1", 33, "Duplicated in the Book (BS-5, p.35)"),
+    book: book("BS-1", 33, "Duplicated in the Book BS-5, p. 35"),
     author: "Julian Bradfield",
     input: "0.0.1",
     text: [
@@ -25,7 +25,6 @@ Ash tug Shakhbûrz-ûr Ulîma-tab-ishi za
 Uzg-Mordor-ishi amal fauthut burgûli.`,
       'Uzg-Mordor-ishi amal fauthut burgûli.',
     ],
-    //comments: "Duplicated in the Book (BS-5, p.35)",
   },
   109: {
     name: "Модификация #7",
