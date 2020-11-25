@@ -16,4 +16,5 @@ export default [
   require("./sloven").sloven,
 
   require("./irish").irish,
+  require("./romani").rom,
 ];
