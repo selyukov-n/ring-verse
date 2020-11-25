@@ -14,6 +14,7 @@ export const inputs = indexed({
   "0.1.5": { date: [2003, 3, 3], mainSource: sources.drops },
   "0.2.0": { date: [2003, 3, 3], mainSource: sources.kniga2001 },
   "0.2.5": { date: [2003, 5, 19], mainSource: sources.iad },
+  "0.2.8": { date: [2003, 5], mainSource: null },
 
   TODO: { mainSource: "TODO" },
 });
