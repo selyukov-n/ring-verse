@@ -27,6 +27,7 @@ export const inputs = indexed({
   "0.4.3": { date: [2003, 7, 22], mainSource: "AnK" },
   "0.4.4": { date: [2003, 8, 31], mainSource: "LotR OST" },
   "0.5.0": { date: [2003, 9, 8], mainSource: "Gutiska site" },
+  "0.5.1": { date: [2003, 11, 8], mainSource: "ХА" },
 
   TODO: { mainSource: "TODO" },
 });
