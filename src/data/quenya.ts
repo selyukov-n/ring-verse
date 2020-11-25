@@ -71,6 +71,20 @@ Mine corma turien ilye te, mine corma tuvien te,
 Mine corma tultien ilye te ar morniesse mandien te,
 Mordórev' ardasse yasse lumbor caitar.`
   },
+
+  129: {
+    input: "0.5.9",
+    author: "Илладан [tolkien.olmer.ru]",
+    comments: [{ type: "warning", text: "похоже на смесь квенья с чем-то еще" }],
+    content: `Nelde Corma an i Elene-arane mi nuelenya i taica,
+Otso an i Nauco mi sarna sambe,
+Nerte Firyar nauta or faire,
+Mine an i Morna Heru or rya morna mahalma
+Mi i Arda Mordor masse i Umbar caite.
+Mine Corna tur ilquenea, Mine Corna entuve ilquen,
+Mine Corna tulta ilquen ar mi i lume maca ilquen
+Mi i Arda Mordor masse i Umbar caite.`
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {

@@ -29,6 +29,7 @@ export const inputs = indexed({
   "0.5.0": { date: [2003, 9, 8], mainSource: "Gutiska site" },
   "0.5.1": { date: [2003, 11, 8], mainSource: "ХА" },
   "0.5.5": { date: [2004, 1], mainSource: null },
+  "0.5.9": { date: [2004, 11, 7], mainSource: sources.olmer },
 
   TODO: { mainSource: "TODO" },
 });

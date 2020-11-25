@@ -58,6 +58,17 @@ const ru = make({ language: "j.ru" }, {
 А потом жутких зомбей из них сотворить
 В Мордоре, где мрак словно в склепе царит.`
   },
+
+  131: {
+    input: "0.5.9",
+    name: "лимерик",
+    author: "Сууле и Раэне",
+    content: `Саурон, любопытный агностик,
+Знал загадку про кольца и гвоздик.
+Вот семнадцать колец
+Он собрал наконец -
+Но куда же засовывать гвоздик?`
+  },
 });
 
 const ru_ank = make({ language: "j.ru", input: "0.0.5" }, {
@@ -166,8 +177,27 @@ In the Land of Redmond, where the Bugs lie.`
   }
 }, t => ({ language: "j.en", input: "0.0.5", author: [], ...t }));
 
+const en2 = make({ language: "j.en" }, {
+  132: {
+    input: "0.5.9",
+    name: "лимерик",
+    author: "Сууле и Раэне",
+    source: "?",
+    content: `There was a Dark Lord in the Tower
+Who created the One Ring of Power,
+Then proceeded to hide
+And then failed to find
+This capricious One Ring of Power.
+
+There was once the One Ring of Mordor
+Which controlled the Nine Rings of the mortals
+Plus the other ten Rings
+Of Dwarf-lords and Elf-kings –
+This makes twenty of them in the total.`
+  },
+});
+
 export default [
-  ru,
-  ru_ank,
-  en,
+  ru, ru_ank,
+  en, en2,
 ];
