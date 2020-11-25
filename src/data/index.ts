@@ -53,5 +53,7 @@ export default mergeGroups(
   ...require("./lang").default,
   ...require("./conlang").default,
 
+  ...require("./codes").default,
+
   ...require("./jokes").default,
 );
