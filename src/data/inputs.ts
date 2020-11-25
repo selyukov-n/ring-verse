@@ -20,6 +20,7 @@ export const inputs = indexed({
   "0.3.0": { date: [2003, 6, 6], mainSource: "TolkLang, ElfLing" },
   "0.3.5": { date: [2003, 6, 6], mainSource: sources.c },
   "0.3.7": { date: [2003, 6, 7], mainSource: null },
+  "0.3.8": { date: [2003, 7], mainSource: "ХА, вообще - какой-то (e- ?)shop" },
 
   TODO: { mainSource: "TODO" },
 });
