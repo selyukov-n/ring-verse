@@ -20,9 +20,10 @@ const Language = (props: RouteComponentProps<{ id: string }>) => {
   }
 
   return <ListGroup>
-    {items.map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
-      #{it.index} {!it.name && isMine(it) ? "[my translation]" : it.name}
-    </ListGroup.Item>)}
+    {items.sort((a, b) => a.index - b.index)
+      .map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
+        #{it.index} {!it.name && isMine(it) ? "[my translation]" : it.name}
+      </ListGroup.Item>)}
   </ListGroup>
 };
 
