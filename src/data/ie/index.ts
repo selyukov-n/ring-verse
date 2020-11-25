@@ -1,11 +1,19 @@
-import * as ru from "./ru";
 import * as lat from "./lat";
+import { list as germanic } from "./germanic";
+import { list as romance } from "./romance";
 
 export default [
-  ru.ru1,
-  ru.ru2,
-  ru.ru3,
+  ...require("./ru").list,
   lat.lat,
 
+  ...germanic,
+  ...romance,
+
+  require("./bg").bg,
+  ...require("./cro").list,
+  require("./cz").cz,
   ...require("./pol").default,
+  require("./sloven").sloven,
+
+  require("./irish").irish,
 ];

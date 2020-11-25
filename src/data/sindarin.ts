@@ -1,6 +1,6 @@
 import { book, make } from "./utils";
 
-const sind = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
+const sind1 = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
   31: {
     name: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
     book: book("S-10", 31),
@@ -34,6 +34,23 @@ Vi Dor e-Mordor ias i-Ndúath caedar.`
   }
 });
 
+const sind = make({ language: "sindarin" }, {
+  55: {
+    input: "0.2.0",
+    author: "Bjørn Arnfred Bojesen",
+    book: book("S-4", 27),
+    content: `Neledh Cŷr 'nin Edhelaranath nui venel,
+Odog a Ngonhirrim ned gonthamath în,
+Neder an Firiath, beraid gwanno,
+Min a Chirdhur or dhurvachalf în,
+Ned Mordor nedhi gaenar i ngwaith.
+Min Côr a thorthad hain phain, Min Côr a chiriad hain,
+Min Côr a theged hain a nedhi vorn gweded hain
+Ned Mordor nedhi gaenar i ngwaith.`
+  },
+});
+
 export default [
+  sind1,
   sind,
 ];

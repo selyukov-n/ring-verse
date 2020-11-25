@@ -50,7 +50,8 @@ export default mergeGroups(
   ...require("./sindarin").default,
 
   ...require("./ie").default,
-  require("./jp").jp,
+  ...require("./lang").default,
+  ...require("./conlang").default,
 
   ...require("./jokes").default,
 );

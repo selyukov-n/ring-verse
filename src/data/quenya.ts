@@ -57,6 +57,20 @@ Mine Corma turie te ilye, Mine Corma hirie te,
 Mine Corma hostie te ilye ar mordosse nutie te
 Mornóreo Nóresse yasse i Fuini caitar.`
   },
+
+  54: {
+    input: "0.2.0",
+    author: ["Fredrik Ström", "David Salo"],
+    book: book("Q-4", 18),
+    content: `Cormar neld' Eldaranin undu telume,
+Otso Casrceruin ondomardeltassen,
+Nerte Firyain, firien martine,
+Mine Lónaherun, lónamahalmaryasse,
+Mordórev' ardasse yasse lumbor caitar.
+Mine corma turien ilye te, mine corma tuvien te,
+Mine corma tultien ilye te ar morniesse mandien te,
+Mordórev' ardasse yasse lumbor caitar.`
+  },
 });
 
 export default [

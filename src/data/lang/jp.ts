@@ -1,13 +1,13 @@
-import { ItemGroup } from "./types";
-import { book } from "./utils";
-import pic49 from "./pic/49jap.png";
+import { ItemGroup } from "../types";
+import { book } from "../utils";
+import pic49 from "../pic/49jap.png";
 
 export const jp: ItemGroup = {
   49: {
     language: "jap",
     name: "из перевода ВК",
     book: book("J", 180),
-    input: "TODO",
+    input: "0.2.0",
     author: [],
     comments: ["some comments"],
     content: [

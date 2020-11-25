@@ -44,7 +44,7 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
     sources.push(<p key="main">Источник: {book}</p>)
   } else {
     if (source) sources.push(<p key="main">Источник: {source}</p>);
-    if (book) sources.push(<p key="book">См. также {book}</p>);
+    if (book) sources.push(<p key="book">Также {book}</p>);
   }
 
   return sources.length === 0 ? null : <section className="sources">

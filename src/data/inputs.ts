@@ -12,6 +12,7 @@ export const inputs = indexed({
   "0.1.1": { mainSource: sources.gwaith },
   "0.1.2": { date: [2003, "winter"], mainSource: "переписано с книги в магазине" },
   "0.1.5": { date: [2003, 3, 3], mainSource: sources.drops },
+  "0.2.0": { date: [2003, 3, 3], mainSource: sources.kniga2001 },
 
   TODO: { mainSource: "TODO" },
 });
