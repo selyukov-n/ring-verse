@@ -1,5 +1,6 @@
 export default [
   require("./eo").esperanto,
+  require("./ido").ido,
 
   require("./ba-gym").data,
   require("./elder").elder,
