@@ -20,7 +20,7 @@ export type Item = {
   input: InputKey;
   source?: string; // if differ from input.mainSource
   book?: { page: number, num: string, comment?: string };
-  comments?: string[];
+  comments?: Array<string | { text: string, type?: "error" | "warning" }>;
   credits?: string[];
 };
 

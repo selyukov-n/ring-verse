@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Alert } from "react-bootstrap";
 import { formatDate, Input, inputs, ItemNum, ItemVariant } from "../data";
 import { Lines } from "../Lines";
 import "./trans.css";
@@ -15,7 +16,9 @@ const makeHeader = (name?: string, author?: string) => (name || author) && <>
   {name} {author && <span className="author" title="Authors"> ({author})</span>}
 </>;
 
-const Comment: FC<{}> = ({ children }) => <p className="comment">{children}</p>;
+const Comment: FC<{ type?: "warning" | "error" }> = ({ type, children }) => type
+  ? <Alert className="comment" variant={type === "error" ? "danger" : type}>{children}</Alert>
+  : <p className="comment">{children}</p>;
 
 const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   const author = variant.author?.filter(Boolean).join(", ");
@@ -62,7 +65,9 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
       #{item.index} {makeHeader(item.name, author || "?")}
       {date}
     </h6>
-    {item.comments?.map((c, i) => <Comment key={i}>{c}</Comment>)}
+    {item.comments?.map((c, i) => typeof c === "string"
+      ? <Comment key={i}>{c}</Comment>
+      : <Comment key={i} type={c.type}>{c.text}</Comment>)}
 
     {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
 
