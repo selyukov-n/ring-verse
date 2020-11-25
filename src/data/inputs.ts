@@ -16,6 +16,7 @@ export const inputs = indexed({
   "0.2.5": { date: [2003, 5, 19], mainSource: sources.iad },
   "0.2.8": { date: [2003, 5], mainSource: null },
   "0.2.9": { date: [2003, 5], mainSource: null },
+  "0.2.10": { date: [2003, 5], mainSource: null },
 
   TODO: { mainSource: "TODO" },
 });
