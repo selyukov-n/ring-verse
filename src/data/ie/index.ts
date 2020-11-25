@@ -13,6 +13,7 @@ export default [
   require("./cz").cz,
   ...require("./pol").default,
   require("./sloven").sloven,
+  require("./ukr").ukr,
 
   require("./greek").ancient,
   require("./irish").irish,

@@ -21,6 +21,7 @@ export const inputs = indexed({
   "0.3.5": { date: [2003, 6, 6], mainSource: sources.c },
   "0.3.7": { date: [2003, 6, 7], mainSource: null },
   "0.3.8": { date: [2003, 7], mainSource: "ХА, вообще - какой-то (e- ?)shop" },
+  "0.4.0": { date: [2003, 7], mainSource: "ХА, из печатного издания" },
 
   TODO: { mainSource: "TODO" },
 });
