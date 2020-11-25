@@ -21,7 +21,6 @@ export type Item = {
   source?: string; // if differ from input.mainSource
   book?: { page: number, num: string, comment?: string };
   comments?: Array<string | { text: string, type?: "error" | "warning" }>;
-  credits?: string[];
 };
 
 export type ItemGroup = Record<number, Item>;
