@@ -27,5 +27,29 @@ In þamma landa Maurdauris þarei þai skadjus ligand.`
 𐌹𐌽 𐌸𐌰𐌼𐌼𐌰 𐌻𐌰𐌽𐌳𐌰 𐌼𐌰𐌿𐍂𐌳𐌰𐌿𐍂𐌹𐍃 𐌸𐌰𐍂𐌴𐌹 𐌸𐌰𐌹 𐍃𐌺𐌰𐌳𐌾𐌿𐍃 𐌻𐌹𐌲𐌰𐌽𐌳.`
       }
     ]
-  }
+  },
+
+  119: {
+    input: "0.5.0",
+    book: book("G-3", 189),
+    author: "M.Carver",
+    content: `Hwa! þatei Hrigge     hausida ik
+þreis þaim waurþun     Þiudanam Albe
+haldan himin-       hulidaim gibanai.
+Sibunuh þaim in     staina-saliþwam
+Fraujam Dwairge     frumabauandam,
+waila ik wait,     waurþun gibanai;
+dauþnan domidai     Diwa-mannans
+nauseigai Niun   afnemun   Hriggans;
+iþ Ains lifniþ     ainaha þanei
+fahai jah fastai     Frauja Riqizis
+ana swart-sitla     sitands þarei
+liuhadalausai     ligand filu
+mikilskadjus     Maurdaur-landam in.
+Ist Ains finþan     allans Hrigge
+gawandjan, waldan     jah gawidan
+in runistadam     riqizis þarei
+liuhadalausai     ligand filu
+mikilskadjus     Maurdaur-landam in.`
+  },
 });
