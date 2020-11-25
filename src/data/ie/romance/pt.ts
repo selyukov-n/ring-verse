@@ -29,6 +29,20 @@ Um anel p'ra regrar a eles tudos, um anel p'ra descubrir a eles,
 Um anel p'ra traer a eles tudos e na a escuridão ligar a eles
 Na a terra do Mordor onde estão as sombras.`
   },
+
+  188: {
+    input: "0.8.0",
+    comments: ["дословный перевод?"],
+    author: [],
+    content: `Três anéis para os Reis-Elfos sob o céu,
+Sete para os Senhores-Anões nos seus salões de pedra,
+Nove para os Homens Mortais fadados a morrer,
+Um para o Senhor do Escuro em seu trono escuro
+Na Terra de Mordor, onde as sombas se deitam.
+Um anel para governar a todos, um anel para achá-los,
+um anel para trazê-los todos e aprisioná-los na escuridão
+Na Terra de Mordor onde as sombas se deitam.`
+  },
 });
 
 export const list = [

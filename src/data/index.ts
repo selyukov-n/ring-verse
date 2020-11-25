@@ -48,6 +48,7 @@ export default mergeGroups(
   ...require("./quenya").default,
   ...require("./bs").default,
   ...require("./sindarin").default,
+  require("./westron").w,
 
   ...require("./ie").default,
   ...require("./lang").default,

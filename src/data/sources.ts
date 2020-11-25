@@ -9,4 +9,5 @@ export const sources = {
   md: "Mellonath Daeron",
   olmer: "tolkien.olmer.ru",
   rosetta: "Tolkien Rosetta Stone",
+  zbihniew: "Zbihniew ring verses (PDF)",
 };

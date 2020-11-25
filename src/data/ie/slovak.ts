@@ -14,4 +14,18 @@ Jeden Prsteň všetkým vládne, Jeden všetkých nájde,
 Jeden všetkých privedie, do temnoty zviaže
 V zemi Mordor, kde tieň vládne zlom.`
   },
+  174: {
+    input: "0.8.0",
+    name: "офиц. перевод",
+    book: book("S-1", 111),
+    author: "Otakar Kořínek",
+    content: `Tri prstene elfským kráľom vonku pod nebom,
+Sedem pánom trpaslíkov v sieňach z kameňa,
+Deväť mužom z ľudí, ktorých osudom je skon,
+Veľprsteň pre Pána tmy na tróne z plameňa
+V zemi Mordor, kde Tieň vládne zlom.
+Veľprsteň im všetkým velí, jeho ruka krutá
+Privolá ich do jedného a v čiernej tme spúta
+V zemi Mordor, kde Tieň vládne zlom.`
+  },
 });

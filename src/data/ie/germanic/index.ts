@@ -3,6 +3,7 @@ import * as nor from "./nor";
 export const list = [
   ...require("./da").default,
   ...require("./de").list,
+  require("./fris").frisian,
   require("./got").gothic,
   require("./icel").icel,
   require("./lux").lux,

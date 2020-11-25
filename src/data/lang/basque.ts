@@ -28,6 +28,34 @@ Eraztun bat guztiak menperatzeko, eraztun bat aurkitzeko,
 eraztun bat ekartzeko eta ilunpetan lotzeko
 aizaroak dauden Mordor Erreinuan.`
   },
+
+  176: {
+    input: "0.8.0",
+    author: "Josu Gómez",
+    book: book("B-3", 159),
+    content: `Hiru eraztun zerupeko Elfoen erregeentzat
+Zazpi, harrizko jauregietako Nano jaunentzat
+Bederatzi hiltzera kondenatutako Gizaki hilkorrentzat
+Bat Jaun Ilunarentzat bere trono ilunean,
+itzalak zabaltzen diren Mordorreko lurrean.
+Eraztun Bat denak menperatzeko, Eraztun Bat denak aurkitzekom
+Eraztun Bat denak erakartzeko eta ilunpeetan lotzeko
+itzalak zabaltzen diren Mordorreko lurrean.`
+  },
+  177: {
+    input: "0.8.0",
+    name: "офиц. перевод",
+    book: book("B-1", 158),
+    author: "Agostin Otsoa Eribeko",
+    content: `Errege Elfoentzako hiru eraztun zeru azpian.
+Zazpi Jaun Nanoentzat harrizko jauregietan.
+Bederatzi hiltzera kondenaturiko Gizaki hilkorrentzat.
+Bat Jaun ilunarentzat, tronu ilunaren gainean
+Itzalak hedatzen diren Mordor Lurraldean.
+Eraztun bat guztiak gobernatzeko, Eraztun bat guztiak aurkitzeko,
+Eraztun bat guztiak erakarri eta ilunpetan estekatzeko
+Itzalak hedatzen diren Mordor Lurraldean.`
+  },
 });
 
 export const list = [

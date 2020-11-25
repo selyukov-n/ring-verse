@@ -30,6 +30,35 @@ Uno anello a gubernare li tutti, uno anello a riscontrare li,
 Uno anello a recare li tutti e in la tenebra rilegare li
 In la terra de Mordor dove las ombras coricanne.`
   },
+
+  192: {
+    input: "0.8.0",
+    name: "дословный перевод",
+    author: "robocap",
+    book: book("I-3", 91),
+    content: `Tre Anelli per i Re degli Elfi sotto il cielo,
+Sette per i Signori dei Nani nelle loro aule di pietra,
+Nove per gli uomini mortali destinati a morire,
+Uno per l'Oscuro Signore sul suo oscuro trono
+Nella Terra di Mordor ove si stendono le Ombre.
+Un Anello per dominarli tutti, Un Anello per trovarli,
+Un Anello per ghermirli tutti e nel buio incatenarli
+Nella Terra di Mordor ove si stendono le Ombre.`
+  },
+  194: {
+    input: "0.8.0",
+    name: "феррарский вариант эмильянского диалекта",
+    author: "robocap",
+    book: book("I-fe", 95),
+    content: `Tri anèl par i re di Èlf sòt al zzèl,
+Sèt par i Sgniòr di Nan in t'lór camra ad prèda,
+Nóv par i òm mortàl destinà a murìr,
+Ún par al Scùr Sgnòr sul ssò scùr tròn
+In tla tèr ad Mòrdor dóv li Ómbar a'szténd.
+Ún Anèl par cuntrullàral tòt, ún Anèl par truvàral,
+Ún Anèl par ciapàral tòt e 'ntal scùr ligàral
+In tla tèr ad Mòrdor dóv li Ómbar a'szténd.`
+  },
 });
 
 export const list = [

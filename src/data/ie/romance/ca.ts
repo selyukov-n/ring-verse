@@ -29,4 +29,19 @@ un anell per manar-los a tots, un anell per trobar-los,
 un anell per reunir-los a tots i a les tenebres lligar-los
 a la terra de Mórdor, on s'estenen les ombres.`
   },
+
+  175: {
+    input: "0.8.0",
+    name: "валенсийский вариант",
+    author: "Marcos Colomer Pellicer",
+    book: book("V", 86),
+    content: `Tres Anells per als Reixos Elfos baix el Cel,
+Set per els Senyors Enanos als palaus de pedra,
+Nou per als Homens Mortals destinats a morir.
+Un per al Senyor Fosc, al seu trono fosc,
+a la Terra de Mordor, a on s'estenen les Ombres.
+Un Anell per a governar-los a tots, un Anell per a trobar-los,
+Un Anell per a portar-los, i nugar-los en les Tiniebles
+a la terra de Mordor a on s'estenen les Ombres.`
+  },
 });

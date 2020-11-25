@@ -74,7 +74,35 @@ Unus Anŭlus ea invenīre,
 Unus Anŭlus ea omnia collocāre
 Et ea in tenĕbris nectĕre,
 In terra Mordoris ubi umbrae iacent.`
-  }
+  },
+
+  183: {
+    input: "0.8.0",
+    name: "имитация средневековой латыни ?",
+    author: "Klaus Scholl",
+    book: book("L-3", 191),
+    content: `Terni Annuli Regibus Nympharum subter Coelo,
+Septeni Ducibus Pumilorum in Cameris suis lapideis,
+Noveni Hominibus mortalibus moriendi praedamnatis
+Singulus Tyranno atro in Solium atrum
+in Regione Mordoris, qua Umbrae sunt.
+Singulus Annulus ad mittendum sub Jugum omnes alteros, singulus Annulus ad vestigandum alteros,
+Singulus Annulus ad congerendum omnes alteros et ad attinendum eos in Tenebris
+in Regione Mordoris, qua Umbrae sunt.`
+  },
+  193: {
+    input: "0.8.0",
+    author: "robocap",
+    book: book("L-2", 190),
+    content: `Tres Elphorum pro regibus sub coelo anuli
+Septem Nanorum pro dominis in aulis suis lapideis,
+Novem pro hominibus ad mortem destinatis,
+Unus Nigro pro Domine in nigro solio assidente
+In Mordoria terris ubi sternunt Umbrae.
+Quidam anulus ad dominandum in omnes eos, quidam ad eos reperendos,
+Quidam ad arripiendum omnes et in tenebris eos conicendos
+In Mordoria terris ubi sternunt Umbrae.`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

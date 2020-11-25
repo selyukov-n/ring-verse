@@ -36,4 +36,18 @@ hring án gebringe,     hring án gebinde
 þéoda swá þéowas    in þéostrum tógedere
 þér licgað scedwa     in londe Mordores.`
   },
+
+  198: {
+    input: "0.8.0",
+    author: "Rupert Barnes",
+    book: book("OE", 182),
+    content: `Þrie beas for þæm Ylfe-cyningas under heofne,
+Seofon for þæm dweorg-freas in hire stænnum heallum,
+Nigon for deaðfulum mannum foredemed to forþfarenne,
+An for þæm Feale Frea on his heolstore stole
+In Mordorlande þa þa sceade licgað.
+An Beah ealla hire to rædenne, An Beah hie to fandienne
+An Beah ealla hire to gebrengenne and in þæm heolstore bindenne
+In Mordorlande þa þa sceade licgað.`
+  },
 });

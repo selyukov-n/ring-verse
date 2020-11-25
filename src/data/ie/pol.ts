@@ -57,6 +57,18 @@ Jeden Pierścień, by innymi władać, czarem je opętać,
 Jeden, by wszystkie zebrać i w ciemnościach spętać
 W Krainie Mordor, w wieczystej nocy spowitej cienie.`
   },
+  178: {
+    input: "0.8.0",
+    author: "zbihniew",
+    content: `Trzy pierścienie elfów królom pod niebem,
+Siedem krasnoludów władcom w salach z kamienia,
+Dziewięć śmiertelnym ludziom przeznaczonym by umrzeć,
+Jeden dla Mrocznego Pana na jego mrocznym tronie
+W Ziemi Mordoru gdzie Cienie zalegają.
+Jeden pierścień by rządzić wszystkim, Jeden pierścień by odnaleźć wszystkie,
+Jeden pierścień by sprowadzić je wszystkie i w ciemności połączyć
+W Ziemi Mordoru gdzie Cienie zalegają.`
+  },
 });
 
 export default [

@@ -47,4 +47,17 @@ En ring skal styre dem alle, en ring skal finne dem,
 En ring skal bringe dem alle og i mørket til binde dem
 I landet av Mordor hvor skyggeren ligger.`
   },
+  180: {
+    input: "0.8.0",
+    author: "Tamfiiris Entwife",
+    book: book("Nn-4", 74),
+    content: `Tre ringar for alvekongar ute i det fri,
+og sju til herredvergar i hallar av stein.
+Ni til døyelege menn som til jord skal bli
+og ein for den mørke herskaren
+i landet Mordor, der skuggane rår.
+Ein ring til å herska, ein ring til å finna dei,
+ein ring til å bringa dei, og i mørkret binda dei
+i landet Mordor, der skuggane rår.`
+  },
 });

@@ -44,6 +44,21 @@ Ein Ring, sie alle zu beherrschen, Ein Ring, sie zu finden,
 Ein Ring, sie zu bringen und im Dunkeln zu binden
 Im Lande Mordor, wo die Schatten liegen.`
   },
+
+  211: {
+    input: "0.8.0",
+    name: "диалект восточной Австрии, юж. Burgenland, окр. Oberwart",
+    book: book("G-oa", 65),
+    author: "Matthias List",
+    content: `drai ringal fia di elfnn-kejni wos untan himmll saij
+sijm fia di kejni fo di zweagal in ianare schtaananan halln,
+nain fia di laijt wos schteam miassnn,
+aan fia dejn finstaran heascha auf sain finstaran droon,
+in launt moadoaa wo di schotdnn liang,
+a ring dassas bindnn duat, a ring dassas findnn duat,
+a ring dassa olle zaumbringt unt in da finstda bindnn duat,
+in launt moadoaa wo di schotdn liang duan`
+  },
 });
 
 export const list = [
