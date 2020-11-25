@@ -1,4 +1,5 @@
 import { make } from "../utils";
+import pic219 from "../pic/219hon.jpg";
 
 const lang1 = make({ input: "0.7.0" }, {
   154: {
@@ -52,6 +53,26 @@ la ján to ñi á japóññíhen
 la ján to ñi jannaren á jawíríhen
 aT to ñi rá'nxél'mé á jáontíkíhen
 sú jekién mórtór la jaxéwi`
+  },
+  219: {
+    language: "c.hon",
+    author: "Dotan Brom",
+    content: [
+      {
+        text: `dun tharuzh thiwulis to miranazis del ilafis bidh del washun,
+dun vatum tor sumus del kizatis bidh zhaturasamun ao kirat weh shayad',
+dun navon tor amoun zhen with idamtha, senes del dum',
+sun ud tor sum del mohur ofs aomu muhorum githurad'
+bidh sun mordor - dal shayud.
+sun ud thiwul tor marenin tolamun, sun ud thiwul tor drekin amun,
+sun ud thiwul tor fahedin tolamun weh bidh del mohur bagedin amun
+bidh sun mordor - dal shayud.`
+      },
+      {
+        type: "image",
+        image: pic219,
+      }
+    ]
   },
   220: {
     language: "c.tre",

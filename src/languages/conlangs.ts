@@ -27,6 +27,7 @@ export const conlangs = group(g.conlangs,
     lang("c.kel", "Sylvia Sotomayor"),
     langs(g.conlangs_zbihniew, "zbihniew", "c.var", "c.she", "c.dem", "c.bli", "c.bzd"),
     // TODO etc.
+    lang("c.hon", "Dotan Brom"),
     lang("c.tre", "Mogy aka Beorn - Tomer Bärmann"),
   )
 );

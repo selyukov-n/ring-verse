@@ -195,6 +195,8 @@ export const conlangs: Record<Conlang, string> = {
   "c.dem": "Demane",
   "c.bli": "Blikhene",
   "c.bzd": "Bzdziungwa",
+  // ...
+  "c.hon": "Honagar",
   "c.tre": "Treusi",
 };
 

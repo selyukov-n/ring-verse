@@ -1,4 +1,8 @@
 import { make } from "../utils";
+import pic228 from "../pic/228gimmel.png";
+import pic229 from "../pic/229nuts.png";
+
+const pic = (image: any) => ({ type: "image" as const, image });
 
 const items1 = make({ input: "0.7.0" }, {
   227: {
@@ -12,6 +16,25 @@ const items1 = make({ input: "0.7.0" }, {
 --- -· · / ·-· ·· -· --· / - --- / ·-· ··- ·-·· · / - ···· · -- / ·- ·-·· ·-·· --··-- / --- -· · / ·-· ·· -· --· / - --- / ··-· ·· -· -·· / - ···· · -- --··-- /
 --- -· · / ·-· ·· -· --· / - --- / -··· ·-· ·· -· --· / - ···· · -- / ·- ·-·· ·-·· / ·- -· -·· / ·· -· / - ···· · / -·· ·- ·-· -·- -· · ··· ··· / -··· ·· -· -·· / - ···· · -- /
 ·· -· / - ···· · / ·-·· ·- -· -·· / --- ··-· / -- --- ·-· -·· --- ·-· / ·-- ···· · ·-· · / - ···· · / ··· ···· ·- -·· --- ·-- ··· / ·-·· ·· · ·-·-·-`
+  },
+  226: {
+    language: "e.braille",
+    author: "Yehuda Ronen",
+    content: "TODO",
+  },
+  228: {
+    language: "e.g",
+    author: "Ent-wife aka Real Dream - No'a Tel-Or",
+    content: [
+      pic(pic228),
+    ]
+  },
+  229: {
+    language: "e.nuts",
+    author: "Ent-wife aka Real Dream - No'a Tel-Or",
+    content: [
+      pic(pic229),
+    ]
   },
 });
 

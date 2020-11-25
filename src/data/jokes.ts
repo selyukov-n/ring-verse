@@ -1,3 +1,4 @@
+import { sources } from "./sources";
 import { make, map } from "./utils";
 
 const ru = make({ language: "j.ru" }, {
@@ -124,6 +125,59 @@ const ru_ank = make({ language: "j.ru", input: "0.0.5" }, {
   }
 });
 
+const ru_k = make({ language: "j.ru", input: "0.7.0", source: sources.kniga2001 }, {
+  160: {
+    name: "перевод #27",
+    author: "А.Хитров",
+    content: `Это именно кольцо сотворили эльфы,
+Мать родную б заложили, чтоб его себе забрать.
+Правитель всех ползающих, смертных и ракушек.
+Это спящий, который готовит всем порку.
+Всемогущая власть в этом Кольце,
+Всеправая власть у его обладателя.
+Сломанное или распиленное, восстановлению не подлежит.
+Если кто найдет - отослать Сорхеду.
+(Почтовый сбор оплачен)`
+  },
+  161: {
+    name: "перевод #27",
+    author: "С.Ильин",
+    content: `Это Кольцо, никакое иное, выпало эльфам сковать,
+Эльфы бы продали маму родную, только бы им обладать.
+Спящему в нем Владыке подвластен и слон, и комар,
+Будить Владыку не стоит, у Владыки боксерский удар.
+Грозная Сила таится в этом Кольце Едином,
+Сила сия себе на уме - сама хочет быть Господином.
+При порче или поломке в ремонт Кольцо не берем.
+Нашедшего просят послать Сыроеду наложенным платежом.`
+  },
+  162: {
+    author: [],
+    content: `Три пароля - для начальства,
+К играм разным склонного,
+Семь паролей - аспирантам
+Для труда бессонного,
+Девять - школярам-студентам
+Для ученья долгого
+И программ писания страшно монотонного.
+А один пароль - всесильный -
+Системщику строгому,
+Чтоб разъединить их всех,
+Чтоб их файлов списки
+Вместе разместить навек
+На рабочем диске,
+Под владычеством всесильным
+Системщика строгого.`
+  },
+  163: {
+    author: [],
+    content: `Три кольца - веселым эльфам, чтобы оттянулися,
+Семь колец - занудным гномам, чтобы отвязалися,
+Девять - банде шепелявой, чтоб боялись дети.
+И одно - чтоб веселее всем жилось на свете.`
+  },
+});
+
 export const en = map({
   23: {
     content: `Nine megs for the secretaries fair,
@@ -195,9 +249,25 @@ Plus the other ten Rings
 Of Dwarf-lords and Elf-kings –
 This makes twenty of them in the total.`
   },
+  164: {
+    input: "0.7.0",
+    source: sources.kniga2001,
+    author: [],
+    content: [{
+      title: "Lord of the OSs",
+      text: `Three OSs for the Servers under the sky,
+Seven for the Administrators in their halls of stone,
+Hundreds for the Mortal Men doomed to die,
+One for the Dark Lord on his dark throne,
+In the land of Redmond where the shadows lie.
+One OS to rule them all, One OS to find them,
+One OS to bring them all and in the darkness bind them
+In the land of Redmond where the shadows lie.`
+    }]
+  },
 });
 
 export default [
-  ru, ru_ank,
+  ru, ru_ank, ru_k,
   en, en2,
 ];

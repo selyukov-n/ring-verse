@@ -1,4 +1,5 @@
 import { book, make } from "../../utils";
+import pic221 from "../../pic/221heb.png";
 
 export const yiddish = make({ language: "yid" }, {
   221: {
@@ -19,7 +20,8 @@ In di land di Mordor wer deschuttn lign.`
       },
       {
         name: "древнееврейское письмо (вариант для идиш)",
-        text: "TODO"
+        type: "image",
+        image: pic221,
       }
     ],
   }
