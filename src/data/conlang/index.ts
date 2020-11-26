@@ -9,4 +9,5 @@ export default [
 
   ...require("./ang").list,
   ...require("./misc").list,
+  require("./zbihniew").byZbihniew,
 ];

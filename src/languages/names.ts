@@ -176,6 +176,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.n-eo": "Nova esperanto",
   "c.ido": "идо",
   "c.int": "интерлингва",
+  "c.rom": "Romanova",
   "c.atl": "Atlango",
   "c.en-basic": "Basic (Simple) English",
   "c.toki": "Toki Pona",
@@ -195,9 +196,21 @@ export const conlangs: Record<Conlang, string> = {
   "c.dem": "Demane",
   "c.bli": "Blikhene",
   "c.bzd": "Bzdziungwa",
-  // ...
+  "c.fuc": "Fucatokk",
+  "c.gac": "Gaciça",
+  "c.alm": "Almensk",
+  "c.hal": "Hallon",
+  "c.ena": "Enalda",
+  "c.lis": "Lissenian",
+  "c.gwa": "Gwadoreg",
+  "c.deb": "Dêbiua",
+  "c.shem": "шиморийский",
+  "c.vli": "Vling",
+  "c.wen": "Wenedyk",
+  "c.ser": "Serikats",
   "c.hon": "Honagar",
   "c.tre": "Treusi",
+  "c.ave": "Avesta",
 };
 
 export const encodings: Record<EncodingLang, string> = {

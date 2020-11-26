@@ -27,3 +27,10 @@ export const make = <K extends keyof Item>(common: Pick<Item, K>, items: Record<
   ...common,
   ...it,
 }) as Item);
+
+export const tonal = (text: string, subscript = false) => {
+  const str = subscript
+    ? "₀₁₂₃₄₅₆₇₈₉"
+    : "⁰¹²³⁴⁵⁶⁷⁸⁹";
+  return text.replace(/[0-9]/g, v => str[parseInt(v)]);
+};
