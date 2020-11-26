@@ -4,7 +4,7 @@ import { InputKey } from "./inputs";
 type LangId = ArdaLang | Lang | Conlang | EncodingLang | JokesLang;
 
 type TextualContent = {
-  type?: "text" | "braille";
+  type?: "text" | "braille" | "morse";
   text: string | JSX.Element;
   title?: string;
 };

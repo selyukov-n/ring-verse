@@ -24,9 +24,17 @@
   font-family: Braille;
   src: url(assets/braille.ttf) format('truetype');
 }
+@font-face {
+  font-family: Morse;
+  src: url(assets/morse.ttf) format('truetype');
+}
 
 /* classes */
 .braille .card-body {
   font-family: Braille;
+  font-size: 24px;
+}
+.morse .card-body {
+  font-family: Morse;
   font-size: 24px;
 }
