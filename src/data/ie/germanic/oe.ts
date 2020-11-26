@@ -1,3 +1,4 @@
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 export const oe = make({ language: "oe" }, {
@@ -49,5 +50,20 @@ In Mordorlande þa þa sceade licgað.
 An Beah ealla hire to rædenne, An Beah hie to fandienne
 An Beah ealla hire to gebrengenne and in þæm heolstore bindenne
 In Mordorlande þa þa sceade licgað.`
+  },
+
+  239: {
+    input: "0.9.0",
+    name: "мерсийский диалект (?)",
+    author: `Arcormacolindóva [${sources.planetTolkien}]`,
+    book: book("OE-m3", 185),
+    content: `Hringas þríe þéodnum Ælfa under eormenrodore,
+Hringas seofon Dweorgdryhtnum innan heora seldes stæna,
+Hringas nigon Mannum déaðfæge,
+Án Hearrum þéostre on his þéostresetl
+In land Ðéostornessa hwær licgaþ scedwa.
+Hring án eal gewealdende, Hring án æghwilc gefindende,
+Hring án eal gebringende and in þéostrum æghwilc gebindende
+In land Ðéostornessa hwær licgaþ scedwa.`
   },
 });

@@ -1,3 +1,4 @@
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 const es = make({ language: "es", input: "0.2.0" }, {
@@ -42,6 +43,20 @@ En el Reinado de Mordor donde están las neblinas.
 Un anillo para dominarlos, Un anillo para encontrarlos,
 Un anillo para traerlos y en la oscuridad ligarlos
 En el Reinado de Mordor donde están las neblinas.`
+  },
+  241: {
+    input: "0.9.0",
+    name: "SPangilish, калифорнийский англо-испанский",
+    author: `Randalllin [${sources.planetTolkien}]`,
+    book: book("S-s", 85),
+    content: `Tres Ringos por la Elveno-kingas baja la sky,
+Siete por el Dwarf-lords en their hallas de stone,
+Nueve por la Mortal Men doomed a die,
+Uno por el Dark Lord en el dark throne
+En la Land de Mordor quien la Shadows lie.
+Uno Ringo a rule them all, Uno Ringo a find them,
+Uno Ringo a bring them all y en la darkness bind them
+En la Land de Mordor Quien la Shadows lie.`
   },
 });
 

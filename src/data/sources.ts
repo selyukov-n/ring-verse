@@ -8,6 +8,7 @@ export const sources = {
   kniga2001: "kniga2001",
   md: "Mellonath Daeron",
   olmer: "tolkien.olmer.ru",
+  planetTolkien: "planet-tolkien.com/board/",
   rosetta: "Tolkien Rosetta Stone",
   zbihniew: "Zbihniew ring verses (PDF)",
 };

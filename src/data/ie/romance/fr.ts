@@ -1,4 +1,5 @@
 import { JAvidan } from "../../authors";
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 const fre = make({ language: "fre" }, {
@@ -45,6 +46,19 @@ En le terre du Mordor où les ombres couchent.
 Un anneau à gouverner leur tout, un anneau à percevoir leur,
 Un anneau à produire leur tout et en la obscurité leir leur
 En le terre du Mordor où les ombres couchent.`
+  },
+
+  242: {
+    input: "0.9.0",
+    author: `Ringfacwen [${sources.planetTolkien}]`,
+    content: `Trois bagues pour les Elven-rois sous le ciel,
+Sept pour les nain-seigneurs dans leurs halls de pierre,
+Neuf pour les hommes mortels condamnés pour mourir,
+Un pour le seigneur sombre sur son trône sombre
+Dans la terre de Mordor où le mensonge d'ombres.
+Un Anneau pour les gouverner tout, Un Anneau pour les trouver,
+Un Anneau pour les amener tout et dans l'obscurité les lie
+Dans la terre de Mordor où le mensonge d'ombres.`
   },
 });
 

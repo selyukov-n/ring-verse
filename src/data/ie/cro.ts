@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { book, make } from "../utils";
 
 const cro = make({ language: "cro", input: "0.2.0" }, {
@@ -28,6 +29,22 @@ U Zemlji Mordor gde Senke traju.`
   },
 });
 
+const cro2 = make({ language: "cro" }, {
+  240: {
+    input: "0.9.0",
+    author: `Etharion [${sources.planetTolkien}]`,
+    content: `Tri prstena za vilenjaèke kraljeve ispod nebesa,
+Sedam za patuljke u njihovim hodnicima kamenim,
+Devet za smrtne ljude osuðene da umru,
+Jedan za tamnog Gospodara na tamnom prjestolju
+U zemlji Mordora gdje sjene leže.
+Jedan Prsten da vlada svima, Jedan Prsten da ih naðe,
+Jedan prsten da ih sve okupi i u tami da ih sveže
+U zemlji Mordor gdje sjene leže.`
+  },
+});
+
 export const list = [
   cro,
+  cro2,
 ];

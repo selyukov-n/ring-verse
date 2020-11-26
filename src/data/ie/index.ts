@@ -19,4 +19,5 @@ export default [
   require("./greek").ancient,
   require("./irish").irish,
   require("./romani").rom,
+  require("./welsh").cymraeg,
 ];

@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { book, make } from "../utils";
 
 export const sloven = make({ language: "slo" }, {
@@ -13,5 +14,18 @@ v dezeli Mordor, kjer sence žive.
 En Prstan, ki vlada vsem, en Prstan, ki vse najde,
 en Prstan, da vse vrne in v temo jih povrne,
 v deželo Mordor, kjer sence žive.`
+  },
+  243: {
+    input: "0.9.0",
+    author: `Elrohir [${sources.planetTolkien}]`,
+    book: book("S-2", 112),
+    content: `Troji Prstani za vilinske kralje pod neba blescavo,
+Sedmeri za škratje vladarje v njih skalnem zaklonu,
+Deveteri za Smrtnike, ljudi z umrljivo naravo,
+En sam pa za Temnega vladarja, ki sedi na tronu
+v Mordorju, kjer senca ne nehava.
+Edini, ki jim vsem vlada, Edini ki jih vse prese~e,
+Edini, da jih vse poisce in v temi pove~e
+v Mordorju, kjer senca ne nehava.`
   },
 });
