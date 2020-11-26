@@ -13,6 +13,7 @@ export default [
   require("./tamil").tamil,
   require("./tur").turkish,
   require("./tupi").tupi,
+  require("./indonesian").indonesian,
 
   ...require("./basque").list,
 ];
