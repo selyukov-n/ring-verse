@@ -103,6 +103,21 @@ Quidam anulus ad dominandum in omnes eos, quidam ad eos reperendos,
 Quidam ad arripiendum omnes et in tenebris eos conicendos
 In Mordoria terris ubi sternunt Umbrae.`
   },
+
+  247: {
+    input: "0.9.2",
+    author: "Robert Barulich",
+    book: book("L-4", 191),
+    content: `Annuli tres regibus patente sub divo elvanis,
+Septem heris nanorum saxea incolentibus atria,
+Novem mortalibus morti fato sponsis,
+Unus atro atra in aede Domino
+In terra Mordore qua manent umbrae:
+Annulus Unus ceteros omnes qui regat,
+Unus iis qui inveniat,
+Unus illatos qui in tenebris cunctos vinciat
+In terra Mordore qua manent umbrae.`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

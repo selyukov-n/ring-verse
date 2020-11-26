@@ -6,6 +6,7 @@ export const sources = {
   hfilippo: "H.Flippo's site of German and Latin",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",
   kniga2001: "kniga2001",
+  lodz_tpsa: "lodz.tpsa.pl/bez/Tolkien/vers-eng.html",
   md: "Mellonath Daeron",
   olmer: "tolkien.olmer.ru",
   planetTolkien: "planet-tolkien.com/board/",
