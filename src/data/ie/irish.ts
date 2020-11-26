@@ -1,4 +1,5 @@
 import { IDerzhansky } from "../authors";
+import { sources } from "../sources";
 import { book, make } from "../utils";
 
 export const irish = make({ language: "gle" }, {
@@ -29,5 +30,18 @@ Go maire an Oíche sa tsaol mór mar i dtír Mordor féin.
 Aon Fháinne iad uile do stiúradh, Aon Fháinn' amháin iad d'fháil,
 Aon Fháinne iad uile a cheapadh 's iad do chuibhriú faoin Scáil,
 Go maire an Oíche sa tsaol mór mar i dtír Mordor féin.`
+  },
+  246: {
+    input: "0.9.1",
+    name: "гэльский ?",
+    author: `Mcclane [${sources.planetTolkien}]`,
+    content: `Trí fáinní do na Rithe Sí amuigh faoin spéir
+Seacht gcinn do na Tiarnaí Abhacach ina ndúnta liag
+Naoi gcinn don chine dhaonna le bás i ndán dóibh
+Ceann amháin don Tiarna Dubh ar a h-árdan dubh
+I gcríocha Mhórdóir ina luíonn na scáthanna.
+Fáinne amháin chun iad uillig a rialú, fáinne amháin chun iadsan a aimsiú
+Fáinne amháin chun iad uillig a chruinniú, is sa dorchacht a aontú
+I gcríocha Mhórdóir ina luíonn na scáthanna.`
   },
 });

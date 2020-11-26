@@ -265,6 +265,17 @@ One OS to bring them all and in the darkness bind them
 In the land of Redmond where the shadows lie.`
     }]
   },
+  245: {
+    input: "0.9.1",
+    author: `Loni [${sources.planetTolkien}]`,
+    content: `Three wabs for the wab-ti-wabs under the wawab.
+Seven for wabwas in their halls of wabbity.
+Nine for wawabwas doomed to wabwab,
+And one for the Klummwab [My wabname] on her dark wabbitywab.
+One wab to invent them all, one wab to find them,
+One wab to say them all until everyone goes mad.
+In the land of Klummwab where the wabs lie.`
+  },
 });
 
 export default [
