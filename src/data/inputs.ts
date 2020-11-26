@@ -39,6 +39,11 @@ export const inputs = indexed({
   "0.9.1": { date: [2005, 3, 31], mainSource: sources.planetTolkien },
   "0.9.2": { date: [2005, 3, 31], mainSource: sources.lodz_tpsa },
   "0.9.4": { date: [2005, 6, 25], mainSource: sources.jrrvf },
+  "0.10.0": { date: [2005, 7, 7], mainSource: null, description: `[original collection]
+1. изменен внешний вид ("языки ... семьи" => "... языки");
+2. добавлено деление по макросемьям
+3. финно-угорские языки - в состав уральских, тюркские и японский - к алтайским, тупи - к америндским, австронезийские - к австрическим, баскский - к изолированным
+4. искусственные языки разбиты на классы` },
 });
 
 export type InputKey = keyof typeof inputs;

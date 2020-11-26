@@ -4,6 +4,7 @@ export type HistoryDate = [number, number, number?] | [number, Season];
 export type Input = {
   date?: HistoryDate;
   mainSource: string | null;
+  description?: string;
 };
 
 const months = [
