@@ -28,7 +28,8 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
     {variant.comment && <Comment>{variant.comment}</Comment>}
   </> : null;
 
-  return <Lines {...variant} text={getContent(variant)} header={linesHeader} />;
+  const { type, ...v } = variant;
+  return <Lines {...v} text={getContent(variant)} header={linesHeader} className={type} />;
 };
 
 const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {

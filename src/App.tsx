@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 import { Provider, useDataContext } from "./context";
+import Credits from "./Credits";
 import data, { isMine } from "./data";
 import History from "./History";
 import LangTree, { getTotalCount } from "./LangTree";
@@ -28,7 +29,6 @@ const Language = (props: RouteComponentProps<{ id: string }>) => {
 };
 
 const Sources = () => <div>TODO sources</div>;
-const Credits = () => <div>TODO (or not TODO ?)</div>;
 
 const routes = [
   { path: "/sources", component: Sources, title: "Sources" },

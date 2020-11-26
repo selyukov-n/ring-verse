@@ -1,6 +1,7 @@
 import { make } from "../utils";
 import pic228 from "../pic/228gimmel.png";
 import pic229 from "../pic/229nuts.png";
+import main from "../main";
 
 const pic = (image: any) => ({ type: "image" as const, image });
 
@@ -20,7 +21,10 @@ const items1 = make({ input: "0.7.0" }, {
   226: {
     language: "e.braille",
     author: "Yehuda Ronen",
-    content: "TODO",
+    content: [{
+      type: "braille",
+      text: main.content,
+    }],
   },
   228: {
     language: "e.g",

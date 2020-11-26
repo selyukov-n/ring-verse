@@ -3,8 +3,13 @@ import { InputKey } from "./inputs";
 
 type LangId = ArdaLang | Lang | Conlang | EncodingLang | JokesLang;
 
+type TextualContent = {
+  type?: "text" | "braille";
+  text: string | JSX.Element;
+  title?: string;
+};
 type Content =
-  | { type?: "text", text: string | JSX.Element, title?: string } // title - rendered as bold before if specified [don't confuse with the variant name]
+  | TextualContent
   | { type: "image", image: any };
 export type Variant = Content & {
   author?: string[];
