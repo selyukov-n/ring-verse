@@ -5,6 +5,7 @@ export const sources = {
   gwaith: "Gwaith-i-Phethdain",
   hfilippo: "H.Flippo's site of German and Latin",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",
+  jrrvf: "jrrvf.com/forum/", // Retraductions du Poème des Anneaux
   kniga2001: "kniga2001",
   lodz_tpsa: "lodz.tpsa.pl/bez/Tolkien/vers-eng.html",
   md: "Mellonath Daeron",

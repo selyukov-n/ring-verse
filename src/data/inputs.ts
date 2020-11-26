@@ -38,6 +38,7 @@ export const inputs = indexed({
   "0.9.0": { date: [2005, 1, 27], mainSource: sources.planetTolkien },
   "0.9.1": { date: [2005, 3, 31], mainSource: sources.planetTolkien },
   "0.9.2": { date: [2005, 3, 31], mainSource: sources.lodz_tpsa },
+  "0.9.4": { date: [2005, 6, 25], mainSource: sources.jrrvf },
 });
 
 export type InputKey = keyof typeof inputs;

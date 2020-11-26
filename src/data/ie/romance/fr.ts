@@ -1,6 +1,6 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, make, map } from "../../utils";
 
 const fre = make({ language: "fre" }, {
   66: {
@@ -62,6 +62,46 @@ Dans la terre de Mordor où le mensonge d'ombres.`
   },
 });
 
+const fre2 = map({
+  248: {
+    author: "Lumiere de soir",
+    book: book("F-3", 81),
+    content: `Trois, aux Rois Elfes, sous les cieux scintillant,
+Sept, pour les Seigneurs Nains, sous les nerfs de pierres,
+Neuf, aux Hommes Mortels, voués au couchant,
+Un, au Seigneur Sombre, sous les flammes rougeoyant.
+Au pays de Mordor, royaume des Ombres,
+Un, pour les trouver,
+Un, pour les amener,
+Un, pour les lier,
+Au pays de Mordor, royaume du Seigneur Sombre.`
+  },
+  249: {
+    author: "Max DW",
+    book: book("F-4", 81),
+    content: `Trois Anneaux pour les Rois des Elfes sous les cieux,
+Sept pour les Seigneurs Nains dans leurs salles de pierre,
+Neuf pour les Hommes Mortels au destin mystérieux,
+Un pour le Ténébreux sur son trône funèbre
+Au pays de Mordor où s'étendent les ombres.
+Un Anneau pour les régir tous, Un Anneau pour les trouver,
+Un Anneau pour les mener tous dans les ténèbres et les lier
+Au pays de Mordor où s'étendent les ombres.`
+  },
+  250: {
+    author: "Moraldandil",
+    content: `Trois anneaux pour les Rois des Elfes sous le ciel,
+Sept pour les Seigneurs Nains dans leurs halles de pierre,
+Neuf aux Hommes Mortels destinés au trépas,
+Un au Seigneur Ténébreux sur son trône sombre
+Au pays de Mordor où s'étendent les Ombres.
+Un Anneau pour les gouverner tous, Un Anneau pour les trouver,
+Un Anneau pour les prendre tous et dans les ténèbres les lier
+Au Pays de Mordor où s'étendent les Ombres.`
+  },
+}, ({ author, ...t }) => ({ language: "fre", input: "0.9.4", ...t, author: `${author} [${sources.jrrvf}]` }));
+
 export const list = [
   fre,
+  fre2,
 ];
