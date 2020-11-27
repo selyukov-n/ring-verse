@@ -76,6 +76,19 @@ Min Corf a thorthad hain phain, Min Corf a chired hain,
 Min Corf a thoged hain phain a ne môr an noded hain,
 Min Ardh Mordor ias i Núath caedar.`
   },
+
+  345: {
+    input: "0.14.0",
+    author: `Idhren [${sources.theonering}]`,
+    content: `Cyrf nêl nan Erain-Edhellen nuin venel,
+Odog nan Chîr-Nagoth vi thain huin sarn,
+Neder nan Fireb barthar gwannor,
+Min nan Chîr-Dhûr bo archam-dhûr hûn
+Uin dôr Mordor ias i dhûath dorthar.
+Corf Vin gwathror bân, Corf Vin hirir,
+Corf Vin tolthor bân a vi i fuin remar.
+Uin dôr Mordor ias i dhûath dorthar.`
+  },
 });
 
 const sind2 = make({ language: "sindarin", input: "0.12.0" }, {

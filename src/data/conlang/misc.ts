@@ -431,6 +431,19 @@ ak'ta'jehliyan Hy Kirflin, ta'olnähian Hy Kirflin,
 ta'zahdilian Hy Kriflin, ta'ilidvuian vus'Ofekien
 ta'ba ye'Ofycli vus'Turuyen Mordor`
   },
+  339: {
+    input: "0.14.0",
+    language: "c.sso",
+    author: `elengil [${sources.theonering}]`,
+    content: `Ba'ad më h'si Vordon im Johiani shapal s'wi
+Sarda h'si Vordon im Thoray'n ith lashda'an dav
+Sarme h'si ray'n b'johia ta'yanaen h'si kalelah
+Da h'si Vordon Baji apë drovth'wa baji
+Ith lashna Mordor lashk wajib
+Ba'ad da rukan lana vod, ba'ad da rukan wita
+Ba'ad da rukan lana kan, oë ith s'baji rukan ralan
+Ith lashna Mordor lashk wajib`
+  },
 });
 
 export const list = [

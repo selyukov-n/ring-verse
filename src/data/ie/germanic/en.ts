@@ -7,7 +7,7 @@ const planet = (name: string, nickPart: string, page?: number) => ({
   author: `${nickPart} [${sources.planetTolkien}]`,
 });
 
-export const dialects = make({ language: "en", input: "0.9.0" }, {
+const dialects1 = make({ language: "en", input: "0.9.0" }, {
   233: {
     ...planet("Коннектикут ?", "Arcormacolindóva", 52),
     content: `Three Reengz fer Elvin-keengz unduh th' sky
@@ -64,3 +64,24 @@ One Ring ta bring them all in the darkness bind them
 In the Land of Mordor where the Shadows lie.`
   },
 });
+
+const dialects2 = make({ language: "en" }, {
+  347: {
+    input: "0.14.0",
+    name: "Ali G's jargon",
+    author: "Cirion_12thRulingSteward",
+    content: `Trey rings fa da elvun-kings unda da sky,
+sevun fa da dwarf-lords in their alls of stone,
+nine fa mortal bruvers doomed to die,
+one fa da dark lord on is dark throne
+in da turf of mordor where da shadows lie.
+one rin to rule them all, one rin to check them,
+one rin to brin them all and in da darkness bind them
+in da turf of mordor where da shadows lie.`
+  },
+});
+
+export const dialects = [
+  dialects1,
+  dialects2,
+];

@@ -1,5 +1,6 @@
 import { book, make } from "../../utils";
 import { JAvidan } from "../../authors";
+import { sources } from "../../sources";
 
 export const nb = make({ language: "nor-b" }, {
   74: {
@@ -15,6 +16,19 @@ I det dunkle Mordor hvor skyggene rår.
 Én Ring skal samle dem, én Ring skal finne dem,
 Én Ring betvinge dem og i mørket binde dem
 I det dunkle Mordor hvor skyggene rår.`
+  },
+  340: {
+    input: "0.14.0",
+    name: "ранний вариант",
+    author: `draupnir [${sources.theonering}]`,
+    content: `Tre Ringer for alvene under den himmel blå,
+Sju for dvergene i deres saler av sten,
+Ni for dem som all kjødets gang må gå,
+Men for Mørkets Fyrste en eneste en
+I Mordors Rike hvor Skyggene rår.
+En Ring skal true dem, En Ring skal finne dem,
+En Ring skal kue dem og i Mørket binde dem
+I Mordors Rike hvor Skyggene rår.`
   },
 });
 

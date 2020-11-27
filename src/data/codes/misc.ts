@@ -3,6 +3,7 @@ import { make } from "../utils";
 import pic228 from "../pic/228gimmel.png";
 import pic229 from "../pic/229nuts.png";
 import main from "../main";
+import { sources } from "../sources";
 
 const pic = (image: any) => ({ type: "image" as const, image });
 
@@ -116,7 +117,25 @@ In t lad of Mardar war t Sad ly`
   },
 });
 
+const items = make({}, {
+  349: {
+    input: "0.14.0",
+    language: "e.eli",
+    comments: ['("Aoccdrnig to rscheearch at Cmabrigde Uinervtisy...")'],
+    author: `Cirion_12thRulingSteward [${sources.theonering}]`,
+    content: `Trehe Rgnis for the Eevln-kgns uednr the sky,
+Sveen for the Drwaf-lrdos in tehir hlals of sotne,
+Nnie for Mtaorl Men dmeood to die,
+One for the Drak Lrod on his drak tnrhoe
+In the Lnad of Mdroor wrehe the Swdohas lie.
+One Rnig to rlue tehm all, One Rnig to fnid tehm,
+One Rnig to bnrig tehm all and in the drkaesns bnid tehm
+In the Lnad of Mdroor wehre the Swdohas lie.`
+  }
+});
+
 export const list = [
   items1,
   items2,
+  items,
 ];

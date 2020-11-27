@@ -16,5 +16,7 @@ export const sources = {
   olmer: "tolkien.olmer.ru",
   planetTolkien: "planet-tolkien.com/board/",
   rosetta: "Tolkien Rosetta Stone",
+  theonering: "theonering.com",
+  torre: "Torre Shay",
   zbihniew: "Zbihniew ring verses (PDF)",
 };

@@ -1,4 +1,5 @@
 import { list as germanic } from "./germanic";
+import { ancient, greek } from "./greek";
 import { list as romance } from "./romance";
 
 export default [
@@ -16,9 +17,10 @@ export default [
   require("./sloven").sloven,
   require("./ukr").ukr,
 
-  require("./greek").ancient,
+  ancient,
+  greek,
   require("./irish").irish,
-  require("./lith").lit,
+  ...require("./lith").list,
   require("./romani").rom,
   require("./welsh").cymraeg,
 ];

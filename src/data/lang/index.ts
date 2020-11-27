@@ -14,6 +14,7 @@ export default [
   require("./tur").turkish,
   require("./tupi").tupi,
   ...require("./indonesian").list,
+  require("./zh").zh,
 
   ...require("./basque").list,
 

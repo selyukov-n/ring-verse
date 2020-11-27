@@ -45,4 +45,16 @@ Einn Hringur kemur þeim saman, einn hringur finnur þá
 Einn hringur þvingar þá til vítis
 i landi Mordors þar se skuggar ráða.`
   },
+  336: {
+    input: "0.14.0",
+    author: ic("Leifur~"),
+    source: sources.iceland,
+    book: ["I-3", 76],
+    content: `Þrjá hringa hlutu álfakonungar og varðveita þá í leynum.
+Sjö hringa hlutu dvergakonungar í djúpum klettasölum.
+Níu hringar gengu til manna, til ágjarnra manna sem seldu sál sína og ummynduðust í svarta skugga.
+En hringurinn EINI, sem ræður yfir öllum hinum var eign Saurons hins mikla og svarta, Myrkrahöfðingjans.
+Hringurinn eini til að drottna yfir þeim öllum,   hringurinn eini til að finna alla hina,
+hringur eini til að draga þá alla saman í myrkrinu   og binda saman allt vald á jörð...`
+  },
 });

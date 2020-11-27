@@ -60,4 +60,19 @@ En Ring skal samle dem, en Ring hittar dem,
 en Ring betvinge dem och i mörket binde dem
 i det land Mordor hvor skyggene rår.`
   },
+
+  346: {
+    input: "0.14.0",
+    name: "новый офиц. перевод",
+    author: "Lotta Olsson",
+    book: ["S-2", 71],
+    content: `Ringar tre skall alver se, under himlens rand,
+sju för dvärgars härskare, som djupt i berget bor,
+nio för människor, som döden tar omhand,
+en för Mörkrets herre, på mörka tronen stor,
+i Mordor, i skuggornas land.
+En ring att styra dem, en ring att se dem,
+en ring att fånga dem och till mörkret ge dem,
+i Mordor, i skuggornas land.`
+  },
 });

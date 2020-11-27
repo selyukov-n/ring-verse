@@ -1,4 +1,4 @@
-import { book, make } from "../utils";
+import { book, fromLotR, make } from "../utils";
 
 export const ancient = make({ language: "gre" }, {
   100: {
@@ -32,5 +32,22 @@ Daktýlios Mónwos sph' epágein erébessi dè deîn sphe
 Mórdori en khṓrēi hothi kankeîntai skíai aiweí`
       },
     ]
+  },
+});
+
+export const greek = make({ language: "el" }, {
+  350: {
+    input: "0.14.0",
+    name: fromLotR(),
+    author: "Eugenia Hatzithanasi-Kollia",
+    book: ["G-1", 152],
+    content: `Τρία δαχτυλίδια έχουνε οι Ξωτικοί βασιλιάδες στο θόλο τ' ουρανού από κάτω
+Εφτά οι Νάνοι άρχοντες στα πέτρινά τους τα παλάτια
+Εννιά οι ανθρώποι οι θνητοί που 'χουν τη μοίρα του θανάτου
+Ένα ο Μαύρος Άρχοντας που βασιλεύει στα σκοτάδια
+στης Μόρντορ τη γη που ζουν οι Σκιές
+Ένα, όλους να τους κυβερνά και να τους βρίσκει, Ένα
+Ένα, να τους μαζεύει όλους μαζί, με μαύρα μάγια, Ένα
+Στης Μόρντορ τη γη που ζουν οι Σκιές`
   },
 });

@@ -1,5 +1,6 @@
 import { JAvidan } from "../../authors";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
+import { sources } from "../../sources";
 
 const br = make({ language: "pt", name: "бразильский вариант" }, {
   63: {
@@ -45,6 +46,25 @@ Na Terra de Mordor onde as sombas se deitam.`
   },
 });
 
+const pt = make({ language: "pt" }, {
+  352: {
+    input: "0.14.0",
+    name: fromLotR(),
+    author: "Fernanda Pinto Rodrigues",
+    source: sources.torre,
+    book: ["P-1", 88],
+    content: `Três anéis para os Reis Elfos debaixo do céu,
+Sete para os Senhores dos Anões nos seus palácios de pedra,
+Nove para os Homens Mortais condenados a morrer,
+Um para o Senhor das Trevas no seu negro trono
+Na Terra de Mordor onde moram as Sombras.
+Um anel para a todos dominar, um anel para os encontrar,
+Um anel para a todos prender e nas trevas os reter
+Na Terra de Mordor onde moram as Sombras`
+  },
+});
+
 export const list = [
   br,
+  pt,
 ];

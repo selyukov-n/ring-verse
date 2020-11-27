@@ -1,6 +1,8 @@
+import { sources } from "../sources";
 import { book, make } from "../utils";
 import pic213ar from "../pic/213ara.png";
 import pic213hb from "../pic/213heb.png";
+import pic351 from "../pic/351ara.jpg";
 
 const pic = (image: any, name?: string) => ({ type: "image" as const, image, name });
 
@@ -25,5 +27,28 @@ fī bilād al-mūrdūr hiya dār aẓ-ẓalām
 fī bilād al-mūrdūr hiya dār aẓ-ẓalām`
       }
     ]
+  },
+  351: {
+    input: "0.14.0",
+    author: `YAZ [${sources.theonering}]`,
+    book: ["A", 168],
+    content: [
+      {
+        name: "Unicode",
+        text: ` ثلاثة خواتم لملوك الجن تحت السماء
+ سبعة لأسياد الأقزام في صالتهم الحجرية
+ تسعة للرجال الفانيين، مصيرهم الفناء
+ واحد لسيد الظلام على عرشه المظلم
+ في أرض موردور تقع الظلال
+ خاتم واحد لحكمهم كلهم، خاتم واحد ليجدهم
+ خاتم واحد ليجمعهم كلهم وفي الظلام يربطهم
+ في أرض موردور تقع الظلال`
+      },
+      {
+        name: "pic",
+        type: "image",
+        image: pic351,
+      }
+    ],
   },
 });

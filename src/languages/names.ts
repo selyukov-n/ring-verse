@@ -218,6 +218,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.idr": "Idrani",
   "c.mej": "Mejanyo",
   "c.zva": "Zvagah (Zha'vu'Pagah)",
+  "c.sso": "S'sonri",
 };
 
 export const encodings: Record<EncodingLang, string> = {
