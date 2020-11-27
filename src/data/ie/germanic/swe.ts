@@ -1,4 +1,5 @@
 import { JAvidan } from "../../authors";
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 export const swedish = make({ language: "swe" }, {
@@ -44,5 +45,19 @@ i Mordors land, där skuggorna ruva.
 En ring ska styra dem, en ring ska finna dem,
 en ring ska hämta dem och djupt i mörkret binda dem -
 i Mordors land, där skuggorna ruva.`
+  },
+
+  334: {
+    input: "0.13.6",
+    name: "норвежский диалект ?",
+    author: `jacqueline [${sources.iceland}]`,
+    content: `Tre Ringer for alvene under det blå;
+sju for dvärger i sal av sten;
+ni for men som all dömd gang må gå.
+Men for Mörkets herre en eneste en
+i det dunkle Mordor hvor skyggene rår.
+En Ring skal samle dem, en Ring hittar dem,
+en Ring betvinge dem och i mörket binde dem
+i det land Mordor hvor skyggene rår.`
   },
 });

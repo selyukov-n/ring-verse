@@ -1,4 +1,7 @@
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
+
+const ic = (name: string) => `${name} [${sources.iceland}]`;
 
 export const icel = make({ language: "ice" }, {
   81: {
@@ -27,5 +30,19 @@ einn fyrir herra myrkursins ríkidæmi
 Einn hringur til að ráða þeim öllum, einn hringur til að finna þá.
 Einn hringur til að koma þeim öllum saman í myrkrið og sameina þá
 Í landi þeirra venjulegu, þar sem skuggarnig ljúga.`
+  },
+
+  335: {
+    input: "0.13.6",
+    name: "перевод #334",
+    author: ic("Reykjavik.nu"),
+    content: `Þrir hringir fyrir álfarna undir það bláa
+Sjö fyrir dverga i steina salnum
+þið fyrir menn sem á dauðagang fara
+En fyrir skratta vitisins einn fyrir einn
+i einföldu Mordor þar sem skuggar ráða.
+Einn Hringur kemur þeim saman, einn hringur finnur þá
+Einn hringur þvingar þá til vítis
+i landi Mordors þar se skuggar ráða.`
   },
 });

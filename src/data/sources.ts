@@ -6,6 +6,7 @@ export const sources = {
   eldalie: "Eldalië.it - La poesia dell'Anello... in dialetto",
   gwaith: "Gwaith-i-Phethdain",
   hfilippo: "H.Flippo's site of German and Latin",
+  iceland: "Iceland.com Bulletin Board",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",
   jrrvf: "jrrvf.com/forum/", // Retraductions du Poème des Anneaux
   kniga2001: "kniga2001",

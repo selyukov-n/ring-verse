@@ -54,7 +54,8 @@ export const inputs = indexed({
   "0.12.0": { date: [2005, 8, 30], mainSource: sources.elbenwald },
   "0.13.0": { date: [2005, 8, 31], mainSource: sources.eldalie },
   "0.13.1": { date: [2005, 8, 31], mainSource: null },
-  "0.13.5": { date: [2005, 9, 20], mainSource: null }
+  "0.13.5": { date: [2005, 9, 20], mainSource: null },
+  "0.13.6": { date: [2005, 9, 21], mainSource: sources.iceland },
 });
 
 export type InputKey = keyof typeof inputs;
