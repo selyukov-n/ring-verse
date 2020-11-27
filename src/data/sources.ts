@@ -3,6 +3,7 @@ export const sources = {
   c: "Ring verses in C programming language",
   drops: "JRRT by Drops",
   elbenwald: "Elbenwaldforum",
+  eldalie: "Eldalië.it - La poesia dell'Anello... in dialetto",
   gwaith: "Gwaith-i-Phethdain",
   hfilippo: "H.Flippo's site of German and Latin",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",

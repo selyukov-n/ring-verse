@@ -89,6 +89,19 @@ Un Aniellu pa alcontralos,
 un Aniello pa atrayelos a toos ya ataros nas tinieblas
 na Tierra de Mordor ú extiendense las Sombras.`
   },
+
+  309: {
+    input: "0.13.0",
+    author: [],
+    content: `Tres anillos para los reyes elfos bajo el cielo
+Siete anillos para los señores enanos en sus casas de piedra
+Nueve anillos para los hombres mortales condenados a morir
+Uno para el Señor Oscuro en su trono oscuro
+En la tierra de Mordor donde habitan las tinieblas
+Un anillo para dirigirlos atodos, un anillo para encontrarlos
+Un anillo para atraerlos y en las tinieblas atarlos
+En la tierra de Mordor donde habitan las tinieblas.`
+  },
 });
 
 export const list = [

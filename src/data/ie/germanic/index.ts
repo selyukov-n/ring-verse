@@ -1,6 +1,7 @@
 import * as nor from "./nor";
 
 export const list = [
+  require("./afr").afrikaans,
   ...require("./da").default,
   ...require("./de").list,
   require("./en").dialects,

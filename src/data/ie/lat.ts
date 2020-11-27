@@ -132,6 +132,22 @@ Unus ut omnes regnare, unus ut omnes invenire
 Unus ut omnes colliger et in tenebris vincire
 In Terra Negra, ubi umbrae extendent.`
   },
+
+  312: {
+    input: "0.13.0",
+    author: "Deldúwath, or Earindilyon [theonering.com]",
+    book: book("L-6", 192),
+    content: `Tres Anuli regibus Alfonum sub caelo,
+Septem Dominis Nanorum in lapidis aulis,
+Novem Hominibus Mortalibus ad morendum damnatis,
+Unus Domino Obscuro in solio obscuro,
+In Terra Mordoris ubi Umbrae,
+Unus Anulus ad eos omnes regendos,
+Unus Anulus ad eos inveniendos,
+Unus Anulus ad eos omnes ferendos
+et eos in tenebris astringendos,
+In Terra Mordoris ubi Umbrae.`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

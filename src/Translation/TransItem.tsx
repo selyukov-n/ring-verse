@@ -33,6 +33,7 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
 };
 
 const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
+  if (Array.isArray(b)) b = { num: b[0], page: b[1] };
   const book = b && <>
       Book {b.num}, p. {b.page}
       {b.comment && <><br />* {b.comment}</>}

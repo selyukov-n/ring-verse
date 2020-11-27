@@ -24,7 +24,7 @@ export type Item = {
   content: Variant[] | string;
   input: InputKey;
   source?: string; // if differ from input.mainSource
-  book?: { page: number, num: string, comment?: string };
+  book?: { page: number, num: string, comment?: string } | [string, number];
   comments?: Array<string | { text: string, type?: "error" | "warning" }>;
 };
 
