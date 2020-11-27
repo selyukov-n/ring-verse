@@ -58,6 +58,37 @@ Uno Ringo a rule them all, Uno Ringo a find them,
 Uno Ringo a bring them all y en la darkness bind them
 En la Land de Mordor Quien la Shadows lie.`
   },
+
+  252: {
+    input: "0.10.5",
+    name: "арагонский диалект",
+    author: [],
+    book: book("S-a", 84),
+    content: `Tres aniellos t’os Reis Elfos baxo o zielo,
+Siete t’os Siñors Nanos en casa de piedra,
+Nueu t’os Ombres Mortals condenaus a morir,
+Uno t’o siñor Fosco, sobre o trono escuro
+En a Tierra de Mordor an s’ixemenan as Güembras
+Un Aniello ta gubernar-los a toz,
+Un Aniello ta trobar-los,
+Un Aniello ta atrayer-los a toz y piar-los en as tiniebras
+En a Tierra de Mordor an s’ixemenan as Güembras`
+  },
+  253: {
+    input: "0.10.5",
+    name: "леонский (астурийский) диалект",
+    author: [],
+    book: book("S-l", 84),
+    content: `Tres aniellos pa los Reis Elfos baxu'l cieu,
+Sietë pa los Siñores Enanos en casas de piadra,
+Nuevë pa los Homes Mortales condenaos a morrire,
+Unu pa'l Siñor Escuru, sobru'l tronu escuru
+na Tierra de Mordor ú se extiendense las Sombras.
+Un Aniellu pa gobernalos a toos,
+Un Aniellu pa alcontralos,
+un Aniello pa atrayelos a toos ya ataros nas tinieblas
+na Tierra de Mordor ú extiendense las Sombras.`
+  },
 });
 
 export const list = [
