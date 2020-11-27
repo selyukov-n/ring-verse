@@ -4,6 +4,7 @@ export default [
 
   require("./ba-gym").data,
   require("./elder").elder,
+  require("./drow").drow,
   require("./kkh").kh,
   require("./tlh").default,
 
