@@ -56,6 +56,20 @@ Eraztun bat guztiak gobernatzeko, Eraztun bat guztiak aurkitzeko,
 Eraztun bat guztiak erakarri eta ilunpetan estekatzeko
 Itzalak hedatzen diren Mordor Lurraldean.`
   },
+
+  258: {
+    input: "0.10.10",
+    author: "Chris Bates",
+    content: `Hiru eraztun zeruaren azpiko iratxoen erregeentzat,
+Zazpi harrizko gelen barruko epotxen jaunentzat,
+Bederatzi hilgo diren gizonentzat,
+Bat erregeaulki ilunean esertzen den jaun gaizkinarentzat,
+itzalak dauden herri ilunean.
+Eraztun bat guztiak jauntzeko,
+Eraztun bat guztiak aurkitzeko.
+Eraztun bat guztiak eramateko eta ilunean lotzeko.
+Itzalak dauden herri ilunean.`
+  },
 });
 
 export const list = [

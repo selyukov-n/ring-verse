@@ -46,6 +46,7 @@ export const inputs = indexed({
 4. искусственные языки разбиты на классы` },
   "0.10.1": { date: [2005, 8, 28], mainSource: "band Saurom lamderth - album Sombras del este (2002)" },
   "0.10.5": { date: [2005, 8, 29], mainSource: "Congregación de Magos" },
+  "0.10.10": { date: [2005, 8, 29], mainSource: sources.listserv },
 });
 
 export type InputKey = keyof typeof inputs;

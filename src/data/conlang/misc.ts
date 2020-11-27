@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { book, make, tonal } from "../utils";
 import pic219 from "../pic/219hon.jpg";
 import pic186 from "../pic/186gac.gif";
@@ -321,7 +322,102 @@ Avetare Mordorhe melilara waltya`
   },
 });
 
+const lang3 = make({ input: "0.10.10" }, {
+  254: {
+    language: "c.kash",
+    author: "Roger Mills",
+    content: `karunile çehamali ri vaka neleç, aniti sit-
+karunile kakramboli ri punaçni cangar, sot-
+kaçile kayi re horem ya yuçoñi, san-
+kranisa calandruwe ri kungulani oramba, mes-
+ri vaka krahangamaç ri içinin Mondor.
+mes anit re nin vetrita yuno, nin yatromat,
+
+mes anit re nin runjanga yuno, nin yakoceñ ri vaka krahangamaç ri içinin Mondor.`
+  },
+  255: {
+    language: "c.kash",
+    author: "Roger Mills",
+    name: "первоначальная версия",
+    content: `karunile shehamali ri waka nelesh, aniti sit-
+karunile kakramboli ri punani cangar, sot-
+kashile kayi re nile yushom horem, san-
+krakakarun calandruwe ri kungulani oramba, mes-
+ri waka krahangamash ri ishinin Mondor.
+
+Mes anit yuno nin wetrita, nin yatromat,
+Mes anit yuno nin runjanga, nin yakoceñ
+ri waka krahangamash ri ishinin Mondor`
+  },
+  256: {
+    language: "c.vel",
+    author: "Cian Ross",
+    content: `Tríur cuartur Elda-Regaivos fwi i menelû.
+Efsur Naukes-taroivos in térasur ondéasur aicasur.
+Novur Thánténanýntuivos Atánuivos cintyusswi thánein.
+Sénu i Moroio Taroio ár tésessu moressu cúressu.
+In i Noresu Mordorû caloc gráta lusteir.
+Tarwoin[4] Sénusu Cuartusu sálumas.
+Túvein Sénusu Cuartusu sálumas.
+Ilicépain Sénusu Cuartusu sálumas ce lígain in i morimenû túmas.
+In Noresu Mordorû caloc gráta lusteir.`
+  },
+  257: {
+    language: "c.aul",
+    author: "Michael Poxon",
+    content: `Del rónu mairiaulerilde inda kiria
+Baitzi hano kingerelde harni ondunelea
+Deksi gurin dungerelde
+Bai murkanorde ladakunea
+Murulaia aha murina la.
+
+Rónu bai gien geldinarde,
+Rónu bai lien guninarde,
+Rónu bai gien autinarde,
+O murinaia laku na,
+Murulaia 'ha murina la.`
+  },
+  259: {
+    language: "c.sen",
+    author: `caeruleancentaur [${sources.listserv}]`,
+    content: `tir aanoni tusi çemelos unða punïonmeÿμaltusi o
+sefte tusi tosi ondïonosi cantïëdemosi ena ondïonarïusi o
+neun tusi møtëstosi møta casaþusi ertïonusi o
+oi tus reemus nuμos rezsedos ena reemarïus o
+tos cöu toni çaayoni noçeya reemos reμos ena vöaala.
+oi aanon solomi nomi reßa, oi aano-n solo-mi no-mi dees-a,
+oi aanon solomi nomi verca cai tas reemas ena no-mi venða,
+tos cöu toni çaayoni noçeya reemos reμos ena vöaala.`
+  },
+  260: {
+    language: "c.idr",
+    author: "Trent Pehrson",
+    content: `Qechtatyi ksulkankokiqav kaiyihov,
+Skuayi intijokiqav nestistrowar,
+Ksauwi sameqav k’rakruem kotth,
+Suwizhi chojowiqavzha nakhchoretsi.
+A mortomanih choretth.
+I byekib kankosh.
+I byekib dnaish.
+I byekib tesh, rabnosh chowinih in,
+I mortomanih choretth.`
+  },
+  261: {
+    language: "c.mej",
+    author: `JC [${sources.listserv}]`,
+    content: `nyoxaetsekil pethera nebe nevereloli shela crenado,
+olara koianaloli rogeno pahetadoli ta rolo,
+lotora inokololi emi shafrotsekil breth,
+epara enkoilot zaofalo marokwodot zaofado,
+cradejorodo vaes zoinyoton joroli.
+pethet epa koisio grera, pethet epa fapanao,
+pethet epa tajenao grera bisa fratal inzaofado,
+cradejorodo vaes zoinyoton joroli.`
+  },
+});
+
 export const list = [
   lang1,
   lang2,
+  lang3,
 ];

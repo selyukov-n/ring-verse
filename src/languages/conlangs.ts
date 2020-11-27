@@ -42,6 +42,12 @@ export const conlangs = group(g.conlangs,
     lang("c.hon", "Dotan Brom"),
     lang("c.tre", "Mogy aka Beorn - Tomer Bärmann"),
     lang("c.ave", "Harold Ensle"),
+    lang("c.kash", "Roger Mills ?"),
+    lang("c.vel", "Cian Ross ?"),
+    lang("c.auleri", "Michael Poxon ?"),
+    lang("c.sen", "Charlie Brickner"),
+    lang("c.idr", "Trent Mitchell Pehrson"),
+    lang("c.mej", "JC ?"),
   )
 );
 export type Conlang = (typeof conlangs)["id"];
