@@ -16,4 +16,6 @@ export default [
   require("./indonesian").indonesian,
 
   ...require("./basque").list,
+
+  require("./oph").ophenian,
 ];

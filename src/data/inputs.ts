@@ -49,6 +49,7 @@ export const inputs = indexed({
   "0.10.10": { date: [2005, 8, 29], mainSource: sources.listserv },
   "0.11.0": { date: [2005, 8, 29], mainSource: `Dirk Thierbach's collection on ${sources.elbenwald}` },
   "0.11.3": { date: [2005, 8, 29], mainSource: sources.elbenwald },
+  "0.11.5": { date: [2005, 8, 29], mainSource: null },
 });
 
 export type InputKey = keyof typeof inputs;
