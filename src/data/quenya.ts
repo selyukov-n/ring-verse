@@ -85,6 +85,22 @@ Mine Corna tur ilquenea, Mine Corna entuve ilquen,
 Mine Corna tulta ilquen ar mi i lume maca ilquen
 Mi i Arda Mordor masse i Umbar caite.`
   },
+
+  251: {
+    input: "0.10.1",
+    author: "Saurom lamderth - Sombras del este (2002)",
+    content: [{
+      title: "Cormalaire",
+      text: `Nelde cormar eldaron nu menel aranin
+Otso cormar casarin ondie rondossen
+Nerte cormar fírinain cemesse aranin
+Mine herumoren morne ostoryassen
+Yasse lumnar i lumbor Morinóresse
+Mine turien te, mine tuvien
+Mine tultien te, huinesse nutien
+Yasse lumnar i lumbor Morinóresse`
+    }]
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {
