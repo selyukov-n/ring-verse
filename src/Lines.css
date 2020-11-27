@@ -34,6 +34,9 @@
   font-family: Braille;
   font-size: 24px;
 }
+.mono .card-body {
+  font-family: monospace;
+}
 .morse .card-body {
   font-family: Morse;
   font-size: 24px;

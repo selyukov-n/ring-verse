@@ -5,7 +5,9 @@ export const c = make({ language: "e.c" }, {
     input: "0.3.5",
     comments: ["не то что бы перевод, но..."],
     author: "Mordred of CyberLite",
-    content: `#define Three int
+    content: [{
+      type: "mono",
+      text: `#define Three int
 #define Rings main() {int the=3;
 #define Elven 2
 #define kings 1
@@ -65,6 +67,6 @@ In (the Land of Mordor) where the Shadows ("lie.");
 them
 In (the Land of Mordor) where the Shadows ("lie.");
 
-CopyRight(c) by Tolkien`
+CopyRight(c) by Tolkien`}]
   }
 });
