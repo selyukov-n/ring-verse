@@ -28,4 +28,17 @@ Hoch SeHmeH wa' Qeb 'ej bIH maghmeH wa' Qeb,
 Hoch qemmeH 'ej ramDaq bIH baghmeH wa' Qeb
 morDor puHDaq, QIbmeyDaq 'oH chenmoHlu'.`
   },
+  263: {
+    input: "0.11.0",
+    author: [],
+    book: book("K-3", 211),
+    content: `chalbIngDaq 'elDajoHpu'vaD wej Qeb
+naghjuHmeychajDaq nawqo'joHpu'vaD Soch
+HeghmeH Humanpu'vaD jubbe' luqIchlu'bogh Hut.
+quS'a'DajDaq Hurgh joHvaD Hurgh wa'
+Qotbogh QibmeyDaq morDor puHDaq
+Hoch che'meH wa' Qeb, tu'meH wa' Qeb
+Hoch qemmeH wa' Qeb 'ej lan HurghDaq bagh
+Qotbogh QibmeyDaq morDor puHDaq`
+  },
 });

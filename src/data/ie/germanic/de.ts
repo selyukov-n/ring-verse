@@ -59,6 +59,21 @@ a ring dassas bindnn duat, a ring dassas findnn duat,
 a ring dassa olle zaumbringt unt in da finstda bindnn duat,
 in launt moadoaa wo di schotdn liang duan`
   },
+
+  264: {
+    input: "0.11.0",
+    name: "нижнебаварский диалект",
+    author: "Dirk Thierbach",
+    book: book("G-lb", 60),
+    content: `Drei Ring hab'n de Elbenköni ob'n im Liacht
+Simi de Zwerg'nkini in eanerne stoanenen Haiser
+De Menschenen, immer den Toad verfoin, neine
+Oana fürn schwoarzen Herrscher auf seim düstern Tron
+In mordor, wos finsta is
+Oa Ringal se zu knechten, se alle zua find'n
+Ins Dunk'l zua treib'n und für imma zua bind'n
+In mordor, wos finsta is.`
+  },
 });
 
 export const list = [

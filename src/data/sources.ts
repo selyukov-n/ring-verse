@@ -2,6 +2,7 @@ export const sources = {
   ank: "AnK Tolkien Poetry Translations",
   c: "Ring verses in C programming language",
   drops: "JRRT by Drops",
+  elbenwald: "Elbenwaldforum",
   gwaith: "Gwaith-i-Phethdain",
   hfilippo: "H.Flippo's site of German and Latin",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",

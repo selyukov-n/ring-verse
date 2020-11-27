@@ -118,6 +118,20 @@ Unus iis qui inveniat,
 Unus illatos qui in tenebris cunctos vinciat
 In terra Mordore qua manent umbrae.`
   },
+
+  262: {
+    input: "0.11.0",
+    author: [],
+    book: book("L-8", 193),
+    content: `Tres anuli regibus elfibus sub caelo,
+Septem dominis pumilis in suo palatiis ex lape,
+Novem hominibus mortalibus, qui morior debent
+Unus Domino Nigro super suo nigro sede;
+In Terra Negra, ubi umbrae extendent.
+Unus ut omnes regnare, unus ut omnes invenire
+Unus ut omnes colliger et in tenebris vincire
+In Terra Negra, ubi umbrae extendent.`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {
