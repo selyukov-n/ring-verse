@@ -217,6 +217,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.sen": "Senyecan",
   "c.idr": "Idrani",
   "c.mej": "Mejanyo",
+  "c.zva": "Zvagah (Zha'vu'Pagah)",
 };
 
 export const encodings: Record<EncodingLang, string> = {
@@ -229,7 +230,7 @@ export const encodings: Record<EncodingLang, string> = {
   "e.hex": "Hexspeak",
   "e.sndex": "Soundex",
   "e.dmsnd": "Daitch-Mokotoff Soundex",
-  "e.nysiis": "NYSIIS (New York State Identification and Intelligence System)",
+  "e.nysiis": "NYSIIS (New York State Identification and Intelligence System, 1970)",
   "e.ver": "Verlan",
   "e.g": "The G Language",
   "e.nuts": "The Nuts Language",

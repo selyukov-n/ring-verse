@@ -2,6 +2,7 @@ export default [
   require("./eo").esperanto,
   require("./ido").ido,
 
+  require("./basic").en,
   require("./ba-gym").data,
   require("./elder").elder,
   require("./drow").drow,

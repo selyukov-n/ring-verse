@@ -48,6 +48,7 @@ export const conlangs = group(g.conlangs,
     lang("c.sen", "Charlie Brickner"),
     lang("c.idr", "Trent Mitchell Pehrson"),
     lang("c.mej", "JC ?"),
+    lang("c.zva", 'Kristian "Zhayena" K. Wangen'),
   )
 );
 export type Conlang = (typeof conlangs)["id"];

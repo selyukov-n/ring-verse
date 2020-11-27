@@ -416,8 +416,26 @@ cradejorodo vaes zoinyoton joroli.`
   },
 });
 
+const lang = make({}, {
+  333: {
+    input: "0.13.5",
+    language: "c.zva",
+    source: "Alqualondë.com",
+    author: 'Kristian "Zhayena" K. Wangen',
+    content: `ty'ulanydi Reh ye'Kirflin ye'Vulnynuxi'vu'Mahndyc ihl'Renu
+ty'ulanydi Jaux ye'Kirflin ye'Jehli'vu'Archdyc si'Basidiyan'vu'Itolny
+ty'ulanydi Nil ye'Kirflin ye'Zreny, ta'vuljum vu'Odiena
+ty'arch Hy Kirflin Yen'Yodehli vu'Ofekien ofdreg vus'Sidah'Pehskir
+ta'ba ye'Ofycli vus'Turuyen Mordor
+ak'ta'jehliyan Hy Kirflin, ta'olnähian Hy Kirflin,
+ta'zahdilian Hy Kriflin, ta'ilidvuian vus'Ofekien
+ta'ba ye'Ofycli vus'Turuyen Mordor`
+  },
+});
+
 export const list = [
   lang1,
   lang2,
   lang3,
+  lang,
 ];
