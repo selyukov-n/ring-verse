@@ -1,4 +1,5 @@
 import { JAvidan } from "../../authors";
+import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 const it = make({ language: "it" }, {
@@ -58,6 +59,19 @@ In tla tèr ad Mòrdor dóv li Ómbar a'szténd.
 Ún Anèl par cuntrullàral tòt, ún Anèl par truvàral,
 Ún Anèl par ciapàral tòt e 'ntal scùr ligàral
 In tla tèr ad Mòrdor dóv li Ómbar a'szténd.`
+  },
+
+  266: {
+    input: "0.11.3",
+    author: `Berúthiêl [${sources.elbenwald}]`,
+    content: `Tre anelli per i Elven-re sotto il cielo,
+sette per i Nano-signori nei loro corridoi della pietra,
+nove per gli uomini mortali hanno condannato morire,
+uno per il signore scuro sul suo throne scuro
+nella terra di Mordor in cui le ombre si trovano.
+Un anello per regolarlo tutti, un anello per trovarli,
+un anello per portarli tutti e nella nerezza li legano
+nella terra di Mordor in cui le ombre si trovano.`
   },
 });
 

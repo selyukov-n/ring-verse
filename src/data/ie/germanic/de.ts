@@ -74,6 +74,34 @@ Oa Ringal se zu knechten, se alle zua find'n
 Ins Dunk'l zua treib'n und für imma zua bind'n
 In mordor, wos finsta is.`
   },
+  265: {
+    input: "0.11.3",
+    name: "Pälzisch диалект",
+    author: `Gwaeronion [${sources.elbenwald}]`,
+    book: book("G-pf", 59),
+    content: `Droi Ringe de Elwekönische do owwe im Licht,
+Siwwe de Zwergeherrscherr in ihrn Halle aus Stää,
+De Sterblische, eewisch m Tod verfalle, noin,
+Ääner m Dunggle Herrn uff 'm dunggle Thron
+Im Land Mordor, wu de Schadde droon.
+Ään Ring, sie zu knechte, sie alle zu finne,
+ins dunggel zu treiwe un ewisch zu binne
+Im Land Mordor, wu de Schadde droon.`
+  },
+  267: {
+    input: "0.11.3",
+    name: "рейнский гессенский (Rheinhessisch) диалект",
+    author: `Laurelhass Elmegil [${sources.elbenwald}]`,
+    book: book("G-r", 58),
+    content: `Drei Ringelscher fer de Elwegenische obbe im Lischt
+Siebbe de Zweggehescher en ehre Halle aus Stoh
+De Sterblische, ewisch 'm Dode verfalle noin
+Onie dem Dunkle Hescher uf dunklem Thron
+im Lande Modor, wo die Schatte drohn,
+Oh Ring se zu kneschte, se alle zu finne,
+ins Dungel zu treibe, un ewisch zu binne,
+im Lande Modor, wo die Schatte drohn.`
+  },
 });
 
 export const list = [
