@@ -1,4 +1,5 @@
 import { book, make } from "./utils";
+import { sources } from "./sources";
 
 const sind1 = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
   31: {
@@ -77,7 +78,62 @@ Min Ardh Mordor ias i Núath caedar.`
   },
 });
 
+const sind2 = make({ language: "sindarin", input: "0.12.0" }, {
+  276: {
+    name: "перевод с немецкого #64",
+    author: [],
+    book: book("S-2", 25),
+    content: `Neled Chýr in Edhelerain hall ned i Galad,
+Odog in Nergetherain ne dain Themb ed Sern,
+In Fîr, uireb i 'urth gorgor, neder,
+Iancôr i hîr dûr or sad dûr,
+Ned i Vor Mordor, i sad erin Avathar darthar.
+Côr sain na bartha, sain pain na hira,
+Ned i Dhuath na tegi a uireb na gwedha.
+Ned i Vor Mordor, i sad erin Avathar darthar.`
+  },
+  277: {
+    author: `Lothenon [${sources.elbenwald}]`,
+    book: book("S-7", 29),
+    content: `Neledh Cyrf an erain edhellin nui Menel
+Odog an Nogoth-brennyn mi themais hernui ín
+Neder an Edain firib, barad a ngwannad
+Min am Mrannon-Dûr bo archamm vorn dín
+Mi ndôr Mordor ias i Ndúath caedar.
+Er-Chorf an orthored hain phain, er-Chorf a chired hain,
+Er-Chorf a thoged hain phain a mi Fuin gwedhed hain
+Mi ndôr Mordor ias i Ndúath caedar.`
+  },
+  278: {
+    author: [],
+    content: `neled cyr an in edhirain nui menel,
+odog an heidhodrennyn no themb e-gond is,
+neder an in fir barad firi,
+ian an garon-dur ned barad-dur in
+ne mordor manad darthar in gwaith,
+ian cor bauglo hain, ian cor hiro hain,
+ian cor tegi sain pain a ne mor gwedho,
+ne mordor manad dorthar in gwaith.`
+  },
+  281: {
+    author: `Eri Tajayanar [${sources.elbenwald}]`,
+    book: book("S-8", 30),
+    content: [{
+      title: "Hîr i Chorvath",
+      text: `Nêl Cyrf 'nin Eldherain nui menel
+Odog 'nin hîr Nogothrim vi ethrynn dîn,
+Neder 'nin Edain fírib beraid 'nan gûr,
+Mîn 'nin Hîr Vorn bo Mahal Vorn
+Vi Mordor innas i Nguruthos.
+Mîn Corf an othored hain phain, Mîn Corf hain an nired,
+Mîn Corf an nolthad hain phain ar vin môr hain an noded
+Vi Mordor innas i Nguruthos.`
+    }]
+  },
+});
+
 export default [
   sind1,
   sind,
+  sind2,
 ];

@@ -101,6 +101,23 @@ Mine tultien te, huinesse nutien
 Yasse lumnar i lumbor Morinóresse`
     }]
   },
+
+  280: {
+    input: "0.12.0",
+    author: "Helmut W. Pesch",
+    book: book("Q-8", 22),
+    content: [{
+      title: "Heru i Cormaron",
+      text: `Nelde Cormar Eld'aranin nu i menel,
+Otso Naucoheruin mí ondomardentar,
+Nerte Firim'atanin fairenen marte,
+Mine Herumoren mahalma mornasse,
+Mi Mornanóre yasse caitar Huini.
+Mine Corma turien te ilye, Mine Corma tuvien te,
+Mine Corma tucien te ilye ar morniesse nutien te
+Mi Mornanóre yasse caitar Huini.`
+    }]
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {

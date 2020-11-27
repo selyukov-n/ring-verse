@@ -1,6 +1,8 @@
 import { book, make } from "../../utils";
 import { sources } from "../../sources";
 
+const elbenwald = (name: string) => `${name} [${sources.elbenwald}]`;
+
 const de = make({ language: "de" }, {
   64: {
     input: "0.2.0",
@@ -77,7 +79,7 @@ In mordor, wos finsta is.`
   265: {
     input: "0.11.3",
     name: "Pälzisch диалект",
-    author: `Gwaeronion [${sources.elbenwald}]`,
+    author: elbenwald("Gwaeronion"),
     book: book("G-pf", 59),
     content: `Droi Ringe de Elwekönische do owwe im Licht,
 Siwwe de Zwergeherrscherr in ihrn Halle aus Stää,
@@ -91,7 +93,7 @@ Im Land Mordor, wu de Schadde droon.`
   267: {
     input: "0.11.3",
     name: "рейнский гессенский (Rheinhessisch) диалект",
-    author: `Laurelhass Elmegil [${sources.elbenwald}]`,
+    author: elbenwald(`Laurelhass Elmegil`),
     book: book("G-r", 58),
     content: `Drei Ringelscher fer de Elwegenische obbe im Lischt
 Siebbe de Zweggehescher en ehre Halle aus Stoh
@@ -104,6 +106,49 @@ im Lande Modor, wo die Schatte drohn.`
   },
 });
 
+const de2 = make({ language: "de", input: "0.12.0" }, {
+  273: {
+    name: "диалект Берна (Швейцария)",
+    author: elbenwald("Ankou"),
+    book: book("G-sw", 61),
+    content: `Drei Ringä dä Eubächönigä höch im Liecht,
+Sibä dä Zwärgäherrscher i irnä Hauä us Stei,
+Dä Stärblechä, ewig em Tod verfauä, nüün,
+Einä am Dunklä Herrscher uf em dunklä Thron
+Im Land Mordor, wo d' Schattä drohed.
+ä Ring, sä z' chnächtä, sä aui z' findä,
+It Dunkuheit z' tribä und ewig z' bindä
+Im Land Mordor, wo d' Schattä drohed.`
+  },
+  275: {
+    name: "южнотирольский диалект",
+    author: elbenwald("Ringknechter"),
+    book: book("G-t", 65),
+    content: `Drei Ring in di Elbmkinig hoach im Liacht
+Siame in die Zwergnherschor in ihrn holln as Stoan
+in die mensch ewig zum okrotzn vorurteilt neine
+Oanen im dunkln Herrschor af saien dunkln Trohn
+Im lond fu Mordor wo di schottn san
+Oan Ring se zu knechtn, se olle zu findn
+ins dunkl zu gean und ewig zua bindn
+im lond fu Mordor wo die schottn san.`
+  },
+  279: {
+    name: "Oberpfäzisch-Bayrisch диалект",
+    author: elbenwald("Chaos Master"),
+    book: book("G-opb", 61),
+    content: `Drei Ringe für die Elbmköniche droom im Licht,
+Siem für die Zwerngherscher in ihre Halln as Staa,
+Für die Sterblichen, ewich m Dode vafalln, neun,
+Oaner fürn dunkln Herrn am dunkln Dhron.
+Im Land Mordor, wou die Schattn drohn.
+Oi Ring sie zu Knechten, sie alle zu fiener,
+Ins Dunkl zu dreim, und ewich zu bindn.
+Im Land Mordor wou die Schatn drohn.`
+  },
+});
+
 export const list = [
   de,
+  de2,
 ];
