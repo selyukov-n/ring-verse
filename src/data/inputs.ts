@@ -60,6 +60,7 @@ export const inputs = indexed({
   "0.14.5": { date: [2005, 9, 26], mainSource: sources.artlangs },
   "0.15.0": { date: [2005, 9, 27], mainSource: null },
   "0.16.0": { date: [2005, 9, 28], mainSource: null },
+  "0.16.1": { date: [2005, 9, 29], mainSource: "Middle Earth's Central" },
 });
 
 export type InputKey = keyof typeof inputs;
