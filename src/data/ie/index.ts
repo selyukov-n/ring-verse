@@ -21,6 +21,7 @@ export default [
   greek,
   require("./irish").irish,
   ...require("./lith").list,
+  require("./pers").persian,
   require("./romani").rom,
   require("./welsh").cymraeg,
 ];
