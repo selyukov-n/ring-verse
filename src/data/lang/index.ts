@@ -9,6 +9,8 @@ export default [
   require("./aramaic").aramaic,
   require("./egypt").aeg,
   ...require("./heb").list,
+
+  require("./malay").malay,
   require("./tag").tagalog,
   require("./tamil").tamil,
   require("./tur").turkish,

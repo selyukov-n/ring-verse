@@ -1,4 +1,5 @@
 import { book, make } from "../utils";
+import { sources } from "../sources";
 
 export const tagalog = make({ language: "tgl" }, {
   189: {
@@ -26,5 +27,21 @@ Sa Bayan ng Mordor na dinadalaw ng mga Anino.
 Isang Singsing para mamahalain silang lahat, Isang Singsing para hanapin sila,
 Isang Singsing para dalhin silang lahat at sa dilim gapusin sila
 Sa Bayan ng Mordor na dinadalaw ng mga Anino.`
+  },
+  382: {
+    input: "0.15.0",
+    source: sources.barrodowns,
+    book: ["T-3", 174],
+    author: `Belegfenion [${sources.barrodowns}]`,
+    content: `Tatlong Singsing para sa mga Haring Engkantada sa ilalim ng langit,
+Pito para sa mga Panginoong Dwende sa kanilang mga bulwagang bato,
+Siyam para sa mga Taong Mortal na itinadhanang mamatay,
+Isa para sa Madilim na Panginoon sa kanyang madilim na trono,
+Sa Lupain ng Kadiliman kung saan nakahimlay ang mga Anino.
+Isang singsing para silang lahat ay pagharian,
+Isang singsing para sila'y hanapin,
+Isang singsing para silang lahat ay dalhin,
+At sa kadilima'y sila'y pagsama-samahin.
+Sa lupain ng Kadiliman kung saan nakahimlay ang mga Anino.`
   },
 });

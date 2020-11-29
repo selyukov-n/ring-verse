@@ -1,3 +1,4 @@
+import { ME } from "../../authors";
 import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
@@ -78,6 +79,19 @@ in da turf of mordor where da shadows lie.
 one rin to rule them all, one rin to check them,
 one rin to brin them all and in da darkness bind them
 in da turf of mordor where da shadows lie.`
+  },
+  374: {
+    input: "0.15.0",
+    name: '"Swedish chef!", Bork, bork, bork!',
+    author: ME,
+    content: `Three-a Reengs fur ze Ilfee Keengs under ze sky,
+Sefee fur ze Dverff Lurds in zeeur hells ooff stune-a,
+Neene-a fur Murtel Mee, duumed tu deee-a,
+Oone-a fur ze Derk Lurd aon hees derk thrune-a,
+In ze lund ooff Murdur, vhere-a ze shedoos leee-a,
+Oone-a Reeng tu roole-a zeem ell, Oone-a Reeng tu feend zeem,
+Oone-a Reeng tu breeng zeem ell und in ze derkness beend zeem
+In ze lund ooff Murdur, vhere-a ze shedoos leee-a.`
   },
 });
 

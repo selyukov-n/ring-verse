@@ -104,6 +104,20 @@ Oh Ring se zu kneschte, se alle zu finne,
 ins Dungel zu treibe, un ewisch zu binne,
 im Lande Modor, wo die Schatte drohn.`
   },
+
+  380: {
+    input: "0.15.0",
+    source: sources.barrodowns,
+    author: [],
+    content: `Drei Ringe für die Elven-Könige unter dem Himmel,
+Sieben für die Zwergherren in ihren Hallen des Steins,
+Neun für sterbliche Männer verloren,
+Eins für den Dunklen Herren auf seinem dunklen Thron
+im Land von Mordor wo die Schattenlüge zu sterben.
+Ein Ring, um über sie ganz, ein Ring zu herrschen, um sie, ein Ring zu finden,
+um sie zu bringen, alle, und in der Dunkelheit binden sie
+im Land von Mordor, wo die Schatten liegen.`
+  },
 });
 
 const de2 = make({ language: "de", input: "0.12.0" }, {

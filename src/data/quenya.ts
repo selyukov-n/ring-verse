@@ -118,6 +118,42 @@ Mine Corma tucien te ilye ar morniesse nutien te
 Mi Mornanóre yasse caitar Huini.`
     }]
   },
+
+  376: {
+    input: "0.15.0",
+    author: "Silmahtar [minastirith.com]",
+    source: "minastirith.com",
+    content: [{
+      title: "Heru i Cormaron",
+      text: `Nelde cormar Eldaranin nu i vilya,
+Otso Naucoherin hrótarentassen sarna,
+Nerte Firimarin namine firita,
+Er i Mornaherun mahalmaryasse morna
+I Morinorasse yassen caitar i Huini.
+
+Er Corma heritatilye, Er Corma hiritat,
+Er Corma hostatilye ar i móresse avaleryat
+I Morinorasse yassen caitar i Huini.`
+    }]
+  },
+  377: {
+    input: "0.15.0",
+    author: [],
+    source: "wilwarinart",
+    content: [{
+      title: "cormon laire",
+      text: `nelde cormar eldatárin nu i menel
+otso naucoheruin ondova mardentassen
+nerte fírime nerin martyaina fairenna
+er moreheron or mormahalmarya
+nóre mornóresse yasse i huini caitar
+er corma ilquen turient
+er corma hirient
+er corma ilquen hostient
+ar i morniesse avaleryat
+nóre mornóresse yasse u huini caitar`
+    }]
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {

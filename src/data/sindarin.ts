@@ -89,6 +89,20 @@ Corf Vin gwathror bân, Corf Vin hirir,
 Corf Vin tolthor bân a vi i fuin remar.
 Uin dôr Mordor ias i dhûath dorthar.`
   },
+
+  378: {
+    input: "0.15.0",
+    author: "Taur Edhel [forums.lotro.turbine.com]",
+    source: "lotro.turbine.com",
+    content: `Nêl cyrf a thoeredhellyn nuin menel
+Odog a chîrnoegyl nedh themais gondren
+Neder a firion barthannen gwanna
+Min corf am morhîr bo morarcham tîn
+Vin dhor o Mordor ias i ngwaith caedad
+Min corf terthir pân, Min corf hirir
+Min corf tegir pân, vin dhúath gwethir
+Vin dhor o Mordor ias i ngwaith caedad`
+  },
 });
 
 const sind2 = make({ language: "sindarin", input: "0.12.0" }, {

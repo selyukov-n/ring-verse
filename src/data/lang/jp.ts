@@ -1,6 +1,7 @@
 import { ItemGroup } from "../types";
 import { book } from "../utils";
 import pic49 from "../pic/49jap.png";
+import { sources } from "../sources";
 
 export const jp: ItemGroup = {
   49: {
@@ -45,5 +46,21 @@ kurayami-no naka-ni tsunagitomeru.
 Kage yokotawaru morudóru-no kuni-ni.`
       },
     ]
-  }
+  },
+  379: {
+    input: "0.15.0",
+    language: "jap",
+    author: `Joy [${sources.barrodowns}]`,
+    source: sources.barrodowns,
+    content: `Enjin no san shozoku kingu no elfu entenka amanohara desu.
+Enjin no shichi shozoku jouin no dwafu uchi no ishi desu.
+Enjin no kyuu shozoku jin no inochi unmeiteki bossuru desu.
+Enjin no ichi shozoku no akuma e bodou gyokuza no yuumei desu.
+Gen'ya no Morudoru doko hokage harikomu desu.
+
+Enjin no ichi e matsurigoto minna desu.
+Enjin no ichi e aritsuku minna desu.
+Enjin no ichi e tsurikomu to tokoyami shibarikomu minna desu.
+Gen'ya no Morudoru doko hokage harikomu desu.`
+  },
 };

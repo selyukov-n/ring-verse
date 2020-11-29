@@ -1,8 +1,9 @@
 export default [
+  require("./basic").en,
   require("./eo").esperanto,
   require("./ido").ido,
+  require("./tp").toki_pona,
 
-  require("./basic").en,
   require("./ba-gym").data,
   require("./elder").elder,
   require("./drow").drow,

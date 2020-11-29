@@ -178,6 +178,48 @@ const ru_k = make({ language: "j.ru", input: "0.7.0", source: sources.kniga2001 
   },
 });
 
+const ru_alt = make({ language: "j.ru", input: "0.15.0", source: sources.alt_forum, author: [] }, {
+  398: {
+    content: `Три кольца проректорам,
+Пять - научным докторам,
+Семь - деканам факультетов,
+Девять - членам студсоветов.
+И одно - чтоб их тёмною волей сковать,
+Там, в ректорате, где Он правит навеки,
+Куда не ступала нога человека.`
+  },
+  399: {
+    content: `Три кольца - немытым оркам
+Что воняют и смердят,
+Семь - могучим горным троллям,
+Что мозгами не блестят,
+Девять, скажем, элефантам
+И наездникам на них,
+Ну а Прелесть - Смеагорлу,
+Чтобы наконец притих!`
+  },
+  400: {
+    content: `Три кольца - тщедушным эльфам,
+Чтоб совсем не сдохли.
+Семь колец - пещерным гномам,
+Чтоб копать не взмокли.
+Девять - людям Средиземья,
+Обалденно жутким,
+Чтоб бивать тщедушных эльфов
+Девять раз за сутки...`
+  },
+  401: {
+    content: `Три зрачка - прекрасным эльфам,
+Украшеньем ихних тел.
+Семь зрачков - подгорным гномам,
+Чтобы видеть в темноте.
+Девять - скажем, Кухулину,
+Так положено ему.
+А один, багрово-красный,
+Сами знаете кому.`
+  },
+});
+
 export const en = map({
   23: {
     content: `Nine megs for the secretaries fair,
@@ -276,6 +318,19 @@ One wab to invent them all, one wab to find them,
 One wab to say them all until everyone goes mad.
 In the land of Klummwab where the wabs lie.`
   },
+  375: {
+    input: "0.15.0",
+    author: "Christian Lassen",
+    source: "Technology in Middle-Earth",
+    content: `Three Rings for the Telecom Kings under the sky,
+Seven to the Dwarf-Lords for their calls at home.
+Nine for Mortal Men doomed to pay,
+One for the Dark Lord on his dark throne,
+In the land of Mordor, where the phone bills lay.
+One Ring to call them all, One Ring to find them,
+One Ring to phone them all and to the contract bind them,
+In the land of Mordor, where the phone bills lay.`
+  },
 });
 
 const cm = (author: string) => ({ source: sources.captionmachine, author: `${author} [${sources.captionmachine}]` });
@@ -317,6 +372,6 @@ In the Land of Self-Loathing where freedom and pluralism die.`
 });
 
 export default [
-  ru, ru_ank, ru_k,
+  ru, ru_ank, ru_k, ru_alt,
   en, en2, en3,
 ];

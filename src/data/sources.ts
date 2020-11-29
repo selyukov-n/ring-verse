@@ -1,6 +1,8 @@
 export const sources = {
+  alt_forum: 'Форум "Альтернатива"',
   ank: "AnK Tolkien Poetry Translations",
   artlangs: "The Artlangs Community",
+  barrodowns: "The Barrow-Downs Discussion Forum",
   c: "Ring verses in C programming language",
   captionmachine: "www.captionmachine.com",
   drops: "JRRT by Drops",
