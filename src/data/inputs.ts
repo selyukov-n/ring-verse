@@ -62,6 +62,7 @@ export const inputs = indexed({
   "0.16.0": { date: [2005, 9, 28], mainSource: null },
   "0.16.1": { date: [2005, 9, 29], mainSource: "Middle Earth's Central" },
   "0.16.3": { date: [2005, 10, 1], mainSource: "dunadan.persianblog.com" },
+  "0.16.5": { date: [2006, 4, 17], mainSource: null },
 });
 
 export type InputKey = keyof typeof inputs;

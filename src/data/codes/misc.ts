@@ -131,7 +131,20 @@ In the Lnad of Mdroor wrehe the Swdohas lie.
 One Rnig to rlue tehm all, One Rnig to fnid tehm,
 One Rnig to bnrig tehm all and in the drkaesns bnid tehm
 In the Lnad of Mdroor wehre the Swdohas lie.`
-  }
+  },
+  419: {
+    input: "0.16.5",
+    language: "e.ver",
+    author: ME,
+    content: `Oitre neauhas pour les oir feuél sous le lecieu,
+Tecè pour les gneucès nains dans leurs leças d'ierpe,
+Feneu pour meheaux telmors nédeste au patré,
+Un pour le Gneucè Breçon dans son netreau renoi
+Dans l'ipai de Dormor, l'ipai des breçons.
+Un Neauha pour les négouver tous, Un Neauha por les vétrou,
+Un Neauha pour les nerame et dans les nèbreté les iél
+Dans l'ipai de Dormor, l'ipai des breçons.`
+  },
 });
 
 export const list = [

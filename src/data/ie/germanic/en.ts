@@ -95,7 +95,44 @@ In ze lund ooff Murdur, vhere-a ze shedoos leee-a.`
   },
 });
 
+const dialects3 = make({ language: "en", input: "0.16.5", author: ME }, {
+  416: {
+    name: "(Ниж.) Шотландия",
+    content: `Three rings for the Elfin-kings unner the sky,
+Seeven for the Dwarf-lords in their ha's o stone.
+Nine for Mortal Men, doomed tae dee,
+Ane for the Dark Lord on his dark throne
+In the land o Mordor where the Shaidaes lie.
+Ane Ring tae rule thaim a', Ane Ring to fin thaim,
+Ane Ring tae bring thaim a' an in the darkness bind thaim
+In the land o Mordor where the Shaidaes lie.`
+  },
+  417: {
+    name: "Frenglish",
+    content: `A triad of Circles for the Elven-governors under the blue,
+A heptad for the Gnome-princes in their subterranean caverns,
+An ennead for Mortal Humans, destined to depart,
+Single for the Obscure Commander on his obscure throne
+In the country of Mordor that the phantoms inhabit.
+Single Circle to govern them all, Single Circle to search them,
+Single Circle to collect them all and in the obscurity chain them
+In the country of Mordor that the phantoms inhabit.`
+  },
+  418: {
+    name: "Anglish",
+    content: `Three Rings for the Elven-kings under the sky,
+Seven for the Dwarf-lords in their halls of stone,
+Nine for short-living Men doomed to die,
+One for the Dark Lord in his dark land,
+In the land of Mordor where the Shadows lie.
+One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them
+In the land of Mordor where the Shadows lie.`
+  },
+});
+
 export const dialects = [
   dialects1,
   dialects2,
+  dialects3,
 ];
