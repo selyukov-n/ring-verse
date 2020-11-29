@@ -1,7 +1,10 @@
 import { groups as g } from "./names";
 import { group, lang } from "./utils";
+import { sources } from "../data/sources";
 
 const langs = <T extends string>(name: string, author: string, ...ids: T[]) => group(name, ...ids.map(id => lang(id, author)));
+
+const art = (name: string) => `${name} [${sources.artlangs}]`;
 
 export const conlangs = group(g.conlangs,
   group(g.arda_related, "c.bugn", "c.karkhuzdul"),
@@ -50,6 +53,13 @@ export const conlangs = group(g.conlangs,
     lang("c.mej", "JC ?"),
     lang("c.zva", 'Kristian "Zhayena" K. Wangen'),
     lang("c.sso", `elengil [theonering.net]`),
+    lang("c.kar", art("nortala")),
+    lang("c.sja", art("blank_stare")),
+    lang("c.p-nal", art("Matt")),
+    lang("c.tza", art("Tzani")),
+    lang("c.del", art("John")),
+    lang("c.sin", art("BenjaBurns")),
+    lang("c.led", art("D-WesTMaCoTT")),
   )
 );
 export type Conlang = (typeof conlangs)["id"];

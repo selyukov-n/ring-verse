@@ -62,6 +62,19 @@ Um anel para a todos dominar, um anel para os encontrar,
 Um anel para a todos prender e nas trevas os reter
 Na Terra de Mordor onde moram as Sombras`
   },
+  361: {
+    book: book("P-2", 89),
+    input: "0.14.5",
+    author: `blank_stare [${sources.artlangs}]`,
+    content: `Três Anéis para os Reis Elfos debaixo do céu,
+Sete para os Senhores Anões nos seus salões de pedra,
+Nove para Homens mortais destinados a morrer.
+Um para o Senhor Negro no Seu negro trono,
+Na terra de Mordor onde as sombras se deitam.
+Um Anel para todos governar, Um Anel para Os achar,
+Um Anel para todos trazer e nas trevas Os aprisionar.
+Na terra de Mordor onde as sombras se deitam.`
+  }
 });
 
 export const list = [

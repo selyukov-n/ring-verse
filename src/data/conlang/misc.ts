@@ -446,9 +446,95 @@ Ith lashna Mordor lashk wajib`
   },
 });
 
+const art = (name: string) => `${name} [${sources.artlangs}]`;
+
+const artlangs = make({ input: "0.14.5" }, {
+  354: {
+    language: "c.kar",
+    author: art("nortala"),
+    content: `day'iradi rin vin raapi elf aara uhn a
+sis vin raapi du'orf theriimi loi an a
+y vin mileshe karli arlikasii dy a
+fas vin raapi k'mi'ias jimba k'mi'ias iru a
+ovani tyse morrdorr vin koshte ayhase
+day'iradi fas vin pri semitse lo ksia, day'iradi fas vin pri mirase lo
+day'iradi fas vin pri tonayse lo ksia kin k'mi'ias a kaaiase lo
+ovani tyse morrdorr vin koshte ayhase`
+  },
+  356: {
+    language: "c.p-nal",
+    author: art("Matt"),
+    content: `û dai fû bensi oa sî yoa liþem roinâs û bei rûnsin.
+â sî vâ kestin daikiw oa sî da ûð oa sî yoa sandan roinâs ê ka toi bei.
+oa sî yoa sindei beyin yeilen ê ka sen toi.
+â dai cî lance poinî oa dai da am oa dai yoa lance roinâs toi.
+šoa recni â sî funlen oa dai vâ neksim da dai Môrdôr:
+coinü ê sî sinde am û toi rûnsin. hanpe ê sî am û toi rûnsin.
+kaftês ê sî sinde am û toi rûnsin. kai oa dai vâ lance roabes ê sî am û toi rûnsin.
+šoa recni â sî funlen oa dai vâ neksim da dai Môrdôr:`
+  },
+  360: {
+    language: "c.tza",
+    author: art("hybrid-2k"),
+    content: `Rhine twa Konyoyzedun Alphwos Tyuroayun'wab,
+Gidwa Klorwoyzedun Dhwaros GernyoTaklozul akazan,
+Gikwa Wukwazedan mordhorkh Adhoagun mordho.
+Wa DewkoKlorwoyedun DewkoThurwoyayun'ul akaan,
+Gerdweyayin'il Mordor draylshia Sworneys westar.
+Rhine wa wokapedan ghwakar, Rhine wa dwager akazedan,
+Rhine wa wokapedan ghenyar, oy Nakwoyayun twanar akazedan.
+Gerdweyayin'il Mordor draylshia Sworneys westar.`
+  },
+  362: {
+    language: "c.del",
+    author: art("John"),
+    content: `Nácós nuada am íclób alfu am æþab
+Véstas am íclób, dwarfu am lacrób am roludób
+Néstas am andób íþlu ménum
+Am dém am Mordab am istarób modæn
+Yédas am íclab staru am þómas staru
+Nácas yéda ícím méæ sracín méæ
+Nácas yéda grabím méæ ruabím am starab méæ
+Am dém am Mordab am istarób modæn`
+  },
+  363: {
+    language: "c.sin",
+    author: art("BenjaBurns"),
+    content: `Sembe Amen ein Eltíre Celnéthi bau a feldor,
+Thembe ei Camya Caléirthi deu ortha thornátse,
+Anne Anárthi mennéso igirrállan mene,
+Menel an Caléiri Úvia Leu sathirárne úvia
+Menel Amai gelthéde eir, Menel Amai lhingáde
+Menel Amai velínde eir il an uvialenárne laldáde.`
+  },
+  365: {
+    language: "c.led",
+    author: art("D-WesTMaCoTT"),
+    content: [
+      {
+        name: "традиционная транслитерация",
+        text: `Shtal kerii ante shif Situire Iemlare alianma she dhiu,
+Ielka ante shif Situire Keesare nae kacga roodikem xaem,
+Eal ante she Situiro Sharko anx aadhrago sharko krom.
+Eal Kero ante barke xaes siterke, Eal Kero ante xaes ursinke.
+Eal Kero ante barke xaes rishke a nae sharkia xaes caike.`
+      },
+      {
+        name: "современная транслитерация",
+        text: `Shtal kerí ante shif Situire Iemlare alianma she thiu,
+Ielka ante shif Situire Késare nar katsga ródikem ghaem,
+Eal ante she Situiro Sharko angh áthrago sharko krom.
+Eal Kero ante barke ghaes siterke, Eal Kero ante ghaes ursinke.
+Eal Kero ante barke ghaes rishke a nae sharkia ghaes tsaike.`
+      }
+    ]
+  },
+});
+
 export const list = [
   lang1,
   lang2,
   lang3,
   lang,
+  artlangs,
 ];

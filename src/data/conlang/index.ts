@@ -11,5 +11,6 @@ export default [
 
   ...require("./ang").list,
   ...require("./misc").list,
+  require("./sjast").sj,
   require("./zbihniew").byZbihniew,
 ];

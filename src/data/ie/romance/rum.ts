@@ -27,4 +27,18 @@ Unde-s Umbrele în Ţara Mordor, ca să le găsească
 Să le ferece pe toate, astfel să le stăpânească,
 Unde-s Umbrele, în Ţinutul Mordor, în întunecime.`
   },
+  370: {
+    input: "0.14.5",
+    author: [],
+    book: book("R-2", 106),
+    source: sources.jrrt_memorial,
+    content: `Trei inele pentru stapânii Elfi cei de sub soare,
+Sapte pentru ei, Piticii de vita din sali de stânca,
+Noua, Oamenilor care stiu ca-n lumea lor se moare,
+Unul pentru el, Seniorul Intunecimii, in noaptea lui adânca,
+Unde-s umbrele in Tinutul Mordor, ca sa le gaseasca,
+Si pe toate sa le adune un inel si altul nime,
+Sa le ferece pe toate, astfel sa le stapâneasca,
+Unde-s umbrele, in Tinutul Mordor, in intunecime.`
+  },
 });

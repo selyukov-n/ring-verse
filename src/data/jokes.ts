@@ -278,7 +278,45 @@ In the land of Klummwab where the wabs lie.`
   },
 });
 
+const cm = (author: string) => ({ source: sources.captionmachine, author: `${author} [${sources.captionmachine}]` });
+const en3 = make({ language: "j.en", input: "0.14.5" }, {
+  366: {
+    ...cm("miv"),
+    content: `Three vetos for great powers under the sky,
+Some votes for the dwarf lords in their halls of stone,
+None for mortal men doomed to die,
+One for the dark Bush on his dark throne,
+In the big police state where the shadows lie,
+One cash to rule them all, One to occupy them,
+One cash to bring them all and in the darkness bind them!
+In the big police state where the shadows lie.`
+  },
+  367: {
+    ...cm("JK"),
+    content: `Three Rings for the coalition under the sky,
+Seven for the Muslim leaders in their bunkers of stone,
+Nine for the Arabs doomed to die,
+One for the Dark Lord on his dark throne
+In the Land of the free where the Shadows lie.
+One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them
+In the U.S of A where the politicians lied.`
+  },
+  368: {
+    source: "jihadwatch.org",
+    author: "Narmer [jihadwatch.org/dhimmiwatch/]",
+    content: `Three Rings for the Media-kings with cynical condescension high,
+Seven for the Academics and western imperialism to bemoan,
+Nine for Multiculturalism doomed to die,
+One for the Islamist, with fascism cast in a religious tone
+In the Land of Self-Loathing where Zionism and Racism tie.
+One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in political correctness blind them
+In the Land of Self-Loathing where freedom and pluralism die.`
+  }
+});
+
 export default [
   ru, ru_ank, ru_k,
-  en, en2,
+  en, en2, en3,
 ];

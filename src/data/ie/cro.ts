@@ -42,6 +42,20 @@ Jedan Prsten da vlada svima, Jedan Prsten da ih naðe,
 Jedan prsten da ih sve okupi i u tami da ih sveže
 U zemlji Mordor gdje sjene leže.`
   },
+  371: {
+    input: "0.14.5",
+    source: sources.jrrt_memorial,
+    author: [],
+    content: `Tri prstena za kraljeve vilovnjaka pod nebom
+Sedam za gospodare patuljaka u njihovim halama od kamena
+Devet za smrtnog coveka prokletog da umre
+Jedan za Tamnog Gospodara na njegovom tamnom tronu
+U zemlji Mordor gde senke leze
+Jedan prsten da im svima gospodari
+Jedan prsten da ih sve nadje
+Jedan prsten da ih sve donese i u tami veze
+U zemlji Mordor gde senke leze`
+  },
 });
 
 export const list = [

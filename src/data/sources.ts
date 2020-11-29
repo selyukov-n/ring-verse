@@ -1,6 +1,8 @@
 export const sources = {
   ank: "AnK Tolkien Poetry Translations",
+  artlangs: "The Artlangs Community",
   c: "Ring verses in C programming language",
+  captionmachine: "www.captionmachine.com",
   drops: "JRRT by Drops",
   elbenwald: "Elbenwaldforum",
   eldalie: "Eldalië.it - La poesia dell'Anello... in dialetto",
@@ -8,6 +10,7 @@ export const sources = {
   hfilippo: "H.Flippo's site of German and Latin",
   iceland: "Iceland.com Bulletin Board",
   iad: "Translations of the Ring Rhyme by Ivan Derzhanski",
+  jrrt_memorial: "J.R.R.Tolkien Memorial",
   jrrvf: "jrrvf.com/forum/", // Retraductions du Poème des Anneaux
   kniga2001: "kniga2001",
   listserv: "listserv.brown.edu",
