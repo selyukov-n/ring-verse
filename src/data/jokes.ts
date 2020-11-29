@@ -70,6 +70,20 @@ const ru = make({ language: "j.ru" }, {
 Он собрал наконец -
 Но куда же засовывать гвоздик?`
   },
+
+  411: {
+    input: "0.16.0",
+    source: sources.mith,
+    author: "Кэвин [valar.ru]",
+    content: `Три процента на налоги - для счастливой старости,
+Семь процентов черным налом - для сокрытой радости,
+Девять людям в синей форме - для служебной сладости,
+Зная чётко наперед нужды все и слабости,
+А один – никчёмный властелину бизнеса,
+Чтоб пересчитать их всех, чтоб лишить дохода,
+И объединить их всех, на глазах народа,
+Под владычеством всесильным властелина бизнеса.`
+  },
 });
 
 const ru_ank = make({ language: "j.ru", input: "0.0.5" }, {
@@ -371,7 +385,24 @@ In the Land of Self-Loathing where freedom and pluralism die.`
   }
 });
 
+const pol = make({ language: "j.po" }, {
+  409: {
+    input: "0.16.0",
+    source: sources.wmigurok,
+    author: [],
+    content: `Trzy pierścienie dla mistrzów Jedi, co władają mocą,
+Siedem dla Ewoków, kurduplom niech będą pomocą,
+Dziewięć dla przyszłych Sithów, co cenią nienawiźć,
+Jeden dla Imperatora, co na czarnym tronie zasiadł,
+Na planecie Coruscant, gdzie zaległy cienie.
+Jeden, by innymi rządzić, Jeden, by je odnaleźć,
+Jeden, by wszystkie zgromadzić i w ciemności związać
+Na planecie Coruscant, gdzie zaległy cienie.`
+  },
+});
+
 export default [
   ru, ru_ank, ru_k, ru_alt,
   en, en2, en3,
+  pol,
 ];

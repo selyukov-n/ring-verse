@@ -1,4 +1,5 @@
 import { book, fromLotR, make } from "../utils";
+import { sources } from "../sources";
 
 export const ancient = make({ language: "gre" }, {
   100: {
@@ -62,5 +63,21 @@ export const greek = make({ language: "el" }, {
 Ένα, όλους να κυβερνά και να τους βρίσκει, Ένα
 Ένα, να τους μαζεύει όλους μαζί, με μαύρα μάγια, Ένα
 Στη γη της Μόρδορ, που ζουνε οι σκιές`
+  },
+  407: {
+    input: "0.16.0",
+    source: sources.wmigurok,
+    author: [],
+    content: [{
+      name: "латиница",
+      text: `Tria dahtlidia gia tous Xotikous Vasiliades kato apo ton Ourano
+Efta gia tous Nanous Arhontes sta petrina tous domata
+Ennea gia tous Thnitous Anthropous kataramenous na pethanoun
+Ena gia to Skoteino Arhonta sto Skoteino tou Throno
+sti gi tis Morntor pou aplonontai skies
+Ena dahtylidi na ta exousiazei ola, ena dahtylidi na ta vriskei
+Ena dahtylidi na ta fernei ola, kai sto skotadi na ta denei
+sti gi tis Morntor pou aplonontai skies`
+    }]
   },
 });

@@ -18,10 +18,13 @@ export const sources = {
   listserv: "listserv.brown.edu",
   lodz_tpsa: "lodz.tpsa.pl/bez/Tolkien/vers-eng.html",
   md: "Mellonath Daeron",
+  mith: "mith.ru",
   olmer: "tolkien.olmer.ru",
   planetTolkien: "planet-tolkien.com/board/",
   rosetta: "Tolkien Rosetta Stone",
   theonering: "theonering.com",
+  tolkien_cz: "Jeden Prsten vládne vśem - 100x jinak",
   torre: "Torre Shay",
+  wmigurok: "WMIGUROK Portal Fantasy",
   zbihniew: "Zbihniew ring verses (PDF)",
 };

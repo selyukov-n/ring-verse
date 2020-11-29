@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { book, make } from "../utils";
 
 const pol_drops = make({ language: "pol", input: "0.1.5" }, {
@@ -68,6 +69,20 @@ W Ziemi Mordoru gdzie Cienie zalegają.
 Jeden pierścień by rządzić wszystkim, Jeden pierścień by odnaleźć wszystkie,
 Jeden pierścień by sprowadzić je wszystkie i w ciemności połączyć
 W Ziemi Mordoru gdzie Cienie zalegają.`
+  },
+  405: {
+    input: "0.16.0",
+    source: sources.wmigurok,
+    author: "Marek Gumkowski",
+    book: ["P-4", 43],
+    content: `Dla elfich władców pod niebem jasnym trzy są pierścienie,
+Dla krasnoludzkich podziemnych królów pierścieni siedem,
+Dziewięć dla ludzi - tych ostatecznym śmierć przeznaczeniem,
+Dla władcy mroku na czarnym tronie jest pierścien jeden
+W krainie Mordor, gdzie wiecznej nocy zaległy cienie.
+Pierścień jedyny, by władać wszystkimi, czarem je opetać,
+Pierścień jedyny, by wszystkie zgromadzić i w ciemnościach spętać
+W krainie Mordor, gdzie wiecznej nocy zaległy cienie.`
   },
 });
 

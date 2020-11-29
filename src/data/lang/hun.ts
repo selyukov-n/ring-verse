@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { book, make } from "../utils";
 
 export const hun = make({ language: "hun" }, {
@@ -13,5 +14,19 @@ Mordor éjfekete földjén, sűrű árnyak mezején.
 Egy Gyűrű mind fölött, Egy Gyűrű kegyetlen,
 Egy a sötétbe zár, bilincs az Egyetlen,
 Mordor éjfekete földjén, sűrű árnyak mezején.`
+  },
+  408: {
+    input: "0.16.0",
+    source: sources.wmigurok,
+    author: [],
+    name: "дословный перевод",
+    content: `Három Gyűrű a Tünde-királyoknak az ég alatt,
+Hét a Törp-uraknak a kőcsarnokaikban,
+Kilenc a Halandó Embereknek, halálra ítéltetetteknek,
+Egy a Sötét Úrnak a sötét trónján
+Mordor földjén ahol az Árnyékok fekszenek.
+Egy Gyűrű uralkodjon mindegyiken, Egy Gyűrű találja meg őket,
+Egy Gyűrű hozza őket el és a sötétségben kösse meg őket
+Mordor földjén ahol az Árnyékok fekszenek.`
   },
 });

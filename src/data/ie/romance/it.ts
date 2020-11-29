@@ -75,6 +75,20 @@ Un anello per regolarlo tutti, un anello per trovarli,
 un anello per portarli tutti e nella nerezza li legano
 nella terra di Mordor in cui le ombre si trovano.`
   },
+
+  403: {
+    input: "0.16.0",
+    source: sources.tolkien_cz,
+    author: [],
+    content: `Tre anelli per i re degli Elfi sotto il cielo,
+Sette per i signori dei Nani nelle aule di pietra,
+Nove per gli uomini votati alla morte,
+Uno per il Signore tenebroso sul cupo trono
+Nella terra di Mordor dove posano le ombre.
+Un unico anello per reggerli tutti e trovarli
+E adunarli e legarli nel buio,
+Nella terra di Mordor dove posano le ombre`
+  },
 });
 
 const dialects = make({ language: "it", input: "0.13.0" }, {

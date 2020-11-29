@@ -118,6 +118,22 @@ Ein Ring, um über sie ganz, ein Ring zu herrschen, um sie, ein Ring zu finden,
 um sie zu bringen, alle, und in der Dunkelheit binden sie
 im Land von Mordor, wo die Schatten liegen.`
   },
+
+  402: {
+    input: "0.16.0",
+    source: sources.tolkien_cz,
+    name: "швейцарский вариант",
+    author: [],
+    book: ["G-sw3", 62],
+    content: `Drei Ring für d Chünige vo de Elbe höch obe im Liecht,
+Siebe für Zwärgeherre i irne Halle us Schtei,
+De Mönsche, schtärblich wie si sii, dene gits nüün,
+Eine für dr schwarzi Herrscher uf sim schwarze Throon,
+im Land vo Mordor, wo di dunkle Schatte sii
+ä Ring, für sie knächte, sie alli z finge
+Itz Dunkle z triibe und eewig z binge
+Im Land vo Mordor, wie di dunkle Schatte sii`
+  },
 });
 
 const de2 = make({ language: "de", input: "0.12.0" }, {
