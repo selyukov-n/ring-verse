@@ -66,4 +66,18 @@ Hring án eal gewealdende, Hring án æghwilc gefindende,
 Hring án eal gebringende and in þéostrum æghwilc gebindende
 In land Ðéostornessa hwær licgaþ scedwa.`
   },
+
+  425: {
+    input: "0.17.0",
+    source: "elendili.pl",
+    author: "Nero [elendili.pl]",
+    content: `Þrēo Hringas for þǣm ælfcyningum under þǣm sƿeȝl,
+Seofon for þǣm dƿeorgfrēan in hieran stāne heallum,
+Nigon for þǣm motlican menn tō dēaðe ȝedēmed,
+Ān for þǣm deorc hlāford on deorcful stōlum
+In þǣm land Mordor, hƿǣr þā sceadƿe mīðaþ.
+Ān Hring, hīe tō ƿealdenne eall, eall tō findenne,
+Eall tō ȝefecgenne and in deorcnes tō bindenne,
+In þǣm land Mordor, hƿǣr þā sceadƿe mīðaþ.`
+  }
 });

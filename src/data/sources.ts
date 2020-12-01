@@ -25,6 +25,8 @@ export const sources = {
   theonering: "theonering.com",
   tolkien_cz: "Jeden Prsten vládne vśem - 100x jinak",
   torre: "Torre Shay",
+  translations: "переводы ВК",
+  vt13: "Vinyar Tengwar #13, pp. 13 - 15",
   wmigurok: "WMIGUROK Portal Fantasy",
   zbihniew: "Zbihniew ring verses (PDF)",
 };

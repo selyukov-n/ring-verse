@@ -1,5 +1,7 @@
-import { make } from "../utils";
+import { sources } from "../sources";
+import { fromLotR, make, tonal } from "../utils";
 import pic338 from "../pic/338chi.jpg";
+import pic420 from "../pic/420chi.gif";
 
 export const zh = make({ language: "zh" }, {
   338: {
@@ -21,6 +23,54 @@ export const zh = make({ language: "zh" }, {
         type: "image",
         image: pic338,
       }
+    ]
+  },
+  420: {
+    input: "0.17.0",
+    source: sources.translations,
+    name: "путунхуа; " + fromLotR(),
+    author: [],
+    book: ["C-p", 175],
+    content: [
+      {
+        name: "pic",
+        type: "image",
+        image: pic420,
+      },
+      {
+        name: "pinyin",
+        text: tonal(`san1 da4 jie4-zhi3 gui1-shu3 tian1
+xia4 xsiao3-jing2-zhu1-jun1
+qui1 da4 jie4-zhi3 gui1-shu3 shi2-ting1
+xsiao3-ai3-ren2 lie4 wang2
+jiu3 mei2 jie4zhi3 shu3 yu2 yang2
+shou4 ke3 shu4 de5 fan2 ren2.
+hai2 you3 yi4 mei2 shu3 yu2 gao1 ju1
+yu4 zuo4 de5 hei1 kui2 shou3.
+mo4 dou1 da4 di4 hei1 ying3 chuang2chuang2
+yi4 mei2 jie4 zhi3 tong3 ling3 zhong4
+jie4, jin3 gui1 luo2 wang3,
+yi4 mei2 jie4 zhi3 jin4 gu4 zhong4
+jie4, hun1 an4 wu2 guang1.
+mo4 dou1 da4 di4 hei1 ying3 chuang2chuang2`)
+      },
+      {
+        name: "система Палладия",
+        text: `сань да цзе-чжи гуй-шу тянь
+ся сяо-цзин-чжу-цзюнь
+цюйi да цзе-чжи гуй-шу ши-тин
+сяо-ай-жэнь ле ван
+цзю мэй цзечжи шу юй ян
+шоу кэ шу дэ фань жэнь.
+хай ю и мэй шу юй гао цзюй
+юй цзо дэ хэй куй шоу.
+мо доу да ди хэй ин чуанчуан
+и мэй цзе чжи тун лин чжун
+цзе, цзинь гуй ло ван,
+и мэй цзе чжи цзинь гу чжун
+цзе, хунь ань у гуан.
+мо доу да ди хэй ин чуанчуан`
+      },
     ]
   },
 });

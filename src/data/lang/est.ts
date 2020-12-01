@@ -1,4 +1,5 @@
-import { book, make } from "../utils";
+import { sources } from "../sources";
+import { book, fromLotR, make } from "../utils";
 
 export const ee = make({ language: "est" }, {
   78: {
@@ -13,5 +14,20 @@ Seal, kus laiub Mordor, varjurahva vald.
 Üks Sõrmus juhib neid ja kaugelt toob nad,
 Üks Sõrmus saadab neid ja pimedusse seob nad.
 Seal, kus laiub Mordor, varjurahva vald.`
+  },
+  421: {
+    input: "0.17.0",
+    source: sources.translations,
+    name: fromLotR(),
+    author: "Votele Viidemann",
+    book: ["E-1", 161],
+    content: `Kolm Sõrmust haldjahõimul sinitaeva all,
+Seitse päkapikkudel maa külmis kivikambreis,
+Üheksale ülemaks on sureliku vald,
+Üks kuulub Isandale, kellevõim on kangeim
+Maal, mil nimeks Mordor, musta Varju all.
+Üks sõrmus juhib neid, Üks leiab üles,
+Üks Sõrmus toob nad kokku pimeduse süles
+Maal, mil nimeks Mordor, musta Varju all.`
   },
 });

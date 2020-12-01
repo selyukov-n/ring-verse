@@ -182,7 +182,79 @@ Mi arda Morinor yasse lumbor caitar.`
   }
 });
 
+const q3 = make({ language: "quenya", input: "0.17.0", source: sources.vt13 }, {
+  427: {
+    author: ["Ronal Kyrmse", "Julian Bradfield"],
+    name: "(1981)",
+    book: ["Q-1", 16],
+    content: `Nelde Cormar Eldaturin nu menel,
+otso Naucaturin mi ondomardi,
+nelnelde Atanin fírin umbarnen,
+ere Morituren morimahalmasse
+Morindoresse yass' i lumbuli caitar.
+Ere Corma ilye canien, ere Corma túvien,
+Ere Corma ilye yalien ar moresse mandien
+Morindoresse yass' i lumbuli caitar.`
+  },
+  428: {
+    name: "(1982)",
+    author: "Michael Poxon",
+    book: ["Q-2", 16],
+    content: `Nelde cormar hereldarin
+Otso cormar herenaukin
+Enelde i firatanin
+Er corma Herumori morimahalmásse
+Noresse yar lumbuli, í morindoresse
+Ere corma canatilye ere tuvatilye
+Ere yanliatilye ar morinen mandátilye
+Noresse yar lumbuli, í Morindoresse.`
+  },
+  430: {
+    name: "(1982)",
+    author: "Patrick Wynne",
+    content: [{
+      title: "Quettalinde i Cormaron",
+      text: `Nelde Cormar i Eldaranin nu i menel,
+Otso i Naukatárin ondorondontassen.
+Vinde Fírimain yaron ambar ná fírie,
+Ere i Herumornan i mornamahalmasse
+Mí nórie Mornanórei, yasse caitar i lumbuli.
+Ere Corma ilye te túrien, Ere Corma te tuvien,
+Ere Corma ilye te yalien ar morniesse te mandien
+Mí nórie Mornanórei, yasse caitar i lumbuli.`
+    }]
+  },
+  431: {
+    name: "(1988)",
+    author: ["Chris Gilson", "Jorge Quiñónez"],
+    content: [{
+      title: "Corma Laire Quenyasse",
+      text: `Nelde Cormar Elda-harnin nu elenarda,
+Otso Nauco-héruin toia ondorondassen,
+Nerte Atanin fairenen umbartar,
+Mine Morna Héren morna mahalmasse
+Mí Nóre Mornandor yasse Mordor caitar.
+Mine Corma turie te ilye, Mine Corma hirie te,
+Mine Corma tucie te ilye ar mí mornie nute te
+Mí Nóre Mornandor yasse Mordor caitar.`
+    }]
+  },
+  432: {
+    author: "Nancy Martsch",
+    book: ["Q-3", 17],
+    content: `Nelde cormar i Eldaheri nu i menel
+Otso cormar an i Naukantúru ondomardentassen
+Nerte cormar an i Fírimar marte nurun
+Er corma an i Mornaher mornamahalmasse
+Mornoro maresse, yasse lómi caitar.
+Er corma ilye te turu, er corma te túva,
+Er corma ilye te hasta ar morniesse te nuta
+Mornoro maresse, yasse lómi caitar.`
+  },
+});
+
 export default [
   q,
   q2,
+  q3,
 ];

@@ -159,8 +159,40 @@ Vi Mordor innas i Nguruthos.`
   },
 });
 
+const sind3 = make({ language: "sindarin", input: "0.17.0", source: sources.vt13 }, {
+  426: {
+    name: "(1977)",
+    author: ["Bill Welden", "Chris Gilson"],
+    book: ["S-1", 25],
+    content: `Nel cherin di menel nin Erain Edhellath
+Os ben rynd sernin Nogothrim ni thûr
+Gwent an in Edain, ion amarth na guruth
+Min an in Dúhaur, na borod dîn dûr
+Be-mBar Mordor, ias caedar Duath.
+Min gor i-phain arad, min god tuwad hain
+Min gor i-phain teithad a remmad hain ben Fuin
+Be-mBar Mordor, ias caedar Duath.`
+  },
+  429: {
+    name: "(1982)",
+    author: "Richard Trubshaw",
+    content: [{
+      title: "E Chrolinnod: E Thaurcoriath",
+      text: `Nel coriath n'in Edhilerain nu e menel,
+Os n'i Nauhirrim thî hain rend gonion
+Neldhel n'Edain fírin amarthen fîr,
+Er n'e Thaurvor lim han talan mor
+Thî e Mordhoriand îass i lumiath riga.
+Er cor gon hain, er cor far hain,
+Er cor îal a thî e fuin band hain
+Thî e Mordhoriand îass i lumiath riga.`
+    }]
+  },
+});
+
 export default [
   sind1,
   sind,
   sind2,
+  sind3,
 ];
