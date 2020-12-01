@@ -49,7 +49,6 @@ Min Côr a thorthad hain phain, Min Côr a chiriad hain,
 Min Côr a theged hain a nedhi vorn gweded hain
 Ned Mordor nedhi gaenar i ngwaith.`
   },
-
   99: {
     input: "0.3.0",
     author: "H.Reiter",
@@ -63,7 +62,6 @@ Min côr bauglo hain phain, ned côr hiro hain,
 Min côr togo hain phain, ned duir gwedho hain
 Ned Mordor ias dúath cuinai.`
   },
-
   172: {
     input: "0.7.0",
     author: "Taramiluiel",
@@ -76,7 +74,6 @@ Min Corf a thorthad hain phain, Min Corf a chired hain,
 Min Corf a thoged hain phain a ne môr an noded hain,
 Min Ardh Mordor ias i Núath caedar.`
   },
-
   345: {
     input: "0.14.0",
     author: `Idhren [${sources.theonering}]`,
@@ -89,7 +86,6 @@ Corf Vin gwathror bân, Corf Vin hirir,
 Corf Vin tolthor bân a vi i fuin remar.
 Uin dôr Mordor ias i dhûath dorthar.`
   },
-
   378: {
     input: "0.15.0",
     author: "Taur Edhel [forums.lotro.turbine.com]",
@@ -102,6 +98,19 @@ Vin dhor o Mordor ias i ngwaith caedad
 Min corf terthir pân, Min corf hirir
 Min corf tegir pân, vin dhúath gwethir
 Vin dhor o Mordor ias i ngwaith caedad`
+  },
+  437: {
+    input: "1.0",
+    author: "Taramiluiel",
+    book: ["S-5", 28],
+    content: `Cyrf Nêl 'nin Erain Edhellin din menel,
+Odog 'ni Naug Brennin min thaim-es-sarn rîn,
+Neder an Adanath Firibberaid gwannad,
+Min 'ni Brannon Vorn bo archam dûr dîn
+Min Ardh-en-Mordor ir i Núath gaedar.
+Min Gorf a thorthad hain bain, Min Gorf as sain hired,
+Min Gorf a thoged hain bain ar ar din môr hain noded,
+Min Ardh-en-Mordor ir i Núath gaedar.`
   },
 });
 

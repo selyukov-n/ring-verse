@@ -5,6 +5,7 @@ export const list = [
   ...require("./da").default,
   ...require("./de").list,
   ...require("./en").dialects,
+  require("./far").far,
   require("./fris").frisian,
   require("./got").gothic,
   require("./icel").icel,

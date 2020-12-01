@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const rumanian = make({ language: "rum" }, {
   214: {
@@ -17,6 +17,7 @@ Pe tărîmul Mordor, unde umbrele sălăşuiesc.`
   },
   235: {
     input: "0.9.0",
+    name: "сильное сходство с #463",
     author: `Bugyfeanor [${sources.planetTolkien}] ?`,
     content: `Trei inele pentru Regii Elfilor cei de sub soare,
 Şapte pentru ei, stăpânii Gnomilor din săli de stâncă
@@ -29,6 +30,7 @@ Unde-s Umbrele, în Ţinutul Mordor, în întunecime.`
   },
   370: {
     input: "0.14.5",
+    name: "вариант #463",
     author: [],
     book: book("R-2", 106),
     source: sources.jrrt_memorial,
@@ -40,5 +42,19 @@ Unde-s umbrele in Tinutul Mordor, ca sa le gaseasca,
 Si pe toate sa le adune un inel si altul nime,
 Sa le ferece pe toate, astfel sa le stapâneasca,
 Unde-s umbrele, in Tinutul Mordor, in intunecime.`
+  },
+  463: {
+    input: "1.0",
+    name: fromLotR(),
+    author: "Gabriele Nedelea",
+    book: ["R-1", 105],
+    content: `Trei inele pentru Regii Elfilor cei de sub soare,
+Şapte pentru ei, stăpînii Gnomilor din săli de stîncă
+Nouă, Oamenilor care ştiu că-n lumea lor se moare,
+Unul pentru Senioru-Ntunecimii fie încă
+Unde-s Umbrele-n Ţinutul Mordor, ca să le găsească
+Şi pe toate să le-adune un inel, şi altul nime,
+Să le ferece pe toate, astfel să le stăpînească,
+Unde-s Umbrele-n Ţinutul Mordor, în întunecime.`
   },
 });

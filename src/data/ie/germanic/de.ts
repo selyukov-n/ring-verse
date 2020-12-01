@@ -178,7 +178,128 @@ Im Land Mordor wou die Schatn drohn.`
   },
 });
 
+const de3 = make({ language: "de", input: "1.0" }, {
+  449: {
+    name: "Plattdeutsch",
+    author: "Estel",
+    book: ["G-pd", 57],
+    content: `Dree Ringen för de Elbenkönigen, boaben int Lucht
+Söben för de Zwergenherschers in hör Hallen ut Steen
+Negen för de starflich Minschen, verurdeelt to starben
+Een för de düster Kerl up sie düster Thron
+In't Mordorland wor de Schatten drohn
+Een Ring hör to knechten, een Ring hör aal to finden
+In't Düster to drieben, unn ewich to binnen
+In't Mordorland wor de Schatten drohn`
+  },
+  450: {
+    name: "южн. нижнесаксонский диалект",
+    author: "Ridcully",
+    book: ["G-sls", 58],
+    content: `Dre Ringe för de Elbenkönige hock em Lecht
+Söben för de Dwergenherschers in eeren Hallen ut Steen
+Negen för de Minschen, dem Dod verfollen
+Een för den finstern Heern up sen finstern Thron
+In Mordor wo de Schadden dron
+Een Ring se to knechten, en Ring se to finnen,
+Ins Finstere to drieben un ewich to binnen
+In Mordor wo de Schadden dron`
+  },
+  451: {
+    name: "швабский диалект (вариант Штутгарта)",
+    author: "Shay",
+    book: ["G-sw", 59],
+    content: `Drei Ring d'Elbakeenich em Freia
+Siebene fir d'Zwergafirschta en ihrene stoinerne Halla
+Neine fir d'Menscha, wo sterba misset
+Oin fir da finschtre Herrscher auf seim finschtre Thron
+En Mordor, wo d'Schatta sen
+Oin Ring, wo se b'herrscht mitenand, Oin Ring, wo se findet
+Oin Ring, wo se bringt mitenand on en dr Dunkelheit bindet
+En Mordor, wo d'Schatta sen`
+  },
+  452: {
+    name: "диалект Баварского леса",
+    author: "Eledwhen",
+    book: ["G-bw", 60],
+    content: `Drei Ring' fir d'Elbenkine hoa im leicht
+siem fir d'Zwergenmana in eihrne holln aus stoa
+den Moanern, de hi wern, nei
+Oana dem finstan Herrn aaf finstan tro
+im land Mordor woad schattn san
+oa ring se alle zum bagga se olle zum fina
+ins finstre zum schlogn und af immer zum bindn
+im land Mordor woad schattn san`
+  },
+  453: {
+    name: "швейцарский (бернский ?) диалект",
+    author: "Sylvara",
+    book: ["G-sw2", 62],
+    content: `Drü ringä für d'eufä-chönige höch im liächt,
+Sibä für d'zwärgä-herrscher i irnä hauä us stei,
+Dä stärblächä, ewig äm tod verfauä, nün,
+Eine äm Dunklä Herr ufäm dunklä thron
+Im land vo Mordor wo d'schatte drohä.
+Ä ring se z'chnächte, se aui z'fingä,
+I ds'dunku ds'tribä u ewig z'bingä
+Im land vo Mordor wo d'schattä drohä.`
+  },
+  454: {
+    name: "Heidiland (Швейцария)",
+    author: "DrGanja",
+    book: ["G-swh", 63],
+    content: `Drüü Ring dä Elbä-Königä houch im liächt
+Sibä dä Zwärgäherrscher in ihrnä hallä us schtäi
+Dä schtärblichä eiwig em toud verfallä, nüü
+einä em dungglä herr ufem dungglä thron
+im land mordor wo d'schattä drohen!
+ä ring alli ds knächte, alli ds findä
+ins dunggel ds triibä und ewig ds bindä!
+im land mordor wo d'schattä drohen!`
+  },
+  455: {
+    name: "венский диалект",
+    author: "Tyra",
+    book: ["G-av", 63],
+    content: `Drai Ring fia de Öfnkänig obn aufn Liacht,
+sibane fiad Zwerg in ernane stananen Hoain,
+neine fiad Menschn de wos sterbn durn,
+ana fian schwarzn, Herrscha im Lande Moadoa.
+A Ring, der wos olle knechten duat,
+der wos olle find, der wos olle ins Dunkl eini treiben duat
+und der wos olle auf ewig bindn duat.
+Im Lande Moadoa, da woa de Schottn san.`
+  },
+  456: {
+    name: "диалект Верхней Австрии",
+    author: "Lendo",
+    book: ["G-ua", 64],
+    content: `Drai Ring' den Ööbnkönign hoch im Liacht,
+Siibm den Zweagnheaschan in ian Hoin aus Stoa,
+Den Steablichn, füa imma dem Tod vafoin, naini,
+Ana dem Dunklen Hean aufm dunklen Thron
+Im Lond Mordor, wo de Schottn droon.
+A Ring, se z' knechtn, se olle' z' findn,
+Ins Dunki z' traibm und füa imma z' bindn
+Im Lond Mordor, wo de Schottn droon.`
+  },
+  457: {
+    name: "Karnten (Австрия)",
+    author: "Elmunial",
+    book: ["G-ka", 64],
+    content: `Drai Ringe den Ölbnkönign hoch im Liacht,
+Siebane denan Zwergnhearschan in senan Holln aus Stann,
+Denan Sterblichn, ewig n Tod vafolln, neine,
+Ana dem dunklan Hearrn aufn dunklan Thron
+Im Lond Mordor, (durt) wo die Schottn drohn.
+A Ring, sie zu kneechtn, sie olle zu findn,
+ins Dunkle zu treibn und ewig zu bindn
+Im Lond Mordor, (durt) wo die Schottn drohn.`
+  },
+});
+
 export const list = [
   de,
   de2,
+  de3,
 ];

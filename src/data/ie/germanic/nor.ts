@@ -1,4 +1,4 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
 
@@ -73,5 +73,19 @@ i landet Mordor, der skuggane rår.
 Ein ring til å herska, ein ring til å finna dei,
 ein ring til å bringa dei, og i mørkret binda dei
 i landet Mordor, der skuggane rår.`
+  },
+  459: {
+    input: "1.0",
+    name: fromLotR(),
+    author: "Eilev Cronen Myhren",
+    book: ["Nn-1", 73],
+    content: `Alvar under blína eig ringane tri.
+Sju fekk dvergedrottane i salar av stein.
+Menn som er saka til dauden, fekk ni,
+men drotten for Myrket ein einaste ein,
+i landet Mordor der skuggane rår.
+Ein Ring skal styra deim, ein Ring finna deim,
+ein Ring tvinga deim og in Myrket binda deim
+i landet Mordor der skuggane rår.`
   },
 });

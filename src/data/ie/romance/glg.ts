@@ -1,4 +1,4 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
 export const glg = make({ language: "glg" }, {
@@ -28,5 +28,19 @@ Na terra de Mordor onde se espallan as sombras,
 Un anel pra os gobernaren a todos. Un anel pra os atoparen,
 Un anel pra os atraeren a todos e agulletalos ás tebras,
 Na terra de Mordor onde se espallan as sombras.`
+  },
+  462: {
+    input: "1.0",
+    name: fromLotR(),
+    author: "Moisés R. Barcia",
+    book: ["G-1", 87],
+    content: `Tres aneis para os Reis Elfos baixo o ceo,
+Sete para os Señores Ananos nos súas salas de pedra
+Nove para os Homes Mortais condenados a morrer,
+un para o Señor Escuro no seu trono escuro
+na Terra de Mordor, onde se esteden as Sombras.
+Un anel para dobernalos a todos, un anel para atopalos,
+un anel para atraelos a todos e atalos nas tebras,
+na Terra de Mordor, onde se esteden as Sombras.`
   },
 });

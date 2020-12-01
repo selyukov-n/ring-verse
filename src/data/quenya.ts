@@ -253,8 +253,49 @@ Mornoro maresse, yasse lómi caitar.`
   },
 });
 
+const q4 = make({ language: "quenya", input: "1.0" }, {
+  434: {
+    author: "Helge K. Fauskanger",
+    book: ["Q-5", 19],
+    content: `Nelde Cormar Eldaranin nu menel
+Otso i Nornoheruin mardinatasen ondova,
+Nerte Fírimain namne firie,
+Mine i mornaherun morna mahalmaryasse
+Noresse morinóre yanna caitar i Huini.
+Mine corma turien te ilye, mine corma hirien te,
+Mine corma tiltien te ilye ar morniese nutien te
+Noresse morinóre yanna caitar i Huini.`
+  },
+  435: {
+    author: "Maciej Gabrowski",
+    comments: ["новый вариант"],
+    book: ["Q-6", 20],
+    content: `Nelde Cormar i Aranin Eldaron nu i vilya,
+Otso i Heruin Naukoron ondova mardiltassen,
+Nerte Fírime Nérin yar i nurun martyar,
+Mine i More Herun mormahalmaryasse
+I Nóresse Mornóreva yasse i Huini caitar.
+Mine Corma turien te ilye, Mine Corma hirien te,
+Mine Corma hostien te ilye ar móresse nutien te
+I Nóresse Mornóreva yasse i Huini caitar.`
+  },
+  436: {
+    author: "Pilgrim X",
+    book: ["Q-9", 23],
+    content: `Nelde kormar ten i minquetár undu i Taimie,
+Otso ten i Naukoher mi ondo mardenta,
+Nerte ten hilde mandene ana faire,
+Mine ten i tumna heru mi tumna mahalmanta
+Mi i nóre Mordor íre i lumbular lumna
+Mine kormar ana heru te ilya, Mine kormar ana túva te,
+Mine kormar ana sanga te ilya ar mí lumbule yanta te
+Mi i nóre Mordor íre i lumbular lumna`
+  },
+});
+
 export default [
   q,
   q2,
   q3,
+  q4,
 ];

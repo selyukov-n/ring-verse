@@ -102,6 +102,20 @@ Un anillo para dirigirlos atodos, un anillo para encontrarlos
 Un anillo para atraerlos y en las tinieblas atarlos
 En la tierra de Mordor donde habitan las tinieblas.`
   },
+
+  461: {
+    input: "1.0",
+    author: [],
+    book: ["S-3", 83],
+    content: `Tres anillos para los Elven-reyes debajo del cielo,
+Siete para los Enano-señores es sus pasillos de la piedra,
+Nueve para los hombres mortales condenaron morir,
+Uno para el señor oscuro en su trono oscuro
+En la tierra de Mordor en donde mienten las sombras.
+Un Anillo para gobernarlos todos, Un Anillo para encontrarlos,
+Un Anillo para traerlos todos y en oscuridad los atan
+En la tierra de Mordor en donde mienten las sombras.`
+  },
 });
 
 export const list = [

@@ -93,6 +93,20 @@ Oone-a Reeng tu roole-a zeem ell, Oone-a Reeng tu feend zeem,
 Oone-a Reeng tu breeng zeem ell und in ze derkness beend zeem
 In ze lund ooff Murdur, vhere-a ze shedoos leee-a.`
   },
+  448: {
+    input: "1.0",
+    name: "Redneck",
+    author: "Kevrathorn the Silver",
+    book: ["E-r", 53],
+    content: `Three rings for them pointed ear people under up yonder,
+Sevn for them Short axemen people up in der places of rock
+Nine for normal folks who goin to kick the bucket,
+One for that black armored sum bitch in the bad place.
+In the country of Modor where it's like a bad subdivision.
+One bad boy to be the big hoss, One of em to fetch em,
+One rang to haul em up and in the hood, tie em up
+In the place with bad heathens where it the dark up in the death.`
+  },
 });
 
 const dialects3 = make({ language: "en", input: "0.16.5", author: ME }, {

@@ -3,6 +3,7 @@ export const sources = {
   ank: "AnK Tolkien Poetry Translations",
   artlangs: "The Artlangs Community",
   barrodowns: "The Barrow-Downs Discussion Forum",
+  book: "Book",
   c: "Ring verses in C programming language",
   captionmachine: "www.captionmachine.com",
   drops: "JRRT by Drops",

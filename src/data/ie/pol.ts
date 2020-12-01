@@ -1,5 +1,5 @@
 import { sources } from "../sources";
-import { book, make } from "../utils";
+import { book, fromLotR, make } from "../utils";
 
 const pol_drops = make({ language: "pol", input: "0.1.5" }, {
   35: {
@@ -86,7 +86,134 @@ W krainie Mordor, gdzie wiecznej nocy zaległy cienie.`
   },
 });
 
+const pol300 = make({ language: "pol", input: "1.0" }, {
+  438: {
+    book: ["P-3", 42],
+    name: fromLotR(),
+    author: "Tadeusz Andrzej Olszański",
+    content: `Trzy Pierścienie dla królów elfickich pod niebem jasnym,
+Siedem dla krasnoludzkich władców we dworach kamiennych,
+Dziewięć dla ludzi, którym śmierć jest sądzona,
+Jeden - Czarnemu Władcy na czarnym tronie
+W Mordorze, ziemi, gdzie Ciemność zaległa,
+Jeden, by nimi władać, Jeden by je znaleźć,
+Jeden, by je zgromadzić i wszystkie skrępować
+W Mordorze, ziemi, gdzie Ciemność zaległa.`
+  },
+  439: {
+    book: ["P-5", 44],
+    name: "гекзаметр",
+    author: "Antoni Goldstein",
+    content: `Trzy królóm elfów pierścienie, co pod nieb mieszkają skłonem,
+Siedem dla władców krasnali w głębi ich pałaców skalnych,
+Dziewięć dla ludzi śmiertelnych, którym jest umrzeć sądzone,
+Jeden dla Czarnego Władcy na jego tronie czarnym
+W kraju Mordoru, kędy Cieniów zaległy tonie.
+Jeden, by wszystkimi rządzić, Jeden, by wszystkie odszukać,
+Jeden, by wszystkie odnaleźć i powiązać je w mrokach
+W kraju Mordoru, kędy Cieniów zaległy tonie.`
+  },
+  440: {
+    book: ["P-6", 44],
+    author: "Andrzek Sawicki",
+    content: `Trzy pierścienie dla królów elfów, co lasem władają,
+Dla władców krasnoludów w ich podziemiach - siedem,
+Dziewięć dla królów ludzi, tych, co umierają,
+A dla Władcy Ciemności Pierścień Jeden.
+W krainie Mordor, kędy leżą cienie.
+Jeden, by nimi rządzić, Jeden, by je odszukać,
+Jeden, by je zgromadzić i mrokami zbrukać
+W krainie Mordor, kędy leżą cienie...`
+  },
+  441: {
+    book: ["P-7", 45],
+    author: "Turin Turambar",
+    content: `Trzy pierścienie dla władców ludu pod gwiazdami,
+Siedem dla Krasnoludów w ich sałach z kamienia,
+Dziewięć dla synów ludzkich, dzieci przeznaczenia,
+Jeden dla władcy kraju osnutego mgłami,
+Tam, gdzie światło wszelkie przez mrok zwycziężne,
+Jeden rządzący resztaą. Jeden potężniejszy,
+Aby znaleźć i zebrać całe grono mniejszych,
+Tam, gdzie światło wszelkie przez mrok zwycziężne.`
+  },
+  442: {
+    book: ["P-8", 45],
+    author: "Faelwen i Sarnond",
+    content: `Trzy Pierścienie dla Elfów, którzy pod niebem gwiezdnym królują,
+Siedem Krasnoludów władcom z ich komnat w gór koronie,
+Dziewięć Pierścieni dla ludzi, co śmierci wypatrują,
+Jeden Pierścień dla pana Mrocznego, co na czarnym tronie
+W ziemi zwanej Mordor, gdzie zło cienem zlega.
+Jeden Pierścień, by rządzić Wszystkimi, Jeden, by Je odnaleźć,
+Jeden, by zgromadzić Wszystkie i w Mroky w jedności utrwalić
+W ziemi zwanej Mordor, gdzie zło cienem zlega.`
+  },
+  443: {
+    book: ["P-9", 46],
+    author: ["Katarzyna Staniewska", "'Elring'"],
+    content: `Królowie elfów potrójnie pierścienni,
+Zaś krasnoludom śni si&$281; sen siedmisty...
+Dziewięcioraczą się pilnie śmiertelni;
+Jeden - dla Władcy na tronie czernistym
+W kraju Mordoru, gdzie się cień bezczelni!
+Jeden, by wszystkie wspierścienić jednotą
+I by pojednać spierścieniałe złoto
+W kraju Mordoru, gdzie się cień bezczelni!`
+  },
+  444: {
+    book: ["P-10", 46],
+    author: "Nolimon",
+    content: `Trzy Pierścienie podniebnych państw Elfów rządcom przeznaczone,
+Siedem Ojcom Krasnali - podziemne ich włosci,
+Dziewięć wielkim Ludziom, których serca śmiercią naznaczone,
+Jeden dla Nieprzyjaciela na tronie Ciemności
+W Czarnym Kraju, pośród mrocznych cieni.
+Jeden Pierścień by władać wszystkimi, Jeden by je znaleźć,
+Jeden Pierścień by usidlić wszystkie i w pomroce scalić
+W Czarnym Kraju, pośród mrocznych cieni.`
+  },
+  445: {
+    book: ["P-11", 45],
+    author: "Númenelen",
+    content: `Potrójne złoto elfim panom na dłonie,
+Siedem srebr dla krasnoludzkich ojców w koronie,
+Dziewięć obrąk ludziom, kt&#oacute;rych śmierć na tronie
+W kraju bezświatła, w cienistym Mordorze.
+Jeden jest wszystkich królem, by znaleźć; Jedyny
+Zgromadzi, uciemnięży je czarnymi liny
+W kraju bezświatła, gdzie nie wstają zorze.`
+  },
+  446: {
+    book: ["P-s", 47],
+    name: "силезский диалект",
+    author: "Ryszard Derdziński (силезск. Rychat Derdźiński)",
+    content: `Tři Pješčůnki krůlům Elbůw pod modrym ńybym,
+Aže Śedym do Cwergowych Půnůw we grubach kamjynych,
+Dźewyńć do Śmjertelnych Ludźi keři sům śmjertce podlygli
+Jedyn do Půna Ćmoka na úonygo čornym zeslu.
+We Mordoru tyj dźedźińe kaj śe ćimy zlygúy
+Jedyn Pješčůnek coby inkše znojść, Jedyn coby rešta reskjyrować
+Jedyn Pješčůnek coby inkše pokuplować i we ćmoku rozym je skrymplować
+We Mordoru tyj dźedźińe kaj śe ćimy zlygúy.`
+  },
+  447: {
+    book: ["P-hhs", 48],
+    name: "хип-хоп сленг :)",
+    author: "Malan",
+    content: `Trzy błyskotki dla kłaopuchych co pod niebem jarają
+siedem dla karłó w ich podziemnej rozkmince
+dziewięć dla naszych ziomków co na życie srają
+jeden dla yooo mana w jego gitmelince
+w Mordoru ziemi gdzie cieniste są opcje
+jeden by wszystkie ogarnać, jeden by wszystkie wyczaić
+jeden by nie obsrać makowca i w ciemności zagaić
+w Mordoru ziemi gdzie cieniste są opcje`
+  },
+});
+
 export default [
   pol_drops,
   pol,
+  pol300,
 ];

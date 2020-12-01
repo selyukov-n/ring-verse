@@ -14,4 +14,17 @@ Ien ring om har allen te lieden, Ien ring om har te finen.
 Ien ring om har allen te bringen en har yn tsjuster te binen
 Yn Mordorlân der't de skâden lizze.`
   },
+  458: {
+    input: "1.0",
+    author: "Douwe Tammingas",
+    book: ["F-1", 68],
+    content: `Trije Ringen foar de Alve-kenings, wolk-dutsen en heech-eal.
+Sân foar it Ierdmans-folk yn harren stiennen seal.
+Njoggen foar Stjerlingen, ta de dea ferwiisd.
+Ien foar de Foarst, der 't syn dunkere troane riist
+yn Mordor, oerskade en feal.
+Ien Ring ta regear, ien Ring om eltsien te finen,
+ien Ring om te bringen, ien om by tsjuster elts te binen
+oan Mordor, oerskade en feal.`
+  },
 });
