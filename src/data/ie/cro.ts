@@ -56,6 +56,18 @@ Jedan prsten da ih sve nadje
 Jedan prsten da ih sve donese i u tami veze
 U zemlji Mordor gde senke leze`
   },
+  467: {
+    input: "1.0.1",
+    author: [],
+    book: ["C-2", 115],
+    content: `Tri prstena za vilen-kraljeve ispod neba,
+Sedam za patuljke u kamen dvorima,
+Devet za smrtne ljude osudene na smrt,
+Jedan za gospodara tame na svom prijestolju,
+Prsten jedan da vlada svima, Prsten jedan da ih nade,
+Prsten jedan da ih dovede sve i u tami poveze.
+U zemlji mordor gdje leze sjenke.`
+  },
 });
 
 export const list = [

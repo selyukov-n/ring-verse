@@ -16,6 +16,7 @@ export default [
   ...require("./pol").default,
   require("./slovak").slovak,
   require("./sloven").sloven,
+  ...require("./slv").list,
   require("./ukr").ukr,
 
   ancient,
