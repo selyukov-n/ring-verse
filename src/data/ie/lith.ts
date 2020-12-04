@@ -20,6 +20,19 @@ Surasti, sukviest ir juodąja valia
 Sukaustęs, sujungti tamsiam Mordore.`
     }]
   },
+  475: {
+    input: "1.0.2",
+    author: "Laiqualasse",
+    book: ["L-6", 149],
+    content: `Trys žiedai - elfų karaliams pasauly
+Septyni - dvorfų valdovams menėse akmenų
+Devyni - žmonėms mirtingiems, mirčiai pasmerktiems
+Vienas tamsos valdovui žemių juodų
+Mordore, kur šešėliai pastoja kelią visiems
+Vienas Žiedas valdo visus, Vienas Žiedas juos randa
+Vienas Žiedas sukviečia visus, ir tamsoje juos sujungia
+Mordore, kur šešėliai pastoja kelią visiems`
+  },
 });
 
 const lit2 = make({ language: "lit", input: "0.14.0" }, {

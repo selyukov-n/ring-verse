@@ -14,6 +14,7 @@ export const list = [
   nor.nb,
   nor.nn,
   require("./oe").oe,
+  require("./on").norse,
   require("./swe").swedish,
   require("./yid").yiddish,
 ];

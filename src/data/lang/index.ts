@@ -14,6 +14,7 @@ export default [
   require("./tag").tagalog,
   require("./tamil").tamil,
   require("./tur").turkish,
+  require("./thai").thai,
   require("./tupi").tupi,
   ...require("./indonesian").list,
   require("./zh").zh,

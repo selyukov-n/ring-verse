@@ -444,6 +444,20 @@ Ba'ad da rukan lana vod, ba'ad da rukan wita
 Ba'ad da rukan lana kan, oë ith s'baji rukan ralan
 Ith lashna Mordor lashk wajib`
   },
+  489: {
+    input: "1.0.2",
+    language: "c.xli",
+    author: [],
+    book: ["X", 213],
+    content: `Çers Anuli fro reqi a elvi sup hail,
+Seft fro friheqi a nani in tenen açiri a saqi,
+Nou fro omi morçali ad morç hunnammuti,
+On fro Açer Friheq in tei açer seitil
+In Çer Mordor upi ummiri iahenn.
+On anul ot çoti imfrar, on anul ot immenir tem,
+On anul ot çoti aver ac in halici iuncer tem
+In Çer Mordor upi ummiri iahenn.`
+  },
 });
 
 const art = (name: string) => `${name} [${sources.artlangs}]`;

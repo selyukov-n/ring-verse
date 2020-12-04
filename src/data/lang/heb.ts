@@ -57,6 +57,14 @@ const heb = make({ language: "heb" }, {
       pic(pic232),
     ]
   },
+
+  480: {
+    input: "1.0.2",
+    author: "Emanuel Lottem",
+    name: fromLotR(),
+    book: ["H-2", 166],
+    content: 'TODO', // TODO
+  },
 });
 
 const old = make({ language: "hbo" }, {

@@ -73,4 +73,29 @@ mo4 dou1 da4 di4 hei1 ying3 chuang2chuang2`)
       },
     ]
   },
+  483: {
+    input: "1.0.2",
+    name: "кантонский",
+    author: "Octo Kwan",
+    book: ["C-c", 178],
+    content: [
+      {
+        name: "pic",
+        type: "image",
+        image: "TODO", // TODO
+      },
+      {
+        name: "pinyin",
+        text: tonal(`tin1 haa6 sin1 wong4 saam1 zi2 waan4
+sek6 din6 ai2 wong4 cat1 zi2 waan4
+bit1 sei2 faan4 jan4 gau2 zu2 waan4
+mo1 jing2 lung4 zaau3 mo1 dou1 noi6
+jam1 zo6 mo1 zyu2 mou4 soeng1 wan4
+mou4 soeng1 zyu2 zoi2 cam4 zung3 waan4
+mou4 soeng1 ziu1 zeoi6 zung3 waan4 gwai1
+kwan2 bong2 zung3 waan4 haam6 hak1 ngam3
+mo1 jing2 lung4 zaau3 mo1 dou1 noi6`)
+      }
+    ]
+  },
 });

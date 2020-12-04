@@ -226,6 +226,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.del": "Delendi",
   "c.sin": "Sindénir",
   "c.led": "Ledhagliem",
+  "c.xli": "Xliponian",
 };
 
 export const encodings: Record<EncodingLang, string> = {

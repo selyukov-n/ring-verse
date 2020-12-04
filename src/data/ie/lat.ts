@@ -148,6 +148,20 @@ Unus Anulus ad eos omnes ferendos
 et eos in tenebris astringendos,
 In Terra Mordoris ubi Umbrae.`
   },
+
+  486: {
+    input: "1.0.2",
+    author: "Robert Fischer",
+    book: ["L-12", 195],
+    content: `Tres anuli pro regibus nymphorum sub caelo
+Septem pro dominis nanorum in regia lapidea eorum
+Novem pro mortalibus viris cuius fatum est mori
+Unus pro malo domino qui in malo solio sedet
+In terra umbrosi mordoris
+Unus anulus qui omnibus illis imperet Unus anulus qui illosa inveniat
+Unus anulus qui omnes illos collocet et in tenebris illos nectat
+In terra umbrosi mordoris`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

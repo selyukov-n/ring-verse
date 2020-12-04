@@ -60,6 +60,7 @@ export const conlangs = group(g.conlangs,
     lang("c.del", art("John")),
     lang("c.sin", art("BenjaBurns")),
     lang("c.led", art("D-WesTMaCoTT")),
+    lang("c.xli"),
   )
 );
 export type Conlang = (typeof conlangs)["id"];

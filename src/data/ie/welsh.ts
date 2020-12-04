@@ -30,4 +30,31 @@ Modrwy i'w llywio pawb, modrwy i'w cael nhw,
 modrwy i'w cynnull pawb a'u rhwymo nhw yn y tywyllwch,
 yn nhir Mordor, lle mae'n gorwedd y cysgodau.`
   },
+
+  473: {
+    input: "1.0.2",
+    author: "Richard Jeffery",
+    book: ["W-1", 145],
+    content: `Tair modrwy i 'r Tylwyth Teg dan yr wybrew fry,
+Saith i arglwyddi 'r Corrod yn eu hogofau,
+Naw i ddynion marwol sy dan dynged angau,
+Uni i 'r Arglwydd Tywyll sydd ar ei orsedd ddu
+yng ngwlad Mordor lle mae 'r cysgodion yn aros.
+Un am eu treisio, un am fynd ar eu holau,
+un am ddod gyda hwy a'u rhwymo yn y nos
+yng ngwlad Mordor lle mae 'r cysgodion yn aros.`
+  },
+  474: {
+    input: "1.0.2",
+    author: "Turtlehead",
+    book: ["W-2", 145],
+    content: `Tri i 'r Brenhinoedd Ellylleg is y ffurfafen,
+Saith i 'r Arglwyddi Cor, yn eu neuaddau carreg nhw,
+Naw i Dynion marwol, dedfrydu i farw,
+Un i 'r Arglwydd Tywyll, ar ei Orsedd Dywyll fe,
+Yn nhir Mordor, lle 'r cysgodau celwyddo.
+Un amgarn i ddod â holl nhw, yn amgarn i gael hyd nhw,
+Un amgarn i 'u lywio holl nhw, ac yn y tywyllwch eu caethiwo nhw,
+Yn nhir Mordor, lle 'r cysgodau celwyddo.`
+  },
 });

@@ -34,6 +34,24 @@ Mórdori en khṓrēi hothi kankeîntai skíai aiweí`
       },
     ]
   },
+  488: {
+    input: "1.0.2",
+    author: "Jakovos Vlioras",
+    book: ["AG-1", 197],
+    content: [{
+      name: "лат. транслитерация",
+      text: `Henaktōn Aimonōn aithrēgenetas kirkoi te treis peri,
+Tytthōn de archōn mychonde lithō spheterōn heptamerē,
+Meropōn genos Andrōn, kaddikēn brotō ennea tōn
+Melanos Despotou en thrēnyos melainēs en eaton
+Parchōrē Aimelaines hothe skiai epephorbei te.
+Kirkos eis ephēgēsaito spheas holous,
+Krikosde eis katheureto pōmōlous,
+Kirkos eis pherēsige spheas holous,
+Amolgō nyktos dedmēto pōmōlous,
+Parchōrē Aimelaines hothe skiai epephorbei te.`
+    }]
+  },
 });
 
 export const greek = make({ language: "el" }, {
