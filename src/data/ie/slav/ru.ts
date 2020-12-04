@@ -1,6 +1,6 @@
-import { IDerzhansky, ME } from "../authors";
-import { sources } from "../sources";
-import { book, fromLotR, make } from "../utils";
+import { IDerzhansky, ME } from "../../authors";
+import { sources } from "../../sources";
+import { book, fromLotR, make } from "../../utils";
 
 const ru1 = make({ language: "ru", input: "0.0.1" }, {
   2: {

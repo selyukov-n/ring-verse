@@ -1,5 +1,5 @@
-import { sources } from "../sources";
-import { book, make } from "../utils";
+import { sources } from "../../sources";
+import { book, make } from "../../utils";
 
 const cro = make({ language: "cro", input: "0.2.0" }, {
   67: {

@@ -1,4 +1,4 @@
-import { make } from "../utils";
+import { make } from "../../utils";
 
 const luzh = make({ input: "1.0.1", author: "Rafał Leszczyński" }, {
   464: {

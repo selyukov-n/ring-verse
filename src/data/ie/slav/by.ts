@@ -1,5 +1,5 @@
-import { sources } from "../sources";
-import { fromLotR, make } from "../utils";
+import { sources } from "../../sources";
+import { fromLotR, make } from "../../utils";
 
 export const bel = make({ language: "bel" }, {
   423: {

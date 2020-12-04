@@ -1,5 +1,5 @@
-import { book, fromLotR, make } from "../utils";
-import { sources } from "../sources";
+import { book, fromLotR, make } from "../../utils";
+import { sources } from "../../sources";
 
 export const ukr = make({ language: "ukr" }, {
   113: {

@@ -1,5 +1,5 @@
-import { sources } from "../sources";
-import { book, fromLotR, make } from "../utils";
+import { sources } from "../../sources";
+import { book, fromLotR, make } from "../../utils";
 
 const pol_drops = make({ language: "pol", input: "0.1.5" }, {
   35: {

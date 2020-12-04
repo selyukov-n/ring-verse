@@ -1,4 +1,4 @@
-import { book, make } from "../utils";
+import { book, make } from "../../utils";
 
 export const slovak = make({ language: "slovak" }, {
   148: {

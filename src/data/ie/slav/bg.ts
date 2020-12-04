@@ -1,4 +1,4 @@
-import { book, make } from "../utils";
+import { book, make } from "../../utils";
 
 export const bg = make({ language: "bul" }, {
   87: {

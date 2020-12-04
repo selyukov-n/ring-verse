@@ -1,5 +1,5 @@
-import { sources } from "../sources";
-import { book, make } from "../utils";
+import { sources } from "../../sources";
+import { book, make } from "../../utils";
 
 export const sloven = make({ language: "slo" }, {
   77: {

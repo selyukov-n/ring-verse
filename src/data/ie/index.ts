@@ -1,23 +1,14 @@
 import { list as germanic } from "./germanic";
 import { ancient, greek } from "./greek";
 import { list as romance } from "./romance";
+import { list as slavic } from "./slav";
 
 export default [
-  ...require("./ru").list,
   ...require("./lat").list,
 
   ...germanic,
   ...romance,
-
-  require("./bg").bg,
-  require("./by").bel,
-  ...require("./cro").list,
-  require("./cz").cz,
-  ...require("./pol").default,
-  require("./slovak").slovak,
-  require("./sloven").sloven,
-  ...require("./slv").list,
-  require("./ukr").ukr,
+  ...slavic,
 
   ancient,
   greek,
