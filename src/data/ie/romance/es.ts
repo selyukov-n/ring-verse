@@ -116,6 +116,23 @@ Un Anillo para gobernarlos todos, Un Anillo para encontrarlos,
 Un Anillo para traerlos todos y en oscuridad los atan
 En la tierra de Mordor en donde mienten las sombras.`
   },
+
+  491: {
+    input: "1.0.3",
+    name: "астурийский",
+    source: "ast.wikipedia.org",
+    author: [],
+    content: `Trés Aniellos pa los Reis Elfos embaxo'l cielu.
+Siete pa los Señores Nanos nos sos palacios de piedra.
+Nueve pa los Homes mortales, condergaos a morrer.
+Ún pal Señor Escuru, sobro'l tronu escuru
+na Tierra de Mordor au s'estienden les Solombres.
+Un Aniellu pa gobernalos a toos.
+  Un Aniellu p'afayalos.
+Un Aniellu p'atrayelos a toos
+  y arreyalos nes borrines,
+na Tierra de Mordor au s'estienden les Solombres.`
+  },
 });
 
 export const list = [
