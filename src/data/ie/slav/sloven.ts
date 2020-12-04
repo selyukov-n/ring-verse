@@ -28,4 +28,17 @@ Edini, ki jim vsem vlada, Edini ki jih vse prese~e,
 Edini, da jih vse poisce in v temi pove~e
 v Mordorju, kjer senca ne nehava.`
   },
+  495: {
+    input: "1.1",
+    author: [],
+    comments: ["очень похоже на #243"],
+    content: `Troji Prstani za vilinske kralje pod neba bleščavo,
+Sedmeri za škratov vladarje v njih skalnem zaklonu,
+Deveteri za Smrtnike, ljudi z umrljivo naravo,
+En sam pa za Temnega vladarja, ki sedi na tronu
+V Mordorju, kjer sence ležijo stoglavo.
+Edini, ki jim vsem vlada, Edini, ki jih vse preseže,
+Edini, da jih vse poišče in jih v temí poveže
+V Mordorju, kjer sence ležijo stoglavo.`
+  },
 });

@@ -3,6 +3,7 @@ import pic217 from "../pic/217heb.png";
 import pic218 from "../pic/218heb.png";
 import pic231 from "../pic/231heb.jpg";
 import pic232 from "../pic/232heb.jpg";
+import pic502 from "../pic/502heb.png";
 
 const pic = (image: any) => ({
   type: "image" as const,
@@ -64,6 +65,27 @@ const heb = make({ language: "heb" }, {
     name: fromLotR(),
     book: ["H-2", 166],
     content: 'TODO', // TODO
+  },
+
+  502: {
+    input: "1.1",
+    author: [],
+    content: [
+      {
+        type: "image",
+        image: pic502,
+      },
+      {
+        text: `Shelvesh teb’evet lemleky alepyem thet shemy hetlelyem,
+Sheb’ leshery gemdeym bheykely sel’e,
+Tesh’ lebney hadem, beny temveth henyedvenyem lemvet
+Ahet lesher havepl ’el keysav hapel
+Barets Mevredver, shem revbetseym hetselleym.
+Teb’et ahet lemshevl bekveln, teb’et ahet lemtesan,
+Teb’et ahet lhesheyb at kevlen, bapelh lekbeln,
+Barets Mevredver, shem revbetseym hetselleym.`
+      }
+    ]
   },
 });
 

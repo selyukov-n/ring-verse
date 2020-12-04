@@ -27,4 +27,16 @@ Ien Ring ta regear, ien Ring om eltsien te finen,
 ien Ring om te bringen, ien om by tsjuster elts te binen
 oan Mordor, oerskade en feal.`
   },
+  493: {
+    input: "1.1",
+    author: [],
+    content: `Trije Ringen foar de Elfkenings yn 't gea,
+Sân foar de Dwerchhearen ûnder stiennen kroan',
+Njoggen foar Minskebern, bûn oan har dea,
+Ien is foar de Tsjust're op syn Troan
+Fier yn Mordor, Lânsdou sûnder Dagerea.
+Ien Ring all'gear ta hearsker, Ien har fynder,
+Ien Ring dy't har yn 't tsjuster ﬁert, Ien aller bynder
+Fier yn Mordor, Lânsdou sûnder Dagerea.`
+  },
 });

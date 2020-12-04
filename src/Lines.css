@@ -41,3 +41,8 @@
   font-family: Morse;
   font-size: 24px;
 }
+.translit .card-body {
+  font-family: serif;
+  font-style: italic;
+  font-size: 20px;
+}

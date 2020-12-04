@@ -16,6 +16,7 @@ export const sources = {
   jrrt_memorial: "J.R.R.Tolkien Memorial",
   jrrvf: "jrrvf.com/forum/", // Retraductions du Poème des Anneaux
   kniga2001: "kniga2001",
+  kontuwiki: "kontu.wiki/Sormusruno",
   listserv: "listserv.brown.edu",
   lodz_tpsa: "lodz.tpsa.pl/bez/Tolkien/vers-eng.html",
   md: "Mellonath Daeron",
@@ -23,6 +24,7 @@ export const sources = {
   olmer: "tolkien.olmer.ru",
   planetTolkien: "planet-tolkien.com/board/",
   rosetta: "Tolkien Rosetta Stone",
+  slideshare: "Ring Verse Multilanguage on Slideshare",
   theonering: "theonering.com",
   tolkien_cz: "Jeden Prsten vládne vśem - 100x jinak",
   torre: "Torre Shay",

@@ -6,6 +6,7 @@ export const list = [
   require("./cz").cz,
   require("./lemk").lemk,
   require("./mac").mac,
+  require("./ocs").ocs,
   ...require("./pol").default,
   require("./slovak").slovak,
   require("./sloven").sloven,

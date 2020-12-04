@@ -33,6 +33,18 @@ Vienas Žiedas valdo visus, Vienas Žiedas juos randa
 Vienas Žiedas sukviečia visus, ir tamsoje juos sujungia
 Mordore, kur šešėliai pastoja kelią visiems`
   },
+  494: {
+    input: "1.1",
+    author: [],
+    content: `Trys žiedai elfų karaliams, po dangaus skliautu,
+Septyni - nykštukų valdovams, jų akmeninėse menėse,
+Devyni - žmonių mirtingų, žūčiai pasmerktų,
+Vienas tik - Tamsos Valdovui soste sutemų,
+Žemėje Mordoro, kur šešėliai driekias.
+Vienas žiedas visiems valdyti, Vienas žiedas visiems surasti,
+Vienas žiedas visiems sukviesti ir tamsybėse amžiams užsklęsti.
+Žemėje Mordoro, kur šešėliai driekias.`
+  },
 });
 
 const lit2 = make({ language: "lit", input: "0.14.0" }, {

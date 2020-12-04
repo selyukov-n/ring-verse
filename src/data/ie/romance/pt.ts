@@ -1,6 +1,6 @@
 import { JAvidan } from "../../authors";
-import { book, fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
+import { book, fromLotR, make } from "../../utils";
 
 const br = make({ language: "pt", name: "бразильский вариант" }, {
   63: {
@@ -46,6 +46,22 @@ Na Terra de Mordor onde as sombas se deitam.`
   },
 });
 
+const br1 = make({ language: "pt", name: "бразильский вариант ?" }, {
+  497: {
+    input: "1.1",
+    source: sources.kontuwiki,
+    author: [],
+    content: `Para os Reis Elfos sob océu, três Anéis;
+Sete para os Lordes Anões, abrigados em seus salões;
+Nove para o Homem: a morrer condenado;
+Um para o Lorde Negro, em seu trono sentado,
+Na Terra de Mordor onde as sombras vão repousar.
+Um Anel para achá-los, para todos governar,
+Um Anel para reuni-los e para, na treva, os atar
+Na Terra de Mordor onde as sombras vão repousar.`
+  },
+});
+
 const pt = make({ language: "pt" }, {
   352: {
     input: "0.14.0",
@@ -78,6 +94,6 @@ Na terra de Mordor onde as sombras se deitam.`
 });
 
 export const list = [
-  br,
+  br, br1,
   pt,
 ];

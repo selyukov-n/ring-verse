@@ -458,6 +458,20 @@ On anul ot çoti imfrar, on anul ot immenir tem,
 On anul ot çoti aver ac in halici iuncer tem
 In Çer Mordor upi ummiri iahenn.`
   },
+  498: {
+    input: "1.1",
+    language: "c.int",
+    author: [],
+    source: "ia.wikipedia.org",
+    content: `Tres Annellos pro le Reges Elfic sub le celo,
+Septe pro le Princes Nanic in salas de petra,
+Novem pro le Homines Mortal, destinate a morir,
+Un pro le Senior Obscur a su throno obscur
+In le pais Mordor ubi le Umbras se extende.
+Un Annello pro le totes dominar, Un Annello pro les trovar,
+Un Annello pro le totes tener e in le obscuritate les ligar.
+In le pais Mordor ubi le Umbras se extende.`
+  },
 });
 
 const art = (name: string) => `${name} [${sources.artlangs}]`;

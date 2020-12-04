@@ -162,6 +162,20 @@ Unus anulus qui omnibus illis imperet Unus anulus qui illosa inveniat
 Unus anulus qui omnes illos collocet et in tenebris illos nectat
 In terra umbrosi mordoris`
   },
+
+  492: {
+    input: "1.1",
+    source: "la.wikipedia.org",
+    author: [],
+    content: `Tres Anuli Alforum Regibus sub caelo fulgente,
+Septem Nanorum Dominis in arcibus ex petra,
+Novem mortalibus Hominibus quibus fatum est adveniens,
+Unus Atro Domino in regia sua taetra,
+In Mordoris Terra, umbra descendente.
+Unus Anulus ad omnes dominandos, unus ad reperiendos,
+Unus ad omnes tenebris inferendos ibique vinciendos,
+In Mordoris Terra, umbra descendente.`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

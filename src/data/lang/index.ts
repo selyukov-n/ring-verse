@@ -10,6 +10,8 @@ export default [
   require("./egypt").aeg,
   ...require("./heb").list,
 
+  require("./georgian").ge,
+  require("./kor").kor,
   require("./malay").malay,
   require("./tag").tagalog,
   require("./tamil").tamil,
@@ -17,6 +19,7 @@ export default [
   require("./thai").thai,
   require("./tupi").tupi,
   ...require("./indonesian").list,
+  require("./viet").viet,
   require("./zh").zh,
 
   ...require("./basque").list,

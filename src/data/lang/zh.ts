@@ -2,6 +2,8 @@ import { sources } from "../sources";
 import { fromLotR, make, tonal } from "../utils";
 import pic338 from "../pic/338chi.jpg";
 import pic420 from "../pic/420chi.gif";
+import pic499a from "../pic/499chi-a.png";
+import pic499b from "../pic/499chi-b.png";
 
 export const zh = make({ language: "zh" }, {
   338: {
@@ -96,6 +98,64 @@ mou4 soeng1 ziu1 zeoi6 zung3 waan4 gwai1
 kwan2 bong2 zung3 waan4 haam6 hak1 ngam3
 mo1 jing2 lung4 zaau3 mo1 dou1 noi6`)
       }
+    ]
+  },
+  499: {
+    input: "1.1",
+    name: "тайваньский",
+    author: "Zhu Xue Heng, " + fromLotR(),
+    book: ["C-t", 177],
+    source: sources.book,
+    content: [
+      {
+        name: "Simplified",
+        text: `天下精灵铸三戒，
+地底矮⼈得七戒，
+寿定凡⼈持九戒，
+莫多妖境暗影伏，
+闇王坐拥⾄尊戒。
+⾄尊戒，驭众戒；
+⾄尊戒，寻众戒，
+魔戒⾄尊引众戒，
+禁锢众戒⿊暗中，
+莫多妖境暗影伏。`
+      },
+      {
+        name: "Simplified (pic)",
+        type: "image",
+        image: pic499a,
+      },
+      {
+        name: "Traditional",
+        text: `天下精靈鑄三戒，
+地底矮⼈得七戒，
+壽定凡⼈持九戒，
+魔多妖境暗影伏，
+闇王坐擁⾄尊戒。
+⾄尊戒，馭眾戒；
+⾄尊戒，尋眾戒，
+魔戒⾄尊引眾戒，
+禁錮眾戒⿊暗中，
+魔多妖境暗影伏。`
+      },
+      {
+        name: "Traditional (pic)",
+        type: "image",
+        image: pic499b,
+      },
+      {
+        name: "transliteration",
+        text: `Tiānxià jīnglíng zhù sān jiè,
+Dìdǐ ǎirén dé qī jiè,
+Shòu dìng fánrén chí jiǔ jiè,
+Móduō yāo jìng ànyǐng fú,
+Àn wáng zuò yōng zhìzūn jiè.
+Zhìzūn jiè, yù zhòng jiè;
+Zhìzūn jiè, xún zhòng jiè,
+Mó jiè zhìzūn yǐn zhòng jiè,
+Jìngù zhòng jiè hēi’àn zhōng,
+Móduō yāo jìng ànyǐng fú.`
+      },
     ]
   },
 });
