@@ -32,6 +32,14 @@
   font-family: HGNTransliteration;
   src: url(assets/HGNTransliteration-Unicode.ttf) format('truetype');
 }
+@font-face {
+  font-family: Assurbanipal;
+  src: url(assets/Assurbanipal.ttf) format('truetype');
+}
+@font-face {
+  font-family: CuneiformNA;
+  src: url(assets/CuneiformNA.ttf) format('truetype');
+}
 
 /* classes */
 .braille .card-body {
@@ -54,4 +62,13 @@
   font-family: HGNTransliteration, serif;
   font-weight: bold;
   font-size: 24px;
+}
+.cuneiform-assur .card-body {
+  font-size: 32px;
+  font-family: Assurbanipal;
+}
+.cuneiform-na .card-body {
+  font-size: 24px;
+  font-family: CuneiformNA;
+  font-weight: bold;
 }
