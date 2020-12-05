@@ -28,6 +28,10 @@
   font-family: Morse;
   src: url(assets/morse.ttf) format('truetype');
 }
+@font-face {
+  font-family: HGNTransliteration;
+  src: url(assets/HGNTransliteration-Unicode.ttf) format('truetype');
+}
 
 /* classes */
 .braille .card-body {
@@ -45,4 +49,9 @@
   font-family: serif;
   font-style: italic;
   font-size: 20px;
+}
+.translit.egypt .card-body {
+  font-family: HGNTransliteration, serif;
+  font-weight: bold;
+  font-size: 24px;
 }
