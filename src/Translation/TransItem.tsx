@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import { Alert } from "react-bootstrap";
+import { sources as src } from "../data/sources";
 import { formatDate, Input, inputs, ItemNum, ItemVariant } from "../data";
 import { Lines } from "../Lines";
 import "./trans.css";
@@ -42,7 +43,7 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
   const source = item.source || input && input.mainSource;
 
   const sources: JSX.Element[] = [];
-  if (source === "book" && book) {
+  if (source === src.book && book) {
     sources.push(<p key="main">Источник: {book}</p>)
   } else {
     if (source) sources.push(<p key="main">Источник: {source}</p>);
