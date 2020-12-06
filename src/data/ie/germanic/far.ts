@@ -5,7 +5,7 @@ export const far = make({ language: "fao" }, {
     input: "1.0",
     author: [],
     book: ["F", 75],
-    content: `Tríggjar ringar mættir álvakongar fáa,
+    content: `Tríggjar ringar mætir álvakongar fáa,
 Sjey til dvørganrar í homrum hátt,
 Níggju til teir menn, ið feigir dómin skoða,
 Ein til hann á myrkurs sæti, myrkurs drott,
