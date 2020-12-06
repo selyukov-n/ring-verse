@@ -12,7 +12,6 @@ const prepareForMorse = (text: string) => {
     const words = l.split(/[^\w\-]/).map(w => w.split("").join(" ").toUpperCase());
     return words.join(" & ");
   });
-  console.log(lines);
   return lines.join("\n");
 };
 
