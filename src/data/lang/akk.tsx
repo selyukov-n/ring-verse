@@ -30,7 +30,7 @@ export const akk = make({ language: "akk" }, {
       },
       {
         name: "transliteration",
-        type: "translit egypt",
+        type: "translit hgn",
         text: <>EŠ<sub>5</sub> un-qa-a-tim ana LUGAL.MEŠ AN-nim-ri-i   šá TA AN-e na-im-ra(q)-su-nu<br />
 IMIN-tum ana EN.MEŠ LÚ.ka-zà-a-da-a-a   in É.GAL.MEŠ.KI TA KUR<br />
 ILIMMU-tum ana DUMU.MEŠ LÚ-u-tim   šá mu-u-tum iḫ-ḫa-zu GIŠ.[ŠIBIR?]-su-nu<br />
@@ -42,7 +42,7 @@ in KUR e-ṭe-em ina mat mar-ri du-u-rím   KI na-šu-u-ma-tú ším-mat-su-nu</
       },
       {
         name: "normalized",
-        type: "translit egypt",
+        type: "translit hgn",
         text: <>šalāš unqātim ana šarrī  <Word det="d">*nimrī</Word> ša ultu šamê namurratsunū,<br />
 sibettum ana bēlī  <Word det="LÚ">*kazādāya</Word> in ēkallātim šapal šadêm,<br />
 tišettum ana mārī awīlūtim ša mūtum iḫḫazū <Word det="GIŠ">ṣarratsunū</Word>,<br />

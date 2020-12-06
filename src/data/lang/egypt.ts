@@ -3,7 +3,7 @@ import { book, make } from "../utils";
 import pic90 from "../pic/90egy.png";
 
 const translit = (text: string) => ({
-  type: "translit egypt" as const,
+  type: "translit hgn" as const,
   text: text.replace(/i/g, "ꞽ").replace(/ʿ/g, "ꜥ").replace(/3/g, "ꜣ").replace(/\./g, "·"),
 });
 
