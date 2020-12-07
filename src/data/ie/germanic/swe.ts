@@ -49,7 +49,7 @@ i Mordors land, där skuggorna ruva.`
 
   334: {
     input: "0.13.6",
-    name: "норвежский диалект ?",
+    variant: "норвежский диалект ?",
     author: `jacqueline [${sources.iceland}]`,
     content: `Tre Ringer for alvene under det blå;
 sju for dvärger i sal av sten;

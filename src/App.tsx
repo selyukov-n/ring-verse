@@ -20,10 +20,13 @@ const Language = (props: RouteComponentProps<{ id: string }>) => {
     return <TransItem item={items[0]} />;
   }
 
+  const main = items.filter(t => !t.variant).sort((a, b) => a.index - b.index);
+  const variants = items.filter(t => t.variant).sort((a, b) => a.index - b.index);
+
   return <ListGroup>
-    {items.sort((a, b) => a.index - b.index)
+    {main.concat(variants)
       .map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
-        #{it.index} {!it.name && isMine(it) ? "[my translation]" : it.name}
+        #{it.index} {it.variant && <i>{it.variant}</i>} {!it.name && isMine(it) ? "[my translation]" : it.name}
       </ListGroup.Item>)}
   </ListGroup>
 };

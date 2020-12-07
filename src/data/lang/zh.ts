@@ -30,7 +30,8 @@ export const zh = make({ language: "zh" }, {
   420: {
     input: "0.17.0",
     source: sources.translations,
-    name: "путунхуа; " + fromLotR(),
+    name: fromLotR(),
+    variant: "путунхуа",
     author: [],
     book: ["C-p", 175],
     content: [
@@ -77,7 +78,7 @@ mo4 dou1 da4 di4 hei1 ying3 chuang2chuang2`)
   },
   483: {
     input: "1.0.2",
-    name: "кантонский",
+    variant: "кантонский",
     author: "Octo Kwan",
     book: ["C-c", 178],
     content: [
@@ -102,7 +103,7 @@ mo1 jing2 lung4 zaau3 mo1 dou1 noi6`)
   },
   499: {
     input: "1.1",
-    name: "тайваньский",
+    variant: "тайваньский",
     author: "Zhu Xue Heng, " + fromLotR(),
     book: ["C-t", 177],
     source: sources.book,

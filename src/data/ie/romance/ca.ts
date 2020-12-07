@@ -32,7 +32,7 @@ a la terra de Mórdor, on s'estenen les ombres.`
 
   175: {
     input: "0.8.0",
-    name: "валенсийский вариант",
+    variant: "валенсийский вариант",
     author: "Marcos Colomer Pellicer",
     book: book("V", 86),
     content: `Tres Anells per als Reixos Elfos baix el Cel,

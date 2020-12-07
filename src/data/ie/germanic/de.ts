@@ -49,7 +49,7 @@ Im Lande Mordor, wo die Schatten liegen.`
 
   211: {
     input: "0.8.0",
-    name: "диалект восточной Австрии, юж. Burgenland, окр. Oberwart",
+    variant: "диалект восточной Австрии, юж. Burgenland, окр. Oberwart",
     book: book("G-oa", 65),
     author: "Matthias List",
     content: `drai ringal fia di elfnn-kejni wos untan himmll saij
@@ -64,7 +64,7 @@ in launt moadoaa wo di schotdn liang duan`
 
   264: {
     input: "0.11.0",
-    name: "нижнебаварский диалект",
+    variant: "нижнебаварский диалект",
     author: "Dirk Thierbach",
     book: book("G-lb", 60),
     content: `Drei Ring hab'n de Elbenköni ob'n im Liacht
@@ -78,7 +78,7 @@ In mordor, wos finsta is.`
   },
   265: {
     input: "0.11.3",
-    name: "Pälzisch диалект",
+    variant: "Pälzisch диалект",
     author: elbenwald("Gwaeronion"),
     book: book("G-pf", 59),
     content: `Droi Ringe de Elwekönische do owwe im Licht,
@@ -92,7 +92,7 @@ Im Land Mordor, wu de Schadde droon.`
   },
   267: {
     input: "0.11.3",
-    name: "рейнский гессенский (Rheinhessisch) диалект",
+    variant: "рейнский гессенский (Rheinhessisch) диалект",
     author: elbenwald(`Laurelhass Elmegil`),
     book: book("G-r", 58),
     content: `Drei Ringelscher fer de Elwegenische obbe im Lischt
@@ -122,7 +122,7 @@ im Land von Mordor, wo die Schatten liegen.`
   402: {
     input: "0.16.0",
     source: sources.tolkien_cz,
-    name: "швейцарский вариант",
+    variant: "швейцарский вариант",
     author: [],
     book: ["G-sw3", 62],
     content: `Drei Ring für d Chünige vo de Elbe höch obe im Liecht,
@@ -138,7 +138,7 @@ Im Land vo Mordor, wie di dunkle Schatte sii`
 
 const de2 = make({ language: "de", input: "0.12.0" }, {
   273: {
-    name: "диалект Берна (Швейцария)",
+    variant: "диалект Берна (Швейцария)",
     author: elbenwald("Ankou"),
     book: book("G-sw", 61),
     content: `Drei Ringä dä Eubächönigä höch im Liecht,
@@ -151,7 +151,7 @@ It Dunkuheit z' tribä und ewig z' bindä
 Im Land Mordor, wo d' Schattä drohed.`
   },
   275: {
-    name: "южнотирольский диалект",
+    variant: "южнотирольский диалект",
     author: elbenwald("Ringknechter"),
     book: book("G-t", 65),
     content: `Drei Ring in di Elbmkinig hoach im Liacht
@@ -164,7 +164,7 @@ ins dunkl zu gean und ewig zua bindn
 im lond fu Mordor wo die schottn san.`
   },
   279: {
-    name: "Oberpfäzisch-Bayrisch диалект",
+    variant: "Oberpfäzisch-Bayrisch диалект",
     author: elbenwald("Chaos Master"),
     book: book("G-opb", 61),
     content: `Drei Ringe für die Elbmköniche droom im Licht,
@@ -180,7 +180,7 @@ Im Land Mordor wou die Schatn drohn.`
 
 const de3 = make({ language: "de", input: "1.0" }, {
   449: {
-    name: "Plattdeutsch",
+    variant: "Plattdeutsch",
     author: "Estel",
     book: ["G-pd", 57],
     content: `Dree Ringen för de Elbenkönigen, boaben int Lucht
@@ -193,7 +193,7 @@ In't Düster to drieben, unn ewich to binnen
 In't Mordorland wor de Schatten drohn`
   },
   450: {
-    name: "южн. нижнесаксонский диалект",
+    variant: "южн. нижнесаксонский диалект",
     author: "Ridcully",
     book: ["G-sls", 58],
     content: `Dre Ringe för de Elbenkönige hock em Lecht
@@ -206,7 +206,7 @@ Ins Finstere to drieben un ewich to binnen
 In Mordor wo de Schadden dron`
   },
   451: {
-    name: "швабский диалект (вариант Штутгарта)",
+    variant: "швабский диалект (вариант Штутгарта)",
     author: "Shay",
     book: ["G-sw", 59],
     content: `Drei Ring d'Elbakeenich em Freia
@@ -219,7 +219,7 @@ Oin Ring, wo se bringt mitenand on en dr Dunkelheit bindet
 En Mordor, wo d'Schatta sen`
   },
   452: {
-    name: "диалект Баварского леса",
+    variant: "диалект Баварского леса",
     author: "Eledwhen",
     book: ["G-bw", 60],
     content: `Drei Ring' fir d'Elbenkine hoa im leicht
@@ -232,7 +232,7 @@ ins finstre zum schlogn und af immer zum bindn
 im land Mordor woad schattn san`
   },
   453: {
-    name: "швейцарский (бернский ?) диалект",
+    variant: "швейцарский (бернский ?) диалект",
     author: "Sylvara",
     book: ["G-sw2", 62],
     content: `Drü ringä für d'eufä-chönige höch im liächt,
@@ -245,7 +245,7 @@ I ds'dunku ds'tribä u ewig z'bingä
 Im land vo Mordor wo d'schattä drohä.`
   },
   454: {
-    name: "Heidiland (Швейцария)",
+    variant: "Heidiland (Швейцария)",
     author: "DrGanja",
     book: ["G-swh", 63],
     content: `Drüü Ring dä Elbä-Königä houch im liächt
@@ -258,7 +258,7 @@ ins dunggel ds triibä und ewig ds bindä!
 im land mordor wo d'schattä drohen!`
   },
   455: {
-    name: "венский диалект",
+    variant: "венский диалект",
     author: "Tyra",
     book: ["G-av", 63],
     content: `Drai Ring fia de Öfnkänig obn aufn Liacht,
@@ -271,7 +271,7 @@ und der wos olle auf ewig bindn duat.
 Im Lande Moadoa, da woa de Schottn san.`
   },
   456: {
-    name: "диалект Верхней Австрии",
+    variant: "диалект Верхней Австрии",
     author: "Lendo",
     book: ["G-ua", 64],
     content: `Drai Ring' den Ööbnkönign hoch im Liacht,
@@ -284,7 +284,7 @@ Ins Dunki z' traibm und füa imma z' bindn
 Im Lond Mordor, wo de Schottn droon.`
   },
   457: {
-    name: "Karnten (Австрия)",
+    variant: "Karnten (Австрия)",
     author: "Elmunial",
     book: ["G-ka", 64],
     content: `Drai Ringe den Ölbnkönign hoch im Liacht,

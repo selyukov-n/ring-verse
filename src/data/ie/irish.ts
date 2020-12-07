@@ -33,7 +33,6 @@ Go maire an Oíche sa tsaol mór mar i dtír Mordor féin.`
   },
   246: {
     input: "0.9.1",
-    name: "гэльский ?",
     author: `Mcclane [${sources.planetTolkien}]`,
     content: `Trí fáinní do na Rithe Sí amuigh faoin spéir
 Seacht gcinn do na Tiarnaí Abhacach ina ndúnta liag

@@ -18,7 +18,7 @@ const cuneified89 = `𒐈 𒌦 𒋡 𒀀 𒁴 𒁹 𒈗 𒈨𒌍 𒀭 𒉏 𒊑 
 export const akk = make({ language: "akk" }, {
   89: {
     input: "0.2.5",
-    name: "старовавилонский диалект",
+    variant: "старовавилонский диалект",
     book: book("A", 203),
     author: IDerzhansky,
     comments: ["Orig. published in Tyalië Tyelelliéva #6, pp. 7-8 (with cuneiform)."],

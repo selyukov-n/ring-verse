@@ -3,7 +3,7 @@ import { sources } from "../../sources";
 import { book, make } from "../../utils";
 
 const planet = (name: string, nickPart: string, page?: number) => ({
-  name,
+  variant: name,
   book: page ? book("E-dial", page) : undefined,
   author: `${nickPart} [${sources.planetTolkien}]`,
 });
@@ -69,7 +69,7 @@ In the Land of Mordor where the Shadows lie.`
 const dialects2 = make({ language: "en" }, {
   347: {
     input: "0.14.0",
-    name: "Ali G's jargon",
+    variant: "Ali G's jargon",
     author: "Cirion_12thRulingSteward",
     content: `Trey rings fa da elvun-kings unda da sky,
 sevun fa da dwarf-lords in their alls of stone,
@@ -82,7 +82,7 @@ in da turf of mordor where da shadows lie.`
   },
   374: {
     input: "0.15.0",
-    name: '"Swedish chef!", Bork, bork, bork!',
+    variant: '"Swedish chef!", Bork, bork, bork!',
     author: ME,
     content: `Three-a Reengs fur ze Ilfee Keengs under ze sky,
 Sefee fur ze Dverff Lurds in zeeur hells ooff stune-a,
@@ -95,7 +95,7 @@ In ze lund ooff Murdur, vhere-a ze shedoos leee-a.`
   },
   448: {
     input: "1.0",
-    name: "Redneck",
+    variant: "Redneck",
     author: "Kevrathorn the Silver",
     book: ["E-r", 53],
     content: `Three rings for them pointed ear people under up yonder,
@@ -111,7 +111,7 @@ In the place with bad heathens where it the dark up in the death.`
 
 const dialects3 = make({ language: "en", input: "0.16.5", author: ME }, {
   416: {
-    name: "(Ниж.) Шотландия",
+    variant: "(Ниж.) Шотландия",
     content: `Three rings for the Elfin-kings unner the sky,
 Seeven for the Dwarf-lords in their ha's o stone.
 Nine for Mortal Men, doomed tae dee,
@@ -122,7 +122,7 @@ Ane Ring tae bring thaim a' an in the darkness bind thaim
 In the land o Mordor where the Shaidaes lie.`
   },
   417: {
-    name: "Frenglish",
+    variant: "Frenglish",
     content: `A triad of Circles for the Elven-governors under the blue,
 A heptad for the Gnome-princes in their subterranean caverns,
 An ennead for Mortal Humans, destined to depart,
@@ -133,7 +133,7 @@ Single Circle to collect them all and in the obscurity chain them
 In the country of Mordor that the phantoms inhabit.`
   },
   418: {
-    name: "Anglish",
+    variant: "Anglish",
     content: `Three Rings for the Elven-kings under the sky,
 Seven for the Dwarf-lords in their halls of stone,
 Nine for short-living Men doomed to die,

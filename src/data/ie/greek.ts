@@ -4,7 +4,7 @@ import { sources } from "../sources";
 export const ancient = make({ language: "gre" }, {
   100: {
     input: "0.3.0",
-    name: "гомеровский диалект",
+    variant: "гомеровский диалект",
     book: book("AG-2", 198),
     author: "Anthony Appleyard",
     content: [

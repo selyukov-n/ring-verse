@@ -5,7 +5,7 @@ export const elder = make({ language: "c.eld" }, {
   95: {
     input: "0.2.8",
     book: book("OS", 214),
-    author: ME + " aka Macmidiear",
+    author: ME,
     content: `Teir beide'n aef Seidhe'n faoi uide,
 Seah aef Zweerg'en inne iad lah'hann tean'ch'en,
 Naoi aef Dhoine, aexi'hiasar aemor,

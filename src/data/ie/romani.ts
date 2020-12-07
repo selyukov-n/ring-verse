@@ -5,7 +5,7 @@ export const rom = make({ language: "rom" }, {
   93: {
     input: "0.2.5",
     book: book("R", 154),
-    name: "диалект Kalderash",
+    variant: "диалект Kalderash",
     author: IDerzhansky,
     content: `Trin angrustya ka le ray *ëlfanë tela 'l śon,
 Yefta 'l *gnomanë thagarengë othe ando phay,

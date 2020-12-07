@@ -19,7 +19,7 @@ maassa Mordorin joka varjojen saartama on.`
   337: {
     input: "0.14.0",
     source: sources.iceland,
-    name: "вост.-ботнический диалект",
+    variant: "вост.-ботнический диалект",
     author: `Eldritch [${sources.iceland}]`,
     book: ["F-2", 160],
     content: `Fiiniä rinkuloota kolome sai komeeren isännät,

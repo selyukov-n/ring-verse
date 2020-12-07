@@ -15,7 +15,7 @@ Gonth dan tolta cean tul ar ir Lescen pronta cean
 Ir Tôrenwa Mordor qua ir rachâin mandárin.`
   },
   152: {
-    name: "old-type Angúr",
+    variant: "old-type Angúr",
     content: `Onjwín can Reintal-Elfier ir nwelsút,
 Zan Chortal-Dwarfier palt?nenet fadh cêana,
 Gan Churtal Iyásier quunwed cazdúth,

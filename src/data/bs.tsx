@@ -86,7 +86,7 @@ const bs = map(items, it => ({
 const dbs = make({ language: "black-speech" }, {
   110: {
     input: "0.3.7",
-    name: 'испорченное ("debased") Черное наречие',
+    variant: 'испорченное ("debased") Черное наречие',
     comments: ["лексика - как в №7, №109"],
     book: book("BS-6", 35),
     author: ME,

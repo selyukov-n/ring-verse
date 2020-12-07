@@ -186,7 +186,7 @@ W kraju bezświatła, gdzie nie wstają zorze.`
   },
   446: {
     book: ["P-s", 47],
-    name: "силезский диалект",
+    variant: "силезский диалект",
     author: "Ryszard Derdziński (силезск. Rychat Derdźiński)",
     content: `Tři Pješčůnki krůlům Elbůw pod modrym ńybym,
 Aže Śedym do Cwergowych Půnůw we grubach kamjynych,
@@ -199,7 +199,7 @@ We Mordoru tyj dźedźińe kaj śe ćimy zlygúy.`
   },
   447: {
     book: ["P-hhs", 48],
-    name: "хип-хоп сленг :)",
+    variant: "хип-хоп сленг :)",
     author: "Malan",
     content: `Trzy błyskotki dla kłaopuchych co pod niebem jarają
 siedem dla karłó w ich podziemnej rozkmince

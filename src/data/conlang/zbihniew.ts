@@ -14,7 +14,8 @@ In land Mordor wo szejden lige`
   },
   197: {
     language: "c.she",
-    name: "диалект West-Shternovy, версия Beta-2",
+    variant: "диалект West-Shternovy",
+    name: "версия Beta-2",
     content: `Tri perstëny dla vilavych kenev pod nebov
 Sëdm dla křatovych vladcyv v jych kamënovych halev
 Dëveť dla smrtelnych mužyv klnenych na skon

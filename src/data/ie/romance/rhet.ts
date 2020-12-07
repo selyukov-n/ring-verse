@@ -3,7 +3,7 @@ import { book, map } from "../../utils";
 
 const rh = map({
   323: {
-    name: "сурмиранский вариант, Surses и Val Alvra",
+    variant: "сурмиранский вариант, Surses и Val Alvra",
     author: "Isemboldo Bolgeri",
     book: "R-2",
     content: `Treis Anels agl rètg dallas dialas sot igl tschiel tgi resplenda,
@@ -16,7 +16,7 @@ En Anel per igls captivar ed igls ancadanar aint igl stgeir,
 Ainten la tera da Mordor, noua tgi la sumbreiva croda grev.`
   },
   324: {
-    name: "grischun вариант (24.01.2005 - офиц. яз. Швейцарии и кантона Grigioni)",
+    name: "Grischun (офиц. язык Швейцарии и кантона Grigioni)",
     author: "Isemboldo Bolgeri",
     book: "R-1",
     content: `Trais Anès al retg da las dialas sot il tschiel che resplenda,

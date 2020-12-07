@@ -3,7 +3,7 @@ import { sources } from "./sources";
 
 const sind1 = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
   31: {
-    name: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
+    variant: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
     book: book("S-10", 31),
     input: "0.1.0",
     content: [{

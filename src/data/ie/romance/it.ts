@@ -1,13 +1,13 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 const eld = (name: string) => `${name} [${sources.eldalie}]`;
 
 const it = make({ language: "it" }, {
   82: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("I-1", 90),
     author: "Vicky Alliata di Villafranca",
     content: `Tre Anelli ai re degli Elfi sotto il cielo che risplende,
@@ -50,7 +50,7 @@ Nella Terra di Mordor ove si stendono le Ombre.`
   },
   194: {
     input: "0.8.0",
-    name: "феррарский вариант эмильянского диалекта",
+    variant: "феррарский вариант эмильянского диалекта",
     author: "robocap",
     book: book("I-fe", 95),
     content: `Tri anèl par i re di Èlf sòt al zzèl,
@@ -93,7 +93,7 @@ Nella terra di Mordor dove posano le ombre`
 
 const dialects = make({ language: "it", input: "0.13.0" }, {
   282: {
-    name: "трентинский диалект, зона Роверето",
+    variant: "трентинский диалект, зона Роверето",
     author: eld("Naerfindel"),
     content: `Tre anei ai re dei elfi   sotto el zel che risplende
 Sete ai prinzipi dei nani   nei so forti de prea
@@ -105,7 +105,7 @@ n'anel per embroiarli   e 'n te 'l strof encadenarli
 nela tera de Mordor   e do che l'ombra strova la vem zo!`
   },
   283: {
-    name: "Valtellinese диалект, зона Тирано",
+    variant: "Valtellinese диалект, зона Тирано",
     author: eld("Erumer"),
     book: ["I-v", 93],
     content: `Tri anei ai re da'i elfi sut'al ciel ch'al sbarlugina
@@ -118,7 +118,7 @@ nöf a 'i om murtai ca la triste morte 'i specia
 na la terra de Mordor 'ndua l'umbra la ve' gi`
   },
   284: {
-    name: "римский диалект",
+    variant: "римский диалект",
     author: eld("SirGatsu"),
     book: ["I-r", 98],
     content: `Tre brillocchi a li capoccia dell'erfi
@@ -138,7 +138,7 @@ Na tera de Mordor
 N'dove a ombra nera scenne.`
   },
   285: {
-    name: "диалект Reatino",
+    variant: "диалект Reatino",
     author: eld("Astrid"),
     content: `Tre anelli a li re dell'Elfi
 Sotto lu cielo che resplenne
@@ -156,7 +156,7 @@ Nea tera de Mordor
 'Ndo' l'ombra oscura scenne.`
   },
   286: {
-    name: "беллинцонский диалект",
+    variant: "беллинцонский диалект",
     author: eld("Fíriel Tindómerel"),
     book: ["I-tic2", 94],
     content: `Tri anei pal re dai elfi sut'al ciel che brila
@@ -171,7 +171,7 @@ e in tel bui incadenai
 nala tera da Mordor do cal bui al vegn giò`
   },
   287: {
-    name: "Calata Senese диалект",
+    variant: "Calata Senese диалект",
     author: eld("Talman"),
     book: ["I-s", 97],
     content: `þre anell'a' re dell'elfi sotto 'l cielo 'he risplende
@@ -186,7 +186,7 @@ e nel buio 'ncaþenalli
 nella þerra ði Mordore ðove ci fa parecchio buio`
   },
   288: {
-    name: "Bisiaco диалект (вариант венецианского, между Тимаво и Изонцо)",
+    variant: "Bisiaco диалект (вариант венецианского, между Тимаво и Изонцо)",
     author: eld("Pièveloce Mezzoelfo"),
     book: ["I-b", 95],
     content: `tre anei pai re dei elfi sot al ciel illuminà
@@ -199,7 +199,7 @@ un anel per ciaparli e in tal scur incadenarli
 in ta la tera de Mordor andove che l'ombra scura vien xò`
   },
   289: {
-    name: "трентинский диалект, зона Валь-ди-Кембра",
+    variant: "трентинский диалект, зона Валь-ди-Кембра",
     author: eld("MistayA"),
     content: `Tre anei ai re dei elfi sotto el zel che risplende
 Sete ai prinzipi dei nani nele lor casote de sas
@@ -209,7 +209,7 @@ N'anel per domarli, n'anel per trovarli,
 n'anel per ghemirli e nel strof encandenarli`
   },
   293: {
-    name: "калабрийский диалект",
+    variant: "калабрийский диалект",
     author: eld("Falby"),
     book: ["I-c", 101],
     content: `Tri anialli alli re di Elfi sutta u cielu chi risplendadi
@@ -222,7 +222,7 @@ Na niallu pe li ghermire e allu scuru incatenarli.
 Intra a terra de Mordor su l'umbra scura scindadi.`
   },
   294: {
-    name: "сицилийский диалект, зона Агридженто",
+    variant: "сицилийский диалект, зона Агридженто",
     author: eld("Síladelin & Claudio"),
     content: `Tri Aneddi a lu Re di li Elfi sutta lu cielu ca luci,
 Setti a lu Principi di li Nani ni so casteddi di petra,
@@ -234,7 +234,7 @@ N' Aneddu pi piglialli e nu scuru attacalli.
 Nilla Terra di Mordor unni l'Ummíra nigura scinni.`
   },
   295: {
-    name: "Basso Varesotto диалект",
+    variant: "Basso Varesotto диалект",
     author: eld("Omorzo_Cactaceo"),
     content: `Trii aneij al re d'i Elf suta 'l cèl c'al splend,
 Set ai princip d'i nanett in d'i lur stans de sass,
@@ -246,7 +246,7 @@ n'anell par ciapaij e 'ndel buij incadenaij,
 'Ndela tera d'Mordor 'ndua l'umbra cùva la vegna giò.`
   },
   296: {
-    name: "монополитанский диалект",
+    variant: "монополитанский диалект",
     author: eld("Anacarnil di Lond Rhynin"),
     book: ["I-m", 100],
     content: `Tra Enèddere pe i R-ré Elfi sòtte u cile che rèsplenne,
@@ -259,7 +259,7 @@ N’Enidde p’auuandalle i allu scùre ‘ngatenalle,
 J-ìnde a Tèrre de Mordor, addò a Murescène cùpe s-scènne.`
   },
   297: {
-    name: "бергамский диалект",
+    variant: "бергамский диалект",
     author: eld("Ramses II"),
     content: `Tri anei ai re di Elfi sota al ciel che l risplent
 set ai principi di Nani and i so roche de preda
@@ -270,7 +270,7 @@ an anel per ghermii e an del fosch incatenai
 An de la tera de Mordor anduè l'umbrea fosca la cala.`
   },
   298: {
-    name: "ассизский диалект, versante del Subasio",
+    variant: "ассизский диалект, versante del Subasio",
     author: eld("frasiabella"),
     book: ["I-a", 98],
     content: `tre annelli pei re de j elfi sott'al cielo ch' arisplenne
@@ -284,7 +284,7 @@ e 'nto 'l bujo 'ncatenalli
 'nto la terra de Mordor do che la murigge scura scenne`
   },
   299: {
-    name: "диалект Брешиа",
+    variant: "диалект Брешиа",
     author: eld("Elendiltheking"),
     content: `tre anei ai sior dei elfi sota al ciel ce l'è luminous
 set ai principi dei nani 'ndele lor baite de preda
@@ -296,7 +296,7 @@ en anel per ciapai e en de l'ombra 'ngabbiai
 'ndela tèra de mordor 'ndoe l'ombra la ve' scûra`
   },
   300: {
-    name: "диалект Маркиджано (юж. Марке и сев. Асколи)",
+    variant: "диалект Маркиджано (юж. Марке и сев. Асколи)",
     author: eld("tac74"),
     book: ["I-m", 96],
     content: `Tre anelli pe li re dell'Elfi sotto lu cielu che 'lluppica
@@ -309,7 +309,7 @@ N'anellu 'ppe 'cchiappalli e 'ttaccalli su lo scuro
 'lla la terra de Mordor, 'ddo cala l'ombra cupa`
   },
   301: {
-    name: "Locarnese диалект",
+    variant: "Locarnese диалект",
     author: eld("elfo_femmina"),
     content: `Trii anei pai Re dai elfi
 Sot al ciel c'al riscplend
@@ -327,7 +327,7 @@ e 'ndal scür incatenai,
 'Nda la Tera de Mordor, ndova l'ombra negra la scend`
   },
   302: {
-    name: "перуджийский диалект",
+    variant: "перуджийский диалект",
     author: eld("Elentari"),
     content: `Tre Anelli pì re dì Elfe sott'al cielo che sbrilluc'ca,
 Sette pì Principe dì Nane n'le loro rocche d' pietra
@@ -339,7 +339,7 @@ Un Anello pe chiappalli e n'tol bujo 'ncatenalli,
 N'tla Terra de Mordore, dua l'Ombra cupa vien giue`
   },
   303: {
-    name: "пьемонтский диалект",
+    variant: "пьемонтский диалект",
     author: eld("Anacarnil di Laurelindórenan"),
     book: ["I-p", 92],
     content: `Tre anei ai Re d'j Elfi, suta u ciel ca splènd
@@ -352,7 +352,7 @@ N'Anel per ambrancheje e ant'ù Scur ancad'neje.
 Ant'a tera d'Mordor, anté l'Umbra scur-a a cala`
   },
   304: {
-    name: "болонский диалект",
+    variant: "болонский диалект",
     author: "Sergio Calzolari (or Elros Minyatur ?)",
     book: ["I-b", 94],
     content: `Tri anei ai Re di Elf sott' e ziel che r'lus
@@ -365,7 +365,7 @@ un Anel per ciapei e in te Bur incat'nei
 in t'la Tera ad Mordor duv l'Ombra Negra la cala`
   },
   305: {
-    name: "неаполитанский диалект, зона Казерты",
+    variant: "неаполитанский диалект, зона Казерты",
     author: eld("Frodo_Ba"),
     content: `Tre aniell 'e rre 'i'll'elf sott'o ciel'ca rsplenn
 Sett'e'princp're nan rint'e'llor'castiell'i pret
@@ -379,7 +379,7 @@ E 'nto scur'ncatnà.
 Rint'a'terr 'e Mord\`r, arò l'ombra scura s'acal.`
   },
   306: {
-    name: "неаполитанский диалект, зона Неаполя (или исправ. #305 ?)",
+    variant: "неаполитанский диалект, зона Неаполя (или исправ. #305 ?)",
     author: eld("Dott. Elminster^85"),
     book: ["I-n", 99],
     content: `Tre aniell 'e rre 'i'll'elf sott'o ciel'ca rsplenn
@@ -394,7 +394,7 @@ E 'nto scur'ncatnà.
 Rint'a'terr 'e Mord\`r, arò l'ombra scura scenn.`
   },
   307: {
-    name: "романьольский диалект, зона Апеннин",
+    variant: "романьольский диалект, зона Апеннин",
     author: eld("Tinùviel"),
     content: `Tri anei par gli elf sot me ciel cu risplend.
 Set mai princp di nan tal lor rocc ad pietra.
@@ -406,7 +406,7 @@ un anel par ghermirl e inte bui incatenai,
 intla tera ad Mordor, dov l'ombra cupa la scend.`
   },
   308: {
-    name: "сицилийский диалект",
+    variant: "сицилийский диалект",
     author: eld("Otaritton"),
     book: ["I-s", 101],
     content: `Tri aneddi pi re dill'effi sutta u cielu chi brillìa
@@ -422,7 +422,7 @@ nta tera i Mordor
 unni l'umbra cala.`
   },
   313: {
-    name: "диалект Комо",
+    variant: "диалект Комо",
     author: eld("Lonolf"),
     book: ["I-c", 96],
     content: `Tri anei ai re degli elf suta al ciel che risplent
@@ -439,7 +439,7 @@ nela tera de Mordor
 Duvé l'ombra negra scend`
   },
   314: {
-    name: "флорентийский говор тосканского диалекта",
+    variant: "флорентийский говор тосканского диалекта",
     author: eld("Eliadelin Tindómiel"),
     book: ["I-f", 97],
     content: `Tre Anelli a' Re degli Elfi sotto i' cielo 'he risplende,
@@ -452,7 +452,7 @@ Un Anello pʰe' pigliarli e legarli ni' buio,
 Ni' regno di Mordore, in do' gli'è buio.`
   },
   315: {
-    name: "диалект Ливорно",
+    variant: "диалект Ливорно",
     author: eld("Eliadelin Tindómiel"),
     content: `Tre Anèlli a' Re dell'Erfi sotto 'r cièlo che risplènde,
 Sètte a' Principi de' Nani nelle su' 'averne di piètra,
@@ -463,7 +463,7 @@ Un Anèllo phe' piglialli e mètterli a i' buio,
 Nella terra di Mordore, in do' un si vede da qui a lì.`
   },
   316: {
-    name: "чочарский диалект",
+    variant: "чочарский диалект",
     author: eld("yaya"),
     book: ["I-c", 99],
     content: `Tre aniegl agl re degl'elf sott agl ciel ch'è chiar
@@ -478,7 +478,7 @@ i all scur attaccaglie
 dapied a Mordor addò cala l'ombra scura!`
   },
   317: {
-    name: "бриндизский вариант апулийского диалекта",
+    variant: "бриндизский вариант апулийского диалекта",
     author: eld("TurinMormegil79"),
     content: `Treti alli Re dilli Elfi sottu lu cieli luciscenti
 Setti pi lli RRei dilli Nani ntra li casi di petra
@@ -492,7 +492,7 @@ e allu scuru cu li 'ncatenu
 'Ntra li terri di Mordor do l'ombra cupa scendi`
   },
   318: {
-    name: "диалект Тревизо",
+    variant: "диалект Тревизо",
     author: eld("Farëa Brandibuck"),
     content: `Tre anei pai re dei elfi soto al cieo che bria,
 sete ai prinsipi dei nani nee so case de piera,
@@ -504,7 +504,7 @@ Un aneo par ciaparli e al scuro incaenarli,
 Nea Tera de Mordor, onde a ombria mora caie.`
   },
   320: {
-    name: "вариант Isole Eolie сицилийского диалекта",
+    variant: "вариант Isole Eolie сицилийского диалекта",
     author: eld("Borgil"),
     book: ["I-e", 102],
     content: `Tri anieddi ai re dill'elfi sutta u cielu ca risplenni
@@ -518,7 +518,7 @@ e ntu scuru iettàrili
 nta terr' i Mordor unni l'umbra nìura scinni`
   },
   321: {
-    name: "вариант Палермо сицилийского диалекта",
+    variant: "вариант Палермо сицилийского диалекта",
     author: eld("Utumno"),
     book: ["I-p", 102],
     content: `Tri anieddi ai re di l'elfi sutta u cielu,
@@ -532,7 +532,7 @@ N'anieddu pi purtarisill'a tutti e nnu scuru 'ncatinalli
 Nta la tierr'i Mordor unni sta l'umbra.`
   },
   322: {
-    name: "редджанский диалект, зона Редджоло",
+    variant: "редджанский диалект, зона Редджоло",
     author: eld("Aramil"),
     content: `Tri Anei al Re ad gl’Elfi sota al sel cal risplend,
 Set ai Principi a di Nan in lor rochi ad preda,
@@ -544,7 +544,7 @@ N’Anel par ciaparal e in dal scur incatnaral,
 In dla Tera ad Mordor, indua l’Ombra negra la vè sö.`
   },
   325: {
-    name: "тарантский диалект",
+    variant: "тарантский диалект",
     author: eld("Beren85"),
     book: ["I-t", 100],
     content: `Tré Anidde a le réje de l'Elfe, sott'u ciele ca sblende.
@@ -557,7 +557,7 @@ jndr'â terre de Mordòr, addò 'a malombre avéne.
 Jndr'â terre de Mordòr, addò 'a malombre avéne.`
   },
   326: {
-    name: "тичинский диалект",
+    variant: "тичинский диалект",
     author: eld("Numenor"),
     book: ["I-t", 93],
     content: `Trii aneei al Re dii Elfi sot'al ciel che brila

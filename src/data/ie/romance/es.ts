@@ -46,7 +46,7 @@ En el Reinado de Mordor donde están las neblinas.`
   },
   241: {
     input: "0.9.0",
-    name: "SPangilish, калифорнийский англо-испанский",
+    variant: "SPangilish, калифорнийский англо-испанский",
     author: `Randalllin [${sources.planetTolkien}]`,
     book: book("S-s", 85),
     content: `Tres Ringos por la Elveno-kingas baja la sky,
@@ -61,7 +61,7 @@ En la Land de Mordor Quien la Shadows lie.`
 
   252: {
     input: "0.10.5",
-    name: "арагонский диалект",
+    variant: "арагонский диалект",
     author: [],
     book: book("S-a", 84),
     content: `Tres aniellos t’os Reis Elfos baxo o zielo,
@@ -76,7 +76,7 @@ En a Tierra de Mordor an s’ixemenan as Güembras`
   },
   253: {
     input: "0.10.5",
-    name: "леонский (астурийский) диалект",
+    variant: "леонский (астурийский) диалект",
     author: [],
     book: book("S-l", 84),
     content: `Tres aniellos pa los Reis Elfos baxu'l cieu,
@@ -119,7 +119,7 @@ En la tierra de Mordor en donde mienten las sombras.`
 
   491: {
     input: "1.0.3",
-    name: "астурийский",
+    variant: "астурийский",
     source: "ast.wikipedia.org",
     author: [],
     content: `Trés Aniellos pa los Reis Elfos embaxo'l cielu.

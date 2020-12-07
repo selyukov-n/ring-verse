@@ -19,6 +19,7 @@ export type Variant = Content & {
 
 export type Item = {
   language: LangId;
+  variant?: string; // for lang variants, dialects etc.
   name?: string;
   author: string | string[];
   content: Variant[] | string;

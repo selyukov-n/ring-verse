@@ -4,7 +4,7 @@ import { book, make } from "../utils";
 export const cymraeg = make({ language: "cym" }, {
   237: {
     input: "0.9.0",
-    name: "Сев. Уэльс",
+    variant: "Сев. Уэльс",
     book: book("W-n", 146),
     author: [],
     content: `Tri modrwy i'r brenin Ellyll o dan y wybren

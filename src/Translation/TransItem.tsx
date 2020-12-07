@@ -65,7 +65,8 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
     && <span className="date" title="when added to the collection">{formatDate(input.date)}</span>;
   return <>
     <h6>
-      #{item.index} {makeHeader(item.name, author || "?")}
+      #{item.index} {item.variant && `[${item.variant}] `}
+      {makeHeader(item.name, author || "?")}
       {date}
     </h6>
     {item.comments?.map((c, i) => typeof c === "string"

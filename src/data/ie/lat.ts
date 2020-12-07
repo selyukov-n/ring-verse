@@ -78,7 +78,7 @@ In terra Mordoris ubi umbrae iacent.`
 
   183: {
     input: "0.8.0",
-    name: "имитация средневековой латыни ?",
+    variant: "имитация средневековой латыни ???",
     author: "Klaus Scholl",
     book: book("L-3", 191),
     content: `Terni Annuli Regibus Nympharum subter Coelo,

@@ -2,7 +2,7 @@ import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
 import { book, fromLotR, make } from "../../utils";
 
-const br = make({ language: "pt", name: "бразильский вариант" }, {
+const br = make({ language: "pt", variant: "бразильский вариант" }, {
   63: {
     input: "0.2.0",
     book: book("Pb-1", 89),
@@ -46,7 +46,7 @@ Na Terra de Mordor onde as sombas se deitam.`
   },
 });
 
-const br1 = make({ language: "pt", name: "бразильский вариант ?" }, {
+const br1 = make({ language: "pt", variant: "бразильский вариант ?" }, {
   497: {
     input: "1.1",
     source: sources.kontuwiki,

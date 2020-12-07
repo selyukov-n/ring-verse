@@ -4,7 +4,7 @@ import { book, make } from "../../utils";
 export const sard = make({ language: "srd" }, {
   319: {
     input: "0.13.0",
-    name: "диалект вост. Барбаджи",
+    variant: "диалект вост. Барбаджи",
     author: `_KelTiK_ [${sources.eldalie}]`,
     book: book("S", 105),
     content: `Tres aneddos a sor Re de sos Elfoso issuta 'e su chelu chi rilukete,

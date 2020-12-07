@@ -3,7 +3,7 @@ import { book, make } from "../../utils";
 
 export const oe = make({ language: "oe" }, {
   86: {
-    name: "мерсийский диалект",
+    variant: "мерсийский диалект",
     input: "0.2.0",
     book: book("OE-m2", 185),
     author: "Edward W. Beattie",
@@ -18,7 +18,7 @@ Mislice metudsceafte   mánfremmende Mordor.`
   },
 
   168: {
-    name: "мерсийский диалект",
+    variant: "мерсийский диалект",
     input: "0.7.0",
     book: book("OE-m1", 183),
     source: "OE ring verse",
@@ -54,7 +54,7 @@ In Mordorlande þa þa sceade licgað.`
 
   239: {
     input: "0.9.0",
-    name: "мерсийский диалект (?)",
+    variant: "мерсийский диалект ?",
     author: `Arcormacolindóva [${sources.planetTolkien}]`,
     book: book("OE-m3", 185),
     content: `Hringas þríe þéodnum Ælfa under eormenrodore,
@@ -83,7 +83,7 @@ In þǣm land Mordor, hƿǣr þā sceadƿe mīðaþ.`
 
   484: {
     input: "1.0.2",
-    name: "мерсийский диалект ?",
+    variant: "мерсийский диалект ?",
     author: "Robert Fischer",
     book: ["OE-m4", 186],
     content: `Þri hringas for þæm ælf     cyningum under wolcnum

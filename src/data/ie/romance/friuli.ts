@@ -17,7 +17,7 @@ Un Anel par ĉjapaiu e in tal scûr inĉjatenaiu,
 In ta Tiare di Mordor in dulà che cale la scure ombrene.`
   },
   291: {
-    name: "равнинный диалект, зона Аквилеи, Сарвиньян",
+    variant: "равнинный диалект, зона Аквилеи, Сарвиньян",
     author: eld("rosieposie"),
     book: book("F-2", 104),
     content: `Tre anei al re dai Elfi sot il cil che lus,
@@ -30,7 +30,7 @@ un anel par brincajus e in tal scur incjadenajus,
 in te tiere di Mordor, indulà che l'ombrene scure a ven jù.`
   },
   292: {
-    name: "gradese диалект",
+    variant: "gradese диалект",
     author: eld("rosieposie"),
     content: `Tre aneli ai re dei Elfi soto il sielo che riluse
 Sete ai principi dei Nani in te le loro roche de piera,
