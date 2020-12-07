@@ -31,7 +31,6 @@ v Mordorju, kjer senca ne nehava.`
   495: {
     input: "1.1",
     author: [],
-    comments: ["очень похоже на #243"],
     content: `Troji Prstani za vilinske kralje pod neba bleščavo,
 Sedmeri za škratov vladarje v njih skalnem zaklonu,
 Deveteri za Smrtnike, ljudi z umrljivo naravo,
