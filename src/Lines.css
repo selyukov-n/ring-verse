@@ -42,6 +42,9 @@
 }
 
 /* classes */
+.text-large .card-body {
+  font-size: 20px;
+}
 .braille .card-body {
   /*noinspection CssNoGenericFontName*/
   font-family: Braille;
