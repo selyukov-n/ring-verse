@@ -57,7 +57,7 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
   </section>;
 };
 
-export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
+export const TransItem: FC<{ item: ItemNum, linkToLang?: boolean }> = ({ item, linkToLang }) => {
   const info = findLanguage(item.language, names);
   const author = (Array.isArray(item.author) ? item.author : [item.author])
     .filter(Boolean)
@@ -67,7 +67,7 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
   const date = item.index > 1 && input.date
     && <span className="date" title="when added to the collection">{formatDate(input.date)}</span>;
   return <>
-    {info && <LangName {...info} head />}
+    {info && <LangName {...info} head link={linkToLang} />}
     <h6>
       #{item.index} {item.variant && `[${item.variant}] `}
       {makeHeader(item.name, author || "?")}

@@ -10,6 +10,6 @@ export const Translation: FC<RouteComponentProps<{ id: string }>> = props => {
   const item = num[id];
 
   return item
-    ? <TransItem item={{ ...item, index: id }} />
+    ? <TransItem item={{ ...item, index: id }} linkToLang />
     : <Alert variant="danger">Not found #{id}</Alert>;
 };

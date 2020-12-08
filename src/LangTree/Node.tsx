@@ -1,5 +1,4 @@
 import React, { FC, useCallback, useState } from "react";
-import { Link } from "react-router-dom";
 import { Badge } from "react-bootstrap";
 import { useDataContext } from "../context";
 import { LangGroupItem } from "../languages";
@@ -29,7 +28,7 @@ const Node = <T extends string>({ item, names, defaultOpen = false }: Props<T>):
 
   if (item.type !== "group")
     return <li>
-      <Link to={'/lang/' + item.id}><LangName lang={item} name={names[item.id]} /></Link> {counter}
+      <LangName lang={item} name={names[item.id]} link /> {counter}
     </li>;
 
   const className = open ? "exp expanded" : "exp collapsed";
