@@ -12,11 +12,11 @@ type Props = {
 const LangName: FC<Props> = ({ lang, name, head, link }) => {
   if (lang.type !== "lang") return null;
 
-  const author = lang.author && <i>({lang.author})</i>;
+  const author = lang.author && <i> ({lang.author})</i>;
 
   if (head) name = name[0].toUpperCase() + name.substr(1);
 
-  let content = <>{name} {author}</>;
+  let content = <>{name}{author}</>;
   if (link) content = <Link to={'/lang/' + lang.id}>{content}</Link>;
   if (head) content = <h5>{content}</h5>;
 
