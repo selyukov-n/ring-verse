@@ -4,7 +4,7 @@ import { useDataContext } from "../context";
 import { Data, formatDate, inputs, isMine, main } from "../data";
 
 import "./history.css";
-import { compareVersions, getHistoryItems } from "./utils";
+import { compareVersions } from "./utils";
 
 const fromSet = (set: Set<string>) => Array.from(set.keys()).join(", ");
 
@@ -14,63 +14,56 @@ const makeHistoryItems = (data: Data) => {
     me: new Set<string>(),
     count: 0,
   };
-  const map = new Map<string, JSX.Element>(getHistoryItems(data).map(t => {
-    const curr = new Set<string>();
-    t.items.filter(it => it !== main).forEach(it => {
-      const l = it.language;
-      if (l.startsWith("j.")) return; // skip jokes for stats
 
-      if (isMine(it)) acc.me.add(l);
+  return Object.entries(inputs)
+    .sort((a, b) => compareVersions(a[0], b[0]))
+    .map(([ver, input]) => {
+      const items = data.items.filter(t => t.input === ver);
 
-      if (!acc.lang.has(l)) curr.add(l);
-      acc.lang.add(l);
-    });
+      acc.count += items.length;
+      const curr = new Set<string>();
+      items.forEach(it => {
+        const l = it.language;
+        if (l.startsWith("j.")) return; // skip jokes for stats
 
-    acc.count += t.items.length;
+        if (isMine(it)) acc.me.add(l);
 
-    const input = inputs[t.input];
-    const desc = input.description;
-    const date = input?.date ? formatDate(input.date) : "?";
-    const sources = new Set([
-      input.mainSource || "",
-      ...t.items.map(i => i.source || "")
-    ].filter(Boolean));
-    const row = <tr key={t.input}>
-      <td>{t.input}</td>
-      <td>{date}</td>
-      <td>{t.items.length}</td>
-      <td>{acc.count}</td>
-      <td>
-        {fromSet(curr)}
-        {desc && <div className="description">{desc}</div>}
-      </td>
-      <td>{fromSet(sources)}</td>
-      <td>{acc.lang.size} ({acc.me.size})</td>
-    </tr>;
-    return [t.input, row];
-  }));
+        if (it !== main) {
+          if (!acc.lang.has(l)) curr.add(l);
+          acc.lang.add(l);
+        }
+      });
 
-  const inputMap = new Map(Object.entries(inputs));
+      let cells: JSX.Element;
+      if (items.length > 0) {
+        const sources = new Set([
+          input.mainSource || "",
+          ...items.map(i => i.source || "")
+        ].filter(Boolean));
 
-  return Object.keys(inputs)
-    .sort(compareVersions)
-    .map(t => {
-      const row = map.get(t);
-      if (row) return row;
-
-      const input = inputMap.get(t);
-      if (!input) return null;
-
-      const date = input?.date ? formatDate(input.date) : "?";
-      return <tr key={t}>
-        <td>{t}</td>
-        <td>{date}</td>
-        <td colSpan={5} className="description">
+        cells = <>
+          <td>{items.length}</td>
+          <td>{acc.count}</td>
+          <td>
+            {fromSet(curr)}
+            <div className="description">{input.description}</div>
+          </td>
+          <td>{fromSet(sources)}</td>
+          <td>{acc.lang.size} ({acc.me.size})</td>
+        </>;
+      } else {
+        cells = <td colSpan={5} className="description">
           {input.description}
-        </td>
+        </td>;
+      }
+
+      const date = input.date ? formatDate(input.date) : "?";
+      return <tr key={ver}>
+        <td>{ver}</td>
+        <td>{date}</td>
+        {cells}
       </tr>
-    })
-    .filter(Boolean);
+    });
 };
 
 export const Table = () => {

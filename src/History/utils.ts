@@ -1,5 +1,3 @@
-import { Data, DataItem } from "../data";
-
 export const compareVersions = (a: string, b: string): number => {
   const compareValue = (a: number, b: number) => isNaN(a) ? 1 : isNaN(b) ? -1 : (a - b);
 
@@ -19,15 +17,4 @@ export const compareVersions = (a: string, b: string): number => {
   }
 
   return 0;
-};
-
-export const getHistoryItems = (data: Data) => {
-  const byVer: Record<string, DataItem[]> = {};
-  Object.values(data.num).forEach(t => {
-    const arr = byVer[t.input] || [];
-    byVer[t.input] = [...arr, t];
-  });
-
-  return Object.values(byVer)
-    .map(items => ({ input: items[0].input, items }));
 };

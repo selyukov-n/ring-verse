@@ -15,13 +15,13 @@ export const main: Item = {
 };
 
 export type ItemNum = Item & { index: number };
-export type DataItem = Item;
 export type Input = I;
 
 const mergeGroups = (...groups: ItemGroup[]) => {
   const result = {
     lang: {} as Record<string, ItemNum[]>,
     num: {} as ItemGroup,
+    items: [] as Item[],
   };
   const keys = new Set<number>();
   groups.forEach(g => forEach(g, (item, index) => {
@@ -32,6 +32,7 @@ const mergeGroups = (...groups: ItemGroup[]) => {
 
     keys.add(index);
     result.num[index] = item;
+    result.items.push(item);
 
     const rec = result.lang[item.language] || [];
     rec.push({ ...item, index });
