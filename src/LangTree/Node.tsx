@@ -8,7 +8,7 @@ import { getCounts } from "./utils";
 const Counter: FC<{ count: number, me: number }> = ({ count, me }) => {
   const cls = me ? "success" : undefined;
   return count
-    ? <Badge variant="light" className={cls}>{me} / {count}</Badge>
+    ? <Badge variant="light" className={cls}>{me ? `${me} / ${count}` : count}</Badge>
     : <Badge variant="danger">{count}</Badge>;
 };
 
