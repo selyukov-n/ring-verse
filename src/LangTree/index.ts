@@ -1,5 +1,6 @@
 import LangTree from "./LangTree";
 export default LangTree;
 
+export { default as LangName } from "./LangName";
 export { getTotalCount } from "./LangTree";
-export { getCounts } from "./utils";
+export { findLanguage, getCounts } from "./utils";

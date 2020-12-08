@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Badge } from "react-bootstrap";
 import { useDataContext } from "../context";
 import { LangGroupItem } from "../languages";
+import LangName from "./LangName";
 import { getCounts } from "./utils";
 
 const Counter: FC<{ count: number, me: number }> = ({ count, me }) => {
@@ -28,8 +29,8 @@ const Node = <T extends string>({ item, names, defaultOpen = false }: Props<T>):
 
   if (item.type !== "group")
     return <li>
-      <Link to={'/lang/' + item.id}>{names[item.id]}</Link> {counter}
-      </li>;
+      <Link to={'/lang/' + item.id}><LangName lang={item} name={names[item.id]} /></Link> {counter}
+    </li>;
 
   const className = open ? "exp expanded" : "exp collapsed";
   const children = item.type === "group" && open && <ul className="content">

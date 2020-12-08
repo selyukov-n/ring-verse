@@ -1,35 +1,17 @@
 import React from "react";
-import { Route, RouteComponentProps, Switch } from "react-router";
+import { Route, Switch } from "react-router";
 import { BrowserRouter, Link } from "react-router-dom";
-import { ListGroup, Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import { Provider, useDataContext } from "./context";
+import { Provider } from "./context";
 import Credits from "./Credits";
-import data, { isMine } from "./data";
+import data from "./data";
 import History from "./History";
 import LangTree, { getTotalCount } from "./LangTree";
-import RouterLink from "./RouterLink";
-import { TransItem, Translation } from "./Translation";
-
-const Language = (props: RouteComponentProps<{ id: string }>) => {
-  const { lang } = useDataContext();
-  const items = lang[props.match.params.id];
-  if (items.length === 1) {
-    return <TransItem item={items[0]} />;
-  }
-
-  const main = items.filter(t => !t.variant).sort((a, b) => a.index - b.index);
-  const variants = items.filter(t => t.variant).sort((a, b) => a.index - b.index);
-
-  return <ListGroup>
-    {main.concat(variants)
-      .map(it => <ListGroup.Item key={it.index} action as={RouterLink} href={'/show/' + it.index}>
-        #{it.index} {it.variant && <i>{it.variant}</i>} {!it.name && isMine(it) ? "[my translation]" : it.name}
-      </ListGroup.Item>)}
-  </ListGroup>
-};
+import Language from "./Language";
+import { Translation } from "./Translation";
 
 const Sources = () => <div>TODO sources</div>;
 

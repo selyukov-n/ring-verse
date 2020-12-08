@@ -2,6 +2,8 @@ import React, { FC } from "react";
 import { Alert } from "react-bootstrap";
 import { sources as src } from "../data/sources";
 import { formatDate, Input, inputs, ItemNum, ItemVariant } from "../data";
+import { findLanguage, LangName } from "../LangTree";
+import { names } from "../languages";
 import { Lines } from "../Lines";
 import "./trans.css";
 
@@ -56,6 +58,7 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
 };
 
 export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
+  const info = findLanguage(item.language, names);
   const author = (Array.isArray(item.author) ? item.author : [item.author])
     .filter(Boolean)
     .join(", ");
@@ -64,6 +67,7 @@ export const TransItem: FC<{ item: ItemNum }> = ({ item }) => {
   const date = item.index > 1 && input.date
     && <span className="date" title="when added to the collection">{formatDate(input.date)}</span>;
   return <>
+    {info && <LangName {...info} head />}
     <h6>
       #{item.index} {item.variant && `[${item.variant}] `}
       {makeHeader(item.name, author || "?")}
