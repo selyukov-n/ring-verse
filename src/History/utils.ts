@@ -1,6 +1,6 @@
 import { Data, DataItem } from "../data";
 
-const compareVersions = (a: string, b: string): number => {
+export const compareVersions = (a: string, b: string): number => {
   const compareValue = (a: number, b: number) => isNaN(a) ? 1 : isNaN(b) ? -1 : (a - b);
 
   const ap = a.split(".");
@@ -29,6 +29,5 @@ export const getHistoryItems = (data: Data) => {
   });
 
   return Object.values(byVer)
-    .map(items => ({ input: items[0].input, items }))
-    .sort((a, b) => compareVersions(a.input, b.input));
+    .map(items => ({ input: items[0].input, items }));
 };
