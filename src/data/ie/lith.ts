@@ -1,12 +1,12 @@
 import { sources } from "../sources";
-import { book, fromLotR, make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 const lit = make({ language: "lit" }, {
   311: {
     input: "0.13.0",
     name: fromLotR(),
     author: ["Andrius Tapinas", "Jonas Strelkunas"],
-    book: book("L-1", 147),
+    book: ["L-1", 147],
     content: [{
       title: "Taip Žiedai padalinti pasauly:",
       text: `Trys - Elfų Karaliams po saule,

@@ -1,11 +1,11 @@
 import { sources } from "../sources";
-import { book, fromLotR, make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 export const ee = make({ language: "est" }, {
   78: {
     input: "0.2.0",
     author: "Alar Helstein",
-    book: book("E-2", 161),
+    book: ["E-2", 161],
     content: `Kolm sõrmust haldjahõimust on kuningail,
 seitse seal, kus kuldne päkapikukroon.
 Neid üheksa on inimmail,

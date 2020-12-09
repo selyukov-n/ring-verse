@@ -1,10 +1,10 @@
 import { IDerzhansky } from "../authors";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const rom = make({ language: "rom" }, {
   93: {
     input: "0.2.5",
-    book: book("R", 154),
+    book: ["R", 154],
     variant: "диалект Kalderash",
     author: IDerzhansky,
     content: `Trin angrustya ka le ray *ëlfanë tela 'l śon,

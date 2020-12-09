@@ -1,5 +1,4 @@
 import { ItemGroup } from "../types";
-import { book } from "../utils";
 import pic49 from "../pic/49jap.png";
 import { sources } from "../sources";
 
@@ -7,7 +6,7 @@ export const jp: ItemGroup = {
   49: {
     language: "jap",
     name: "из перевода ВК",
-    book: book("J", 180),
+    book: ["J", 180],
     input: "0.2.0",
     author: [],
     comments: ["some comments"],

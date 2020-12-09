@@ -1,11 +1,11 @@
 import { sources } from "../sources";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const fi = make({ language: "fin" }, {
   88: {
     input: "0.2.0",
     name: "из перевода ВК",
-    book: book("F-1", 160),
+    book: ["F-1", 160],
     author: "Panu Pekkanen",
     content: `Kolme sormusta haltiakuninkaille all auringon,
 seitsemän kääpiöruhtinaille kivisaleissaan,

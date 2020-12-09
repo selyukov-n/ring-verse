@@ -1,15 +1,14 @@
-import { book, fromLotR, make } from "../utils";
+import { fromLotR, make } from "../utils";
 import { sources } from "../sources";
 
 export const ancient = make({ language: "gre" }, {
   100: {
     input: "0.3.0",
     variant: "гомеровский диалект",
-    book: book("AG-2", 198),
+    book: ["AG-2", 198],
     author: "Anthony Appleyard",
     content: [
       {
-        name: "греческое письмо",
         type: "text-large",
         text: `Δακτύλιοι τρεῖς ἈλϕοϜάξιν ὑπ᾽ οὐράνῳ εἰσί.
 Ἕπτα Καβειροδυνάστῃσιν μεγάροις λιθίνοις ἔν.

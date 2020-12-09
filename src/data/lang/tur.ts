@@ -1,10 +1,10 @@
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const turkish = make({ language: "tur" }, {
   182: {
     input: "0.8.0",
     name: "офиц. перевод",
-    book: book("T", 164),
+    book: ["T", 164],
     author: "Bulent Somay",
     content: `Üç Yüzük göğün altında yaşayan Elf Kralları'na
 Yedisi taştan saraylarında yaşayan Cüce Hükümdarlar'a,

@@ -1,10 +1,10 @@
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 import pic221 from "../../pic/221heb.png";
 
 export const yiddish = make({ language: "yid" }, {
   221: {
     input: "0.7.0",
-    book: book("Y", 77),
+    book: ["Y", 77],
     author: "David Weiß",
     content: [
       {

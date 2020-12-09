@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { book, map } from "../../utils";
+import { map } from "../../utils";
 
 const rh = map({
   323: {
@@ -28,7 +28,7 @@ In Anè per als dominar, in Anè per als chattar,
 In Anè per als captivar ed als enchadanar,
 En la terra da Mordor, nua che la sumbriva croda grev.`
   },
-}, t => ({ ...t, language: "swi", input: "0.13.0", author: `${t.author} [${sources.eldalie}]`, book: book(t.book, 103) }));
+}, t => ({ ...t, language: "swi", input: "0.13.0", author: `${t.author} [${sources.eldalie}]`, book: [t.book, 103] }));
 
 export const list = [
   rh,

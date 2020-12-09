@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { IDerzhansky } from "../authors";
-import { book, make } from "../utils";
+import { make } from "../utils";
 import pic89 from "../pic/89akk.png";
 
 const Word: FC<{ det: string }> = ({ det, children }) => <><sup>{det}</sup>{children}</>;
@@ -19,7 +19,7 @@ export const akk = make({ language: "akk" }, {
   89: {
     input: "0.2.5",
     variant: "старовавилонский диалект",
-    book: book("A", 203),
+    book: ["A", 203],
     author: IDerzhansky,
     comments: ["Orig. published in Tyalië Tyelelliéva #6, pp. 7-8 (with cuneiform)."],
     content: [

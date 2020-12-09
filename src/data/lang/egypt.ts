@@ -1,5 +1,5 @@
 import { IDerzhansky } from "../authors";
-import { book, make } from "../utils";
+import { make } from "../utils";
 import pic90 from "../pic/90egy.png";
 
 const translit = (text: string) => ({
@@ -10,7 +10,7 @@ const translit = (text: string) => ({
 export const aeg = make({ language: "egy" }, {
   90: {
     input: "0.2.5",
-    book: book("AE", 204),
+    book: ["AE", 204],
     author: IDerzhansky,
     comments: ["Orig. published in Tyalië Tyelelliéva #8, pp. 17-19 (with the hieroglyphic text and the intended vocalization)."],
     content: [

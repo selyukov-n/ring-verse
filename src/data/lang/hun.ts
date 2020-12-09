@@ -1,11 +1,11 @@
 import { sources } from "../sources";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const hun = make({ language: "hun" }, {
   51: {
     author: "Dezső Tandori",
     input: "0.2.0",
-    book: book("H", 162),
+    book: ["H", 162],
     content: `Három Gyűrű ragyogjon a tünde-királyok kezén,
 Hét a nemes törpök jussa, kiknek háza cifra kő,
 Kilencet halandó ember ujján csillantson a fény,

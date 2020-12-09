@@ -1,10 +1,10 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
 export const glg = make({ language: "glg" }, {
   84: {
     input: "0.2.0",
-    book: book("G-2", 87),
+    book: ["G-2", 87],
     author: "Luis Tarrio & his brother",
     content: `Tres aneis para os Reis Elfos baixo o ceo,
 sete para os señores Ananos nos seus pazos na pedra

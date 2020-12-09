@@ -1,5 +1,5 @@
 import { sources } from "../sources";
-import { book, make } from "../utils";
+import { make } from "../utils";
 import pic213ar from "../pic/213ara.png";
 import pic213hb from "../pic/213heb.png";
 import pic351 from "../pic/351ara.jpg";
@@ -12,7 +12,7 @@ export const arab = make({ language: "arabic" }, {
     input: "0.7.0",
     name: "классическая форма литературного языка",
     author: "Husam Mahajna",
-    book: book("CA", 202),
+    book: ["CA", 202],
     content: [
       pic(pic213ar, "арабское письмо"),
       pic(pic213hb, "древнееврейское письмо"),

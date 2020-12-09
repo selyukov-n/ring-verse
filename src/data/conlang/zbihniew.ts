@@ -1,4 +1,4 @@
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const byZbihniew = make({ input: "0.8.0", author: "zbihniew" }, {
   181: {
@@ -27,7 +27,7 @@ V Zemav Mordorev kde Tëny lëžetom.`
   },
   207: {
     language: "c.bzd",
-    book: book("B", 216),
+    book: ["B", 216],
     content: `Tryż raściuni ćmu elfeśmoki siut dziawa
 Siadm ćmu dziorfeżejdeki na onesie wziobakurici
 Wejć ćmu dżoweki śwaniune aj zdychu

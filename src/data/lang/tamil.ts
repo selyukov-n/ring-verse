@@ -1,11 +1,11 @@
-import { book, make } from "../utils";
+import { make } from "../utils";
 import pic224 from "../pic/224tam.jpg";
 
 export const tamil = make({ language: "tam" }, {
   224: {
     input: "0.8.0",
     author: ["T.T.Surenkumar", "T.T.Arvind"],
-    book: book("T", 169),
+    book: ["T", 169],
     content: [
       {
         text: `múnṟu kaNaiázikaḻ ákaya sámarakkizé amaṟum iḻavar arasarkaḻukku

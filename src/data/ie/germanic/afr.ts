@@ -1,10 +1,10 @@
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 export const afrikaans = make({ language: "af" }, {
   310: {
     input: "0.13.0",
     author: [],
-    book: book("A", 78),
+    book: ["A", 78],
     content: `Drie Ringe vir die Elf-Konings onder die lug,
 Sewe vir die Dwerg-Here wat in sale van steen woon
 Nege vir Sterflike Mense gedoem tot sterwe,

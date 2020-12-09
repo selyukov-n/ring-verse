@@ -1,10 +1,10 @@
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const tupi = make({ language: "tup" }, {
   205: {
     input: "0.8.0",
     author: "Ensjo",
-    book: book("OT", 205),
+    book: ["OT", 205],
     content: `Mosapýr Moãapýña Éba Morubixába supé ybáka ûýrype,
 Mbó-mokõîa Nána Tubixába supé i itakotýpe,
 Mbó-oîoîrundýka Abae'õ omanomba'eráma supé,
