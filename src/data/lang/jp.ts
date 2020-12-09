@@ -9,7 +9,6 @@ export const jp: ItemGroup = {
     book: ["J", 180],
     input: "0.2.0",
     author: [],
-    comments: ["some comments"],
     content: [
       {
         text: `三つの指輪は、空の下なるエルフの王に、
@@ -27,9 +26,6 @@ export const jp: ItemGroup = {
         name: "pic",
         type: "image",
         image: pic49,
-
-        author: ["111"],
-        comment: "Some comment for this variant",
       },
       {
         name: "ромадзи",
