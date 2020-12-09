@@ -7,6 +7,7 @@ export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
     author: "Ron Croizer - רן קרויזר",
     book: book("A-1", 200),
     content: [{
+      type: "rtl",
       title: "מָרָא עִיזְקִין",
       text: `תְּלָת עִיזְקִין לְמַלְכֵי דְעַלְפֵי תְּחוֹת שְׁמַיָּא,
  שְׁבַע לְמָרֵי גַמְדֵי בּהֵיכְלֵי אַבְנָא,
