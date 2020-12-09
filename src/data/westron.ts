@@ -6,13 +6,13 @@ export const w = make({ language: "westron" }, {
     name: '"реконструкция"',
     author: "Mathias List",
     book: ["A(W)", 32],
-    content: `banyara rinihii murahan eldarin hara virad luthran
-hazid murahan nargaan hara baradan rama
-hazid ban/hazaban murahan narahani nihi na'nuuran yadahani marim
-yar murahan duloog harahat niirahan duloog huurhan rimihi vuurdan
-zayiin tukahan mordor niid rimi duloog tadii giimab bata
-yar rinihii na'paha yiira murahan nihi, yar rinihii na'paha manat murahan nihi
-yar rinihii na'paha kiitah yara niid ra daliig niid na'paha yiira
-zayiin tukahan mordor niid rimi duloog tadii giimab bata`
+    content: `banyara rinihî murahan eldarin hara virad luthran
+hazid murahan nargân hara baradan rama
+hazid ban/hazaban murahan narahani nihi na'nûran yadahani marim
+yar murahan dulôg harahat nîrahan dulôg hûrhan rimihi vûrdan
+zayîn tukahan mordor nîd rimi dulôg tadî gîmab bata
+yar rinihî na'paha yîra murahan nihi, yar rinihî na'paha manat murahan nihi
+yar rinihî na'paha kîtah yara nîd ra dalîg nîd na'paha yiira
+zayîn tukahan mordor nîd rimi dulôg tadî gîmab bata`
   },
 });
