@@ -1,9 +1,10 @@
 import { ME } from "../authors";
+import main from "../main";
+import { sources } from "../sources";
 import { make } from "../utils";
 import pic228 from "../pic/228gimmel.png";
 import pic229 from "../pic/229nuts.png";
-import main from "../main";
-import { sources } from "../sources";
+import pic433 from "../pic/433gest.png";
 
 const pic = (image: any) => ({ type: "image" as const, image });
 
@@ -148,8 +149,11 @@ Dans l'ipai de Dormor, l'ipai des breçons.`
     input: "1.0",
     language: "e.gest",
     author: [],
-    book: ["", 13],
-    content: "TODO",
+    book: ["Z", 13],
+    content: [{
+      type: "image",
+      image: pic433,
+    }],
   },
 });
 

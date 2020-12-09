@@ -234,7 +234,7 @@ export const encodings: Record<EncodingLang, string> = {
   "e.pig": "поросячья латынь",
   "e.eli": "Elignsh =)",
   "e.braille": "шрифт Брайля",
-  "e.gest": "язык жестов",
+  "e.gest": "дактильный алфавит британского жестового языка",
   "e.morse": "код Морзе",
   "e.hex": "Hexspeak",
   "e.sndex": "Soundex",

@@ -2,6 +2,8 @@ import { sources } from "../sources";
 import { fromLotR, make, tonal } from "../utils";
 import pic338 from "../pic/338chi.jpg";
 import pic420 from "../pic/420chi.gif";
+import pic483a from "../pic/483chi-a.png";
+import pic483b from "../pic/483chi-b.png";
 import pic499a from "../pic/499chi-a.png";
 import pic499b from "../pic/499chi-b.jpg";
 
@@ -83,12 +85,16 @@ mo4 dou1 da4 di4 hei1 ying3 chuang2chuang2`)
     book: ["C-c", 178],
     content: [
       {
-        name: "pic",
         type: "image",
-        image: "TODO", // TODO
+        image: pic483a,
       },
       {
-        name: "pinyin",
+        name: "xing-shu",
+        author: ["Maciej Garbowski"],
+        type: "image",
+        image: pic483b,
+      },
+      {
         text: tonal(`tin1 haa6 sin1 wong4 saam1 zi2 waan4
 sek6 din6 ai2 wong4 cat1 zi2 waan4
 bit1 sei2 faan4 jan4 gau2 zu2 waan4
