@@ -1,6 +1,7 @@
 import { ItemGroup } from "../types";
-import pic49 from "../pic/49jap.png";
 import { sources } from "../sources";
+import pic49a from "../pic/49jap.png";
+import pic49b from "../pic/49jap.jpg";
 
 export const jp: ItemGroup = {
   49: {
@@ -23,9 +24,14 @@ export const jp: ItemGroup = {
 影横たわるモルドールの国に。`,
       },
       {
-        name: "pic",
+        name: "pic1",
         type: "image",
-        image: pic49,
+        image: pic49a,
+      },
+      {
+        name: "pic2",
+        type: "image",
+        image: pic49b,
       },
       {
         name: "ромадзи",

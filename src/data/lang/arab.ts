@@ -3,7 +3,7 @@ import { make } from "../utils";
 import pic213ar from "../pic/213ara.png";
 import pic213hb from "../pic/213heb.png";
 import pic351 from "../pic/351ara.jpg";
-import pic501 from "../pic/501ara.png";
+import pic501 from "../pic/501ara.jpg";
 
 const pic = (image: any, name?: string) => ({ type: "image" as const, image, name });
 

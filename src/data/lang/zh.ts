@@ -3,7 +3,7 @@ import { fromLotR, make, tonal } from "../utils";
 import pic338 from "../pic/338chi.jpg";
 import pic420 from "../pic/420chi.gif";
 import pic499a from "../pic/499chi-a.png";
-import pic499b from "../pic/499chi-b.png";
+import pic499b from "../pic/499chi-b.jpg";
 
 export const zh = make({ language: "zh" }, {
   338: {
