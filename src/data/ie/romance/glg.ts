@@ -34,12 +34,12 @@ Na terra de Mordor onde se espallan as sombras.`
     name: fromLotR(),
     author: "Moisés R. Barcia",
     book: ["G-1", 87],
-    content: `Tres aneis para os Reis Elfos baixo o ceo,
+    content: `Tres aneis para os Reis dos Elfos baixo o ceo,
 Sete para os Señores Ananos nos súas salas de pedra
 Nove para os Homes Mortais condenados a morrer,
 un para o Señor Escuro no seu trono escuro
 na Terra de Mordor, onde se esteden as Sombras.
-Un anel para dobernalos a todos, un anel para atopalos,
+Un anel para gobernalos a todos, un anel para atopalos,
 un anel para atraelos a todos e atalos nas tebras,
 na Terra de Mordor, onde se esteden as Sombras.`
   },

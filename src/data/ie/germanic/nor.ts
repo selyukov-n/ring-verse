@@ -77,9 +77,9 @@ i landet Mordor, der skuggane rår.`
   459: {
     input: "1.0",
     name: fromLotR(),
-    author: "Eilev Cronen Myhren",
+    author: "Eilev Groven Myhren",
     book: ["Nn-1", 73],
-    content: `Alvar under blína eig ringane tri.
+    content: `Alvar under blåna eig ringane tri.
 Sju fekk dvergedrottane i salar av stein.
 Menn som er saka til dauden, fekk ni,
 men drotten for Myrket ein einaste ein,

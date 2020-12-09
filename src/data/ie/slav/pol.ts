@@ -115,7 +115,7 @@ W kraju Mordoru, kędy Cieniów zaległy tonie.`
   },
   440: {
     book: ["P-6", 44],
-    author: "Andrzek Sawicki",
+    author: "Andrzej Sawicki",
     content: `Trzy pierścienie dla królów elfów, co lasem władają,
 Dla władców krasnoludów w ich podziemiach - siedem,
 Dziewięć dla królów ludzi, tych, co umierają,
