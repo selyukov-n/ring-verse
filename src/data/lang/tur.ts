@@ -1,9 +1,9 @@
-import { make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 export const turkish = make({ language: "tur" }, {
   182: {
     input: "0.8.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: ["T", 164],
     author: "Bulent Somay",
     content: `Üç Yüzük göğün altında yaşayan Elf Kralları'na

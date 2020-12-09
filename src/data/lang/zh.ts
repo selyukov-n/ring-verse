@@ -110,7 +110,8 @@ mo1 jing2 lung4 zaau3 mo1 dou1 noi6`)
   499: {
     input: "1.1",
     variant: "тайваньский",
-    author: "Zhu Xue Heng, " + fromLotR(),
+    author: "Zhu Xue Heng",
+    name: fromLotR(),
     book: ["C-t", 177],
     source: sources.book,
     content: [

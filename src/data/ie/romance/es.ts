@@ -1,9 +1,9 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 const es = make({ language: "es", input: "0.2.0" }, {
   61: {
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("S-1", 82),
     author: ["Matilde Horne", "Luis Domènech"],
     content: `Tres anillos para los Reyes Elfos bajo el cielo.
@@ -16,7 +16,7 @@ un Anillo para atraerlos a todos y atarlos en las tinieblas
 en la Tierra de Mordor donde se extienden las Sombras.`
   },
   62: {
-    name: "офиц. перевод ?",
+    name: fromLotR("?"),
     book: book("S-4", 83),
     author: ["Josê Tarragô", "Alejandro Murgia"],
     content: `Tres Anillos para los Reyes Elfos bajo la bôveda celeste.

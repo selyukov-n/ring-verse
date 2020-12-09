@@ -1,6 +1,6 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
-export const nl = make({ language: "nl", input: "0.2.0", name: "офиц. перевод" }, {
+export const nl = make({ language: "nl", input: "0.2.0", name: fromLotR() }, {
   59: {
     book: book("N-1", 67),
     author: "Max Schuchart",

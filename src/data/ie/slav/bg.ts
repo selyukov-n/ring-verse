@@ -1,9 +1,9 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const bg = make({ language: "bul" }, {
   87: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("B-1", 116),
     author: "Ljubomir Nikolov",
     content: `Три пръстена за елфите-крале под този небосвод

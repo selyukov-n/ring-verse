@@ -1,11 +1,11 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, make, map } from "../../utils";
+import { book, fromLotR, make, map } from "../../utils";
 
 const fre = make({ language: "fre" }, {
   66: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("F-1", 80),
     author: "Francis Ledoux",
     content: `Trois Anneaux pour les Rois Elfes sous le ciel,

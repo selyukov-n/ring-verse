@@ -4,7 +4,7 @@ import { sources } from "../../sources";
 export const ukr = make({ language: "ukr" }, {
   113: {
     input: "0.4.0",
-    name: "офиц. версия",
+    name: fromLotR(),
     author: "Oleksandr Mokrovolskii",
     book: book("U-1", 120),
     content: `Три Перснi - ельфам чарiвна тюрьма,

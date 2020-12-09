@@ -1,11 +1,11 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const swedish = make({ language: "swe" }, {
   65: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("S-1", 70),
     author: "Åke Ohlmarks",
     content: `Tre ringar för älvkonungarnas makt högt i det blå,
@@ -63,7 +63,7 @@ i det land Mordor hvor skyggene rår.`
 
   346: {
     input: "0.14.0",
-    name: "новый офиц. перевод",
+    name: fromLotR("новый"),
     author: "Lotta Olsson",
     book: ["S-2", 71],
     content: `Ringar tre skall alver se, under himlens rand,

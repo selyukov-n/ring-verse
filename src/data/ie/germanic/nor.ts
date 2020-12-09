@@ -5,7 +5,7 @@ import { sources } from "../../sources";
 export const nb = make({ language: "nor-b" }, {
   74: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("Nb", 72),
     author: "Thorstein Bugge Høverstad",
     content: `Tre Ringer for alver under det blå

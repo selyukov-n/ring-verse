@@ -3,7 +3,7 @@ import { book, fromLotR, make } from "../../utils";
 
 const pol_drops = make({ language: "pol", input: "0.1.5" }, {
   35: {
-    name: "официальная версия",
+    name: fromLotR(),
     author: "Jerzy Łoziński",
     book: book("P-2", 42),
     content: `Trzy Pierścienie elfowym władcom szlachetnego miana,
@@ -16,7 +16,7 @@ Ten Jedyny, by zebrać je wszystkie i w ciemności zespolić więzami
 W Mordorze, moc którego zwycięży nie chciana.`
   },
   36: {
-    name: "официальная версия",
+    name: fromLotR(),
     author: "Maria Skibniewska",
     book: book("P-1", 38, "но там немного другая версия"),
     content: `Trzy pierścienie dla królów Elfów pod otwartym niebem,
@@ -151,7 +151,7 @@ W ziemi zwanej Mordor, gdzie zło cienem zlega.`
   },
   443: {
     book: ["P-9", 46],
-    author: ["Katarzyna Staniewska", "'Elring'"],
+    author: ["Katarzyna Staniewska 'Elring'"],
     content: `Królowie elfów potrójnie pierścienni,
 Zaś krasnoludom śni si&$281; sen siedmisty...
 Dziewięcioraczą się pilnie śmiertelni;

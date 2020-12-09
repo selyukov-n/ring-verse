@@ -1,8 +1,9 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 const cro = make({ language: "cro", input: "0.2.0" }, {
   67: {
+    name: fromLotR(),
     book: book("S", 114, "and C-1, p. 114"),
     author: "Berislav Lopac",
     content: `Prstena Tri za vilin-kralje za koje zvijezde siju,
@@ -15,7 +16,7 @@ Prsten Jedan da spoji se s njima i u tami ih sveże
 U zemlji Mordor gdje sjene se kriju.`
   },
   68: {
-    name: 'from "Stilos" edition (офиц. перевод)',
+    name: fromLotR('"Stilos" edition'),
     book: book("SC", 113),
     author: "Zlatko Crnković",
     content: `Tri Prstena za prste Kraljeva vilin-vrste pod nebesima što sjaju,

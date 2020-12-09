@@ -1,4 +1,4 @@
-import { book, make } from "../utils";
+import { book, fromLotR, make } from "../utils";
 
 const basque = make({ language: "baq" }, {
   80: {
@@ -44,7 +44,7 @@ itzalak zabaltzen diren Mordorreko lurrean.`
   },
   177: {
     input: "0.8.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("B-1", 158),
     author: "Agostin Otsoa Eribeko",
     content: `Errege Elfoentzako hiru eraztun zeru azpian.

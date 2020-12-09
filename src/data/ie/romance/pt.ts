@@ -5,6 +5,7 @@ import { book, fromLotR, make } from "../../utils";
 const br = make({ language: "pt", variant: "бразильский вариант" }, {
   63: {
     input: "0.2.0",
+    name: fromLotR(),
     book: book("Pb-1", 89),
     author: ["Lenita Maria Rimoli Esteves", "Almiro Pisetta"],
     content: `Três anéis para os Reis-Elfos sob este céu

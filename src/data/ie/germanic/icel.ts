@@ -1,13 +1,13 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 const ic = (name: string) => `${name} [${sources.iceland}]`;
 
 export const icel = make({ language: "ice" }, {
   81: {
     input: "0.2.0",
-    name: "офиц. перевод",
-    author: "Geir Kristjanson",
+    name: fromLotR(),
+    author: "Geir Kristjánsson",
     book: book("I-1", 75),
     content: `Þrjá fá kóngar Álfa í eyðiskóga geim,
 sjö fá höldar Dverga í hamravíðum sal,

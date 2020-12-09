@@ -1,8 +1,8 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const cz = make({ language: "cze", input: "0.2.0" }, {
   69: {
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("C-1", 110),
     author: "Stanislava Pošustová",
     content: `Tři prsteny pro krále elfů pod nebem,

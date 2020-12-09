@@ -1,4 +1,4 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const slovak = make({ language: "slovak" }, {
   148: {
@@ -16,7 +16,7 @@ V zemi Mordor, kde tieň vládne zlom.`
   },
   174: {
     input: "0.8.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("S-1", 111),
     author: "Otakar Kořínek",
     content: `Tri prstene elfským kráľom vonku pod nebom,

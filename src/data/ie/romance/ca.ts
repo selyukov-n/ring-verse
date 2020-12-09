@@ -1,9 +1,9 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 export const cat = make({ language: "cat" }, {
   83: {
     input: "0.2.0",
-    name: "офиц. перевод",
+    name: fromLotR(),
     author: "Francesc Parcerisas",
     book: book("C-1", 85),
     content: `Tres Anells per als Reis Elfs dessota el Cel,

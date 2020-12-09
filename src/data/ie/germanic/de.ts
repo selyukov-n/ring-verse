@@ -1,4 +1,4 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
 const elbenwald = (name: string) => `${name} [${sources.elbenwald}]`;
@@ -6,6 +6,7 @@ const elbenwald = (name: string) => `${name} [${sources.elbenwald}]`;
 const de = make({ language: "de" }, {
   64: {
     input: "0.2.0",
+    name: fromLotR(),
     book: book("G-1", 55),
     author: "Ebba Maria von Freymann",
     content: `Drei Ringe den Elbenkönigen hoch im Licht,

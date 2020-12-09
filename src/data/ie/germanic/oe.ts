@@ -86,10 +86,10 @@ In þǣm land Mordor, hƿǣr þā sceadƿe mīðaþ.`
     variant: "мерсийский диалект ?",
     author: "Robert Fischer",
     book: ["OE-m4", 186],
-    content: `Þri hringas for þæm ælf     cyningum under wolcnum
-Seofon for þæm dweorh     hlafordum on hir[a] stan     haellum
+    content: `Þri hringas for þæm ælf•cyningum under wolcnum
+Seofon for þæm dweorh•hlafordum on hir[a] stan•haellum
 Nigon for [deadlic] mannum demed [/faege] forþfaranum
-An for þæm deorc     hlafordum on his deorc     cynestole
+An for þæm deorc•hlafordum on his deorc•cynestole
 On lande Mordores hwær sceada ahildaþ
 An hring hiere ealle to rædenne; an hring hie to findenne
 An hring hiere ealle to bringenne; ond on deorcnese hie to bindenne

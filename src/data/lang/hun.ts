@@ -1,10 +1,11 @@
 import { sources } from "../sources";
-import { make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 export const hun = make({ language: "hun" }, {
   51: {
     author: "Dezső Tandori",
     input: "0.2.0",
+    name: fromLotR(),
     book: ["H", 162],
     content: `Három Gyűrű ragyogjon a tünde-királyok kezén,
 Hét a nemes törpök jussa, kiknek háza cifra kő,

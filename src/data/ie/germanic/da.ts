@@ -1,8 +1,8 @@
-import { book, make } from "../../utils";
+import { book, fromLotR, make } from "../../utils";
 
 const da = make({ language: "dan", input: "0.2.0" }, {
   57: {
-    name: "офиц. перевод",
+    name: fromLotR(),
     book: book("D-1", 69),
     author: "Ida Nyrop Ludvigsen",
     content: `Tre har elvernes konge i dybeste skove,
