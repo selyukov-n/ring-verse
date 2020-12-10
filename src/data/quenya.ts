@@ -17,7 +17,7 @@ Morinóresse yasse Huini caitar.`
   },
   12: {
     author: "Björn Fromén aka Findegil",
-    book: book("Q-7", 21, "Duplicated in the Book Q-12, p. 24"),
+    book: book("Q-7", 21, "and Q-12, p. 24"),
     input: "0.0.5",
     source: sources.md,
     content: `Nelde Cormar Eldatárin nu Tarmenel,

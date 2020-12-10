@@ -14,7 +14,7 @@ Ash nazg thrakatulûk agh burzum-ishi krimpatul
 
 const items: Record<number, Item> = {
   7: {
-    book: book("BS-1", 33, "Duplicated in the Book BS-5, p. 35"),
+    book: book("BS-1", 33, "and BS-5, p. 35"),
     author: "Julian Bradfield",
     input: "0.0.1",
     text: [
