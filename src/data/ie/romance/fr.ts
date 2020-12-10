@@ -22,7 +22,7 @@ Dans le Pays de Mordor où s'étendent les Ombres.`
     input: "0.3.5",
     comments: [{ type: "warning", text: "почти не отличается от #66" }],
     author: [],
-    source: "?",
+    source: "-",
     content: `Trois pour les Rois d'Elfes sous le ciel d'azure,
 Sept pour les Seigneurs Nains dans leurs demeures de pierre,
 Neuf pour les Hommes mortels destinés au trépas,

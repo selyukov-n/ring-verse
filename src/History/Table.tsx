@@ -6,13 +6,22 @@ import { Data, formatDate, inputs, isMine, main } from "../data";
 import "./history.css";
 import { compareVersions } from "./utils";
 
-const fromSet = (set: Set<string>) => Array.from(set.keys()).join(", ");
+const fromSet = (set: Set<string> | Map<string, any>) => Array.from(set.keys()).join(", ");
 
 const makeHistoryItems = (data: Data) => {
   const acc = {
     lang: new Set<string>(),
     me: new Set<string>(),
     count: 0,
+  };
+
+  const group = <T extends { id: string }>(items: Array<T | undefined>) => {
+    const map = new Map<string, T>();
+    items.forEach(t => {
+      if (!t) return;
+      if (!map.has(t.id)) map.set(t.id, t);
+    });
+    return map;
   };
 
   return Object.entries(inputs)
@@ -36,10 +45,7 @@ const makeHistoryItems = (data: Data) => {
 
       let cells: JSX.Element;
       if (items.length > 0) {
-        const sources = new Set([
-          input.mainSource || "",
-          ...items.map(i => i.source || "")
-        ].filter(Boolean));
+        const sources = group([input.mainSource || undefined, ...items.map(i => i.source === "-" ? undefined : i.source)]);
 
         cells = <>
           <td>{items.length}</td>

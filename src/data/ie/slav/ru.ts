@@ -117,7 +117,7 @@ const ru2 = make({ language: "ru" }, {
     name: fromLotR(),
     author: "И.И.Мансуров",
     book: book("R-9", 133),
-    source: "переписано из книги",
+    source: sources.printed_edition,
     content: `Три Кольца - для властителей эльфов под серебряным светом луны;
 Семь Колец - для правителей гномов из волшебной подгорной страны;
 Девять - смертным, чьи дни уж давно сочтены;
@@ -187,7 +187,7 @@ const ru2 = make({ language: "ru" }, {
   173: {
     input: "0.7.0",
     name: "подстрочник с АнК",
-    source: "АнК",
+    source: sources.ank,
     author: [],
     content: `Три кольца эльфийским королям под небесами,
 Семь - повелителям гномов в каменных залах,
@@ -202,7 +202,7 @@ const ru2 = make({ language: "ru" }, {
   327: {
     input: "0.13.1",
     name: "заготовка для др.-исл. :)",
-    source: ME + " (ориг. идея - 17-18.05.2004)",
+    comments: ["ориг. идея - 17-18.05.2004"],
     author: ME,
     content: `Три кольца конунгам
 эльфов даровано,
@@ -669,7 +669,7 @@ Hалитое силой в проклятом огне
   }
 });
 
-const ru_dosk = make({ language: "ru", input: "0.15.0", source: "WWW-Dosk" }, {
+const ru_dosk = make({ language: "ru", input: "0.15.0", source: sources.dosk }, {
   383: {
     name: fromLotR(),
     author: "Л.Яхнин",
@@ -752,7 +752,7 @@ const ru_dosk = make({ language: "ru", input: "0.15.0", source: "WWW-Dosk" }, {
   },
 });
 
-const ru_ank1 = make({ language: "ru", input: "0.15.0", source: "Конкурс переводов поэзии Толкиена, 1998 г. Заклинание кольца" }, {
+const ru_ank1 = make({ language: "ru", input: "0.15.0", source: sources.ru_competition }, {
   389: {
     author: "Ингвалл Колдун",
     content: `Три - поднебесным альвийским царям,
@@ -903,7 +903,7 @@ const ru4 = make({ language: "ru", input: "0.16.0" }, {
 Из Мордора, где Тень всех ждет.`
   },
   413: {
-    source: "HPForum.ru",
+    source: sources.hpforum,
     author: `Ирловин [hpforum.ru]`,
     content: `Три – эльфийским владыкам в подзвёздный предел;
 Девять – тем, чей навеки во Тьме удел;

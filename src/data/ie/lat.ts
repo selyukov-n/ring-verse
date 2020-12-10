@@ -165,7 +165,7 @@ In terra umbrosi mordoris`
 
   492: {
     input: "1.1",
-    source: "la.wikipedia.org",
+    source: sources.wiki_la,
     author: [],
     content: `Tres Anuli Alforum Regibus sub caelo fulgente,
 Septem Nanorum Dominis in arcibus ex petra,

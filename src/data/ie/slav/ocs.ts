@@ -6,7 +6,7 @@ import pic507b from "../../pic/507ocs-b.png";
 export const ocs = make({ language: "ocs" }, {
   507: {
     input: "1.1",
-    source: sources.kontuwiki + " ?",
+    source: sources.kontuwiki,
     name: "(не полностью)",
     author: "Jussi Halla-Aho",
     book: ["OCS", 206],

@@ -89,7 +89,7 @@ Uin dôr Mordor ias i dhûath dorthar.`
   378: {
     input: "0.15.0",
     author: "Taur Edhel [forums.lotro.turbine.com]",
-    source: "lotro.turbine.com",
+    source: sources.turbine,
     content: `Nêl cyrf a thoeredhellyn nuin menel
 Odog a chîrnoegyl nedh themais gondren
 Neder a firion barthannen gwanna

@@ -1,10 +1,11 @@
+import { sources } from "../sources";
 import { make } from "../utils";
 
 export const toki_pona = make({ language: "c.toki" }, {
   373: {
     input: "0.15.0",
     book: ["TP", 212],
-    source: "tokipona",
+    source: sources.toki_pona,
     author: [],
     content: `jan *Eta sewi li jo e sike mute.
 jan *Kasa li jo e sike mute li lon tomo kiwen.

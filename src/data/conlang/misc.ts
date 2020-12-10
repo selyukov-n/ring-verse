@@ -43,7 +43,7 @@ iletenmodor jati ifjaffani`
   },
   167: {
     language: "c.kel",
-    source: "Sylvia Sotomayor's site of Kélen",
+    source: sources.sotomayor,
     author: "Sylvia Sotomayor",
     content: `la jawáel wijté to máróni anéltárien sú jakéié tá
 la jónne to máróni anakkásátien sú ansúni ankíTa
@@ -420,7 +420,7 @@ const lang = make({}, {
   333: {
     input: "0.13.5",
     language: "c.zva",
-    source: "Alqualondë.com",
+    source: sources.alqualonde,
     author: 'Kristian "Zhayena" K. Wangen',
     content: `ty'ulanydi Reh ye'Kirflin ye'Vulnynuxi'vu'Mahndyc ihl'Renu
 ty'ulanydi Jaux ye'Kirflin ye'Jehli'vu'Archdyc si'Basidiyan'vu'Itolny
@@ -462,7 +462,7 @@ In Çer Mordor upi ummiri iahenn.`
     input: "1.1",
     language: "c.int",
     author: [],
-    source: "ia.wikipedia.org",
+    source: sources.wiki_ia,
     content: `Tres Annellos pro le Reges Elfic sub le celo,
 Septe pro le Princes Nanic in salas de petra,
 Novem pro le Homines Mortal, destinate a morir,

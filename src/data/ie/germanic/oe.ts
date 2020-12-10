@@ -21,7 +21,7 @@ Mislice metudsceafte   mánfremmende Mordor.`
     variant: "мерсийский диалект",
     input: "0.7.0",
     book: book("OE-m1", 183),
-    source: "OE ring verse",
+    source: sources.oe_rv,
     author: "Carl Edlund Anderson",
     content: `Hringas þríe       þéodnum Ælfa,
 allra ældestum,     ofer eormengrunde (or under eormenrodore).
@@ -69,7 +69,7 @@ In land Ðéostornessa hwær licgaþ scedwa.`
 
   425: {
     input: "0.17.0",
-    source: "elendili.pl",
+    source: sources.elendili,
     author: "Nero [elendili.pl]",
     content: `Þrēo Hringas for þǣm ælfcyningum under þǣm sƿeȝl,
 Seofon for þǣm dƿeorgfrēan in hieran stāne heallum,

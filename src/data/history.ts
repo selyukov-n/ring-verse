@@ -1,9 +1,11 @@
+import { Source } from "./sources";
+
 type Season = "spring" | "summer" | "autumn" | "winter";
 export type HistoryDate = [number, number, number?] | [number, Season];
 
 export type Input = {
   date?: HistoryDate;
-  mainSource: string | null;
+  mainSource: Source | null;
   description?: string;
 };
 

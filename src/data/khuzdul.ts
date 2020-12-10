@@ -1,9 +1,10 @@
 import { make } from "./utils";
+import { sources } from "./sources";
 
 export const kh = make({ language: "khuzdul" }, {
   496: {
     input: "1.1",
-    source: "LotR Wikia",
+    source: sources.wikia,
     name: '"реконструкция"',
     author: [],
     content: `Gem ruthukhmuzûm khuthûzhmulhûkh undu mingal,

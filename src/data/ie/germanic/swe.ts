@@ -36,7 +36,7 @@ I landet av Morder vor skuggaren liggar.`
   212: {
     input: "0.7.0",
     author: [],
-    source: "Ringarnas härskare",
+    source: sources.ringarnas,
     content: `Tre ringar för älvkungarnas makt högt i det blå,
 sju för dvärgarnas furstar i salarna av sten,
 nio för de dödliga män, som köttets väg skall gå,

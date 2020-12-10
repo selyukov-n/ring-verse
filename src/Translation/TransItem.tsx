@@ -45,11 +45,12 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
   const source = item.source || input && input.mainSource;
 
   const sources: JSX.Element[] = [];
-  if (source === src.book && book) {
+  const fromBook = typeof source === "object" && source?.id === src.book.id;
+  if (fromBook && book) {
     sources.push(<p key="main">Источник: {book}</p>)
   } else {
-    if (source) sources.push(<p key="main">Источник: {source}</p>);
-    if (book) sources.push(<p key="book">Также {book}</p>);
+    if (source && source !== "-") sources.push(<p key="main">Источник: {source.name}</p>);
+    if (book) sources.push(<p key="book">{book}</p>);
   }
 
   return sources.length === 0 ? null : <section className="sources">

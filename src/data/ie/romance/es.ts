@@ -120,7 +120,7 @@ En la tierra de Mordor en donde mienten las sombras.`
   491: {
     input: "1.0.3",
     variant: "астурийский",
-    source: "ast.wikipedia.org",
+    source: sources.wiki_ast,
     author: [],
     content: `Trés Aniellos pa los Reis Elfos embaxo'l cielu.
 Siete pa los Señores Nanos nos sos palacios de piedra.

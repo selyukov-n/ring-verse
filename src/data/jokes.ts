@@ -87,7 +87,7 @@ const ru = make({ language: "j.ru" }, {
 
   424: {
     input: "0.17.0",
-    source: "LitForum",
+    source: sources.litforum,
     author: [],
     content: `Литра три поставлю эльфам –
 Больше все равно не выпьют.
@@ -307,7 +307,7 @@ const en2 = make({ language: "j.en" }, {
     input: "0.5.9",
     name: "лимерик",
     author: "Сууле и Раэне",
-    source: "?",
+    source: "-",
     content: `There was a Dark Lord in the Tower
 Who created the One Ring of Power,
 Then proceeded to hide
@@ -350,7 +350,7 @@ In the land of Klummwab where the wabs lie.`
   375: {
     input: "0.15.0",
     author: "Christian Lassen",
-    source: "Technology in Middle-Earth",
+    source: sources.tech_me,
     content: `Three Rings for the Telecom Kings under the sky,
 Seven to the Dwarf-Lords for their calls at home.
 Nine for Mortal Men doomed to pay,
@@ -387,7 +387,7 @@ One Ring to bring them all and in the darkness bind them
 In the U.S of A where the politicians lied.`
   },
   368: {
-    source: "jihadwatch.org",
+    source: sources.dhimmiwatch,
     author: "Narmer [jihadwatch.org/dhimmiwatch/]",
     content: `Three Rings for the Media-kings with cynical condescension high,
 Seven for the Academics and western imperialism to bemoan,

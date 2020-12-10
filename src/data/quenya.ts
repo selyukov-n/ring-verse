@@ -46,7 +46,7 @@ Morinóresse yasse Huini caitar.`
   32: {
     author: "Maciej Garbowski",
     comments: ["old variant"],
-    book: book("Q-6", 20, sources.gwaith),
+    book: book("Q-6", 20, sources.gwaith.name),
     input: "0.1.1",
     content: `Nelde Cormar Eldaron Aranen nu i vilya,
 Otso Heruin Naucoron ondeva mardentassen,
@@ -122,7 +122,7 @@ Mi Mornanóre yasse caitar Huini.`
   376: {
     input: "0.15.0",
     author: "Silmahtar [minastirith.com]",
-    source: "minastirith.com",
+    source: sources.minastirith,
     content: [{
       title: "Heru i Cormaron",
       text: `Nelde cormar Eldaranin nu i vilya,
@@ -139,7 +139,7 @@ I Morinorasse yassen caitar i Huini.`
   377: {
     input: "0.15.0",
     author: [],
-    source: "wilwarinart",
+    source: sources.wilwarinart,
     content: [{
       title: "cormon laire",
       text: `nelde cormar eldatárin nu i menel

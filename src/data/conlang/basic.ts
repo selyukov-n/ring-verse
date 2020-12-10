@@ -5,7 +5,8 @@ export const en = make({ language: "c.en-basic" }, {
   328: {
     input: "0.13.5",
     author: ME,
-    source: ME + " (ориг. идея - 9.09.2005)",
+    source: "-",
+    comments: ["ориг. идея - 9.09.2005"],
     book: ["E-basic", 54],
     content: `Three Rings for the Elfrulers under the sky,
 Seven for the Dwarfleaders in their house of stone,
