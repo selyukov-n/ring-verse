@@ -10,7 +10,7 @@ export const inputs = indexed({
   "0.0.7": { date: [2002, "summer"], mainSource: null },
   "0.1.0": { date: [2002, 12, 25], mainSource: sources.gwaith },
   "0.1.1": { mainSource: sources.gwaith },
-  "0.1.2": { date: [2003, "winter"], mainSource: sources.printed_edition },
+  "0.1.2": { date: [2003, "winter"], mainSource: sources.translations },
   "0.1.5": { date: [2003, 3, 3], mainSource: sources.drops },
   "0.2.0": { date: [2003, 3, 3], mainSource: sources.kniga2001 },
   "0.2.5": { date: [2003, 5, 19], mainSource: sources.iad },

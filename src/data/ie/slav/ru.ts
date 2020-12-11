@@ -117,7 +117,7 @@ const ru2 = make({ language: "ru" }, {
     name: fromLotR(),
     author: "И.И.Мансуров",
     book: book("R-9", 133),
-    source: sources.printed_edition,
+    source: sources.translations,
     content: `Три Кольца - для властителей эльфов под серебряным светом луны;
 Семь Колец - для правителей гномов из волшебной подгорной страны;
 Девять - смертным, чьи дни уж давно сочтены;
