@@ -1,4 +1,4 @@
-# Ring-Verses translations
+# The Ring Verse translations
 
 ```
   Three Rings for the Elven-kings under the sky,
