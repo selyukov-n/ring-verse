@@ -27,4 +27,30 @@ Eodumman sal-a sumswineun Moleudoleueseo.`
       }
     ]
   },
+  516: {
+    input: "2.1.0",
+    author: "한씨 얘 ?",
+    content: [
+      {
+        text: `하늘 아래 요정왕들을 위한 세 반지
+돌의 궁전 속 난쟁이 군주들을 위한 일곱 반지
+죽을 운명의 인간들을 위한 아홉 반지
+암흑권좌의 암흑군주를 위한 절대 반지
+그림자가 드리운 모르도르의 땅에서,
+모두를 지배하는 절대 반지, 모두를 찾아낼 절대 반지
+모두를 불러낼 절대 반지, 그리고 암흑 속에서 그들을 속박하리니
+그림자가 드리운 모르도르의 땅에서`
+      },
+      {
+        text: `haneul alae yojeong-wangdeul-eul wihan se banji
+dol-ui gungjeon sog nanjaeng-i gunjudeul-eul wihan ilgob banji
+jug-eul unmyeong-ui ingandeul-eul wihan ahob banji
+amheuggwonjwaui amheuggunjuleul wihan jeoldae banji
+geulimjaga deuliun moleudoleuui ttang-eseo,
+moduleul jibaehaneun jeoldae banji, moduleul chaj-anael jeoldae banji
+moduleul bulleonael jeoldae banji, geuligo amheug sog-eseo geudeul-eul sogbaghalini
+geulimjaga deuliun moleudoleuui ttang-eseo`
+      },
+    ]
+  },
 });

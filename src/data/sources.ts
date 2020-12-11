@@ -31,6 +31,10 @@ export const sources = makeIds({
     name: 'Форум "Альтернатива"',
     link: "http://ringwraiths.gondor.ru/forum/index.php?showtopic=14&st=0",
   },
+  ambar_eldaron: {
+    name: "Ambar Eldaron",
+    link: "https://ambar-eldaron.com/texte1.html",
+  },
   ank: {
     name: "АнК",
     link: "http://www.kulichki.com/tolkien/forum",
@@ -119,6 +123,10 @@ export const sources = makeIds({
   },
   icq: {
     name: "Volchonok [icq user]",
+  },
+  inspiration: {
+    name: "The Ring Verse ... in 59 languages!",
+    link: "http://tolkien-inspiration.blogspot.com/2012/07/ring-verse-in-50-languages.html",
   },
   jrrt_memorial: {
     name: "J.R.R.Tolkien Memorial",

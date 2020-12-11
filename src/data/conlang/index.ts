@@ -14,4 +14,5 @@ export default [
   ...require("./misc").list,
   require("./sjast").sj,
   require("./zbihniew").byZbihniew,
+  require("./mgaul").gaulish,
 ];

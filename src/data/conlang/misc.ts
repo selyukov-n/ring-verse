@@ -472,6 +472,19 @@ Un Annello pro le totes dominar, Un Annello pro les trovar,
 Un Annello pro le totes tener e in le obscuritate les ligar.
 In le pais Mordor ubi le Umbras se extende.`
   },
+  508: {
+    input: "2.1.0",
+    language: "c.delang",
+    author: "Koppa Dasao",
+    content: `Тłікелтсҩ ҩнј δеѕељѡе, Рҩј ѕип δеѕнибі
+Земкелтсҩ ҩнј δеѕƕомі мін, Рҩј ѕип δеѕмҩнс
+Јаткелтсҩ ҩнј δеѕƕомі ај Мор ѕиврі
+Анкелтсҩ ҩнј δерҩј нyь ҩнМҩрδҩр ҩні
+ін δетелј ƕҩłи δенyьт політіьі.
+Анкелтсҩ ƕамас політіьі, анкелтсҩ ƕамас гłомеѕтіљі
+анкелтсҩ ƕамас ҩнј Мҩрδҩр гемтłені і о Нyьт ƕамас ѕтłіњі
+ін δетелј ƕҩłи δенyьт політіьі.`
+  },
 });
 
 const art = (name: string) => `${name} [${sources.artlangs}]`;

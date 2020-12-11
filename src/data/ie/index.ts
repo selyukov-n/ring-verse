@@ -13,6 +13,7 @@ export default [
   require("./albanian").alb,
   require("./arm").arm,
   require("./bengal").bng,
+  require("./breton").bre,
   ancient,
   greek,
   require("./irish").irish,

@@ -16,8 +16,9 @@ Yn Mordorlân der't de skâden lizze.`
   },
   458: {
     input: "1.0",
-    author: "Douwe Tammingas",
+    author: "Douwe Tamminga",
     book: ["F-1", 68],
+    comments: ["was published in Lembas #13, Journal of Tolkien Society Unquendor (NL)"],
     content: `Trije Ringen foar de Alve-kenings, wolk-dutsen en heech-eal.
 Sân foar it Ierdmans-folk yn harren stiennen seal.
 Njoggen foar Stjerlingen, ta de dea ferwiisd.

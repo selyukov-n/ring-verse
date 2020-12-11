@@ -154,6 +154,22 @@ ar i morniesse avaleryat
 nóre mornóresse yasse u huini caitar`
     }]
   },
+
+  517: {
+    input: "2.1.0",
+    author: [],
+    source: sources.ambar_eldaron,
+    content: `Nelde cormar Aranin Eldaron nu Menel
+Otso Herurin Naucoron martamenta ondovasse
+Nerte Atanin martaine qualmen
+Mine More Herun more mahalmaryasse
+Nóresse Mordoro yasse caitar i Lómini
+Mine corma an ture ilyë
+Mine corma an hire te ilye
+Mine corma an tule te ilye
+Ar morniesse nute te
+Nóresse Mordoro yasse caitar i Lómini.`
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {

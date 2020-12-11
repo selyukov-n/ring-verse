@@ -95,4 +95,20 @@ An hring hiere ealle to rædenne; an hring hie to findenne
 An hring hiere ealle to bringenne; ond on deorcnese hie to bindenne
 On lande Mordores hwær sceada ahildaþ`
   },
+
+  510: {
+    input: "2.1.0",
+    author: "Freya Harrison, 2008 [sessrumnir.wikidot.com/englisc-ringverse]",
+    content: `þrie hringa cyngum ælfcynnes heaum
+in middangeardes grenholtum heanes to hrofe
+seofon sincgiefum dweorgas of dunum
+seo foldesbreost forhelest symbelhus stænen
+nigon manndryhtnum guðweardum gumcynnes
+wyrd sceol gescieran læne lif of licum
+ond an thaem deorcan on his sweartan stole
+in westnese mordores fæste forbræded
+an hring ælce to wealdanne ælce to findenne
+an hring ælce to bringenne þeowas in þeostre
+in westnesse mordores fæste forbræded.`
+  },
 });

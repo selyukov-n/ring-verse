@@ -71,6 +71,7 @@ export const inputs = indexed({
   "1.1": { date: [2016, 4, 30], mainSource: sources.slideshare, description: "+ added Egyptian hieroglyphs etc." },
   "1.1.1": { date: [2020, 11, 12], mainSource: null, description: "Akkadian cuneiform added" },
   "2.0.0": { date: [2020, 12, 10], mainSource: null, description: "Uploaded to GitHub" },
+  "2.1.0": { date: [2020, 12, 11], mainSource: sources.inspiration },
 });
 
 export type InputKey = keyof typeof inputs;

@@ -28,4 +28,17 @@ Veľprsteň im všetkým velí, jeho ruka krutá
 Privolá ich do jedného a v čiernej tme spúta
 V zemi Mordor, kde Tieň vládne zlom.`
   },
+  513: {
+    input: "2.1.0",
+    name: "variant of #174 for radio dramatization",
+    author: ["Otakar Kořínek", "?"],
+    content: `Tri prstene elfským kráľom vonku pod nebom,
+Sedem pánom trpaslíkov v sieňach z kameňa,
+Deväť mužom z ľudí, ktorých osudom je skon,
+Veľprsteň pre Pána tmy na tróne z plameňa
+V zemi zvanej Mordor, kde šero so šerom sa snúbi,
+Jeden prsteň všetkým vládne, Jeden všetkých zhubí,
+Jeden všetkých privedie, do temnoty zviaže
+v zemi zvanej Mordor, kde šero so šerom sa snúbi.`
+  },
 });

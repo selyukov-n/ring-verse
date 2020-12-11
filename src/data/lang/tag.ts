@@ -44,4 +44,18 @@ Isang singsing para silang lahat ay dalhin,
 At sa kadilima'y sila'y pagsama-samahin.
 Sa lupain ng Kadiliman kung saan nakahimlay ang mga Anino.`
   },
+  515: {
+    input: "2.1.0",
+    author: "Erick A. Fabian",
+    content: `Tatlong Singsing para sa mga haring Elbenyo sa ilalim ng kalangitan
+Pito nito para sa mga Duwendeng panginoon sa kanilang mga bulwagang bato
+Siyam para sa mga Taong Mortal, na nakatadhanang mamatay
+Isa para sa Hari ng Kadiliman sa kanyang maitim na trono
+Doon sa lupalop ng Mordor na kinapupugaran ng mga anino
+Isang Singsing na mamumuno sa kanilang lahat,
+Isang Singsing na hahanap sa kanila,
+Isang Singsing upang sila'y ipagsasama-sama
+At igapos silang lahat sa Kadiliman
+Doon sa lupalop ng Mordor na kinapupugaran ng mga anino.`
+  },
 });

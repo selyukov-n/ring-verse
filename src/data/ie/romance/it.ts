@@ -79,7 +79,8 @@ nella terra di Mordor in cui le ombre si trovano.`
   403: {
     input: "0.16.0",
     source: sources.tolkien_cz,
-    author: [],
+    name: fromLotR(),
+    author: "Elémire Zolla",
     content: `Tre anelli per i re degli Elfi sotto il cielo,
 Sette per i signori dei Nani nelle aule di pietra,
 Nove per gli uomini votati alla morte,
@@ -88,6 +89,20 @@ Nella terra di Mordor dove posano le ombre.
 Un unico anello per reggerli tutti e trovarli
 E adunarli e legarli nel buio,
 Nella terra di Mordor dove posano le ombre`
+  },
+
+  512: {
+    input: "2.1.0",
+    name: fromLotR("2019"),
+    author: "Ottavia Fatica",
+    content: `Tre Anelli ai Re degli Elfi sotto il cielo,
+Sette ai Principi dei Nani nell'Aule di pietra,
+Nove agli Uomini Mortali dal fato crudele,
+Uno al Nero Sire sul suo trono tetro
+Nella Terra di Mordor dove le Ombre si celano.
+Un Anello per trovarli, Uno per vincerli,
+Uno per radunarli e al buio avvincerli
+Nella Terra di Mordor dove le Ombre si celano.`
   },
 });
 

@@ -13,6 +13,7 @@ export default [
   require("./georgian").ge,
   require("./kor").kor,
   require("./malay").malay,
+  require("./quechua").quechua,
   require("./tag").tagalog,
   require("./tamil").tamil,
   require("./tur").turkish,

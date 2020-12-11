@@ -50,6 +50,7 @@ export const groups = {
   kartvelian: "Картвельские языки",
   nostratic: "Ностратические языки",
   other: "Другие языки",
+  quechua: "Кечуанские",
   romance: "романские",
   secret: "Тайные языки",
   semitic: "семитские",
@@ -104,6 +105,7 @@ export const languages: Record<Lang, string> = {
   "alb": "албанский",
   "gle": "ирландский",
   "cym": "валлийский",
+  "bre": "бретонский",
 
   // latin + romance
   "lat": "латинский",
@@ -159,6 +161,7 @@ export const languages: Record<Lang, string> = {
   "geo": "грузинский",
   "zh": "китайский",
   "tup": "старый тупи (тупинамба)",
+  "que": "кечуа",
   "vie": "вьетнамский",
   "tgl": "тагальский",
   "ind": "индонезийский",
@@ -227,6 +230,8 @@ export const conlangs: Record<Conlang, string> = {
   "c.sin": "Sindénir",
   "c.led": "Ledhagliem",
   "c.xli": "Xliponian",
+  "c.delang": "Delang",
+  "c.m_gaul": "Modern Gaulish",
 };
 
 export const encodings: Record<EncodingLang, string> = {
