@@ -49,7 +49,12 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
   if (fromBook && book) {
     sources.push(<p key="main">Источник: {book}</p>)
   } else {
-    if (source && source !== "-") sources.push(<p key="main">Источник: {source.name}</p>);
+    if (source && source !== "-") {
+      const src = source.link
+        ? <a href={source.link}>{source.name}</a>
+        : source.name;
+      sources.push(<p key="main">Источник: {src}</p>);
+    }
     if (book) sources.push(<p key="book">{book}</p>);
   }
 
