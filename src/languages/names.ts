@@ -155,6 +155,7 @@ export const languages: Record<Lang, string> = {
   "est": "эстонский",
   "hun": "венгерский",
   "tur": "турецкий",
+  "kgz": "киргизский",
   "jap": "японский",
   "mon": "монгольский",
   "tam": "тамильский",

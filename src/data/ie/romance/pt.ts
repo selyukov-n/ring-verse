@@ -91,7 +91,19 @@ Na terra de Mordor onde as sombras se deitam.
 Um Anel para todos governar, Um Anel para Os achar,
 Um Anel para todos trazer e nas trevas Os aprisionar.
 Na terra de Mordor onde as sombras se deitam.`
-  }
+  },
+  540: {
+    input: "2.3.0",
+    author: sources.lyricstranslate.makeAuthor("Gustavo666"),
+    content: `Três Anéis para os Reis Elfos sob o céu,
+Sete para os Senhores Anões em seus salões de pedra,
+Nove para os Homens Mortais condenados a morrer,
+Um para o Senhor Sombrio em seu trono sombrio,
+Na Terra de Mordor, por onde se estendem as sombras.
+Um Anel para todos governar, Um Anel para encontrá-los,
+Um Anel para todos trazer e na escuridão aprisioná-los,
+Na Terra de Mordor, por onde se estendem as sombras.`
+  },
 });
 
 export const list = [

@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { fromLotR, make } from "../utils";
 import pic415 from "../pic/415per.jpg";
 
@@ -26,5 +27,20 @@ export const persian = make({ language: "per" }, {
         image: pic415,
       }
     ]
+  },
+  539: {
+    input: "2.3.0",
+    author: sources.lyricstranslate.makeAuthor("farrox zand"),
+    content: [{
+      type: "rtl",
+      text: `سهحلقه بهر شاهان الف، زیر آسمان کبود
+نه عدد بهر آدمیان، بردۀ جبر بود و نبود،
+هفت بهر میران دوارف در سرای سنگی دور،
+یک، برای امیر تاریکی، بر سریر ظلمت و زور
+نزد ارواح و سایه‌های سیاه، پایتخت کشور مردور.
+تا که گیرد به زیر سلطه خویش، همه حلقه‌های پرقدرت،
+تا که گرد آورد همه را، تا که ملحق شوند در ظلمت
+نزد ارواح و سایه‌های سیاه، پایتخت کشور مردور.`
+    }]
   },
 });

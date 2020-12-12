@@ -2,23 +2,23 @@ export type Source = {
   id: string;
   name: string;
   link?: string;
+  makeAuthor: (name: string) => string;
 };
 
-const appendIds = <K extends string, T>(data: Record<K, T>, func: (t: T) => T) => {
-  const result: Record<K, T & { id: string }> = {} as any;
-  for(const k in data) {
-    if (!data.hasOwnProperty(k)) continue;
-
-    const obj = func ? func(data[k]) : data[k];
-    result[k] = { ...obj, id: k };
+const makeIds = <K extends string>(data: Record<K, Omit<Source, "id" | "makeAuthor">>) => {
+  const result: Record<K, Source> = {} as any;
+  for(const id in data) {
+    if (!data.hasOwnProperty(id)) continue;
+    const t = data[id];
+    result[id] = {
+      ...t,
+      id,
+      toString() { return t.name },
+      makeAuthor: name => `${name} [${t.name}]`,
+    };
   }
   return result;
 };
-
-const makeIds = <K extends string>(data: Record<K, Omit<Source, "id">>) => appendIds(data, t => ({
-  ...t,
-  toString() { return t.name },
-}));
 
 const elbenwald = "Elbenwaldforum";
 
@@ -160,6 +160,10 @@ export const sources = makeIds({
     name: "Rymy Pierścienia (Ring Verses) w różnych językach",
     link: "http://www.lodz.tpsa.pl/iso/Tolkien/vers-eng.html",
   },
+  lyricstranslate: {
+    name: "LyricsTranslate.com",
+    link: "https://lyricstranslate.com/en/jrr-tolkien-one-ring-lyrics.html"
+  },
   md: {
     name: "Mellonath Daeron",
     link: "http://www.forodrim.org/daeron/md_home.html",
@@ -271,6 +275,10 @@ export const sources = makeIds({
   wiki_la: {
     name: "Latin Wikipedia",
     link: "https://la.wikipedia.org/wiki/The_Lord_of_the_Rings",
+  },
+  wiki_sv: {
+    name: "Swedish Wikipedia",
+    link: "https://sv.wikipedia.org/wiki/Den_enda_ringen",
   },
   wilwarinart: {
     name: "wilwarinart.com.ar",

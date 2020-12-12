@@ -12,6 +12,7 @@ export default [
 
   require("./georgian").ge,
   require("./kor").kor,
+  require("./kyrgyz").kyrgyz,
   require("./malay").malay,
   require("./mongol").mongolian,
   require("./quechua").quechua,

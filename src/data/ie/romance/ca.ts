@@ -1,3 +1,4 @@
+import { sources } from "../../sources";
 import { book, fromLotR, make } from "../../utils";
 
 export const cat = make({ language: "cat" }, {
@@ -15,7 +16,6 @@ Un Anell per manar a tots, un per trobar-los,
 Un Anell per reunir-los, i en les Tenebres tenir-los
 Tots lligats a Mórdor on s'estén l'Ombra.`
   },
-
   149: {
     input: "0.7.0",
     author: "Roger Rocamora",
@@ -29,7 +29,6 @@ un anell per manar-los a tots, un anell per trobar-los,
 un anell per reunir-los a tots i a les tenebres lligar-los
 a la terra de Mórdor, on s'estenen les ombres.`
   },
-
   175: {
     input: "0.8.0",
     variant: "валенсийский вариант",
@@ -43,5 +42,17 @@ a la Terra de Mordor, a on s'estenen les Ombres.
 Un Anell per a governar-los a tots, un Anell per a trobar-los,
 Un Anell per a portar-los, i nugar-los en les Tiniebles
 a la terra de Mordor a on s'estenen les Ombres.`
+  },
+  529: {
+    input: "2.3.0",
+    author: sources.lyricstranslate.makeAuthor("Metodius"),
+    content: `Tres Anells pels Reis Follets sota el cel,
+Set pels Senyors Nans a les seves mansions de pedra,
+Nou pels Homes Mortals, condemnats a morir,
+Un pel Senyor de les Ombres, al seu setial fosc
+Al País de Mordor, on les Obagors hi habiten.
+Un Anell per governar-los tots, Un Anell per trobar-los,
+Un Anell per dur-los a tots i dins la foscor, lligar-los
+Al País de Mordor, on les Obagors hi habiten.`
   },
 });

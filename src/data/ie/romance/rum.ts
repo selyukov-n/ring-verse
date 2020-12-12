@@ -57,4 +57,16 @@ Unde-s Umbrele-n Ţinutul Mordor, ca să le găsească
 Să le ferece pe toate, astfel să le stăpînească,
 Unde-s Umbrele-n Ţinutul Mordor, în întunecime.`
   },
+  541: {
+    input: "2.3.0",
+    author: "Florile Dalbe",
+    content: `Trei Inele pentru Regii Elfilor de sub cer,
+Șapte pentru Domni Piticilor în sălile lor de piatră,
+Nouă pentru Oameni Mortali destinați să piară,
+Unul pentru Lordul Întunecat de pe tronul său obscur,
+În meleagul lui Mordor unde Stafiile zac.
+Un Inel să-i stăpânească, Un inel ca să-i găsească,
+Un Inel ca să-i adune și în întuneric să-i arunce
+În meleagul lui Mordor unde Stafiile zac.`
+  },
 });

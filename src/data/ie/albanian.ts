@@ -1,3 +1,4 @@
+import { sources } from "../sources";
 import { fromLotR, make } from "../utils";
 
 export const alb = make({ language: "alb" }, {
@@ -27,5 +28,18 @@ Në Tokën e Mordorës ku banojnë Hijet.
 Një Unazë t'i mbizotërojë të gjitha, Një Unazë t'i gjejë,
 Një Unazë t'i sjellë të gjitha dhe në errësirë t'i lidhë,
 Në Tokën e Mordorës ku banojnë Hijet.`
+  },
+
+  535: {
+    input: "2.3.0",
+    author: sources.lyricstranslate.makeAuthor("Scquiper"),
+    content: `Tre unaza për mbretërit elf nën qiell,
+Shtatë për lordët xhuxh në sallat e tyre të gurit,
+Nëntë për Njerëzit e Vdekshëm të ndëshkuar që të vdesin.
+Një për Lordin e Errët në fronin e tij të errët,
+Në Tokën e Mordorit ku hijet shtrihen.
+Një Unazë t'i sundojë ata të gjithë. Një Unazë t'i gjejë ata,
+Një Unazë t'i sjellë ata të gjithë dhe në errësirë t'i lidhë ata
+Në Tokën e Mordorit ku hijet shtrihen.`
   },
 });

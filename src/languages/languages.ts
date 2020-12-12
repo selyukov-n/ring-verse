@@ -10,7 +10,7 @@ const langs = [
         group(g.finno_baltic, "fin", "est"),
         group(g.ugric, "hun"))),
     group(g.altaic,
-      group(g.turkic, "tur"),
+      group(g.turkic, "tur", "kgz"),
       group(g.mongolic, "mon"),
       "jap"),
     group(g.dravidian, "tam"),

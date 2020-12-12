@@ -176,6 +176,20 @@ Unus Anulus ad omnes dominandos, unus ad reperiendos,
 Unus ad omnes tenebris inferendos ibique vinciendos,
 In Mordoris Terra, umbra descendente.`
   },
+
+  538: {
+    input: "2.3.0",
+    author: [],
+    source: sources.wiki_la,
+    content: `Tres Annuli regibus Alfis sub caelis
+Septem dominis Nanis in lapidosis domibus
+Novem Mortalibus Hominibus ad necem damnatis
+Unus Obscuro Domino in obscuro solio eius
+In Mordoris Terra quo umbrae iacent
+Unus Anulus ut omnes regat, Unus Anulus ut omnes inveniat
+Unus Anulus ut omnes inducat et in tenebris obligat
+In Mordoris Terra quo umbrae iacent`
+  },
 });
 
 const lat2 = make({ language: "lat", input: "0.3.0" }, {

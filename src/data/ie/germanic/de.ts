@@ -135,6 +135,19 @@ im Land vo Mordor, wo di dunkle Schatte sii
 Itz Dunkle z triibe und eewig z binge
 Im Land vo Mordor, wie di dunkle Schatte sii`
   },
+
+  527: {
+    input: "2.3.0",
+    author: sources.lyricstranslate.makeAuthor("Lobolyrix"),
+    content: `Drei Ringe für die Elben-Könige unter dem Himmel,
+Sieben für die Zwergen-Herrscher in ihren steinernen Hallen,
+Neun für die Sterblichen, verfallen dem Tode,
+Einer für den Dunklen Herrscher auf seinem dunklen Thron,
+Im Lande Mordor, wo die Schatten droh'n.
+Der Eine Ring, sie alle zu beherrschen, der Eine Ring, sie zu finden,
+Der Eine Ring, sie alle zu bringen und an das Dunkel zu binden
+Im Lande Mordor, wo die Schatten droh'n.`
+  },
 });
 
 const de2 = make({ language: "de", input: "0.12.0" }, {

@@ -73,6 +73,7 @@ export const inputs = indexed({
   "2.0.0": { date: [2020, 12, 10], mainSource: null, description: "Uploaded to GitHub" },
   "2.1.0": { date: [2020, 12, 11], mainSource: sources.inspiration },
   "2.2.0": { date: [2020, 12, 12], mainSource: sources.elronds_library },
+  "2.3.0": { date: [2020, 12, 12], mainSource: sources.lyricstranslate },
 });
 
 export type InputKey = keyof typeof inputs;

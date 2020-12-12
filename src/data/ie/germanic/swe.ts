@@ -75,4 +75,18 @@ En ring att styra dem, en ring att se dem,
 en ring att fånga dem och till mörkret ge dem,
 i Mordor, i skuggornas land.`
   },
+
+  528: {
+    input: "2.3.0",
+    author: [],
+    source: sources.wiki_sv,
+    content: `Tre ringar för alvers kungar under det blå,
+sju för dvärgars furstar i salarna av sten,
+nio för dödliga män, dömda att förgå,
+en för Mörkrets herre på sin tron allen
+i Mordors land, där skuggorna stå.
+En Ring att styra dem, en Ring att se dem,
+en Ring att fånga dem och evigt mörker ge dem
+i Mordors land, där skuggorna stå.`
+  },
 });

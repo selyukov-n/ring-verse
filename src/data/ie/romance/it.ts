@@ -106,6 +106,39 @@ Nella Terra di Mordor dove le Ombre si celano.`
   },
 });
 
+const it2 = make({ language: "it", input: "2.3.0", author: sources.lyricstranslate.makeAuthor("doctorJoJo") }, {
+  530: {
+    content: `Tre Anelli agli Elfici Sovrani sotto la volta celeste,
+Sette ai Nanici Signori ognun nella sua petrosa reggia,
+Nove ai Miseri Mortali dalle sorti funeste,
+Uno al Sire Tenebroso che in tenebra troneggia,
+Nella Terra di Mordor che l’Ombra riveste.
+Un Anello per domarli, un Anello per trovarli,
+Un Anello per ghermirli e nella tenebra incatenarli
+Nella Terra di Mordor che l’Ombra riveste.`
+  },
+  531: {
+    content: `Tre Anelli agli Elfici Sovrani sotto il cielo nell'eternità
+Sette ai Nanici Signori nelle lor rocciose aule sono,
+Nove per i Miseri Uomini destinati alla mortalità,
+Uno all'Oscuro Sire seduto sul suo oscuro trono,
+Nella Landa di Mordor dove l'ombra si cela.
+Un Anello per domarli, Un anello per trovarli,
+Un Anello per ghermirli e nell'oscurità incatenarli,
+Nella Landa di Mordor dove l'ombra si cela.`
+  },
+  532: {
+    content: `Tre Anelli agli Elfici Sovrani sotto il cielo stanno,
+Sette ai Nanici Signori nelle lor petrose aule sono,
+Nove agli Uomini Mortali che a morte vanno,
+Uno all'Oscuro Sire sul suo oscuro trono,
+Nella Terra di Mordor ove l’ombre giacciono.
+Un Anello per domarli, Un anello per trovarli,
+Un Anello per ghermirli e nell'oscurità incatenarli,
+Nella Terra di Mordor ove l’ombre giacciono.`
+  },
+});
+
 const dialects = make({ language: "it", input: "0.13.0" }, {
   282: {
     variant: "трентинский диалект, зона Роверето",
@@ -587,7 +620,36 @@ nala tera da Mordor do cal bui al vegn giò`
   },
 });
 
+const dialects2 = make({ language: "it", input: "2.3.0" }, {
+  533: {
+    variant: "неаполитанский",
+    author: "Pietro Lignola",
+    content: `Tre aniélle p’e rre ‘e ll’èlfe sótt’o ciélo,
+sètte p’e signure d’e nane ‘int’e salune llòro ‘e prèta,
+nòve pe ll’uómmene murtale cundannate a mmurì,
+uno p‘o Signóre scuro ‘ncòpp’o tròno sujo scuro,
+int’a tèrra ‘e Mordòr, addó stanno ll’ómbre.
+N’aniéllo sulo p’e ddumà, p’e ttruvà,
+pe ll’acchiappà e ll’attaccà int’o scuróre
+int’a tèrra ‘e Mordòr, addó stanno ll’ómbre.`
+  },
+  534: {
+    variant: "италовенетский",
+    author: "Viola Ortes",
+    content: `Tre anèi pai Elfi sóto e stée,
+Sète pai nani nee so stanse de pièra,
+Nove pai òmeni Mortai destinai a morir,
+Uno pal Re dee tenebre, sul so scagno nero,
+Nel regno de Mordor dove che sta 'e Ombre.
+Un anèo pa comandarli tuti quanti
+Un anèo par trovarli,
+Un anèo pa ciaparli e legarli nel oscurità
+Nel regno de Mordor dove che sta 'e Ombre.`
+  },
+});
+
 export const list = [
-  it,
+  it, it2,
   dialects,
+  dialects2,
 ];
