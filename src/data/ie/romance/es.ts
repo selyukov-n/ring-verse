@@ -1,10 +1,10 @@
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 const es = make({ language: "es", input: "0.2.0" }, {
   61: {
     name: fromLotR(),
-    book: book("S-1", 82),
+    book: ["S-1", 82],
     author: ["Matilde Horne", "Luis Domènech"],
     content: `Tres anillos para los Reyes Elfos bajo el cielo.
 Siete para los Señores Enanos en casas de piedra.
@@ -17,7 +17,7 @@ en la Tierra de Mordor donde se extienden las Sombras.`
   },
   62: {
     name: fromLotR("?"),
-    book: book("S-4", 83),
+    book: ["S-4", 83],
     author: ["Josê Tarragô", "Alejandro Murgia"],
     content: `Tres Anillos para los Reyes Elfos bajo la bôveda celeste.
 Siete para los Señores Enanos en sus pêtreos recintos.
@@ -34,7 +34,7 @@ const es2 = make({ language: "es" }, {
   140: {
     input: "0.7.0",
     author: "Jonathan Avidan",
-    book: book("S-2", 82),
+    book: ["S-2", 82],
     content: `Tres anillos para los Reines Elficos bajo el cielo,
 Siete para los Principes de Enanos en sus salones de piedra,
 Nueve para los Mortales que morirán,
@@ -48,7 +48,7 @@ En el Reinado de Mordor donde están las neblinas.`
     input: "0.9.0",
     variant: "SPangilish, калифорнийский англо-испанский",
     author: `Randalllin [${sources.planetTolkien}]`,
-    book: book("S-s", 85),
+    book: ["S-s", 85],
     content: `Tres Ringos por la Elveno-kingas baja la sky,
 Siete por el Dwarf-lords en their hallas de stone,
 Nueve por la Mortal Men doomed a die,
@@ -63,7 +63,7 @@ En la Land de Mordor Quien la Shadows lie.`
     input: "0.10.5",
     variant: "арагонский диалект",
     author: [],
-    book: book("S-a", 84),
+    book: ["S-a", 84],
     content: `Tres aniellos t’os Reis Elfos baxo o zielo,
 Siete t’os Siñors Nanos en casa de piedra,
 Nueu t’os Ombres Mortals condenaus a morir,
@@ -78,7 +78,7 @@ En a Tierra de Mordor an s’ixemenan as Güembras`
     input: "0.10.5",
     variant: "леонский (астурийский) диалект",
     author: [],
-    book: book("S-l", 84),
+    book: ["S-l", 84],
     content: `Tres aniellos pa los Reis Elfos baxu'l cieu,
 Sietë pa los Siñores Enanos en casas de piadra,
 Nuevë pa los Homes Mortales condenaos a morrire,

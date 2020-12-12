@@ -1,11 +1,11 @@
 import { IDerzhansky } from "../authors";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export default make({ language: "c.tlh" }, {
   56: {
     input: "0.2.0",
     author: "Anthony Appleyard",
-    book: book("K-1", 210),
+    book: ["K-1", 210],
     content: `elDa'joHmeHvaD chalbingDaq wej Qeb,
 nawqo'joHmeHvaD naghjuHmeychajDaq Soch,
 HumanmeyvaD jubbe' HeghmeH qichbogh Hut,
@@ -18,7 +18,7 @@ Qotbogh Qibmey morDor puHDaq.`
   92: {
     input: "0.2.5",
     author: IDerzhansky,
-    book: book("K-2", 211),
+    book: ["K-2", 211],
     content: `chal bIngDaq wej Qebmey Hev 'e'llv jawpu',
 nagh vaSmeyDaq Do'rIv chuQunvaD Soch veb,
 Hegh pIHbogh Human Segh jubbe'vaD Hut chu',
@@ -31,7 +31,7 @@ morDor puHDaq, QIbmeyDaq 'oH chenmoHlu'.`
   263: {
     input: "0.11.0",
     author: [],
-    book: book("K-3", 211),
+    book: ["K-3", 211],
     content: `chalbIngDaq 'elDajoHpu'vaD wej Qeb
 naghjuHmeychajDaq nawqo'joHpu'vaD Soch
 HeghmeH Humanpu'vaD jubbe' luqIchlu'bogh Hut.

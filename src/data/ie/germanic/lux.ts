@@ -1,12 +1,12 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 export const lux = make({ language: "ltz" }, {
   159: {
     input: "0.7.0",
     source: sources.kniga2001,
     author: "Henry Wickens",
-    book: book("L-2", 66),
+    book: ["L-2", 66],
     content: `Dräi Réng fir d'Elwekinneken, déi éiweg liewen,
 Siwwe fir d'Zwakenhären an hiren Hale vu Steen,
 Néng fir Mënschen, d'Leit déi misse stierwen,
@@ -19,7 +19,7 @@ Am Land vu Mordor, do wou d' Schieder schwiewen.`
   274: {
     input: "0.12.0",
     author: `Minotaurus [${sources.elbenwald}]`,
-    book: book("L-1", 66),
+    book: ["L-1", 66],
     content: `Drei Reng den Elbenkineken heich am Liicht
 Siewen den Zwergenherscheren an hieren Haalen aus Steng
 Den Stieflechen, eiwech dem Dout vafall, ning,

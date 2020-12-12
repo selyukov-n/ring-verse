@@ -1,11 +1,11 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 export const oe = make({ language: "oe" }, {
   86: {
     variant: "мерсийский диалект",
     input: "0.2.0",
-    book: book("OE-m2", 185),
+    book: ["OE-m2", 185],
     author: "Edward W. Beattie",
     content: `Þríe sindun hringe     þrymcnáwenda ylfa
 Seofon dweargdryhtnum   heara dwimorseldum in
@@ -20,7 +20,7 @@ Mislice metudsceafte   mánfremmende Mordor.`
   168: {
     variant: "мерсийский диалект",
     input: "0.7.0",
-    book: book("OE-m1", 183),
+    book: ["OE-m1", 183],
     source: sources.oe_rv,
     author: "Carl Edlund Anderson",
     content: `Hringas þríe       þéodnum Ælfa,
@@ -41,7 +41,7 @@ hring án gebringe,     hring án gebinde
   198: {
     input: "0.8.0",
     author: "Rupert Barnes",
-    book: book("OE", 182),
+    book: ["OE", 182],
     content: `Þrie beas for þæm Ylfe-cyningas under heofne,
 Seofon for þæm dweorg-freas in hire stænnum heallum,
 Nigon for deaðfulum mannum foredemed to forþfarenne,
@@ -56,7 +56,7 @@ In Mordorlande þa þa sceade licgað.`
     input: "0.9.0",
     variant: "мерсийский диалект ?",
     author: `Arcormacolindóva [${sources.planetTolkien}]`,
-    book: book("OE-m3", 185),
+    book: ["OE-m3", 185],
     content: `Hringas þríe þéodnum Ælfa under eormenrodore,
 Hringas seofon Dweorgdryhtnum innan heora seldes stæna,
 Hringas nigon Mannum déaðfæge,

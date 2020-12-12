@@ -1,11 +1,11 @@
-import { book, make } from "../utils";
 import { sources } from "../sources";
+import { make } from "../utils";
 
 export const tagalog = make({ language: "tgl" }, {
   189: {
     input: "0.8.0",
     author: "Mo Solidonio",
-    book: book("T-1", 173),
+    book: ["T-1", 173],
     content: `Tatlong singsing pinagkaloob sa mga Duwendeng naghahari sa paanan ng kalangitan,
 Pito para sa mga Unanong Amo sa mga bulwagang marmol.
 Siyam sa katauhang mortal sa kasawian ay papanaw,
@@ -18,7 +18,7 @@ Sa kaharian ng Mordor, sa pook ng karimlan.`
   190: {
     input: "0.8.0",
     author: "Viktoro 9",
-    book: book("T-2", 173),
+    book: ["T-2", 173],
     content: `Tatlong Singsing para sa mga Haring Duwende sa ilalim ng langit,
 Pito para sa mga Among Unano sa kanilang bulwagang bato,
 Siyam para sa mga Palanang Tao na may kamatayan,

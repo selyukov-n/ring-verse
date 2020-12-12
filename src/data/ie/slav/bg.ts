@@ -1,10 +1,10 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 export const bg = make({ language: "bul" }, {
   87: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("B-1", 116),
+    book: ["B-1", 116],
     author: "Ljubomir Nikolov",
     content: `Три пръстена за елфите-крале под този небосвод
 и седем за джуджетата в дворците им от камък,
@@ -18,7 +18,7 @@ export const bg = make({ language: "bul" }, {
 
   150: {
     input: "0.7.0",
-    book: book("B-2", 115),
+    book: ["B-2", 115],
     author: "Tanti Matika",
     content: `Tri prastini za sinovete na fejata pot nebeto,
 Sedam za čarskite diabalčeta vavff kameniti žamači,

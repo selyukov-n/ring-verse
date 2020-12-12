@@ -1,10 +1,10 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 export const sloven = make({ language: "slo" }, {
   77: {
     input: "0.2.0",
-    book: book("S-1", 112),
+    book: ["S-1", 112],
     author: [],
     content: `Trije Prstani za vilinske kralje pod svodom neba,
 sedem za škratov vladarje, ki so v palaċah iz kamna doma,
@@ -18,7 +18,7 @@ v deželo Mordor, kjer sence žive.`
   243: {
     input: "0.9.0",
     author: `Elrohir [${sources.planetTolkien}]`,
-    book: book("S-2", 112),
+    book: ["S-2", 112],
     content: `Troji Prstani za vilinske kralje pod neba blescavo,
 Sedmeri za škratje vladarje v njih skalnem zaklonu,
 Deveteri za Smrtnike, ljudi z umrljivo naravo,

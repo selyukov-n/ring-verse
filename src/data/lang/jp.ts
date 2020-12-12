@@ -1,12 +1,13 @@
 import { ItemGroup } from "../types";
 import { sources } from "../sources";
+import { fromLotR } from "../utils";
 import pic49a from "../pic/49jap.png";
 import pic49b from "../pic/49jap.jpg";
 
 export const jp: ItemGroup = {
   49: {
     language: "jap",
-    name: "из перевода ВК",
+    name: fromLotR(),
     book: ["J", 180],
     input: "0.2.0",
     author: [],

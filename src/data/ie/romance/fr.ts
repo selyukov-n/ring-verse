@@ -6,7 +6,7 @@ const fre = make({ language: "fre" }, {
   66: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("F-1", 80),
+    book: ["F-1", 80],
     author: "Francis Ledoux",
     content: `Trois Anneaux pour les Rois Elfes sous le ciel,
 Sept pour les Seigneurs Nains dans leurs demeures de pierre,
@@ -37,7 +37,7 @@ Au le pays de Mordor où s'étendent les Ombres.`
     input: "0.7.0",
     author: JAvidan,
     comments: [{ type: "warning", text: "сомнения по поводу некоторых слов" }],
-    book: book("F-2", 80),
+    book: ["F-2", 80],
     content: `Trois anneaux pour les Elfiques-roix sous le ciel,
 Sept pour les Nain-chefs en leur vestibules du pierre,
 Neuf pour les Hommes-Mortal condamné à mourir,

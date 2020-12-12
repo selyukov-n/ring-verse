@@ -1,12 +1,12 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 const br = make({ language: "pt", variant: "бразильский вариант" }, {
   63: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("Pb-1", 89),
+    book: ["Pb-1", 89],
     author: ["Lenita Maria Rimoli Esteves", "Almiro Pisetta"],
     content: `Três anéis para os Reis-Elfos sob este céu
 Sete para os Senhores-Anões em seus rochosos corredores,
@@ -21,7 +21,7 @@ Na Terra de Mordor onde as sombras se deitam.`
   171: {
     input: "0.7.0",
     author: JAvidan,
-    book: book("Pb-2", 90),
+    book: ["Pb-2", 90],
     content: `Três aneles p'ra os Elfos-reies sob o céu,
 Sete p'ra os Anões-Senhores na delas pedras de pedra,
 Nove p'ra os Homens-Morteiros que morerrerem,
@@ -80,7 +80,7 @@ Um anel para a todos prender e nas trevas os reter
 Na Terra de Mordor onde moram as Sombras`
   },
   361: {
-    book: book("P-2", 89),
+    book: ["P-2", 89],
     input: "0.14.5",
     author: `blank_stare [${sources.artlangs}]`,
     content: `Três Anéis para os Reis Elfos debaixo do céu,

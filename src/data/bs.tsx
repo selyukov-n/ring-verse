@@ -28,7 +28,7 @@ Uzg-Mordor-ishi amal fauthut burgûli.`,
   },
   109: {
     name: "Модификация #7",
-    book: book("BS-4", 34),
+    book: ["BS-4", 34],
     input: "0.3.7",
     author: ME,
     text: [
@@ -41,7 +41,7 @@ Uzbûrz-ishi amal burgûl fauthut.`,
     ]
   },
   118: {
-    book: book("BS-3", 34),
+    book: ["BS-3", 34],
     input: "0.4.4",
     author: "David Salo",
     text: [
@@ -56,7 +56,7 @@ Daghburz-ishi makha gulshu darulu.`,
 
   155: {
     input: "0.7.0",
-    book: book("BS-2", 33),
+    book: ["BS-2", 33],
     author: JAvidan,
     text: [
       `Psugh nazgê Purkuz-zâ-Khempê krait-ust,
@@ -88,7 +88,7 @@ const dbs = make({ language: "black-speech" }, {
     input: "0.3.7",
     variant: 'испорченное ("debased") Черное наречие',
     comments: ["лексика - как в №7, №109"],
-    book: book("BS-6", 35),
+    book: ["BS-6", 35],
     author: ME,
     content: `Gakh Nazg ûr durob-golug lata nût,
 Udu ûr durob-gazat ishi gundrûlub,

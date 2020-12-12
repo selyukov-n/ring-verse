@@ -1,9 +1,9 @@
-import { book, make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 export const esperanto = make({ language: "c.eo" }, {
   72: {
     input: "0.2.0",
-    book: book("E-2", 208),
+    book: ["E-2", 208],
     author: "Don Harlow",
     content: `Tri ringoj por la elfo-reĝoj, sub la ĉielo;
 Sep por la dvarvo-moŝtoj, en haloj de ŝton'.
@@ -16,8 +16,8 @@ En la lando Mordor, tenebra pro malhelo.`
   },
   73: {
     input: "0.2.0",
-    name: "из перевода ВК",
-    book: book("E-1", 208),
+    name: fromLotR(),
+    book: ["E-1", 208],
     author: "Bertilo Wennergren",
     content: `Tri ringoj por la elfoj sub la hela ĉiel',
 Sep por la gnomoj en salonoj el ŝton'.
@@ -46,7 +46,7 @@ En la Mordoron, kiu estas lando kie la ombroj kuŝas.`
   144: {
     input: "0.7.0",
     author: "Dotan Brom",
-    book: book("E-3", 200),
+    book: ["E-3", 200],
     content: `Tri Ringoj por la regoj de Elfoj sub la ĉielo,
 Sep por la lordoj de Nanoj en haloj de ŝtono,
 Naŭ por Mortema Homoj, ke kondamnita morti,

@@ -1,10 +1,10 @@
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 export const rumanian = make({ language: "rum" }, {
   214: {
     input: "0.7.0",
-    book: book("R-3", 106),
+    book: ["R-3", 106],
     author: "Mirette Brandes-Weintraub",
     content: `Trei inele pentru regii-spiriduşi sub cupola cerului.
 Şapte, pentru piticii-domini, în cămările de piatră.
@@ -32,7 +32,7 @@ Unde-s Umbrele, în Ţinutul Mordor, în întunecime.`
     input: "0.14.5",
     name: "вариант #463",
     author: [],
-    book: book("R-2", 106),
+    book: ["R-2", 106],
     source: sources.jrrt_memorial,
     content: `Trei inele pentru stapânii Elfi cei de sub soare,
 Sapte pentru ei, Piticii de vita din sali de stânca,

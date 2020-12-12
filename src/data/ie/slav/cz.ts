@@ -1,9 +1,9 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 export const cz = make({ language: "cze", input: "0.2.0" }, {
   69: {
     name: fromLotR(),
-    book: book("C-1", 110),
+    book: ["C-1", 110],
     author: "Stanislava Pošustová",
     content: `Tři prsteny pro krále elfů pod nebem,
 Sedm vládcům trpaslíků v síních z kamene,
@@ -15,7 +15,7 @@ Jeden všechny přivede, do temnoty sváže
 v zemi Mordor, kde se snoubí šero se šerem.`
   },
   70: {
-    book: book("C-2", 110),
+    book: ["C-2", 110],
     author: "Bára Mančíková",
     content: `Tři prsteny elfím králům pod oblohou modrou,
 Sedm vládcům trpaslíků v sálech v horském lůně,

@@ -1,12 +1,12 @@
 import { sources } from "../../sources";
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 const eld = (name: string) => `${name} [${sources.eldalie}]`;
 
 export const friuli = make({ language: "fru", input: "0.13.0" }, {
   290: {
     author: eld("Elviel"),
-    book: book("F-1", 104),
+    book: ["F-1", 104],
     content: `Tre Anei ai Re dai Elfos sot el cîl che splent,
 Siet ai Princips dai Nanos in ta lôrs grotis di piere,
 Nuf ai Omps Mortai che la triste muart i a spiete,
@@ -19,7 +19,7 @@ In ta Tiare di Mordor in dulà che cale la scure ombrene.`
   291: {
     variant: "равнинный диалект, зона Аквилеи, Сарвиньян",
     author: eld("rosieposie"),
-    book: book("F-2", 104),
+    book: ["F-2", 104],
     content: `Tre anei al re dai Elfi sot il cil che lus,
 Siet ai princips dai Nanus in tas lor rochis di piere,
 Nûf ai Omps Mortai che la marumite muart a spiete,

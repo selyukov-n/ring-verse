@@ -1,10 +1,10 @@
-import { book, make } from "../../utils";
+import { make } from "../../utils";
 
 export const frisian = make({ language: "fy" }, {
   199: {
     input: "0.8.0",
     author: "Arjan Groenemejer",
-    book: book("F-2", 68),
+    book: ["F-2", 68],
     content: `Trije ringen foar de elvekeningen ûnder de himel,
 Sân foar de dwergehearen yn harren stiennen hallen,
 Njoggen foar de stjerrende minsken ferdoeme it libben te litten.

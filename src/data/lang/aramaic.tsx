@@ -1,10 +1,10 @@
 import React from "react";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
   169: {
     author: "Ron Croizer - רן קרויזר",
-    book: book("A-1", 200),
+    book: ["A-1", 200],
     content: [{
       type: "rtl",
       title: "מָרָא עִיזְקִין",
@@ -20,7 +20,7 @@ export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
   },
   215: {
     author: "Yehuda Ronen",
-    book: book("A-2", 201),
+    book: ["A-2", 201],
     content: [
       {
         type: "rtl",

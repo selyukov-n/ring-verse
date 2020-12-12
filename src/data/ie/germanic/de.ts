@@ -1,4 +1,4 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
 const elbenwald = (name: string) => `${name} [${sources.elbenwald}]`;
@@ -7,7 +7,7 @@ const de = make({ language: "de" }, {
   64: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("G-1", 55),
+    book: ["G-1", 55],
     author: "Ebba Maria von Freymann",
     content: `Drei Ringe den Elbenkönigen hoch im Licht,
 Sieben den Zwergenherrschern in ihren Hallen aus Stein,
@@ -23,7 +23,7 @@ Im Lande Mordor, wo die Schatten drohn.`
     input: "0.7.0",
     name: "дословный перевод ?",
     author: "Thomas Hahn",
-    book: book("G-3", 56),
+    book: ["G-3", 56],
     content: `Drei Ringe den Elbenkönigen unter dem Himmel,
 Sieben den Zwergenherrschern in ihren Hallen aus Stein,
 Neun den Sterblichen, denen der Tod bestimmt ist,
@@ -37,7 +37,7 @@ Im Lande Mordor, wo die Schatten sind.`
     input: "0.7.0",
     source: sources.hfilippo,
     author: "H.Flippo",
-    book: book("G-2", 56),
+    book: ["G-2", 56],
     content: `Drei Ringe den Elbenkönigen unter dem Himmel,
 Sieben den Zwergenherren in ihren Hallen aus Stein,
 Neun den Sterblichen, ewig dem Tode verfallen,
@@ -51,7 +51,7 @@ Im Lande Mordor, wo die Schatten liegen.`
   211: {
     input: "0.8.0",
     variant: "диалект восточной Австрии, юж. Burgenland, окр. Oberwart",
-    book: book("G-oa", 65),
+    book: ["G-oa", 65],
     author: "Matthias List",
     content: `drai ringal fia di elfnn-kejni wos untan himmll saij
 sijm fia di kejni fo di zweagal in ianare schtaananan halln,
@@ -67,7 +67,7 @@ in launt moadoaa wo di schotdn liang duan`
     input: "0.11.0",
     variant: "нижнебаварский диалект",
     author: "Dirk Thierbach",
-    book: book("G-lb", 60),
+    book: ["G-lb", 60],
     content: `Drei Ring hab'n de Elbenköni ob'n im Liacht
 Simi de Zwerg'nkini in eanerne stoanenen Haiser
 De Menschenen, immer den Toad verfoin, neine
@@ -81,7 +81,7 @@ In mordor, wos finsta is.`
     input: "0.11.3",
     variant: "Pälzisch диалект",
     author: elbenwald("Gwaeronion"),
-    book: book("G-pf", 59),
+    book: ["G-pf", 59],
     content: `Droi Ringe de Elwekönische do owwe im Licht,
 Siwwe de Zwergeherrscherr in ihrn Halle aus Stää,
 De Sterblische, eewisch m Tod verfalle, noin,
@@ -95,7 +95,7 @@ Im Land Mordor, wu de Schadde droon.`
     input: "0.11.3",
     variant: "рейнский гессенский (Rheinhessisch) диалект",
     author: elbenwald(`Laurelhass Elmegil`),
-    book: book("G-r", 58),
+    book: ["G-r", 58],
     content: `Drei Ringelscher fer de Elwegenische obbe im Lischt
 Siebbe de Zweggehescher en ehre Halle aus Stoh
 De Sterblische, ewisch 'm Dode verfalle noin
@@ -154,7 +154,7 @@ const de2 = make({ language: "de", input: "0.12.0" }, {
   273: {
     variant: "диалект Берна (Швейцария)",
     author: elbenwald("Ankou"),
-    book: book("G-sw", 61),
+    book: ["G-sw", 61],
     content: `Drei Ringä dä Eubächönigä höch im Liecht,
 Sibä dä Zwärgäherrscher i irnä Hauä us Stei,
 Dä Stärblechä, ewig em Tod verfauä, nüün,
@@ -167,7 +167,7 @@ Im Land Mordor, wo d' Schattä drohed.`
   275: {
     variant: "южнотирольский диалект",
     author: elbenwald("Ringknechter"),
-    book: book("G-t", 65),
+    book: ["G-t", 65],
     content: `Drei Ring in di Elbmkinig hoach im Liacht
 Siame in die Zwergnherschor in ihrn holln as Stoan
 in die mensch ewig zum okrotzn vorurteilt neine
@@ -180,7 +180,7 @@ im lond fu Mordor wo die schottn san.`
   279: {
     variant: "Oberpfäzisch-Bayrisch диалект",
     author: elbenwald("Chaos Master"),
-    book: book("G-opb", 61),
+    book: ["G-opb", 61],
     content: `Drei Ringe für die Elbmköniche droom im Licht,
 Siem für die Zwerngherscher in ihre Halln as Staa,
 Für die Sterblichen, ewich m Dode vafalln, neun,

@@ -1,10 +1,10 @@
-import { book, make } from "./utils";
+import { make } from "./utils";
 import { sources } from "./sources";
 
 const sind1 = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
   31: {
     variant: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
-    book: book("S-10", 31),
+    book: ["S-10", 31],
     input: "0.1.0",
     content: [{
       title: "Tennath i Dúr-Gyrf",
@@ -19,7 +19,7 @@ Ne Dor e-Mordor ias i-Ndúath caedar.`
     }]
   },
   33: {
-    book: book("S-3", 26),
+    book: ["S-3", 26],
     input: "0.1.1",
     content: [{
       title: "Glîr i Chyrf e-Ndur",
@@ -56,7 +56,7 @@ const sind = make({ language: "sindarin" }, {
   55: {
     input: "0.2.0",
     author: "Bjørn Arnfred Bojesen",
-    book: book("S-4", 27),
+    book: ["S-4", 27],
     content: `Neledh Cŷr 'nin Edhelaranath nui venel,
 Odog a Ngonhirrim ned gonthamath în,
 Neder an Firiath, beraid gwanno,
@@ -69,7 +69,7 @@ Ned Mordor nedhi gaenar i ngwaith.`
   99: {
     input: "0.3.0",
     author: "H.Reiter",
-    book: book("S-9", 31),
+    book: ["S-9", 31],
     content: `Neledh cŷr an erain Edhellen nuin giliath,
 Neder cŷr an Edain amarthen an gûr,
 Odog cŷr an Nogothrim ned rondiath,
@@ -135,7 +135,7 @@ const sind2 = make({ language: "sindarin", input: "0.12.0" }, {
   276: {
     name: "перевод с немецкого #64",
     author: [],
-    book: book("S-2", 25),
+    book: ["S-2", 25],
     content: `Neled Chýr in Edhelerain hall ned i Galad,
 Odog in Nergetherain ne dain Themb ed Sern,
 In Fîr, uireb i 'urth gorgor, neder,
@@ -147,7 +147,7 @@ Ned i Vor Mordor, i sad erin Avathar darthar.`
   },
   277: {
     author: `Lothenon [${sources.elbenwald}]`,
-    book: book("S-7", 29),
+    book: ["S-7", 29],
     content: `Neledh Cyrf an erain edhellin nui Menel
 Odog an Nogoth-brennyn mi themais hernui ín
 Neder an Edain firib, barad a ngwannad
@@ -170,7 +170,7 @@ ne mordor manad dorthar in gwaith.`
   },
   281: {
     author: `Eri Tajayanar [${sources.elbenwald}]`,
-    book: book("S-8", 30),
+    book: ["S-8", 30],
     content: [{
       title: "Hîr i Chorvath",
       text: `Nêl Cyrf 'nin Eldherain nui menel

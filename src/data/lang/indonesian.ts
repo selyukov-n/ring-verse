@@ -1,11 +1,11 @@
-import { book, make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 const indonesian = make({ language: "ind" }, {
   230: {
     input: "0.8.3",
-    name: "из перевода ВК",
+    name: fromLotR(),
     author: "Gita Yuliani K.",
-    book: book("I-1", 171),
+    book: ["I-1", 171],
     content: `Tiga Cincin untuk raja-raja Peri di bawah langit,
 Tujuh untuk raja-raja Kurcaci di balairung batu mereka,
 Sembilan untuk Insan Manusia yang ditakdirkan mati,
@@ -19,7 +19,7 @@ Di Negeri Mordor di mana Bayang-bayang merajalela.`
 
 const ind2 = make({ language: "ind", input: "0.12.0", author: [] }, {
   271: {
-    book: book("I-2", 171),
+    book: ["I-2", 171],
     content: `Tiga cincin pada er raja es gading tinggi dalam cahaya
 Tujuk pada er panguasi es orang kerdili dalam mereka dari batu
 Er fana abadi er kematian kadalurwasa, sembilan
@@ -30,7 +30,7 @@ Dalam kegelapan menggusur, dan abadi mengikat
 Dalam negara Mordor, dimana wayang mengancam`
   },
   272: {
-    book: book("I-3", 172),
+    book: ["I-3", 172],
     content: `tiga cincin raja-raja gading dalam cahaya yang tinggi
 tujuh penguasa orang-orang kerdil yang berada diruangan besar dari batu
 yang akan meninggal, selama-lamanya jatuh dalam kematian, sembilan

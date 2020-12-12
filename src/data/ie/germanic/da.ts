@@ -1,9 +1,9 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 const da = make({ language: "dan", input: "0.2.0" }, {
   57: {
     name: fromLotR(),
-    book: book("D-1", 69),
+    book: ["D-1", 69],
     author: "Ida Nyrop Ludvigsen",
     content: `Tre har elvernes konge i dybeste skove,
 Syv har dværgenes herrer i sale af sten,
@@ -15,7 +15,7 @@ I Mordors land, hvor skygger ruge.
 I Mordors land, hvor skygger ruge.`
   },
   58: {
-    book: book("D-2", 69),
+    book: ["D-2", 69],
     author: "Bjørn Arnfred Bojesen",
     content: `Tre Ringe for elverne under det blå;
 syv ere for dværg-æt i sale af sten;
@@ -32,7 +32,7 @@ const da2 = make({ language: "dan" }, {
   139: {
     input: "0.7.0",
     author: "Jonathan Avidan",
-    book: book("D-3", 70),
+    book: ["D-3", 70],
     content: `Tre ringer til Elleve-Damer under himmelen,
 Syv til Dvarg-Herrene i sin haller på sten,
 Ni ringer til Dödelige-mennesker dømmt til dø,

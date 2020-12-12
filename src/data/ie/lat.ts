@@ -1,12 +1,12 @@
 import { JAvidan, ME } from "../authors";
 import { sources } from "../sources";
-import { book, make } from "../utils";
+import { make } from "../utils";
 
 // āăēĕīĭōŏūŭ
 const lat = make({ language: "lat" }, {
   10: {
     author: ME,
-    book: book("L-9", 194),
+    book: ["L-9", 194],
     input: "0.0.2",
     content: `Tres Orbes Alperegĭbus sub caelo,
 Septem Pumilonĭbus in aulis saxialĭbus eōrum,
@@ -34,7 +34,7 @@ In Terra Mordor ubi umbrae sternĕrunt.`
   76: {
     author: "Steinar Midtskogen",
     input: "0.2.0",
-    book: book("L-1", 190),
+    book: ["L-1", 190],
     content: `Tres anellōrum sub diuo regĭbus altis,
 Elfossas septem domĭnis habitantĭbus aulas,
 Et nouem eis quorum fatumst occumbĕre mortem,
@@ -47,7 +47,7 @@ Mordŏre terra illa, qua sunt caligĭnis umbrae.`
 
   146: {
     input: "0.7.0",
-    book: book("L-5", 192),
+    book: ["L-5", 192],
     author: JAvidan,
     comments: [{ type: "error", text: "много сомнительных мест" }],
     content: `Tres anŭli ad Elf-reges sub caelum,
@@ -61,7 +61,7 @@ In terram Mordris qua umbrae cubātis.`
   },
   166: {
     input: "0.7.0",
-    book: book("L-7", 193),
+    book: ["L-7", 193],
     source: sources.hfilippo,
     author: "H.Filippo ?",
     content: `Tres anŭli pro regĭbus Quendōrum sub caelo,
@@ -80,7 +80,7 @@ In terra Mordoris ubi umbrae iacent.`
     input: "0.8.0",
     variant: "имитация средневековой латыни ???",
     author: "Klaus Scholl",
-    book: book("L-3", 191),
+    book: ["L-3", 191],
     content: `Terni Annuli Regibus Nympharum subter Coelo,
 Septeni Ducibus Pumilorum in Cameris suis lapideis,
 Noveni Hominibus mortalibus moriendi praedamnatis
@@ -93,7 +93,7 @@ in Regione Mordoris, qua Umbrae sunt.`
   193: {
     input: "0.8.0",
     author: "robocap",
-    book: book("L-2", 190),
+    book: ["L-2", 190],
     content: `Tres Elphorum pro regibus sub coelo anuli
 Septem Nanorum pro dominis in aulis suis lapideis,
 Novem pro hominibus ad mortem destinatis,
@@ -107,7 +107,7 @@ In Mordoria terris ubi sternunt Umbrae.`
   247: {
     input: "0.9.2",
     author: "Robert Barulich",
-    book: book("L-4", 191),
+    book: ["L-4", 191],
     content: `Annuli tres regibus patente sub divo elvanis,
 Septem heris nanorum saxea incolentibus atria,
 Novem mortalibus morti fato sponsis,
@@ -122,7 +122,7 @@ In terra Mordore qua manent umbrae.`
   262: {
     input: "0.11.0",
     author: [],
-    book: book("L-8", 193),
+    book: ["L-8", 193],
     content: `Tres anuli regibus elfibus sub caelo,
 Septem dominis pumilis in suo palatiis ex lape,
 Novem hominibus mortalibus, qui morior debent
@@ -136,7 +136,7 @@ In Terra Negra, ubi umbrae extendent.`
   312: {
     input: "0.13.0",
     author: "Deldúwath, or Earindilyon [theonering.com]",
-    book: book("L-6", 192),
+    book: ["L-6", 192],
     content: `Tres Anuli regibus Alfonum sub caelo,
 Septem Dominis Nanorum in lapidis aulis,
 Novem Hominibus Mortalibus ad morendum damnatis,
@@ -207,7 +207,7 @@ Mordŏre in terra qua umbrae sternunt.`
   103: {
     name: "рифмованная версия",
     author: "A.Hooi",
-    book: book("L-10", 194),
+    book: ["L-10", 194],
     content: `Sub caelo anŭli tres regĭbus Albōrum,
 Lapideis in atriis septem Nanōrum eris,
 Mortūris novem Mortalĭbus Virōrum,
@@ -219,7 +219,7 @@ Mordōre in terra quo adferuntur umbrae.`
   },
   104: {
     author: "R.Alderson",
-    book: book("L-11", 195),
+    book: ["L-11", 195],
     content: `Anŭli tres pro regĭbus Albōrum sub caelo,
 Nanōrum pro principĭbus septem in atriis lapideis,
 Novem pro Mortalĭbus obĭtus damnātis,

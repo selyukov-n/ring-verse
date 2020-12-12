@@ -31,7 +31,7 @@ U zemlji Mordor gdje sjene se kriju.`
   },
   68: {
     name: fromLotR('"Stilos" edition'),
-    book: book("SC", 113),
+    book: ["SC", 113],
     author: "Zlatko Crnković",
     content: [
       {

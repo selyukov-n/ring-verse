@@ -5,7 +5,7 @@ const pol_drops = make({ language: "pol", input: "0.1.5" }, {
   35: {
     name: fromLotR(),
     author: "Jerzy Łoziński",
-    book: book("P-2", 42),
+    book: ["P-2", 42],
     content: `Trzy Pierścienie elfowym władcom szlachetnego miana,
 Siedem krzatów monarchom w kamiennych sal koronie,
 Dziewięć ludzkim istotom, którym śmierć pisana,
@@ -48,7 +48,7 @@ const pol = make({ language: "pol" }, {
   138: {
     input: "0.7.0",
     author: ["Marek Gumkowski", "Paulina Braiter"],
-    book: book("P-4a", 43),
+    book: ["P-4a", 43],
     content: `Dla elfich władców pod niebem jasnym są Trzy Pierścienie,
 Dla krasnoludzkich w podziemiach królów Pierścieni Siedem,
 Dziewięć dla ludzi - tych ostatecznym śmierć przeznaczeniem,

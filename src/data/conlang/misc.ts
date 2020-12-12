@@ -1,5 +1,5 @@
 import { sources } from "../sources";
-import { book, make, tonal } from "../utils";
+import { make, tonal } from "../utils";
 import pic219 from "../pic/219hon.jpg";
 import pic186 from "../pic/186gac.gif";
 import pic225 from "../pic/225ave.jpg";
@@ -176,7 +176,7 @@ Em romat Mordora shil usotus.`
   195: {
     language: "c.int",
     author: ["robocap", "испр. Ensjo"],
-    book: book("I", 210),
+    book: ["I", 210],
     content: `Tres anellos pro le reges Elfes sub le celo,
 Septe pro le seniores Nanos in lor salas de petra,
 Novem pro le Homines Mortal destinate a morir,
@@ -189,7 +189,7 @@ In le terra de Mordor ubi le Umbras jace.`
   196: {
     language: "c.n-eo",
     author: "robocap",
-    book: book("NE", 209),
+    book: ["NE", 209],
     content: `Tri ringoy por Elfoy rejoy sub chelo,
 Sep por Nanoy mastroy en ilia shtona haloy,
 Naw por mortema homoy al morto destinata
@@ -277,7 +277,7 @@ zuak1 pek2 tu1 mo1-do5 gop1 a1 flon2 dein3.`)
   209: {
     language: "c.wen",
     author: "Jan van Steenbergen",
-    book: book("W", 213),
+    book: ["W", 213],
     content: `Trzej andły pro rzedżu elfór set kłar czał,
 Siecę pro duczu naninór ję kębrar saszeju,
 Nów pro ludziu mrotału żudkatu a mroć,

@@ -1,4 +1,4 @@
-import { book, fromLotR, make } from "../utils";
+import { fromLotR, make } from "../utils";
 import pic231 from "../pic/231heb.jpg";
 
 const pic = (image: any) => ({
@@ -10,7 +10,7 @@ const heb = make({ language: "heb" }, {
   217: {
     input: "0.7.0",
     author: "Yaron Tausky",
-    book: book("H-3", 167),
+    book: ["H-3", 167],
     content: [
       {
         type: "rtl",
@@ -29,7 +29,7 @@ const heb = make({ language: "heb" }, {
   231: {
     input: "0.8.4",
     name: fromLotR(),
-    book: book("H-1", 165),
+    book: ["H-1", 165],
     author: "Ruth Livnit",
     content: [
       pic(pic231),
@@ -127,7 +127,7 @@ const old = make({ language: "hbo" }, {
   218: {
     input: "0.7.0",
     author: "Yuval Welis",
-    book: book("OH", 199),
+    book: ["OH", 199],
     content: [
       {
         type: "rtl",

@@ -1,8 +1,8 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 export const nl = make({ language: "nl", input: "0.2.0", name: fromLotR() }, {
   59: {
-    book: book("N-1", 67),
+    book: ["N-1", 67],
     author: "Max Schuchart",
     content: `Drie Ringen voor de Elfen-koningen op aard'
 Zeven voor de Dwergvorsten in hun zalen schoon,
@@ -14,7 +14,7 @@ Een Ring die hen brengen zal en in duisternis binden,
 In Mordor, waar de schimmen zijn.`
   },
   60: {
-    book: book("N-2", 67),
+    book: ["N-2", 67],
     author: "E.J.Mensink van Warmelo",
     content: `Drie Ringen voor de Elfenkoningen op aard',
 Zeven voor de Dwergvorsten in hun zalen schoon,

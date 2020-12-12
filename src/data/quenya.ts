@@ -31,7 +31,7 @@ Morinóreva mí arda, már i fuinion`
   },
   30: {
     author: ME,
-    book: book("Q-10", 23),
+    book: ["Q-10", 23],
     input: "0.0.7",
     content: `Nelde Cormar i Eldaranin nu Menel,
 Otso i Naucoheruin ondova hrótantassen,
@@ -61,7 +61,7 @@ Mornóreo Nóresse yasse i Fuini caitar.`
   54: {
     input: "0.2.0",
     author: ["Fredrik Ström", "David Salo"],
-    book: book("Q-4", 18),
+    book: ["Q-4", 18],
     content: `Cormar neld' Eldaranin undu telume,
 Otso Casrceruin ondomardeltassen,
 Nerte Firyain, firien martine,
@@ -105,7 +105,7 @@ Yasse lumnar i lumbor Morinóresse`
   280: {
     input: "0.12.0",
     author: "Helmut W. Pesch",
-    book: book("Q-8", 22),
+    book: ["Q-8", 22],
     content: [{
       title: "Heru i Cormaron",
       text: `Nelde Cormar Eld'aranin nu i menel,
@@ -174,7 +174,7 @@ Nóresse Mordoro yasse caitar i Lómini.`
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {
   102: {
-    book: book("Q-11", 24),
+    book: ["Q-11", 24],
     author: "Fredrik Ström",
     content: `Milli nelde aranin Eldaron nu telume,
 Otso heruin Casárion ondomardielta,

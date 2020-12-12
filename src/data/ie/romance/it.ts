@@ -1,6 +1,6 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 const eld = (name: string) => `${name} [${sources.eldalie}]`;
 
@@ -8,7 +8,7 @@ const it = make({ language: "it" }, {
   82: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("I-1", 90),
+    book: ["I-1", 90],
     author: "Vicky Alliata di Villafranca",
     content: `Tre Anelli ai re degli Elfi sotto il cielo che risplende,
 Sette ai Principi dei Nani nelle loro rocche di pietra
@@ -22,7 +22,7 @@ Nella Terra di Mordor, dove l'Ombra cupa scende.`
 
   147: {
     input: "0.7.0",
-    book: book("I-2", 91),
+    book: ["I-2", 91],
     author: JAvidan,
     content: `Tres anellos per los Elfos-res sotto le cielo,
 Sette per los Signores-Nanos in loros salones di pietra,
@@ -38,7 +38,7 @@ In la terra de Mordor dove las ombras coricanne.`
     input: "0.8.0",
     name: "дословный перевод",
     author: "robocap",
-    book: book("I-3", 91),
+    book: ["I-3", 91],
     content: `Tre Anelli per i Re degli Elfi sotto il cielo,
 Sette per i Signori dei Nani nelle loro aule di pietra,
 Nove per gli uomini mortali destinati a morire,
@@ -52,7 +52,7 @@ Nella Terra di Mordor ove si stendono le Ombre.`
     input: "0.8.0",
     variant: "феррарский вариант эмильянского диалекта",
     author: "robocap",
-    book: book("I-fe", 95),
+    book: ["I-fe", 95],
     content: `Tri anèl par i re di Èlf sòt al zzèl,
 Sèt par i Sgniòr di Nan in t'lór camra ad prèda,
 Nóv par i òm mortàl destinà a murìr,

@@ -1,10 +1,10 @@
-import { book, fromLotR, make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 const basque = make({ language: "baq" }, {
   80: {
     input: "0.2.0",
     author: "Josu Gómez",
-    book: book("B-2", 158),
+    book: ["B-2", 158],
     content: `Hiru Eraztun zerupeko Errege Elfoetzako,
 Zazpi harrizko jauregietako Nano Jaunetzako,
 Bederatzi hiltzera kondenatutako Gizaki Hilkorretzako,
@@ -18,7 +18,7 @@ Itzalak zabaltzen diren Mordor-eko Lurrean.`
   170: {
     input: "0.7.0",
     author: "Luis Alberto Maneero López",
-    book: book("B-4", 159),
+    book: ["B-4", 159],
     content: `Hiru eraztun zerupeko Errege Elfikoentzat,
 Zazpi Ipotxen Printzeentzat beren harrizko aretoetan,
 Bederatzi hilko diren hikorrentzat.
@@ -32,7 +32,7 @@ aizaroak dauden Mordor Erreinuan.`
   176: {
     input: "0.8.0",
     author: "Josu Gómez",
-    book: book("B-3", 159),
+    book: ["B-3", 159],
     content: `Hiru eraztun zerupeko Elfoen erregeentzat
 Zazpi, harrizko jauregietako Nano jaunentzat
 Bederatzi hiltzera kondenatutako Gizaki hilkorrentzat
@@ -45,7 +45,7 @@ itzalak zabaltzen diren Mordorreko lurrean.`
   177: {
     input: "0.8.0",
     name: fromLotR(),
-    book: book("B-1", 158),
+    book: ["B-1", 158],
     author: "Agostin Otsoa Eribeko",
     content: `Errege Elfoentzako hiru eraztun zeru azpian.
 Zazpi Jaun Nanoentzat harrizko jauregietan.

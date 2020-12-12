@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 const ic = (name: string) => `${name} [${sources.iceland}]`;
 
@@ -8,7 +8,7 @@ export const icel = make({ language: "ice" }, {
     input: "0.2.0",
     name: fromLotR(),
     author: "Geir Kristjánsson",
-    book: book("I-1", 75),
+    book: ["I-1", 75],
     content: `Þrjá fá kóngar Álfa í eyðiskóga geim,
 sjö fá höldar Dverga í hamravíðum sal,
 níu fá dauðlegir Menn, þá hel sækir heim,
@@ -21,7 +21,7 @@ einn skal hann safna þeim öllum og um sinn fjötur spinna
   270: {
     input: "0.12.0",
     author: [],
-    book: book("I-2", 76),
+    book: ["I-2", 76],
     content: `Þrír hringar fyrir ellefu kónga undir himninum,
 sjö fyrir dvergana í sölunum í steinunum
 níu fyrir mennin, dæmdir til að deyja

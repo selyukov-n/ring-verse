@@ -1,4 +1,4 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
 
@@ -6,7 +6,7 @@ export const nb = make({ language: "nor-b" }, {
   74: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("Nb", 72),
+    book: ["Nb", 72],
     author: "Thorstein Bugge Høverstad",
     content: `Tre Ringer for alver under det blå
 sju for dvergene i saler av sten;
@@ -35,7 +35,7 @@ I Mordors Rike hvor Skyggene rår.`
 export const nn = make({ language: "nor-nn" }, {
   75: {
     input: "0.2.0",
-    book: book("Nn-2", 73),
+    book: ["Nn-2", 73],
     author: "Bjørn Arnfred Bojesen",
     content: `Tre Ringar for alvar under det blå;
 sju for dvergane i salar av stein;
@@ -50,7 +50,7 @@ I det dunkle Mordor der skuggane rår.`
   145: {
     input: "0.7.0",
     name: "nynorsk or bokmal ??",
-    book: book("Nn-3", 74),
+    book: ["Nn-3", 74],
     author: JAvidan,
     content: `Tre ringer til De Elleve-konger under himmelen,
 Sju til Dverg-Herrene i deras Saler av stein,
@@ -64,7 +64,7 @@ I landet av Mordor hvor skyggeren ligger.`
   180: {
     input: "0.8.0",
     author: "Tamfiiris Entwife",
-    book: book("Nn-4", 74),
+    book: ["Nn-4", 74],
     content: `Tre ringar for alvekongar ute i det fri,
 og sju til herredvergar i hallar av stein.
 Ni til døyelege menn som til jord skal bli

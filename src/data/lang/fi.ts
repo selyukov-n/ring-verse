@@ -1,10 +1,10 @@
 import { sources } from "../sources";
-import { make } from "../utils";
+import { fromLotR, make } from "../utils";
 
 export const fi = make({ language: "fin" }, {
   88: {
     input: "0.2.0",
-    name: "из перевода ВК",
+    name: fromLotR(),
     book: ["F-1", 160],
     author: "Panu Pekkanen",
     content: `Kolme sormusta haltiakuninkaille all auringon,

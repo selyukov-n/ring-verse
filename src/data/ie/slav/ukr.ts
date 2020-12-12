@@ -1,4 +1,4 @@
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
 export const ukr = make({ language: "ukr" }, {
@@ -6,7 +6,7 @@ export const ukr = make({ language: "ukr" }, {
     input: "0.4.0",
     name: fromLotR(),
     author: "Oleksandr Mokrovolskii",
-    book: book("U-1", 120),
+    book: ["U-1", 120],
     content: `Три Перснi - ельфам чарiвна тюрьма,
 Сiм Перснiв - гномам-ковалям темниця,
 А дев'ять - людям смерть сама;
@@ -19,7 +19,7 @@ export const ukr = make({ language: "ukr" }, {
   116: {
     input: "0.4.3",
     author: "ardann [АнК]",
-    book: book("U-5", 124),
+    book: ["U-5", 124],
     content: `Три персня - ельфам у пiдзоряний свiт,
 Сiм - для дварфiв, господарів гiр,
 Дев'ять - людям, смертним повiк,

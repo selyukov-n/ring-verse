@@ -1,12 +1,12 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, fromLotR, make } from "../../utils";
+import { fromLotR, make } from "../../utils";
 
 export const swedish = make({ language: "swe" }, {
   65: {
     input: "0.2.0",
     name: fromLotR(),
-    book: book("S-1", 70),
+    book: ["S-1", 70],
     author: "Åke Ohlmarks",
     content: `Tre ringar för älvkonungarnas makt högt i det blå,
 sju för dvärgarnas furstar i salarna av sten,
@@ -23,7 +23,7 @@ i Mordors land, där skuggorna ruva.`
   143: {
     input: "0.7.0",
     author: JAvidan,
-    book: book("S-3", 71),
+    book: ["S-3", 71],
     content: `Tre ringer till Elleve-kunger under himmelen,
 Sju till Dvärg-Herrene i deras haller av sten,
 Nio till Dödlig-manskap dömmt till dö,

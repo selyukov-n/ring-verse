@@ -31,7 +31,7 @@ In þamma landa Maurdauris þarei þai skadjus ligand.`
 
   119: {
     input: "0.5.0",
-    book: book("G-3", 189),
+    book: ["G-3", 189],
     author: "M.Carver",
     content: `Hwa! þatei Hrigge     hausida ik
 þreis þaim waurþun     Þiudanam Albe
