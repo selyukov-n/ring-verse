@@ -32,7 +32,24 @@ Er-chorf a thorthad hain bain, Er-chorf a chired hain,
 Er-chorf a thoged hain bain a din fuin an nuded hain
 Vi Dor e-Mordor ias i-Ndúath caedar.`
     }]
-  }
+  },
+  548: {
+    input: "2.3.1",
+    variant: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
+    name: "another version of #31",
+    source: sources.simb8,
+    content: [{
+      title: "Tennath i Dúr-Gyrf",
+      text: `Neledh Chorvath'nn Ellerain nu i menel,
+Odo'ni Nauhírath bin rynd gonnui în,
+Neder'ni Fîr Fírib beraid fírad,
+Ere'm Morchír be morn-orchamm dín
+Be nDor e-Mordor ias i-nDúweth caear.
+Er-chorf hain torthad phain, Er-chorf hain hirad,
+Er-chorf hain tegad phain a din fuin hai'nudad
+Be nDor e-Mordor ias i-nDúweth caear.`
+    }]
+  },
 });
 
 const sind = make({ language: "sindarin" }, {

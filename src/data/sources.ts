@@ -70,6 +70,10 @@ export const sources = makeIds({
     name: "Dhimmi Watch",
     link: "http://www.jihadwatch.org/dhimmiwatch/archives/000682.php",
   },
+  dominus_anulorum: {
+    name: "Dominus Anulorum: The LOTR into Latin Project!",
+    link: "http://dominus-anulorum.blogspot.com/",
+  },
   dosk: {
     name: "WWW-Dosk",
     link: "http://www.elhe.ru/cgi-bin/forum/YaBB.pl?board=lang;action=display;num=1120049861",
@@ -214,6 +218,9 @@ export const sources = makeIds({
   saurom_lamderth: {
     name: "band Saurom lamderth - album Sombras del este (2002)",
     link: "http://www.darklyrics.com/lyrics/sauromlamderth/sombrasdeleste.html",
+  },
+  simb8: {
+    name: "Simbelmyne #8, pp. 40 - 44",
   },
   slideshare: {
     name: "Ring Verse Multilanguage on Slideshare",

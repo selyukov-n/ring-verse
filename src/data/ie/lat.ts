@@ -231,7 +231,36 @@ Mordōre in terra sternunt qua umbrae.`
   },
 });
 
+const lat3 = make({
+  language: "lat", input: "2.3.1",
+  source: sources.dominus_anulorum,
+  author: sources.dominus_anulorum.makeAuthor("Nagoda"),
+}, {
+  545: {
+    content: `Tres Anuli sub caelo Regibus Eldaribus,
+Septem in cavernis saxeis Dominis Nanis,
+Novem condemnatis ad mortem Mortalibus,
+Unus Domino Atro in sede atra
+In Terra Mordoris ubi Umbrae iacent.
+Unus Anulus omnes regere, Unus Anulus omnes invenire,
+Unus Anulus omnes conferre et in tenebris vincire
+In Terra Mordoris ubi Umbrae iacent.`
+  },
+  546: {
+    name: "Revised #545",
+    content: `Tres Anuli sub caelo Regibus Elbicis
+Septem Dominis Nanis in hypogeis ex saxo,
+Novem moriendum Mortalibus damnatis,
+Unus Domino Atro qui sedet in solio atro
+In Terra Mordore operta Umbris
+Unus Anulus eos omnes regendos, Unus Anulus eos inveniendos,
+Unus Anulus eos omnes conferendos et in tenebris vinciendos
+In Terra Mordore operta Umbris`
+  },
+});
+
 export const list = [
   lat,
   lat2,
+  lat3,
 ];

@@ -84,6 +84,20 @@ Pierścień jedyny, by władać wszystkimi, czarem je opetać,
 Pierścień jedyny, by wszystkie zgromadzić i w ciemnościach spętać
 W krainie Mordor, gdzie wiecznej nocy zaległy cienie.`
   },
+  547: {
+    input: "2.3.1",
+    source: sources.elendili,
+    author: sources.elendili.makeAuthor("Dagobert"),
+    content: `Trzy pierścienie dla królów elfów w pod niebnych dziedzinach
+Siedem dla władców karłów w komnatach z kamienia
+Dziewięć dla śmiertelnych ludzi, którzy muszą umrzeć
+Jeden dla Władcy Ciemności, co zasiada w mroku
+W Mordor, krainie, gdzie mieszkają cienie
+
+Jeden by nimi władać, Jeden by je odnaleźć,
+Jeden by je przywołać i w ciemności spleść,
+W Mordor, krainie, gdzie mieszkają cienie`
+  },
 });
 
 const pol300 = make({ language: "pol", input: "1.0" }, {
