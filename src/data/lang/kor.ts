@@ -1,4 +1,5 @@
 import { make } from "../utils";
+import pic524 from "../pic/524kor.jpg";
 
 export const kor = make({ language: "kor" }, {
   505: {
@@ -52,5 +53,13 @@ moduleul bulleonael jeoldae banji, geuligo amheug sog-eseo geudeul-eul sogbaghal
 geulimjaga deuliun moleudoleuui ttang-eseo`
       },
     ]
+  },
+  524: {
+    input: "2.2.0",
+    author: [],
+    content: [{
+      type: "image",
+      image: pic524,
+    }]
   },
 });

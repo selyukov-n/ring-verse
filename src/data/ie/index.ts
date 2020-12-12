@@ -19,8 +19,10 @@ export default [
   require("./irish").irish,
   require("./latvian").lat,
   ...require("./lith").list,
+  require("./marathi").mar,
   require("./pers").persian,
   require("./prus").pr,
   require("./romani").rom,
+  require("./sinhala").sinhala,
   require("./welsh").cymraeg,
 ];

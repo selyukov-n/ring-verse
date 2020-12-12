@@ -69,6 +69,19 @@ Prsten jedan da vlada svima, Prsten jedan da ih nade,
 Prsten jedan da ih dovede sve i u tami poveze.
 U zemlji mordor gdje leze sjenke.`
   },
+  522: {
+    input: "2.2.0",
+    author: [],
+    variant: "черногорский",
+    content: `Tri Prstena za prste Kraljeva vilin-vrste pod nebesima što sjaju,
+Sedam za vladare Patuljaka u dvoru njihovom kamnom,
+Devet za Smrtne ljude koje smrt čeka na kraju,
+Jedan za Gospodara Mraka na njegovom prijestolu tamnom
+U zemlji Mordor gdje Sjenke traju.
+Jedan Prsten da svima gospodari, jedan za svima seže,
+Jedan Prsten da sve okupi i u tami ih sveže
+U zemlji Mordor gdje Sjenke traju.`
+  },
 });
 
 export const list = [

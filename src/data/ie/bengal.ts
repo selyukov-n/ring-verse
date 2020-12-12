@@ -1,13 +1,27 @@
+import { sources } from "../sources";
 import { make } from "../utils";
-import pic503 from "../pic/503beng.png";
+import pic503 from "../pic/503beng.jpg";
 
 export const bng = make({ language: "bng" }, {
   503: {
     input: "1.1",
     author: [],
     content: [
+//       {
+//         text: `িতন আংিট এলফরাজােদর নীল আকােদর নীদে,
+// ◌ীলাঘদর বামন- ধান িসািট পল পেদ।
+// মরেণীল মানুষ-রাজার তমলল বাতক নয়,
+// পকউ জাদন না একিট ধু ছায়ার পেদ রয়।
+// মডদরর কাদলা রাজার কাদলা তসংহাসন
+// থাকদব অটট, আংিট হািদ থাকদব ি◌ ণ।
+// এই অননয আংিট, স াইদক অধীন করার অবযথড ফিত।
+// এই অিিতীয় আংিট, সবকিটদক ক া রােদ অ কাদর িবী।
+// এবার পষ হদলা সব ভয়, পকউ জাদন না একিট ধু ছায়ার পেদ রয়।`
+//       },
       {
         type: "image",
+        name: "image",
+        comment: `source: ${sources.elronds_library.name}`,
         image: pic503,
       },
       {

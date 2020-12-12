@@ -74,6 +74,19 @@ Un Anneau pour les diriger tous, un pour les trouver,
 Un anneau pour les rassembler tous, et dans les ténèbres les lier,
 Au pays de Mordor où règnent les Ombres.`
   },
+
+  519: {
+    input: "2.2.0",
+    author: [],
+    content: `Trois Anneaux pour les rois des Elfes sous le ciel,
+Sept aux seigneurs des Nains dans leurs salles de pierre,
+Neuf aux Hommes mortels voués à trépasser,
+Un pour le Seigneur Sombre au trône ténèbres
+Au pays de Mordor où s'étendent les Ombres.
+Un Anneau pour les dominer tous, Un Anneau pour les trouver,
+Un Anneau pour les amener tous et dans les ténèbres les lier,
+Au pays de Mordor où s'étendent les Ombres.`
+  },
 });
 
 const fre2 = map({

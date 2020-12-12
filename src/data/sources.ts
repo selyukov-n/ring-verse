@@ -94,6 +94,10 @@ export const sources = makeIds({
     name: "Elendili - Przyjaciele Elfów",
     link: "http://elendili.pl/viewtopic.php?p=127358",
   },
+  elronds_library: {
+    name: "Elrond's Library - The Ring Verse Translations",
+    link: "http://www.elrondslibrary.fr/RingVerse.html",
+  },
   gutiska: {
     name: "Gutiska site",
     link: "http://www.stormloader.com/carver/gutrazda/ringpoem.html",
