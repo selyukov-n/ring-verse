@@ -36,11 +36,11 @@ export const sources = makeIds({
     link: "https://ambar-eldaron.com/texte1.html",
   },
   ank: {
-    name: "АнК",
+    name: "Арда-на-Куличках",
     link: "http://www.kulichki.com/tolkien/forum",
   },
   ank1: {
-    name: "АнК - Tolkien Poetry Translations",
+    name: "Арда-на-Куличках: Tolkien Poetry Translations",
     link: "http://www.kulichki.com/tolkien/cabinet/svod/3rings/main.html",
   },
   artlangs: {
@@ -255,7 +255,7 @@ export const sources = makeIds({
     link: "http://www.torreshay.blogger.com.br/2004_11_01_archive.html",
   },
   translations: {
-    name: "переводы ВК",
+    name: "перевод ВК (печатное издание)",
   },
   turbine: {
     name: "The LotR Online Community",

@@ -1,4 +1,3 @@
-import { sources } from "../sources";
 import { fromLotR, make } from "../utils";
 
 export const ee = make({ language: "est" }, {
@@ -17,7 +16,6 @@ Seal, kus laiub Mordor, varjurahva vald.`
   },
   421: {
     input: "0.17.0",
-    source: sources.translations,
     name: fromLotR(),
     author: "Votele Viidemann",
     book: ["E-1", 161],
