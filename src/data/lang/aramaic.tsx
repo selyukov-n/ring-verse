@@ -1,6 +1,5 @@
 import React from "react";
 import { book, make } from "../utils";
-import pic215 from "../pic/215ara.png";
 
 export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
   169: {
@@ -24,6 +23,17 @@ export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
     book: book("A-2", 201),
     content: [
       {
+        type: "rtl",
+        text: `תלת עיזקן למלכיא דלילין תחות שמיא,
+שבע למרי דגמדי בהיכלי אבנא דילהון,
+תשע לגברין ברי-מית,
+חדא למרא אפלא בכורסיא אפלא דיליה
+בארעא דמורדור תמה טלליא רביעין.
+עיזקן חדא למישלט בכולהון, עיזקן חדא יתיהון למישכח,
+עיזקן חדא לאיתאה ית כולהון ובחשוכה יתיהון למיכרך
+הארעה דמורדור תמה טלליא רביעין.`
+      },
+      {
         text: <>
           T<small>e</small>la<u>t</u> 'izqan lemal<u>k</u>aja deLilin t<small>e</small>h`ot &#353;<small>e</small>maja,<br />
           &#352;e<u>b</u>a' lemarej de<u>G</u>ma<u>d</u>ej behej<u>k</u>lej a<u>b</u>na dilehon,<br />
@@ -35,10 +45,6 @@ export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
           Be|ar'a deMordor tamma t`elalaja re<u>b</u>i'in.
         </>
       },
-      {
-        type: "image",
-        image: pic215,
-      }
     ]
   }
 });
