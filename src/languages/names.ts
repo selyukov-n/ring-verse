@@ -191,7 +191,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.atl": "Atlango",
   "c.en-basic": "Basic (Simple) English",
   "c.toki": "Toki Pona",
-  "c.eld": "Старшая речь",
+  "c.eld": "Старшая Речь",
   "c.tlh": "клингонский",
   "c.dro": "язык дроу",
 
@@ -201,7 +201,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.aul": "Aulingese",
   "c.des": "Deswu",
   "c.lei": "Leillo",
-  "c.kel": "Kelen",
+  "c.kel": "Kélen",
   "c.var": "Varek",
   "c.she": "Shelavic",
   "c.dem": "Demane",

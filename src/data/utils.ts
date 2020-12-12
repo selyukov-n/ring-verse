@@ -1,7 +1,7 @@
 import { Item } from "./types";
 import { ME } from "./authors";
 
-export const isMine = (item: Item) => Array.isArray(item.author) ? item.author.includes(ME) : item.author === ME;
+export const isMine = (item: Pick<Item, "author">) => Array.isArray(item.author) ? item.author.includes(ME) : item.author === ME;
 
 export const book = (num: string, page: number, comment?: string) => ({ num, page, comment });
 

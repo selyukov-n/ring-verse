@@ -1,12 +1,29 @@
-import React, { useMemo } from "react";
+import React, { FC, useMemo } from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
-import { Data, formatDate, inputs, isMine, main } from "../data";
+import { Data, formatDate, inputs } from "../data";
 
 import "./history.css";
-import { compareVersions } from "./utils";
+import { compareVersions, LangGrouping, StatHelper } from "./utils";
 
-const fromSet = (set: Set<string> | Map<string, any>) => Array.from(set.keys()).join(", ");
+const concat = (separator: string, a: React.ReactNode, b: React.ReactNode) => a && b ? <>{a}{separator} {b}</> : (a || b);
+
+const Languages: FC<{ groups: LangGrouping }> = ({ groups }) => {
+  const makeString = (items: string[]) => items.length
+    ? items.sort((a, b) => a.localeCompare(b)).join(", ")
+    : null;
+  const main = concat(",",
+    groups.arda.length ? <span className="arda-lang">{makeString(groups.arda)}</span> : null,
+    makeString(groups.lang));
+  const other = concat(";",
+    makeString(groups.conlangs),
+    groups.codes.length ? <i>{makeString(groups.codes)}</i> : null);
+
+  return <>
+    {main && <p>{main}{other ? ";" : null}</p>}
+    {other && <p className="secondary">{other}</p>}
+  </>;
+};
 
 const makeHistoryItems = (data: Data) => {
   const acc = {
@@ -24,38 +41,32 @@ const makeHistoryItems = (data: Data) => {
     return map;
   };
 
+  const helper = new StatHelper();
   return Object.entries(inputs)
     .sort((a, b) => compareVersions(a[0], b[0]))
     .map(([ver, input]) => {
       const items = data.items.filter(t => t.input === ver);
 
-      acc.count += items.length;
-      const curr = new Set<string>();
-      items.forEach(it => {
-        const l = it.language;
-        if (l.startsWith("j.")) return; // skip jokes for stats
-
-        if (isMine(it)) acc.me.add(l);
-
-        if (it !== main) {
-          if (!acc.lang.has(l)) curr.add(l);
-          acc.lang.add(l);
-        }
-      });
-
       let cells: JSX.Element;
       if (items.length > 0) {
+        acc.count += items.length;
         const sources = group([input.mainSource || undefined, ...items.map(i => i.source === "-" ? undefined : i.source)]);
+        const result = helper.append(items);
 
         cells = <>
           <td>{items.length}</td>
           <td>{acc.count}</td>
           <td>
-            {fromSet(curr)}
-            <div className="description">{input.description}</div>
+            <Languages groups={result.current} />
+            {input.description && <div className="description">{input.description}</div>}
           </td>
-          <td>{fromSet(sources)}</td>
-          <td>{acc.lang.size} ({acc.me.size})</td>
+          <td>
+            {Array.from(sources.values()).map((s, i) => {
+              const item = React.createElement(s.link ? "a" : "span", { key: s.id, href: s.link }, s.name);
+              return i ? <>, {item}</> : item;
+            })}
+          </td>
+          <td className="nobr">{result.lang}{result.conlang ? ` + ${result.conlang}` : null} ({result.me})</td>
         </>;
       } else {
         cells = <td colSpan={5} className="description">

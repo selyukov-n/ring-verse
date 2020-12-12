@@ -3,3 +3,20 @@
     font-style: italic;
     white-space: pre-wrap;
 }
+
+.history td p {
+    margin-bottom: 0.25rem;
+}
+.history td p:last-child {
+    margin-bottom: 0;
+}
+
+.history .arda-lang {
+    font-weight: 500;
+}
+.history .secondary {
+    font-weight: 100;
+}
+.history .nobr {
+    white-space: nowrap;
+}
