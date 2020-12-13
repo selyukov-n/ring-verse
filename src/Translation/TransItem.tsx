@@ -83,7 +83,9 @@ export const TransItem: FC<{ item: ItemNum, linkToLang?: boolean }> = ({ item, l
       ? <Comment key={i}>{c}</Comment>
       : <Comment key={i} type={c.type}>{c.text}</Comment>)}
 
-    {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
+    <div className="translation-content">
+      {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
+    </div>
 
     {renderSource(item, input)}
   </>;

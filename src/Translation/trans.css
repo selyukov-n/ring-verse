@@ -26,3 +26,9 @@ h6 .date {
 .sources p {
     margin-bottom: 0;
 }
+
+.translation-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}

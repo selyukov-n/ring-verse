@@ -22,7 +22,7 @@ export const ocs = make({ language: "ocs" }, {
         image: pic507b,
       },
       {
-        name: "латиница",
+        name: "transliteration",
         type: "translit",
         text: `jedinъ prьstenь ję obręštetъ
 sь jedinъ jimi obladajetъ
