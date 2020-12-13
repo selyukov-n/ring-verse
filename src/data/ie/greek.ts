@@ -21,7 +21,6 @@ export const ancient = make({ language: "gre" }, {
 Μόρδορι ἐν χώρῃ ὁθι κακκεῖνται σκίαι αἰϜεί.`
       },
       {
-        name: "латиница",
         text: `Daktýlioi treîs Alphowáxin hyp' ouránö eisí.
 Hépta Kabeirodunástēisin megárois lithínois én.
 Ennéwa d' anthrṓpoisi brotoîs' hotinéssi thaneîn khrē̂.
@@ -55,7 +54,7 @@ Parchōrē Aimelaines hothe skiai epephorbei te.`
   537: {
     input: "2.3.0",
     author: "Michael Chatz",
-    comments: ["translated from #500"],
+    name: "перевод #500",
     content: [{
       type: "text-large",
       text: `Τρεῖς Δακτυλίους οἱ Πᾶνες Βασιλεῖς κάτω ἔχουσιν,
@@ -87,7 +86,7 @@ export const greek = make({ language: "el" }, {
   },
   369: {
     input: "0.14.5",
-    comments: ["похоже на #350"],
+    name: "похоже на #350",
     author: [],
     content: `Τρία Δαχτυλίδια έχουνε οι Ξωτικοί οι Βασιλιάδες στο θόλο τ' ουρανού από κάτου
 Εφτά οι Νάνοι Άρχοντες παλάτια που 'χουνε μες στα πέτραδια τους τα

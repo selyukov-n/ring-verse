@@ -20,7 +20,6 @@ export const arm = make({ language: "arm" }, {
 Զոր թյան տակ՝ Մորդորի տիրակալի`
       },
       {
-        name: "транслитерация",
         text: `Yereq matani Elferin imastun
     Veh barutian hamar,
 Yot matani andzavneri ankhondj

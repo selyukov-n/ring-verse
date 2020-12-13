@@ -22,7 +22,7 @@ export const persian = make({ language: "per" }, {
 در سرزمین موردور و سایه های آرامیده اش`
       },
       {
-        name: "pic",
+        name: "image",
         type: "image",
         image: pic415,
       }

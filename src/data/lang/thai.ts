@@ -18,7 +18,6 @@ export const thai = make({ language: "tha" }, {
 ในแดนมรณะแห่งมอร์ดอร์`
       },
       {
-        name: "transliteration",
         text: `Waen sam uang dae ksatri prai tai phaen fa
 Chet wong dae chao chao khrae nai thong phra rarong sila
 Kao wong nan na dae mnut phru rai ni ran da

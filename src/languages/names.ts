@@ -195,9 +195,9 @@ export const conlangs: Record<Conlang, string> = {
   "c.tlh": "клингонский",
   "c.dro": "язык дроу",
 
-  "c.ari": "Arielur (Proto-Anguric and Proto-Arathuric)",
-  "c.ang": "Angur",
-  "c.ara": "Arathur",
+  "c.ari": "Arielúr (Proto-Angûric and Proto-Arathûric)",
+  "c.ang": "Angúr",
+  "c.ara": "Arathúr",
   "c.aul": "Aulingese",
   "c.des": "Deswu",
   "c.lei": "Leillo",

@@ -7,7 +7,6 @@ export const yiddish = make({ language: "yid" }, {
     author: "David Weiß",
     content: [
       {
-        name: "латиница (германизированная)",
         text: `Drei ringen far Elbn-kingn unter der himmel,
 Seiben far Schartl-prinsn in stein schlusses,
 Neun far mentschn arurteilt geboirn of toit,
@@ -18,7 +17,6 @@ Ein ring zubringn sie und in finster sie farbindn
 In di land di Mordor wer deschuttn lign.`
       },
       {
-        name: "древнееврейское письмо (вариант для идиш)",
         type: "rtl",
         text: `דרײ רינגען פאר אעלבן קינגן אונטער דער הימל,
 זיבן פאר שארטל פרינסן אין שטיין שלוסעס,

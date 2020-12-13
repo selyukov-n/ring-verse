@@ -23,7 +23,7 @@ export const zh = make({ language: "zh" }, {
 在這被陰影攏照的魔都裡。`
       },
       {
-        name: "pic",
+        name: "image",
         type: "image",
         image: pic338,
       }
@@ -38,7 +38,6 @@ export const zh = make({ language: "zh" }, {
     book: ["C-p", 175],
     content: [
       {
-        name: "pic",
         type: "image",
         image: pic420,
       },
@@ -152,7 +151,6 @@ mo1 jing2 lung4 zaau3 mo1 dou1 noi6`)
         image: pic499b,
       },
       {
-        name: "transliteration",
         text: `Tiānxià jīnglíng zhù sān jiè,
 Dìdǐ ǎirén dé qī jiè,
 Shòu dìng fánrén chí jiǔ jiè,

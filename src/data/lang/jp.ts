@@ -35,7 +35,6 @@ export const jp: ItemGroup = {
         image: pic49b,
       },
       {
-        name: "ромадзи",
         text: `Mittsu-no yubiwa-wa, sora-no shitanaru erufu-no ó-ni,
 nanatsu-no yubiwa-wa, iwa-no yakata-no dowáfu-no kimi-ni,
 kokonotsu-wa, shisubeki kidame-no hito-no ko-ni,

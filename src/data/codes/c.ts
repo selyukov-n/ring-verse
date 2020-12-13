@@ -3,7 +3,6 @@ import { make } from "../utils";
 export const c = make({ language: "e.c" }, {
   108: {
     input: "0.3.5",
-    comments: ["не то что бы перевод, но..."],
     author: "Mordred of CyberLite",
     content: [{
       type: "mono",

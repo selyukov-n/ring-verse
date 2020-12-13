@@ -5,8 +5,6 @@ import pic213hb from "../pic/213heb.png";
 import pic351 from "../pic/351ara.jpg";
 import pic501 from "../pic/501ara.jpg";
 
-const pic = (image: any, name?: string) => ({ type: "image" as const, image, name });
-
 export const arab = make({ language: "arabic" }, {
   213: {
     input: "0.7.0",
@@ -25,10 +23,16 @@ export const arab = make({ language: "arabic" }, {
 ظوق لربطهم وللقبض عليهم
 في بلاد ألموردور هي دار ألظلام`
       },
-      pic(pic213ar, "image"),
-      pic(pic213hb, "древнееврейское письмо"),
       {
-        name: "transliteration",
+        type: "image",
+        image: pic213ar,
+      },
+      {
+        type: "image",
+        name: "древнееврейское письмо",
+        image: pic213hb,
+      },
+      {
         text: `ṯalāṯat ’aṭwāq li-mulūk al-ʿalāf taḥta as-samā’
 sabʿa li-’umarā’ al-’aqzām fī quṣūr al-ḥaǧar
 tisʿa li-’abnā’ al-mawt, maṣīruhum al-fanā’
@@ -57,7 +61,7 @@ fī bilād al-mūrdūr hiya dār aẓ-ẓalām`
  في أرض موردور تقع الظلال`
       },
       {
-        name: "pic",
+        name: "image",
         type: "image",
         image: pic351,
       }
@@ -79,12 +83,10 @@ fī bilād al-mūrdūr hiya dār aẓ-ẓalām`
 في أرض موردور حيث ترقد الأشباح.`
       },
       {
-        name: "image",
         type: "image",
         image: pic501,
       },
       {
-        name: "transliteration",
         text: `Thelathh khewatem lemlewk alejn thet alesma’,
 Seb’eh lesadh alafezam fey abha’ehem alhejreth,
 Tes’eh lelbesher alefaneyn alemhetwem ’eleyhem nalemwet,

@@ -24,7 +24,6 @@ export const akk = make({ language: "akk" }, {
     comments: ["Orig. published in Tyalië Tyelelliéva #6, pp. 7-8 (with cuneiform)."],
     content: [
       {
-        name: "cuneiform (pic)",
         type: "image",
         image: pic89,
       },

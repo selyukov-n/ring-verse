@@ -143,7 +143,6 @@ yo birmav uju viz ajlagilmanar, o uju ajlazeder veçnoyëx,
 mordordurax bezajax, ublaguji verduju omji.`
       },
       {
-        name: "письменность Gaciça",
         type: "image",
         image: pic186,
       }
@@ -175,7 +174,7 @@ Em romat Mordora shil usotus.`
   },
   195: {
     language: "c.int",
-    author: ["robocap", "испр. Ensjo"],
+    author: ["robocap", "corr. by Ensjo"],
     book: ["I", 210],
     content: `Tres anellos pro le reges Elfes sub le celo,
 Septe pro le seniores Nanos in lor salas de petra,
@@ -314,7 +313,6 @@ Daktashi nos nenro iakre var suthro kre awalware
 Avetare Mordorhe melilara waltya`
       },
       {
-        name: "письменность Avesta",
         type: "image",
         image: pic225,
       }
