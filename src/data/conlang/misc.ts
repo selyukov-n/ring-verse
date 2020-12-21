@@ -105,7 +105,7 @@ Un Ringo por cun ligis kay per cu ordesis
 In Mordora lando - qan ne tokta hel'.`
   },
   184: {
-    language: "c.var",
+    language: "c.fuc",
     author: "Uncle Davey",
     content: `qriy ringiz for de elffi kingiz anda de skay,
 sevn for de dwarffi lordiz in deyaz halliz ov stown,
