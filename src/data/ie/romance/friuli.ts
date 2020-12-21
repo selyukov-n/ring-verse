@@ -29,16 +29,4 @@ Un anel par domeajus, un anel par cjatajus,
 un anel par brincajus e in tal scur incjadenajus,
 in te tiere di Mordor, indulà che l'ombrene scure a ven jù.`
   },
-  292: {
-    variant: "gradese диалект",
-    author: eld("rosieposie"),
-    content: `Tre aneli ai re dei Elfi soto il sielo che riluse
-Sete ai principi dei Nani in te le loro roche de piera,
-Nove ai Omoni Mortali che la triste morte speta,
-Un pel Oscuro Sior serao intel palasso nero.
-Intela tera de Mordor, indola l'ombra nera vien zò.
-Un anelo per domali, un anelo per catali,
-un anelo per grampali e intel scuro incatenali,
-intela tera de Mordor, indola l'ombra scura vien zò.`
-  },
 });
