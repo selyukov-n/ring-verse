@@ -1,7 +1,6 @@
 import { ArdaLang } from "../arda";
 import { Conlang } from "../conlangs";
 import { EncodingLang } from "../encodings";
-import { JokesLang } from "../jokes";
 import { Lang } from "../languages";
 
 export const groups = {
@@ -10,6 +9,7 @@ export const groups = {
   _he: "на иврите",
   _po: "по-польски",
   _ru: "по-русски",
+
   afroasiatic: "Афразийские языки",
   altaic: "Алтайские языки",
   american: "Америндские языки",
@@ -221,7 +221,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.aul": "Aulingese",
   "c.des": "Deswu",
   "c.lei": "Leillo",
-  "c.kel": "Kélen",
+  "c.kel": "Kēlen",
   "c.var": "Varek",
   "c.she": "Shelavic",
   "c.dem": "Demane",
@@ -235,7 +235,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.lis": "Lissenian",
   "c.gwa": "Gwadoreg",
   "c.deb": "Dêbiua",
-  "c.shem": "шиморийский",
+  "c.shem": "Shemoran",
   "c.vli": "Vling",
   "c.wen": "Wenedyk",
   "c.ser": "Serikats",
@@ -276,10 +276,4 @@ export const encodings: Record<EncodingLang, string> = {
   "e.ver": "Verlan",
   "e.g": "The G Language",
   "e.nuts": "The Nuts Language",
-};
-
-export const jokes: Record<JokesLang, string> = {
-  "j.en": groups._en,
-  "j.po": groups._po,
-  "j.ru": groups._ru,
 };
