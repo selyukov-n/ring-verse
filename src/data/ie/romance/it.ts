@@ -1,3 +1,4 @@
+import { messages } from "../../../intl";
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
 import { fromLotR, make } from "../../utils";
@@ -80,7 +81,7 @@ Nella Terra di Mordor dove le Ombre si celano.`
 const rob = make({ author: "robocap", input: "0.8.0" }, {
   192: {
     language: "it",
-    name: "дословный перевод",
+    name: messages.names.literal,
     book: ["I-3", 91],
     content: `Tre Anelli per i Re degli Elfi sotto il cielo,
 Sette per i Signori dei Nani nelle loro aule di pietra,

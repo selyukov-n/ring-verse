@@ -1,3 +1,4 @@
+import { messages } from "../../../intl";
 import { fromLotR, make } from "../../utils";
 import { sources } from "../../sources";
 
@@ -21,7 +22,7 @@ Im Lande Mordor, wo die Schatten drohn.`
 
   141: {
     input: "0.7.0",
-    name: "дословный перевод ?",
+    name: messages.names.literal + " ?",
     author: "Thomas Hahn",
     book: ["G-3", 56],
     content: `Drei Ringe den Elbenkönigen unter dem Himmel,

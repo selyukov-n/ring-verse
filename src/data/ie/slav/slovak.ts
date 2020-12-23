@@ -1,4 +1,4 @@
-import { fromLotR, make } from "../../utils";
+import { fromLotR, make, makeName } from "../../utils";
 
 export const slovak = make({ language: "slovak" }, {
   148: {
@@ -30,7 +30,7 @@ V zemi Mordor, kde Tieň vládne zlom.`
   },
   513: {
     input: "2.1.0",
-    name: "variant of #174 for radio dramatization",
+    name: makeName("variant", 174) + " (radio dramatization)",
     author: ["Otakar Kořínek", "?"],
     content: `Tri prstene elfským kráľom vonku pod nebom,
 Sedem pánom trpaslíkov v sieňach z kameňa,

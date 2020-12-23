@@ -551,7 +551,7 @@ Menel Amai velínde eir il an uvialenárne laldáde.`
     author: art("D-WesTMaCoTT"),
     content: [
       {
-        name: "традиционная транслитерация",
+        name: "traditional transliteration",
         text: `Shtal kerii ante shif Situire Iemlare alianma she dhiu,
 Ielka ante shif Situire Keesare nae kacga roodikem xaem,
 Eal ante she Situiro Sharko anx aadhrago sharko krom.
@@ -559,7 +559,7 @@ Eal Kero ante barke xaes siterke, Eal Kero ante xaes ursinke.
 Eal Kero ante barke xaes rishke a nae sharkia xaes caike.`
       },
       {
-        name: "современная транслитерация",
+        name: "modern transliteration",
         text: `Shtal kerí ante shif Situire Iemlare alianma she thiu,
 Ielka ante shif Situire Késare nar katsga ródikem ghaem,
 Eal ante she Situiro Sharko angh áthrago sharko krom.

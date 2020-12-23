@@ -1,3 +1,4 @@
+import { messages } from "../../../intl";
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
 import { fromLotR, make } from "../../utils";
@@ -34,7 +35,7 @@ Na a terra do Mordor onde estão as sombras.`
 
   188: {
     input: "0.8.0",
-    comments: ["дословный перевод?"],
+    name: messages.names.literal,
     author: [],
     content: `Três anéis para os Reis-Elfos sob o céu,
 Sete para os Senhores-Anões nos seus salões de pedra,

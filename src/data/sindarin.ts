@@ -1,4 +1,4 @@
-import { make } from "./utils";
+import { make, makeName } from "./utils";
 import { sources } from "./sources";
 
 const sind1 = make({ language: "sindarin", author: "Ryszard Derdziński" }, {
@@ -36,7 +36,7 @@ Vi Dor e-Mordor ias i-Ndúath caedar.`
   548: {
     input: "2.3.1",
     variant: "диалект нолдор Имладриса и Эрегиона Второй эпохи",
-    name: "another version of #31",
+    name: makeName("variant", 31),
     source: sources.simb8,
     content: [{
       title: "Tennath i Dúr-Gyrf",
@@ -133,7 +133,7 @@ Min Ardh-en-Mordor ir i Núath gaedar.`
 
 const sind2 = make({ language: "sindarin", input: "0.12.0" }, {
   276: {
-    name: "перевод с немецкого #64",
+    name: makeName("translation", 64),
     author: [],
     book: ["S-2", 25],
     content: `Neled Chýr in Edhelerain hall ned i Galad,

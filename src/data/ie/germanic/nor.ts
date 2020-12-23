@@ -49,7 +49,7 @@ I det dunkle Mordor der skuggane rår.`
 
   145: {
     input: "0.7.0",
-    name: "nynorsk or bokmal ??",
+    name: "Nynorsk or Bokmål ??",
     book: ["Nn-3", 74],
     author: JAvidan,
     content: `Tre ringer til De Elleve-konger under himmelen,

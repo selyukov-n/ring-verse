@@ -1,4 +1,4 @@
-import { fromLotR, make } from "../utils";
+import { fromLotR, make, makeName } from "../utils";
 import { sources } from "../sources";
 
 export const ancient = make({ language: "gre" }, {
@@ -38,7 +38,7 @@ Mórdori en khṓrēi hothi kankeîntai skíai aiweí`
     author: "Jakovos Vlioras",
     book: ["AG-1", 197],
     content: [{
-      name: "лат. транслитерация",
+      name: "transliteration",
       text: `Henaktōn Aimonōn aithrēgenetas kirkoi te treis peri,
 Tytthōn de archōn mychonde lithō spheterōn heptamerē,
 Meropōn genos Andrōn, kaddikēn brotō ennea tōn
@@ -54,7 +54,7 @@ Parchōrē Aimelaines hothe skiai epephorbei te.`
   537: {
     input: "2.3.0",
     author: "Michael Chatz",
-    name: "перевод #500",
+    name: makeName("translation", 500),
     content: [{
       type: "text-large",
       text: `Τρεῖς Δακτυλίους οἱ Πᾶνες Βασιλεῖς κάτω ἔχουσιν,
@@ -86,7 +86,7 @@ export const greek = make({ language: "el" }, {
   },
   369: {
     input: "0.14.5",
-    name: "похоже на #350",
+    name: makeName("similar", 350),
     author: [],
     content: `Τρία Δαχτυλίδια έχουνε οι Ξωτικοί οι Βασιλιάδες στο θόλο τ' ουρανού από κάτου
 Εφτά οι Νάνοι Άρχοντες παλάτια που 'χουνε μες στα πέτραδια τους τα

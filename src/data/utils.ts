@@ -1,11 +1,14 @@
+import { messages } from "../intl";
 import { Item } from "./types";
 import { ME } from "./authors";
+
+export { makeName } from "../intl";
 
 export const isMine = (item: Pick<Item, "author">) => Array.isArray(item.author) ? item.author.includes(ME) : item.author === ME;
 
 export const book = (num: string, page: number, comment?: string) => ({ num, page, comment });
 
-export const fromLotR = (name?: string) => "из перевода ВК" + (name ? `, ${name}` : "");
+export const fromLotR = (name?: string) => messages.names.lotr + (name ? `, ${name}` : "");
 
 export const forEach = <T>(input: Record<number, T>, func: (t: T, num: number) => any) => {
   Object.keys(input).forEach(k => {

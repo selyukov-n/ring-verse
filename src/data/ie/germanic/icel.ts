@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { fromLotR, make } from "../../utils";
+import { fromLotR, make, makeName } from "../../utils";
 
 const ic = (name: string) => `${name} [${sources.iceland}]`;
 
@@ -34,7 +34,7 @@ Einn hringur til að koma þeim öllum saman í myrkrið og sameina þá
 
   335: {
     input: "0.13.6",
-    name: "перевод #334",
+    name: makeName("translation", 334),
     author: ic("Reykjavik.nu"),
     content: `Þrir hringir fyrir álfarna undir það bláa
 Sjö fyrir dverga i steina salnum

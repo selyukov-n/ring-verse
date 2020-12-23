@@ -1,5 +1,5 @@
 import { sources } from "./sources";
-import { make, map } from "./utils";
+import { make, makeName, map } from "./utils";
 
 const ru = make({ language: "j.ru" }, {
   9: {
@@ -156,7 +156,7 @@ const ru_ank = make({ language: "j.ru", input: "0.0.5" }, {
 
 const ru_k = make({ language: "j.ru", input: "0.7.0", source: sources.kniga2001 }, {
   160: {
-    name: "перевод #27",
+    name: makeName("translation", 27),
     author: "А.Хитров",
     content: `Это именно кольцо сотворили эльфы,
 Мать родную б заложили, чтоб его себе забрать.
@@ -169,7 +169,7 @@ const ru_k = make({ language: "j.ru", input: "0.7.0", source: sources.kniga2001 
 (Почтовый сбор оплачен)`
   },
   161: {
-    name: "перевод #27",
+    name: makeName("translation", 27),
     author: "С.Ильин",
     content: `Это Кольцо, никакое иное, выпало эльфам сковать,
 Эльфы бы продали маму родную, только бы им обладать.

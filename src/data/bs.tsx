@@ -1,11 +1,11 @@
 import React from "react";
 import { JAvidan, JRRT, ME } from "./authors";
 import { Item as I } from "./types";
-import { book, make, map } from "./utils";
+import { book, make, makeName, map } from "./utils";
 
 type Item =
-  & Pick<I, "book" | "source" | "author" | "name" | "input">
-  & { text: [string, string]; comments?: string; };
+  & Pick<I, "book" | "author" | "name" | "input">
+  & { text: [string, string] };
 
 const jrrt = `
 Ash nazg durbatulûk, ash nazg gimbatul,
@@ -27,7 +27,7 @@ Uzg-Mordor-ishi amal fauthut burgûli.`,
     ],
   },
   109: {
-    name: "Модификация #7",
+    name: makeName("revised", 7),
     book: ["BS-4", 34],
     input: "0.3.7",
     author: ME,
@@ -80,7 +80,7 @@ const bs = map(items, it => ({
     </>
   }],
   language: "black-speech",
-  comments: it.comments ? [it.comments] : undefined,
+  //comments: it.comments ? [it.comments] : undefined,
 }));
 
 const dbs = make({ language: "black-speech" }, {
