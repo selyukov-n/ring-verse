@@ -14,10 +14,7 @@ import LangTree, { getTotalCount } from "./LangTree";
 import Language from "./Language";
 import { Translation } from "./Translation";
 
-const Sources = () => <div>TODO sources</div>;
-
 const routes = [
-  { path: "/sources", component: Sources, title: messages.header.sources },
   { path: "/history", component: History, title: messages.header.history },
   { path: "/credits", component: Credits, title: messages.header.credits },
 ];

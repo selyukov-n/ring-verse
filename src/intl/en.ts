@@ -4,7 +4,7 @@ export const msg: typeof m = {
   header: {
     credits: "Credits",
     history: "History",
-    sources: "Sources",
+    //sources: "Sources",
     lang: "Language",
     total: "Total",
   },

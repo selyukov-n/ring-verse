@@ -2,7 +2,7 @@ export const msg = {
   header: {
     credits: "Ресурсы",
     history: "История",
-    sources: "Источники",
+    //sources: "Источники",
     lang: "Язык",
     total: "Всего",
   },
