@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { Alert } from "react-bootstrap";
 import { sources as src } from "../data/sources";
 import { formatDate, Input, inputs, ItemNum, ItemVariant } from "../data";
+import { messages } from "../intl";
 import { findLanguage, LangName } from "../LangTree";
 import { names } from "../languages";
 import { Lines } from "../Lines";
@@ -46,14 +47,15 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
 
   const sources: JSX.Element[] = [];
   const fromBook = typeof source === "object" && source?.id === src.book.id;
+  const { source: str } = messages.translation;
   if (fromBook && book) {
-    sources.push(<p key="main">Источник: {book}</p>)
+    sources.push(<p key="main">{str}: {book}</p>)
   } else {
     if (source && source !== "-") {
       const src = source.link
         ? <a href={source.link}>{source.name}</a>
         : source.name;
-      sources.push(<p key="main">Источник: {src}</p>);
+      sources.push(<p key="main">{str}: {src}</p>);
     }
     if (book) sources.push(<p key="book">{book}</p>);
   }

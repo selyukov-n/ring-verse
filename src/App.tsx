@@ -9,7 +9,7 @@ import { Provider } from "./context";
 import Credits from "./Credits";
 import data from "./data";
 import History from "./History";
-import { LanguageSelector, loadLocale } from "./intl";
+import { LanguageSelector, loadLocale, messages } from "./intl";
 import LangTree, { getTotalCount } from "./LangTree";
 import Language from "./Language";
 import { Translation } from "./Translation";
@@ -17,9 +17,9 @@ import { Translation } from "./Translation";
 const Sources = () => <div>TODO sources</div>;
 
 const routes = [
-  { path: "/sources", component: Sources, title: "Sources" },
-  { path: "/history", component: History, title: "History" },
-  { path: "/credits", component: Credits, title: "Credits" },
+  { path: "/sources", component: Sources, title: messages.header.sources },
+  { path: "/history", component: History, title: messages.header.history },
+  { path: "/credits", component: Credits, title: messages.header.credits },
 ];
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
           <div className="navbar-nav right">
             <LanguageSelector current={locale} />
             <span className="navbar-text">
-              Всего: <span className="counts">{counts.me} / {counts.count}</span>
+              {messages.header.total}: <span className="counts">{counts.me} / {counts.count}</span>
             </span>
           </div>
         </Navbar>

@@ -2,6 +2,7 @@ import React, { FC, useMemo } from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
 import { Data, formatDate, inputs } from "../data";
+import { messages } from "../intl";
 
 import "./history.css";
 import { compareVersions, LangGrouping, StatHelper } from "./utils";
@@ -86,17 +87,18 @@ const makeHistoryItems = (data: Data) => {
 export const Table = () => {
   const data = useDataContext();
   const rows = useMemo(() => makeHistoryItems(data), [data]);
+  const { history } = messages;
 
   return <T bordered className="history">
     <thead>
       <tr>
-        <th>Версия</th>
-        <th>Дата</th>
-        <th>Добавлено</th>
-        <th>Всего</th>
-        <th>Новые языки</th>
-        <th>Источники</th>
-        <th>Языков</th>
+        <th>{history.version}</th>
+        <th>{history.date}</th>
+        <th>{history.added}</th>
+        <th>{history.total}</th>
+        <th>{history.new}</th>
+        <th>{history.sources}</th>
+        <th>{history.languages}</th>
       </tr>
     </thead>
     <tbody>

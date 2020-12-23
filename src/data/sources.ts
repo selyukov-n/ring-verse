@@ -1,3 +1,5 @@
+import { messages } from "../intl";
+
 export type Source = {
   id: string;
   name: string;
@@ -255,7 +257,7 @@ export const sources = makeIds({
     link: "http://www.torreshay.blogger.com.br/2004_11_01_archive.html",
   },
   translations: {
-    name: "перевод ВК (печатное издание)",
+    name: messages.lotr_printed,
   },
   turbine: {
     name: "The LotR Online Community",
