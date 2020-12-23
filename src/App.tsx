@@ -9,6 +9,7 @@ import { Provider } from "./context";
 import Credits from "./Credits";
 import data from "./data";
 import History from "./History";
+import { LanguageSelector, loadLocale } from "./intl";
 import LangTree, { getTotalCount } from "./LangTree";
 import Language from "./Language";
 import { Translation } from "./Translation";
@@ -23,6 +24,7 @@ const routes = [
 
 function App() {
   const counts = getTotalCount(data.lang);
+  const locale = loadLocale();
   return (
     <Provider value={data}>
       <BrowserRouter>
@@ -31,9 +33,11 @@ function App() {
           <Nav>
             {routes.map(r => <Link key={r.path} to={r.path} className="nav-link">{r.title}</Link>)}
           </Nav>
-          <div style={{ marginLeft: "auto" }}>
-            <span className="navbar-text">Всего:&nbsp;</span>
-            {counts.me} / {counts.count}
+          <div className="navbar-nav right">
+            <LanguageSelector current={locale} />
+            <span className="navbar-text">
+              Всего: <span className="counts">{counts.me} / {counts.count}</span>
+            </span>
           </div>
         </Navbar>
         <div className="main">
