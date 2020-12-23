@@ -1,8 +1,8 @@
-import { ArdaLang } from "./arda";
-import { Conlang } from "./conlangs";
-import { EncodingLang } from "./encodings";
-import { JokesLang } from "./jokes";
-import { Lang } from "./languages";
+import { ArdaLang } from "../arda";
+import { Conlang } from "../conlangs";
+import { EncodingLang } from "../encodings";
+import { JokesLang } from "../jokes";
+import { Lang } from "../languages";
 
 export const groups = {
   _en: "по-английски",
