@@ -201,7 +201,6 @@ const ru2 = make({ language: "ru" }, {
 
   327: {
     input: "0.13.1",
-    name: "заготовка для др.-исл. :)",
     comments: ["ориг. идея - 17-18.05.2004"],
     author: ME,
     content: `Три кольца конунгам
