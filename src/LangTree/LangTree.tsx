@@ -7,7 +7,7 @@ import Node from "./Node";
 import { getCounts, langTypes } from "./utils";
 
 export const getTotalCount = (data: Parameters<typeof getCounts>[0]) => {
-  const result = { count: 0, me: 0 };
+  const result = { count: 0, me: 0, lang: 0 };
   langTypes.forEach(t => getCounts(data, lng[t], result));
   return result;
 };

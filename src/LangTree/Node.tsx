@@ -5,11 +5,18 @@ import { LangGroupItem } from "../languages";
 import LangName from "./LangName";
 import { getCounts } from "./utils";
 
-const Counter: FC<{ count: number, me: number }> = ({ count, me }) => {
+const Counter: FC<{ count: number, me: number, lang: number, forceCount: boolean }> = (
+  { count, me, lang, forceCount }
+) => {
   const cls = me ? "success" : undefined;
-  return count
+  const tr = count
     ? <Badge variant="light" className={cls}>{me ? `${me} / ${count}` : count}</Badge>
     : <Badge variant="danger">{count}</Badge>;
+  const showCount = forceCount || lang > 1;
+  return <>
+    {tr}
+    {showCount && <Badge variant="light" className="badge-lang">({lang})</Badge>}
+  </>;
 };
 
 type Props<T extends string> = {
@@ -24,7 +31,9 @@ const Node = <T extends string>({ item, names, defaultOpen = false }: Props<T>):
 
   const data = useDataContext();
   const counts = getCounts(data.lang, item);
-  const counter = <Counter {...counts} />;
+  const counter = <Counter {...counts} forceCount={!open && item.type === "group"} />;
+
+  //if (!counts.count) return <span />;
 
   if (item.type !== "group")
     return <li>

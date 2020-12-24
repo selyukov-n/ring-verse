@@ -42,3 +42,9 @@
 .success {
   color: #28a745;
 }
+
+.badge-lang {
+  background: none;
+  margin-left: .25em;
+  color: rgba(0, 0, 0, .5);
+}
