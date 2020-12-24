@@ -1,5 +1,7 @@
+import { useCallback, useEffect, useState } from "react";
 import { Data, isMine } from "../data";
 import * as lng from "../languages";
+import { StateProps } from "./Node";
 
 export const getCounts = (data: Data["lang"], item: lng.LangGroupItem<any>,
                           result = { count: 0, me: 0, lang: 0 }) => {
@@ -12,6 +14,33 @@ export const getCounts = (data: Data["lang"], item: lng.LangGroupItem<any>,
     result.lang++;
   }
   return result;
+};
+
+export const useTreeState = (setGroupKeys = true): StateProps => {
+  const [state, setState] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    if (!setGroupKeys) return;
+
+    const ensureKeys = (item: lng.LangGroupItem<any>, path: string) => {
+      if (item.type !== "group") return;
+
+      if (!item.id) item.id = path;
+      item.items.forEach((it, i) => ensureKeys(it, path + "/" + i));
+    };
+
+    langTypes.forEach(t => ensureKeys(lng[t], t));
+
+    setState({
+      arda: true,
+      languages: true,
+      conlangs: true,
+    });
+  }, [setGroupKeys]);
+
+  const onToggle = useCallback((key: string) => setState(s => ({ ...s, [key]: !s[key] })), []);
+
+  return { state, onToggle };
 };
 
 export const langTypes = [ "arda", "languages", "conlangs", "encodings", "jokes" ] as const;

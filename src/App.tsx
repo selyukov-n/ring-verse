@@ -10,7 +10,7 @@ import Credits from "./Credits";
 import data from "./data";
 import History from "./History";
 import { LanguageSelector, loadLocale, messages } from "./intl";
-import LangTree, { getTotalCount } from "./LangTree";
+import LangTree, { getTotalCount, useTreeState } from "./LangTree";
 import Language from "./Language";
 import { Translation } from "./Translation";
 
@@ -20,6 +20,8 @@ const routes = [
 ];
 
 function App() {
+  const treeProps = useTreeState();
+
   const counts = getTotalCount(data.lang);
   const locale = loadLocale();
   return (
@@ -39,7 +41,7 @@ function App() {
         </Navbar>
         <div className="main">
           <Switch>
-            <Route path="/" exact component={LangTree}/>
+            <Route path="/" exact render={props => <LangTree {...props} {...treeProps} />}/>
             <Route path="/show/:id" component={Translation}/>
             <Route path="/lang/:id" component={Language} />
             {routes.map(r => <Route key={r.path} {...r} />)}

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
 import original from "../data/main";
 import * as lng from "../languages";
 import { Lines } from "../Lines";
 
-import Node from "./Node";
+import Node, { StateProps } from "./Node";
 import { getCounts, langTypes } from "./utils";
 
 export const getTotalCount = (data: Parameters<typeof getCounts>[0]) => {
@@ -12,17 +12,17 @@ export const getTotalCount = (data: Parameters<typeof getCounts>[0]) => {
   return result;
 };
 
-const LangTree = () => {
+const LangTree: FC<StateProps> = (props) => {
   const names = lng.names;
   return <div>
     <Lines text={original.content} footer={"© " + original.author} className={"original"} />
 
     <ol>
-      <Node item={lng.arda} names={names.arda} defaultOpen />
-      <Node item={lng.languages} names={names.languages} defaultOpen />
-      <Node item={lng.conlangs} names={names.conlangs} defaultOpen />
-      <Node item={lng.encodings} names={names.encodings} />
-      <Node item={lng.jokes} names={names.jokes} />
+      <Node {...props} item={lng.arda} names={names.arda} />
+      <Node {...props} item={lng.languages} names={names.languages} />
+      <Node {...props} item={lng.conlangs} names={names.conlangs} />
+      <Node {...props} item={lng.encodings} names={names.encodings} />
+      <Node {...props} item={lng.jokes} names={names.jokes} />
     </ol>
   </div>;
 };

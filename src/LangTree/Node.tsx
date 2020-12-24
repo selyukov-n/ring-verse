@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useState } from "react";
+import React, { FC, useCallback } from "react";
 import { Badge } from "react-bootstrap";
 import { useDataContext } from "../context";
 import { LangGroupItem } from "../languages";
@@ -19,15 +19,20 @@ const Counter: FC<{ count: number, me: number, lang: number, forceCount: boolean
   </>;
 };
 
-type Props<T extends string> = {
-  item: LangGroupItem<T>;
-  names: Record<T, string>;
-  defaultOpen?: boolean;
+export type StateProps = {
+  state: Record<string, boolean>;
+  onToggle: (key: string) => any;
 };
 
-const Node = <T extends string>({ item, names, defaultOpen = false }: Props<T>): JSX.Element => {
-  const [open, toggle] = useState(defaultOpen);
-  const onClick = useCallback(() => toggle(!open), [open]);
+type OwnProps<T extends string> = {
+  item: LangGroupItem<T>;
+  names: Record<T, string>;
+};
+type Props<T extends string> = OwnProps<T> & StateProps;
+
+const Node = <T extends string>({ item, ...props }: Props<T>): JSX.Element => {
+  const open = props.state[item.id];
+  const onClick = useCallback(() => props.onToggle(item.id), [props.onToggle, item.id]);
 
   const data = useDataContext();
   const counts = getCounts(data.lang, item);
@@ -37,12 +42,12 @@ const Node = <T extends string>({ item, names, defaultOpen = false }: Props<T>):
 
   if (item.type !== "group")
     return <li>
-      <LangName lang={item} name={names[item.id]} link /> {counter}
+      <LangName lang={item} name={props.names[item.id]} link /> {counter}
     </li>;
 
   const className = open ? "exp expanded" : "exp collapsed";
   const children = item.type === "group" && open && <ul className="content">
-    {item.items.map((it, i) => <Node item={it} names={names} key={i} />)}
+    {item.items.map((it, i) => <Node {...props} item={it} key={i} />)}
   </ul>;
   return <li className={className}>
   <span onClick={onClick}>{item.name} {counter}</span>
