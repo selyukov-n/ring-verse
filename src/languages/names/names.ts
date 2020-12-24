@@ -15,7 +15,7 @@ export const groups = {
   american: "Америндские языки",
   arda: "Языки Арды",
   arda_related: "относящиеся к Арде",
-  austric: "Австрические языки",
+  austric: "Аустрические языки",
   austroasian: "Австроазиатские",
   austronesian: "Австронезийские",
   austronesian_mp: "малайско-полинезийские",
