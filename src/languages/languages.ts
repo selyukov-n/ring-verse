@@ -12,7 +12,7 @@ const langs = [
     group(g.altaic,
       group(g.turkic, "tur", "kgz"),
       group(g.mongolic, "mon"),
-      "jap"),
+    ),
     group(g.dravidian, "tam"),
     group(g.kartvelian, "geo"),
   ),
@@ -41,7 +41,7 @@ const langs = [
         group(g.austronesian_malayic, "ind", "mal"))),
     group(g.kadai, "tha"),
   ),
-  group(g.isolated, "baq", "kor"),
+  group(g.isolated, "baq", "jap", "kor"),
   group(g.secret, "oph"),
 ];
 export const languages = group(g.other, ...langs);
