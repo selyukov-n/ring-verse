@@ -89,7 +89,7 @@ export const arda: Record<ArdaLang, string> = {
   khuzdul: "кхуздул",
   quenya: "квенья",
   sindarin: "синдарин",
-  westron: "вестрон"
+  westron: "вестрон",
 };
 
 export const languages: Record<Lang, string> = {
