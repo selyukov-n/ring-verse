@@ -1,6 +1,6 @@
 import { JAvidan } from "../../authors";
 import { sources } from "../../sources";
-import { book, fromLotR, make, map } from "../../utils";
+import { book, fromLotR, make, makeName, map } from "../../utils";
 
 const fre = make({ language: "fre" }, {
   66: {
@@ -20,7 +20,7 @@ Dans le Pays de Mordor où s'étendent les Ombres.`
 
   107: {
     input: "0.3.5",
-    comments: [{ type: "warning", text: "почти не отличается от #66" }],
+    name: makeName("similar", 66),
     author: [],
     source: "-",
     content: `Trois pour les Rois d'Elfes sous le ciel d'azure,

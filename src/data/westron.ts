@@ -1,9 +1,10 @@
+import { messages } from "../intl";
 import { make } from "./utils";
 
 export const w = make({ language: "westron" }, {
   200: {
     input: "0.8.0",
-    name: '"реконструкция"',
+    name: messages.names.reconstruction,
     author: "Mathias List",
     book: ["A(W)", 32],
     content: `banyara rinihî murahan eldarin hara virad luthran

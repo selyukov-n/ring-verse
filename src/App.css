@@ -2,6 +2,16 @@
   padding-top: 0;
 }
 
+.navbar-nav.right {
+  margin-left: auto;
+}
+.navbar-nav.right .dropdown {
+  margin-right: 5px;
+}
+.navbar-text .counts {
+  color: #000;
+}
+
 .main {
   padding: 0 15px;
 }

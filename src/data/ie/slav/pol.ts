@@ -1,3 +1,4 @@
+import { messages } from "../../../intl";
 import { sources } from "../../sources";
 import { book, fromLotR, make } from "../../utils";
 
@@ -29,7 +30,7 @@ Jeden, by wszystkie zgromadzić i w ciemności związać
 W Krainie Mordor, gdzie zaległy cienie.`
   },
   37: {
-    name: "дословный перевод",
+    name: messages.names.literal,
     author: "-",
     content: `Trzy pierścienie dla Elfowych królów pod niebem,
 Siedem dla Lordów Krasnoludów (Krzatów) w ich zalach z kamienia,

@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { fromLotR, make } from "../../utils";
+import { fromLotR, make, makeName } from "../../utils";
 
 export const rumanian = make({ language: "rum" }, {
   214: {
@@ -17,7 +17,7 @@ Pe tărîmul Mordor, unde umbrele sălăşuiesc.`
   },
   235: {
     input: "0.9.0",
-    name: "сильное сходство с #463",
+    name: makeName("similar", 463),
     author: `Bugyfeanor [${sources.planetTolkien}] ?`,
     content: `Trei inele pentru Regii Elfilor cei de sub soare,
 Şapte pentru ei, stăpânii Gnomilor din săli de stâncă
@@ -30,7 +30,7 @@ Unde-s Umbrele, în Ţinutul Mordor, în întunecime.`
   },
   370: {
     input: "0.14.5",
-    name: "вариант #463",
+    name: makeName("variant", 463),
     author: [],
     book: ["R-2", 106],
     source: sources.jrrt_memorial,

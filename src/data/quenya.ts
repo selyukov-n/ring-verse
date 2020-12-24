@@ -1,4 +1,4 @@
-import { book, make } from "./utils";
+import { book, make, makeName } from "./utils";
 import { ME } from "./authors";
 import { sources } from "./sources";
 
@@ -45,7 +45,6 @@ Morinóresse yasse Huini caitar.`
 
   32: {
     author: "Maciej Garbowski",
-    comments: ["old variant"],
     book: book("Q-6", 20, sources.gwaith.name),
     input: "0.1.1",
     content: `Nelde Cormar Eldaron Aranen nu i vilya,
@@ -284,7 +283,7 @@ Noresse morinóre yanna caitar i Huini.`
   },
   435: {
     author: "Maciej Gabrowski",
-    comments: ["новый вариант"],
+    name: makeName("revised", 32),
     book: ["Q-6", 20],
     content: `Nelde Cormar i Aranin Eldaron nu i vilya,
 Otso i Heruin Naukoron ondova mardiltassen,

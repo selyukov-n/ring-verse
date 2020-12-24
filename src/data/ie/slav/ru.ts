@@ -1,3 +1,4 @@
+import { messages } from "../../../intl";
 import { IDerzhansky, ME } from "../../authors";
 import { sources } from "../../sources";
 import { fromLotR, make } from "../../utils";
@@ -186,7 +187,7 @@ const ru2 = make({ language: "ru" }, {
 
   173: {
     input: "0.7.0",
-    name: "подстрочник с АнК",
+    name: messages.names.literal,
     source: sources.ank,
     author: [],
     content: `Три кольца эльфийским королям под небесами,
@@ -201,7 +202,6 @@ const ru2 = make({ language: "ru" }, {
 
   327: {
     input: "0.13.1",
-    name: "заготовка для др.-исл. :)",
     comments: ["ориг. идея - 17-18.05.2004"],
     author: ME,
     content: `Три кольца конунгам

@@ -1,6 +1,6 @@
 import { JAvidan, ME } from "../authors";
 import { sources } from "../sources";
-import { make } from "../utils";
+import { make, makeName } from "../utils";
 
 // āăēĕīĭōŏūŭ
 const lat = make({ language: "lat" }, {
@@ -247,7 +247,7 @@ Unus Anulus omnes conferre et in tenebris vincire
 In Terra Mordoris ubi Umbrae iacent.`
   },
   546: {
-    name: "Revised #545",
+    name: makeName("revised", 545),
     content: `Tres Anuli sub caelo Regibus Elbicis
 Septem Dominis Nanis in hypogeis ex saxo,
 Novem moriendum Mortalibus damnatis,
