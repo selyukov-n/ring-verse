@@ -102,15 +102,14 @@ export const greek = make({ language: "el" }, {
     source: sources.wmigurok,
     author: [],
     content: [{
-      name: "латиница",
-      text: `Tria dahtlidia gia tous Xotikous Vasiliades kato apo ton Ourano
-Efta gia tous Nanous Arhontes sta petrina tous domata
-Ennea gia tous Thnitous Anthropous kataramenous na pethanoun
-Ena gia to Skoteino Arhonta sto Skoteino tou Throno
-sti gi tis Morntor pou aplonontai skies
-Ena dahtylidi na ta exousiazei ola, ena dahtylidi na ta vriskei
-Ena dahtylidi na ta fernei ola, kai sto skotadi na ta denei
-sti gi tis Morntor pou aplonontai skies`
+      text: `Τρία δαχτυλίδια για τους Ξωτικόυς Βασιλιάδες κάτω από τον Ουρανό
+Εφτά για τους Νάνους Άρχοντες στα πέτρινά τους δώματα
+Εννέα για τους Θνητούς Ανθρώπους καταραμενους να πεθανουν
+Ένα για το Σκοτεινό Άρχοντα στο σκοτεινό του Θρόνο
+στη γι της Μορντορ, που απλώνονται σκιές
+Ένα δαχτυλίδι να τα εξουσιάζει όλα, ένα δαχτυλίδι να τα βρίσκει
+Ένα δαχτυλίδι να τα φέρνει όλα, διατάζει, και στο σκοτάδι να τα δένει
+στη γι της Μορντορ, που απλώνονται σκιές`
     }]
   },
   414: {

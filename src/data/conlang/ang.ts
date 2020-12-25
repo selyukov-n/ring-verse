@@ -29,14 +29,14 @@ Dordalet Mordor qua ir rachâin mandárin.`
 
 const arielur = make({ language: "c.ari", ...common }, {
   216: {
-    content: `Gañ oñžunūn Ntolkunjōn-tāl-Élfim īř-Ñwélī-sūt,
-Dzañ Kkhōrunjōn-tāl-Dwárfe barthúnīn-ēñ kīnāj phāddhāj,
-Kañ Ntthōkunjōn-tāl-Jāţim pūsumātthīnúkh krūkhanúţ,
-žañ Kkhōrjō-tāl-Lheskim Kortī-okh-Lheskim kānāj.
-Tōřī-ēñ wa Mórdor kwa jēř-Gřakhūnūn kjembāţi.
-žañ óñžū kīnjaţ akíñ tūlh, žañ óñžū tīnjaţ,
+    content: `Gañ oñžunūn Ntōlkunʲōn-tāl-Élfim īř-Ñʷélī-sūt,
+Dzañ Kkhōrunʲōn-tāl-Dwárfe barthúnīn-ēñ kīnāj phāddhāj,
+Kañ Ntthōkunʲōn-tāl-Jāţim pūsumātthīnúkh krūkhanúţ,
+žañ Kkhōrʲō-tāl-Lheskim Kortī-okh-Lheskim kānāj.
+Tōřī-ēñ wa Mórdor kʷa jēř-Gřakhūnūn kʲembāţi.
+žañ óñžū kīnʲaţ akíñ tūlh, žañ óñžū tīnʲaţ,
 žañ óñžū ntóltaţ akíñ tūlh āř īř Lhéskī-ēñ-prōñtaţ.
-Tōřī-ēñ wa Mórdor kwa jēř-Gřakhūnūn kjembāţi.`
+Tōřī-ēñ wa Mórdor kʷa jēř-Gřakhūnūn kʲembāţi.`
   },
 });
 

@@ -34,16 +34,14 @@ export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {
 הארעה דמורדור תמה טלליא רביעין.`
       },
       {
-        text: <>
-          T<small>e</small>la<u>t</u> 'izqan lemal<u>k</u>aja deLilin t<small>e</small>h`ot &#353;<small>e</small>maja,<br />
-          &#352;e<u>b</u>a' lemarej de<u>G</u>ma<u>d</u>ej behej<u>k</u>lej a<u>b</u>na dilehon,<br />
-          Te&#353;a' le<u>G</u>a<u>b</u>rin barej-mi<u>t</u>.<br />
-          H`a<u>d</u>a lemara a<u>p</u>ala be<u>k</u>urseja a<u>p</u>ala dilejh<br />
-          Be|ar'a deMordor tamma t`elalaja re<u>b</u>i'in.<br />
-          'izqan H`a<u>d</u>a lemi&#353;lat` bekulehon, 'izqan H`a<u>d</u>a ja<u>t</u>ejhon lemi&#353;kah`,<br />
-          'izqan H`a<u>d</u>a le|ej<u>t</u>a|a ja<u>t</u> kulehon ubeh`a&#353;o<u>k</u>a ja<u>t</u>ejhon lemikra<u>k</u><br />
-          Be|ar'a deMordor tamma t`elalaja re<u>b</u>i'in.
-        </>
+        text: `təlaṯ ʿizqan lemalḵaya deLilin təḥot šəmaya,
+šeḇaʿ lemarey deĠmaḏey beheyḵley aḇna dilehon,
+tešaʿ leĠaḇrin barey-miṯ.
+Ḥaḏa lemara apala beḵurseya apla dileyh
+be'arʿa deMordor tamma ṭelalaya reḇiʿin.
+ʿizqan Ḥaḏa lemišlaṭ bekulehon, ʿizqan Ḥaḏa yaṯeyhon lemiškaḥ,
+ʿizqan Ḥaḏa le'eyṯa'a yaṯ kulehon ubeḥašoḵa yaṯeyhon lemikraḵ
+be'arʿa deMordor tamma ṭelalaya reḇiʿin.`
       },
     ]
   }
