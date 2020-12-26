@@ -35,11 +35,26 @@ Mórdori en khṓrēi hothi kankeîntai skíai aiweí`
   },
   488: {
     input: "1.0.2",
+    variant: "гомеровский диалект ?",
     author: "Jakovos Vlioras",
     book: ["AG-1", 197],
-    content: [{
-      name: "transliteration",
-      text: `Henaktōn Aimonōn aithrēgenetas kirkoi te treis peri,
+    content: [
+      {
+        type: "text-large",
+        text: `Ἑνακτων Αἰμόνων αἰθρηγενέτας κίρκοι τε τρεῖς πέρι,
+Τυτθῶν δε ἀρχῶν μυχόνδε λίθῳ σφετέρων ἑπταμέρη,
+Μερόπων γένος Ἀνδρῶν, καδδίκην βροτῷ ἐννέα τῶν
+Μέλανος Δεσπότου ἐν Θρηνύος μελαίνης ἐν ἕατον
+Παρχώρῃ Αἰμελαίνης ὅθε δκιαὶ ἐπεφόρβει τε.
+Κίρκος εἷς ἐφηγήσαιτο σφέας ὅλους,
+Κρίκοσδε εἷς καθεύρετο πωμώλους,
+Κίρκος εἷς φερήσιγε σφέας ὅλους,
+Ἀμολγῷ νυκτὸς δέδμητο πωμώλους,
+Παρχώρῃ Αἰμελαίνης ὅθε δκιαὶ ἐπεφόρβει τε.`
+      },
+      {
+        name: "transliteration",
+        text: `Henaktōn Aimonōn aithrēgenetas kirkoi te treis peri,
 Tytthōn de archōn mychonde lithō spheterōn heptamerē,
 Meropōn genos Andrōn, kaddikēn brotō ennea tōn
 Melanos Despotou en thrēnyos melainēs en eaton
@@ -49,7 +64,8 @@ Krikosde eis katheureto pōmōlous,
 Kirkos eis pherēsige spheas holous,
 Amolgō nyktos dedmēto pōmōlous,
 Parchōrē Aimelaines hothe skiai epephorbei te.`
-    }]
+      },
+    ]
   },
   537: {
     input: "2.3.0",
