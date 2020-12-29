@@ -1,4 +1,17 @@
+import { DateParts, formatDate, Season } from "./dates";
+
+const seasons: Record<Season, string> = {
+  winter: "зима",
+  spring: "весна",
+  summer: "лето",
+  autumn: "осень",
+};
+const months = [
+  "январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"
+];
+
 export const msg = {
+  formatDate: (date: DateParts) => formatDate(date, seasons, months),
   header: {
     credits: "Ресурсы",
     history: "История",

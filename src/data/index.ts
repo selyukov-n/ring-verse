@@ -1,9 +1,8 @@
-import { Input as I } from "./history";
+import { Input as I } from "./inputs";
 import original from "./main";
 import { Item, ItemGroup, Variant as V } from "./types";
 import { forEach } from "./utils";
 
-export { formatDate } from "./history";
 export { inputs } from "./inputs";
 export { isMine } from "./utils";
 

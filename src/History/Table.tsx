@@ -1,7 +1,7 @@
 import React, { FC, useMemo } from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
-import { Data, formatDate, inputs } from "../data";
+import { Data, inputs } from "../data";
 import { messages } from "../intl";
 
 import "./history.css";
@@ -75,7 +75,7 @@ const makeHistoryItems = (data: Data) => {
         </td>;
       }
 
-      const date = input.date ? formatDate(input.date) : "?";
+      const date = input.date ? messages.formatDate(input.date) : "?";
       return <tr key={ver}>
         <td>{ver}</td>
         <td>{date}</td>

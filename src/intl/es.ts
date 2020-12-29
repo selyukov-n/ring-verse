@@ -1,6 +1,18 @@
+import { formatDate, Season } from "./dates";
 import { msg as m } from "./ru";
 
+const seasons: Record<Season, string> = {
+  winter: "invierno",
+  spring: "primavera",
+  summer: "verano",
+  autumn: "otoño",
+};
+const months = [
+  "ene.", "feb.", "mar.", "apr.", "may.", "jun.", "jul.", "ago.", "sept.", "oct.", "nov.", "dic."
+];
+
 export const msg: typeof m = {
+  formatDate: date => formatDate(date, seasons, months),
   header: {
     credits: "Recursos",
     history: "Historia",

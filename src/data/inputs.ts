@@ -1,5 +1,11 @@
-import { Input } from "./history";
-import { sources } from "./sources";
+import { DateParts } from "../intl";
+import { Source, sources } from "./sources";
+
+export type Input = {
+  date?: DateParts;
+  mainSource: Source | null;
+  description?: string;
+};
 
 const indexed = <T extends string>(input: Record<T, Input>) => input;
 
