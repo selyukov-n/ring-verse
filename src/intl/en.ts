@@ -1,4 +1,5 @@
 import { formatDate, Season } from "./dates";
+import { makePluralize } from "./plurals";
 import { msg as m } from "./ru";
 
 const seasons: Record<Season, string> = {
@@ -10,6 +11,9 @@ const seasons: Record<Season, string> = {
 const months = [
   "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ];
+
+const enPlural = makePluralize<"one" | "other">("other");
+const plural = (n: number, one: string, other = one + "s") => enPlural(n, { one, other });
 
 export const msg: typeof m = {
   formatDate: date => formatDate(date, seasons, months),
@@ -29,6 +33,7 @@ export const msg: typeof m = {
     sources: "Sources",
     languages: "Languages",
   },
+  langCount: num => plural(num, "language").text + " total",
   lotr_printed: "LotR translation (printed edition)",
   names: {
     literal: "literal translation",

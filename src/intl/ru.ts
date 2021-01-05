@@ -1,4 +1,5 @@
 import { DateParts, formatDate, Season } from "./dates";
+import { makePluralize } from "./plurals";
 
 const seasons: Record<Season, string> = {
   winter: "зима",
@@ -9,6 +10,9 @@ const seasons: Record<Season, string> = {
 const months = [
   "январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"
 ];
+
+const ruPlural = makePluralize<"one" | "few" | "many">("many");
+const plural = (n: number, one: string, few: string, many: string) => ruPlural(n, { one, few, many });
 
 export const msg = {
   formatDate: (date: DateParts) => formatDate(date, seasons, months),
@@ -28,6 +32,7 @@ export const msg = {
     sources: "Источники",
     languages: "Языков",
   },
+  langCount: (num: number) => plural(num, "язык", "языка", "языков").text,
   lotr_printed: "перевод ВК (печатное издание)",
   names: {
     literal: "дословный перевод",

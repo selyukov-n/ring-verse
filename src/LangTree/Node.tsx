@@ -1,6 +1,7 @@
 import React, { FC, useCallback } from "react";
 import { Badge } from "react-bootstrap";
 import { useDataContext } from "../context";
+import { messages } from "../intl";
 import { LangGroupItem } from "../languages";
 import LangName from "./LangName";
 import { getCounts } from "./utils";
@@ -15,7 +16,7 @@ const Counter: FC<{ count: number, me: number, lang: number, forceCount: boolean
   const showCount = forceCount || lang > 1;
   return <>
     {tr}
-    {showCount && <Badge variant="light" className="badge-lang">({lang})</Badge>}
+    {showCount && <Badge variant="light" className="badge-lang" title={messages.langCount(lang)}>({lang})</Badge>}
   </>;
 };
 
