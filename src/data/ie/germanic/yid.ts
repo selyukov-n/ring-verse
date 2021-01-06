@@ -32,10 +32,11 @@ In di land di Mordor wer deschuttn lign.`
   523: {
     input: "2.2.0",
     author: [],
-    content: [{
-      type: "rtl",
-      title: "דער האַר פון די פינגערלעך",
-      text: `דריַי פינגערלעך פאַר די עלף־קיניגן אין די טאָלן,
+    content: [
+      {
+        type: "rtl",
+        title: "דער האַר פון די פינגערלעך",
+        text: `דריַי פינגערלעך פאַר די עלף־קיניגן אין די טאָלן,
 זיבן פאַר די שרעטל־לאָרדן אין די זאַלן פון שטיין,
 ניַיַן פאַר די בשר־ודמס וועמענס גורל אין צו פאַלן,
 איינס פאַר דעס בעל־חושך אויפן פינצטערן טראָן 
@@ -43,6 +44,19 @@ In di land di Mordor wer deschuttn lign.`
 איין פינגערל איבער אַלע צו הערּשן, אַלע צו געפינען,
 איין פינגערל זיי צו זאַמלען, אינעס פינצטערניש צו בינדן
 אין מאָרדאָר, אינעס לאַנד פין דעס בייזן שאָטן.`
-    }]
+      },
+      {
+        name: "transliteration (Google)",
+        title: "Der har fun di fingerlekh",
+        text: `drii fingerlekh far di elf-kinign in di toln,
+zibn far di shretl-lordn in di zaln fun shteyn,
+niin far di bshr-udms vemens gurl in tsu faln,
+eyns far des bel-khushkh aoyfn fintstern tron
+in mordor, ines land fin des beyzn shotn.
+eyn fingerl iber ale tsu hershn, ale tsu gefinen,
+eyn fingerl zey tsu zamlen, ines fintsternish tsu bindn
+in mordor, ines land fin des beyzn shotn.`
+      },
+    ]
   }
 });

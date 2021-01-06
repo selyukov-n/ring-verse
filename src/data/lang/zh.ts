@@ -26,7 +26,19 @@ export const zh = make({ language: "zh" }, {
         name: "image",
         type: "image",
         image: pic338,
-      }
+      },
+      {
+        text: `Sān méi jièzhǐ jǐyǔ tiānguó zhī xià de jīnglíng guówáng,
+qī méi jǐyǔ shí diàn lǐ de ǎirén lǐngxiù,
+jiǔ méi jǐyǔ zhùdìng sǐwáng de fánrén,
+yī méi liú gěi hēi'àn wángwèi shàng de hēi'àn zhī wáng
+zài zhè bèi yīnyǐng lǒng zhào de mó dōu lǐ.
+Mó jiè zhī wáng zhōng jiāng jiàyù tāmen,
+mó jiè zhī wáng zhōng jiāng zhuīxún tāmen,
+mó jiè zhī wáng zhōng jiāng zhàohuàn tāmen,
+bìng zài ànzhōng kòngzhì tāmen,
+zài zhè bèi yīnyǐng lǒng zhào de mó dōu lǐ.`
+      },
     ]
   },
   420: {

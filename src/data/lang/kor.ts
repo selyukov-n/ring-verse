@@ -72,7 +72,17 @@ geulimjaga deuliun moleudoleuui ttang-eseo`
         name: "image",
         type: "image",
         image: pic524,
-      }
+      },
+      {
+        text: `banji se gaeneun haneul alae yojeong-wangdeul-eul wihan geos,
+ilgob gaeneun dol-ui jeondang-e issneun nanjaeng-i gunjudeul-eul wihan geos,
+aheub gaeneun jug-eul unmyeong-ui ingan-eul wihan geos,
+hananeun amhog-ui wangjwa-e anj-eun amhog gunjuleul wihan geos,
+geugos-eun manglyeongdeul-i jibaehaneun moleudoleuui ttang.
+geu modeun banjaleul daseulil banji hana, geu modeun banjileul chajgi wihan yuilbanji,
+geu modeun banjileul amheug sog-e gadugi wihan banjineun yuilbanjippun,
+balo manglyeongdeul-i nuwo issneun moleudoleuui ttang-e`
+      },
     ]
   },
 });
