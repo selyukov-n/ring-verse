@@ -13,7 +13,7 @@ hazid ban/hazaban murahan narahani nihi na'nûran yadahani marim
 yar murahan dulôg harahat nîrahan dulôg hûrhan rimihi vûrdan
 zayîn tukahan mordor nîd rimi dulôg tadî gîmab bata
 yar rinihî na'paha yîra murahan nihi, yar rinihî na'paha manat murahan nihi
-yar rinihî na'paha kîtah yara nîd ra dalîg nîd na'paha yiira
+yar rinihî na'paha kîtah yara nîd ra dalîg nîd na'paha yîra
 zayîn tukahan mordor nîd rimi dulôg tadî gîmab bata`
   },
 });
