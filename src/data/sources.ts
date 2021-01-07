@@ -68,6 +68,10 @@ export const sources = makeIds({
     name: "Congregación de Magos",
     link: "http://es.msnusers.com/vjuobefpddcagjt9g08rmd5el1/losversosdelosanillos.msnw",
   },
+  decormilaikina: {
+    name: "decormilaikina",
+    link: "https://decormilaikina.ru/sq/idei-podarkov/kolco-vsevlastiya-chto-oznachaet-chto-bylo-napisano-na-kolce-iz/",
+  },
   dhimmiwatch: {
     name: "Dhimmi Watch",
     link: "http://www.jihadwatch.org/dhimmiwatch/archives/000682.php",
@@ -103,6 +107,14 @@ export const sources = makeIds({
   elronds_library: {
     name: "Elrond's Library - The Ring Verse Translations",
     link: "http://www.elrondslibrary.fr/RingVerse.html",
+  },
+  fanatics_me: {
+    name: "Fanàtics de la Terra Mitjana",
+    link: "https://xanoz94.wixsite.com/senyordelsanells/untitled-c18bc",
+  },
+  gutanebokahus: {
+    name: "Bokahus",
+    link: "https://gutanebokahus.wordpress.com/liuth-hriggis",
   },
   gutiska: {
     name: "Gutiska site",
@@ -301,5 +313,9 @@ export const sources = makeIds({
     name: "Zbihniew ring verses (PDF)",
     link: "http://zbihniew.krasl.cz/lingua/rings/rings.pdf",
     // other address (also dead): www.ring-verses.w.pl
+  },
+  zhaaburi: {
+    name: "In the Shadow of Elvish – The Black Speech and Orcish",
+    link: "https://zhaaburi.wordpress.com/ring-verses/",
   },
 });

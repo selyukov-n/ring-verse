@@ -81,6 +81,7 @@ export const inputs = indexed({
   "2.2.0": { date: [2020, 12, 12], mainSource: sources.elronds_library },
   "2.3.0": { date: [2020, 12, 12], mainSource: sources.lyricstranslate },
   "2.3.1": { date: [2020, 12, 12], mainSource: null },
+  "2.3.5": { date: [2021, 1, 7], mainSource: null },
 });
 
 export type InputKey = keyof typeof inputs;

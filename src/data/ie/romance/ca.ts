@@ -55,4 +55,17 @@ Un Anell per governar-los tots, Un Anell per trobar-los,
 Un Anell per dur-los a tots i dins la foscor, lligar-los
 Al País de Mordor, on les Obagors hi habiten.`
   },
+  557: {
+    input: "2.3.5",
+    source: sources.fanatics_me,
+    author: [],
+    content: `Tres Anells per als Reis Elfs sota el cel.
+Set per als Senyors Nans en cases de pedra.
+Nou per als Homes Mortals condemnats a morir.
+Un per al Senyor Fosc, sobre el tron fosc
+en la Terra de Mordor on s'estenen les Ombres.
+Un Anell per a governar-los a tots. Un Anell per trobar-los,
+un Anell per a atreure'ls a tots i lligar-los a les tenebres
+a la Terra de Mordor on s'estenen les Ombres.`
+  },
 });

@@ -42,4 +42,18 @@ Një Unazë t'i sundojë ata të gjithë. Një Unazë t'i gjejë ata,
 Një Unazë t'i sjellë ata të gjithë dhe në errësirë t'i lidhë ata
 Në Tokën e Mordorit ku hijet shtrihen.`
   },
+
+  556: {
+    input: "2.3.5",
+    author: [],
+    source: sources.decormilaikina,
+    content: `Tre unaza për sundimtarët e kukudhëve nën harqet e qiellit,
+Shtatë unaza për zotërit e xhuxhave nën harqet e gurit,
+Nëntë për njerëzit e vdekshëm të dënuar të zhduken
+Një për zotin e errësirës, në fronin e errët,
+Një unazë e plotfuqisë,
+për t’i mbledhur të gjitha që iu dha
+Dhe ata janë të destinuar t'i pushtojnë nga errësira,
+Në tokën e Mordor, ku mbretëron errësira...`
+  },
 });
