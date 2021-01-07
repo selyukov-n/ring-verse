@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { fromLotR, make } from "../../utils";
+import { fromLotR, make, makeName } from "../../utils";
 
 export const cat = make({ language: "cat" }, {
   83: {
@@ -67,5 +67,18 @@ en la Terra de Mordor on s'estenen les Ombres.
 Un Anell per a governar-los a tots. Un Anell per trobar-los,
 un Anell per a atreure'ls a tots i lligar-los a les tenebres
 a la Terra de Mordor on s'estenen les Ombres.`
+  },
+  561: {
+    input: "2.4.0",
+    name: makeName("variant", 83),
+    author: [],
+    content: `Tres Anells per als Reis Elfs dessota el cel,
+Set per als Senyors dels Nans en llurs cavernes
+Nou per als Homes Mortals que periran,
+Un és pel Senyor Fosc en son tron fosc,
+allà a la Terra de Mórdor on s'estén l'Ombra.
+Un Anell per manar-los a tots, un per trobar-los,
+Un Anell per reunir-los i, en les Tenebres tenir-los
+tots lligats a Mórdor on s'estén l'Ombra.`
   },
 });

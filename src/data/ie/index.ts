@@ -16,6 +16,8 @@ export default [
   require("./breton").bre,
   ancient,
   greek,
+  require("./sgaelic").sga,
+  require("./hindi").hindi,
   require("./irish").irish,
   require("./latvian").lat,
   ...require("./lith").list,

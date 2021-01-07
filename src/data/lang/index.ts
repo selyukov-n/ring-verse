@@ -2,6 +2,8 @@ export default [
   require("./est").ee,
   require("./fi").fi,
   require("./hun").hun,
+  require("./sami").south_sami,
+
   require("./jp").jp,
 
   require("./akk").akk,
@@ -14,7 +16,9 @@ export default [
   require("./kor").kor,
   require("./kyrgyz").kyrgyz,
   require("./malay").malay,
+  require("./maori").maori,
   require("./mongol").mongolian,
+  require("./ojibwe").ojibwe,
   require("./quechua").quechua,
   require("./swahili").swahili,
   require("./tag").tagalog,

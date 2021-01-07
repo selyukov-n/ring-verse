@@ -166,6 +166,10 @@ export const sources = makeIds({
     name: "Kontuwiki",
     link: "http://kontu.wiki/Sormusruno",
   },
+  langsandlit: {
+    name: "langsandlit's post on Tumblr",
+    link: "https://langsandlit.tumblr.com/post/173321917753",
+  },
   listserv: {
     name: "listserv.brown.edu",
     link: "http://listserv.brown.edu/archives/cgi-bin/wa?A1=ind0501c&L=conlang&D=0#17",
@@ -280,6 +284,10 @@ export const sources = makeIds({
   },
   vt13: {
     name: "Vinyar Tengwar #13, pp. 13 - 15",
+  },
+  warosu: {
+    name: "warosu.org/tg",
+    link: "https://warosu.org/tg/thread/55070625?__cf_chl_jschl_tk__=89b782892d021253284288296437b67b529132cb-1609971293-0-AWxJFnTT31jNhJY-h7C4qEArcs3EunO3gqGN5q3NdDOixGLU8AHyEzG1gf9XPr3Qe506UoigTo1Jb11X5X-nP5viQ8-0LvCnipv0owLFXQgIjyqqJgDsRl4WbbIEuQ04MPGVf_y38gyAraiHr6u222I6vdbR2qb84BOH4wcK14INoFW99Rb7SWvcDLbOxYQVKx2RoYPUsOC6Fbc7o6M2TPTA7-3UjlDhHW3PPqIH1Eu6OwdMS2-aGA6cm7xSFyk6l1eLVC1MmhChX1ZJkdUL8rAQRwc8S3GWElMqhZhW6gcHph7pFFCBWmb5e1V8Wt2QDxh67xcc5NdHN9dBHiomvbw",
   },
   wikia: {
     name: "LotR Wikia",

@@ -140,7 +140,7 @@ Nella Terra di Mordor ove l’ombre giacciono.`
   },
 });
 
-const dialects = make({ input: "0.13.0" }, {
+const dialects1 = make({ input: "0.13.0" }, {
   282: {
     language: "vec",
     variant: "трентинский диалект, зона Роверето",
@@ -696,9 +696,27 @@ Nel regno de Mordor dove che sta 'e Ombre.`
   },
 });
 
+const dialects = make({}, {
+  560: {
+    input: "2.4.0",
+    language: "nap",
+    author: "langsandlit [Tumblr]",
+    content: `Tre anielle pe ‘e Re Elfe sotto ô cïelo
+Sette pe ‘e Signure dê Nane dinto ‘e salune lloro ‘e preta
+Nove pe ll’uómmene murtale che ‘a trista morte attenneno
+Unu pe ‘o Scuro Signore ‘n coppa ‘o trono scuro
+Dinto ‘a terra ‘e Mordòr addó ll’Ommra scura scenne
+
+N’Aniello pe ‘e cumannà, n’Aniello pe ‘e truvà
+N’Aniello pe ll’abbrancà e dinto ‘o scuro ‘ncatenà
+Dinto ‘a Terra ‘e Mordòr addó ll’Ommra scura scenne`
+  },
+});
+
 export const list = [
   it, it2,
-  dialects,
+  dialects1,
   dialects2,
+  dialects,
   rob,
 ];

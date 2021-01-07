@@ -82,6 +82,7 @@ export const inputs = indexed({
   "2.3.0": { date: [2020, 12, 12], mainSource: sources.lyricstranslate },
   "2.3.1": { date: [2020, 12, 12], mainSource: null },
   "2.3.5": { date: [2021, 1, 7], mainSource: null },
+  "2.4.0": { date: [2021, 1, 7], mainSource: sources.langsandlit },
 });
 
 export type InputKey = keyof typeof inputs;
