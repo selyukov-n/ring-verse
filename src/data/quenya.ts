@@ -169,6 +169,20 @@ Mine corma an tule te ilye
 Ar morniesse nute te
 Nóresse Mordoro yasse caitar i Lómini.`
   },
+
+  602: {
+    input: "2.4.0",
+    source: sources.reddit_conlang,
+    author: "Roandil [reddit] ?",
+    content: `Cormar Neldë i Eldáranin nu menel,
+Otso i Casarturin hrótaltassen ondova,
+Nertë Firyátanin umbartainë fírien,
+Min i Morihérun mahalmaryas moriva
+Mí arda Morinóreva yassë huini caitar.
+Min Corma turien te, Min Corma tuvien,
+Min Corma hostien te ar i morniessë hapien
+Mí arda Morinóreva yassë huini caitar.`
+  },
 });
 
 const q2 = make({ language: "quenya", input: "0.3.0" }, {

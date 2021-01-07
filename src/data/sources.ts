@@ -221,6 +221,10 @@ export const sources = makeIds({
     name: "Planet-Tolkien.com",
     link: "http://www.planet-tolkien.com/board/cat/23/thread/1776/0",
   },
+  reddit_conlang: {
+    name: "Reddit r/conlangs",
+    link: "https://www.reddit.com/r/conlangs/",
+  },
   ringarnas: {
     name: "Ringarnas härskare",
     link: "http://hem.passagen.se/wizard_of_illusion/tolkien/stranslations/ringv.html",

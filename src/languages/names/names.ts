@@ -211,6 +211,8 @@ export const languages: Record<Lang, string> = {
 export const conlangs: Record<Conlang, string> = {
   "c.bugn": "БА УРУК ГЫМ НЯ (высокий орочий язык)",
   "c.karkhuzdul": "каркхуздул",
+  "c.man": "Man-Trab, a Sino-Tibetan inspired conlang built on Primitive Elvish roots",
+
   "c.eo": "эсперанто",
   "c.n-eo": "Nova esperanto",
   "c.ido": "идо",
@@ -219,6 +221,8 @@ export const conlangs: Record<Conlang, string> = {
   "c.atl": "Atlango",
   "c.en-basic": "Basic (Simple) English",
   "c.toki": "Toki Pona",
+  "c.unirom": "UniRom",
+
   "c.eld": "Старшая Речь",
   "c.tlh": "клингонский",
   "c.dro": "язык дроу",
@@ -268,6 +272,40 @@ export const conlangs: Record<Conlang, string> = {
   "c.xli": "Xliponian",
   "c.delang": "Delang",
   "c.m_gaul": "Modern Gaulish",
+  "c.kire": "Kirĕ", // "HolyBonobos [reddit]"
+  "c.jod": "Jodiyama", // "Oj742 [reddit]"
+  "c.tuo": "Tuokzii", // "SVEN_THE_DUCK [reddit]"
+  "c.san": "Sanavran", // "Leshunen [reddit]"
+  "c.nlb": "Novi Lume Basa (Enelbo)", // "SqrtTwo [reddit]"
+  "c.goi": "Goitʼa", // "EliiLarez [reddit]"
+  "c.tauraj": "Tauraj", // "Hjuldahr [reddit]"
+  "c.drak": "Drakoan", // "mantisinmypantis [reddit]"
+  "c.van": "vanawo", // "dragonsteel33 [reddit]"
+  "c.rod": "Rodelnian", // "MihailiusRex [reddit]"
+  "c.breg": "Брег блачък", // "PikabuOppresser228 [reddit]"
+  "c.salp": "Salpingera Liuzē", // "Salpingia [reddit]"
+  "c.sors": "šors zāz", // "Achsenmacht_ [reddit]"
+  "c.nubve": "Nü Bve", // "caitikoi [reddit]"
+  "c.shortswede": "[shortswede's conlang]", // "shortswede [reddit]"
+  "c.sho": "Shorama", // "Schnitzelinski [reddit]"
+  "c.alef": "Alèfteno", // "Crown6 [reddit]"
+  "c.nyev": "Nyevandya", // "Dr_Chair [reddit]"
+  "c.lal": "Lalera", // "ItsAPandaGirl [reddit]"
+  "c.santah": "Santawa Tahtu", // "phairat [reddit]"
+  "c.thak": "Thak'u", // "romain122 [reddit]"
+  "c.dellek": "Dełani Lekadj", // "Imuybemovoko [reddit]"
+  "c.horg": "Horgothic", // "HaloedBane [reddit]"
+  "c.luth": "Lúthnaek", // "OfficialHelpK [reddit]"
+  "c.vis": "Visochi", // "Splendidissimus [reddit]"
+  "c.puskat": "Pűsar Katriser", // "linksfan [reddit]"
+  "c.weeb": "Weeblang", // "ZetDudeG [reddit]"
+  "c.atlaans": "Atlaans", // "tertrih [reddit]"
+  "c.tohan": "Tohanian", // "tertrih [reddit]"
+  "c.tunsk": "Tunsk", // "tertrih [reddit]"
+  "c.honal": "Honalano", // "tertrih [reddit]"
+  "c.atlan_as": "Asgard Atlan", // "tertrih [reddit]"
+  "c.atlan_md": "Middle Atlan", // "tertrih [reddit]"
+  "c.atlan_hi": "High Atlan", // "tertrih [reddit]"
 };
 
 export const encodings: Record<EncodingLang, string> = {

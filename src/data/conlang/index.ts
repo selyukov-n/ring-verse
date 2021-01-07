@@ -12,6 +12,7 @@ export default [
 
   ...require("./ang").list,
   ...require("./misc").list,
+  require("./misc2").reddit,
   require("./sjast").sj,
   require("./zbihniew").byZbihniew,
   require("./mgaul").gaulish,
