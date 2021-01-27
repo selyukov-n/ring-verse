@@ -87,6 +87,6 @@ design of the Crimson Font Family by [Sebastian Kosch](https://www.aldusleaf.org
 To prepare some scripts, these tools were used:
 - [Cuniefy](http://oracc.museum.upenn.edu/saao/knpp/cuneiformrevealed/cuneify)
 with [online converter](http://cuneifyplus.arch.cam.ac.uk)
-- [SVG Cuneify Tool](https://kursoj.pagesperso-orange.fr/cunei) by Marc
+- [SVG Cuneiform Tool](https://kursoj.pagesperso-orange.fr/cunei) by Marc
 Bravant
 - [WikiHiero](http://aoineko.free.fr/index.php) by Guillaume Blanchard
