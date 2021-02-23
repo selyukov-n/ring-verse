@@ -71,7 +71,6 @@ export const groups: typeof n.groups = {
   semitic_nw_aramaic: "arameas",
   semitic_nw_canaanite: "cananeas",
   semitic_sc: "sudoccidentales",
-  sino_caucasian: "Dené-caucásicas",
   sino_tibetan: "Sino-tibetanas",
   slavic_1: "eslavas (excepto el ruso)",
   slavic_east: "orientales",
