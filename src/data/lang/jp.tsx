@@ -1,8 +1,14 @@
+import React from "react";
 import { ItemGroup } from "../types";
 import { sources } from "../sources";
 import { fromLotR } from "../utils";
 import pic49a from "../pic/49jap.png";
 import pic49b from "../pic/49jap.jpg";
+
+const getRuby = (text: string, value: string) => <ruby>
+  {text}
+  <rp>(</rp><rt>{value}</rt><rp>)</rp>
+</ruby>;
 
 export const jp: ItemGroup = {
   49: {
@@ -13,16 +19,17 @@ export const jp: ItemGroup = {
     author: [],
     content: [
       {
-        text: `三つの指輪は、空の下なるエルフの王に、
-七つの指輪は、岩の やかた 館のドワーフの君に、
-九つは、死すべき さだめ 運命の⼈の⼦に、
-⼀つは、暗き みくら 御座の冥王のため、
-影横たわるモルドールの国に。
-⼀つの指輪は、すべてを統べ、
-⼀つの指輪は、すべてを⾒つけ、
-⼀つの指輪は、すべてを捕らえて
-くらやみのなかにつなぎとめる。
-影横たわるモルドールの国に。`,
+        type: "text-large",
+        text: <>三つの指輪は、空の下なるエルフの王に、<br />
+七つの指輪は、岩の{getRuby("館", "やかた")}のドワーフの君に、<br />
+九つは、死すべき{getRuby("運命", "さだめ")}の⼈の⼦に、<br />
+⼀つは、暗き{getRuby("御座", "みくら")}の冥王のため、<br />
+影横たわるモルドールの国に。<br />
+⼀つの指輪は、すべてを統べ、<br />
+⼀つの指輪は、すべてを⾒つけ、<br />
+⼀つの指輪は、すべてを捕らえて<br />
+くらやみのなかにつなぎとめる。<br />
+影横たわるモルドールの国に。</>,
       },
       {
         name: "pic1",
