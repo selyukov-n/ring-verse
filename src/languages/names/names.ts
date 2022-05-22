@@ -305,6 +305,7 @@ export const conlangs: Record<Conlang, string> = {
   "c.atlan_as": "Asgard Atlan", // "tertrih [reddit]"
   "c.atlan_md": "Middle Atlan", // "tertrih [reddit]"
   "c.atlan_hi": "High Atlan", // "tertrih [reddit]"
+  "c.c_patrinaic": "Classical Patrinaic", // "Holy_Flapjacks [reddit]"
 };
 
 export const encodings: Record<EncodingLang, string> = {

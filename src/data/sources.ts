@@ -297,6 +297,10 @@ export const sources = makeIds({
     name: "LotR Wikia",
     link: "http://lotr.wikia.com",
   },
+  wiki_ang: {
+    name: "Old English Wikipedia",
+    link: "https://ang.wikipedia.org/wiki/Se_Hl%C4%81ford_%C3%BE%C4%81ra_Hringa",
+  },
   wiki_ast: {
     name: "Asturian Wikipedia",
     link: "https://ast.wikipedia.org/wiki/The_Lord_of_the_Rings",

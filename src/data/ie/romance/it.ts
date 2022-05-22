@@ -76,6 +76,19 @@ Un Anello per trovarli, Uno per vincerli,
 Uno per radunarli e al buio avvincerli
 Nella Terra di Mordor dove le Ombre si celano.`
   },
+
+  605: {
+    input: "2.4.5",
+    author: sources.lyricstranslate.makeAuthor("Ser_Flakky"),
+    content: `Tre Anelli per gli Elfi-re sotto il firmamento,
+Sette per i Nani-signori nei loro saloni di granito,
+Nove per gli Uomini Mortali, sui quali la morte ha sopravvento
+Uno per il Signore Oscuro nel suo trono di nero scolpito
+Nella Terra di Mordor, dove le Ombre han stanziamento
+Un Anello per dominarli tutti, Un Anello per trovarli
+Un Anello per ghermirli tutti e nel buio incatenarli
+Nella Terra di Mordor, dove le Ombre han stanziamento`
+  },
 });
 
 const rob = make({ author: "robocap", input: "0.8.0" }, {
@@ -710,6 +723,34 @@ Dinto ‘a terra ‘e Mordòr addó ll’Ommra scura scenne
 N’Aniello pe ‘e cumannà, n’Aniello pe ‘e truvà
 N’Aniello pe ll’abbrancà e dinto ‘o scuro ‘ncatenà
 Dinto ‘a Terra ‘e Mordòr addó ll’Ommra scura scenne`
+  },
+
+  603: {
+    input: "2.4.5",
+    language: "scn",
+    author: "Alessio Mistretta",
+    content: `Tri aniḍḍi pî re di l'Elfi sutta i stiḍḍi
+setti pî signura Nani ntê càmmari di petra
+pî supranijati murtali, mmeci, novi aniḍḍi,
+unu ô Signuri Scuru ntâ reggia tetra,
+ntâ Terra di Mòrdor cu l'òmmiri çiuschiḍḍi*.
+N'aniḍḍu pi cumannalli, unu pi truvalli,6
+n'aniḍḍu pi pigghialli e ntô scuru purtalli
+ntâ Terra di Mòrdor cu l'òmmiri çiuschiḍḍi.`
+  },
+
+  604: {
+    input: "2.4.5",
+    language: "nap",
+    author: "Pietro Ligniola",
+    content: `Tre aniélle sótt’o ciélo p’e rre ‘e ll’èlfe affatate1
+sètte p’e rre d’e nane dint’e salune ‘e prèta,
+ati nnòve pe ll’uómmene a mmurì cundannate,
+uno ô Signóre scuro dint’a reggia secreta
+sott’a tèrra ‘e Mordòr, sott’a ll’ombre ‘nchiummate.
+N’aniéllo sulo abbasta p’e ttruvà, p’e ddumà,
+pe ll’acchiappà ‘int’o scuro e llà ssótto attaccà
+sott’a tèrra ‘e Mordòr, sott’a ll’ombre ‘nchiummate.`
   },
 });
 

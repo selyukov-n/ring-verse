@@ -1,5 +1,5 @@
 import { sources } from "../../sources";
-import { make } from "../../utils";
+import { make, makeName } from "../../utils";
 
 export const oe = make({ language: "oe" }, {
   86: {
@@ -110,5 +110,20 @@ in westnese mordores fæste forbræded
 an hring ælce to wealdanne ælce to findenne
 an hring ælce to bringenne þeowas in þeostre
 in westnesse mordores fæste forbræded.`
+  },
+
+  606: {
+    input: "2.4.5",
+    author: [],
+    source: sources.wiki_ang,
+    name: makeName("variant", 425),
+    content: `Þrēo Hringas for þǣm ælfcyningum under þǣm sƿeȝl,
+  Seofon for þǣm dƿeorgfrēan in hieran stāne heallum,
+Nigon for þǣm motlican menn tō dēaðe ȝedēmed,
+  Ān for þǣm deorc hlāford on stōle deorcfullum.
+In þǣm lande Mordor, hƿǣr þā sceadƿe mīðaþ.
+  Ān Hring, hīe ealle tō ƿealdenne, eall tō findenne,
+  Eall tō ȝefecgenne and in þǣre deorcnesse tō bindenne,
+In þǣm lande Mordor, hƿǣr þā sceadƿe mīðaþ.`
   },
 });

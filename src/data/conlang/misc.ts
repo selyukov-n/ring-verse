@@ -1,5 +1,5 @@
 import { sources } from "../sources";
-import { make, tonal } from "../utils";
+import { make, makeName, tonal } from "../utils";
 import pic219 from "../pic/219hon.jpg";
 import pic186 from "../pic/186gac.gif";
 import pic225 from "../pic/225ave.jpg";
@@ -482,6 +482,58 @@ In le pais Mordor ubi le Umbras se extende.`
 Анкелтсҩ ƕамас політіьі, анкелтсҩ ƕамас гłомеѕтіљі
 анкелтсҩ ƕамас ҩнј Мҩрδҩр гемтłені і о Нyьт ƕамас ѕтłіњі
 ін δетелј ƕҩłи δенyьт політіьі.`
+  },
+
+  607: {
+    input: "2.4.5",
+    language: "c.int",
+    author: [],
+    source: sources.wiki_ia,
+    name: makeName("revised", 498),
+    content: `Tres Annellos al Reges Elfic sub le celos,
+Septe al Princes Nanic in lor salas de petra,
+Novem al Homines Mortal, a marcer destinate,
+Un al Senior Obscur in su nigre throno,
+In le pais de Mordor, ubi Umbras se extende.
+Un Annello pro dominar los tote, un Annello pro trovar los,
+Un Annello pro raper los tote, e in le obscuritate ligar los.
+In le pais de Mordor, ubi Umbras se extende.`
+  },
+  608: {
+    input: "2.4.5",
+    language: "c.int",
+    author: [],
+    source: sources.wiki_ia,
+    name: "рифмованная версия",
+    content: `Tres anellos al reges elfic sub le volta que resplende,
+Septe al seniores nanic intra lor salas de petra,
+Novem al mortal humanes qui le triste morte attende,
+Un sol pro le Obscur Senior cum le obscuritate detra.
+In le terra de Mordor ubi tenebras descende.
+Un Anello pro domar los tote, un Anello pro trovar los,
+Un Anello pro sumer los tote, e in le umbra incatenar los.
+In le terra de Mordor ubi tenebras se extende.`
+  },
+
+  609: {
+    input: "2.4.5",
+    language: "c.c_patrinaic",
+    author: sources.reddit_conlang.makeAuthor("Holy_Flapjacks"),
+    source: sources.reddit_conlang,
+    name: "alliterative version",
+    content: `Pharazh Bēt-Morsh bōlē gimīlibēs
+magorē Elbakh ōlorē nīmilā asgīm.
+Har-Lugals Polith, phīn pherūkh undōkbalt
+magkhârēs khabar, kūbmarakh azkurūkē.
+Nukars Mīnosh, phīn tel mātem pālmemagzhēkost,
+karbē Ūkakh īm azrōkh karbē
+Az-Mīnos dūzenem magsetumābal dorā
+Dūlgorā Arbērā dubā bashābal dobor
+Mordorak Agosā phīnā egĭnōsh Gūlgē.
+Dūzenthe Az-Mīnos, dītothe Az-Mīnos,
+kaperthe Az-Mīnos kishā atārā
+morsosar ialūs alumēs sūdusibēs
+Mordorak Agosā phīna egĭnōsh Gūlgē.`
   },
 });
 

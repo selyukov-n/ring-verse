@@ -96,6 +96,7 @@ export const conlangs = group(g.conlangs,
     langs("Atlaans", "tertrih [reddit]",
       "c.atlaans", "c.tohan", "c.tunsk", "c.honal",
       "c.atlan_as", "c.atlan_md", "c.atlan_hi"),
+    lang("c.c_patrinaic", "Holy_Flapjacks [reddit]"),
   )
 );
 export type Conlang = (typeof conlangs)["id"];
