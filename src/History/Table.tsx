@@ -1,4 +1,4 @@
-import React, { FC, useMemo } from "react";
+import React, { FC, Fragment, useMemo } from "react";
 import { Table as T } from "react-bootstrap";
 import { useDataContext } from "../context";
 import { Data, inputs } from "../data";
@@ -64,7 +64,9 @@ const makeHistoryItems = (data: Data) => {
           <td>
             {Array.from(sources.values()).map((s, i) => {
               const item = React.createElement(s.link ? "a" : "span", { key: s.id, href: s.link }, s.name);
-              return i ? <>, {item}</> : item;
+              return i
+                  ? <Fragment key={s.id}>, {item}</Fragment>
+                  : item;
             })}
           </td>
           <td className="nobr">{result.lang}{result.conlang ? ` + ${result.conlang}` : null} ({result.me})</td>
