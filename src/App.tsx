@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter, HashRouter, Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -24,9 +24,11 @@ function App() {
 
   const counts = getTotalCount(data.lang);
   const locale = loadLocale();
+
+  const Router: typeof React.Component = process.env.REACT_APP_ROUTER === "hash" ? HashRouter : BrowserRouter;
   return (
     <Provider value={data}>
-      <BrowserRouter>
+      <Router>
         <Navbar>
           <Link to="/" className="navbar-brand">Ring Verse</Link>
           <Nav>
@@ -47,7 +49,7 @@ function App() {
             {routes.map(r => <Route key={r.path} {...r} />)}
           </Switch>
         </div>
-      </BrowserRouter>
+      </Router>
     </Provider>
   );
 }
