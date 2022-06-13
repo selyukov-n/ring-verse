@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => <article>
+const Credits = () => <article>
   <h5>Used resources</h5>
   <ul>
     <li>
@@ -39,3 +39,5 @@ export default () => <article>
     </li>
   </ul>
 </article>;
+
+export default Credits;

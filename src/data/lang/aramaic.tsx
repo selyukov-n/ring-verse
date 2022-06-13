@@ -1,4 +1,3 @@
-import React from "react";
 import { make } from "../utils";
 
 export const aramaic = make({ language: "aramaic", input: "0.7.0" }, {

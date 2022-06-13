@@ -35,6 +35,17 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "rules": {
+      "no-mixed-operators": "off"
+    },
+    "overrides": [
+      {
+        "files": ["src/data/**/*.{ts,tsx}"],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {

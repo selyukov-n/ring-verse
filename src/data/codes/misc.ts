@@ -9,7 +9,7 @@ const pic = (image: any) => ({ type: "image" as const, image });
 
 const prepareForMorse = (text: string) => {
   const lines = text.split(/\n/).map(l => {
-    const words = l.split(/[^\w\-]/).map(w => w.split("").join(" ").toUpperCase());
+    const words = l.split(/[^\w-]/).map(w => w.split("").join(" ").toUpperCase());
     return words.join(" & ");
   });
   return lines.join("\n");
