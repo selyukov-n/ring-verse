@@ -1,6 +1,7 @@
 {
   "name": "rv",
   "version": "0.1.0",
+  "homepage": "https://selyukov-n.github.io/ringverse",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -25,6 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "cross-env REACT_APP_ROUTER=hash npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/selyukov-n/ringverse",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0"
   }
 }
