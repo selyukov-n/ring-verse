@@ -47,4 +47,5 @@ export const msg: typeof m = {
   translation: {
     source: "Source",
   },
+  searchPlaceholder: "Search language",
 };

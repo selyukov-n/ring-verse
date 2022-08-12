@@ -1,5 +1,7 @@
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
+import { Form } from "react-bootstrap";
 import original from "../data/main";
+import { messages } from "../intl";
 import * as lng from "../languages";
 import { Lines } from "../Lines";
 
@@ -12,10 +14,19 @@ export const getTotalCount = (data: Parameters<typeof getCounts>[0]) => {
   return result;
 };
 
-const LangTree: FC<StateProps> = (props) => {
+const LangTree: FC<StateProps> = (p) => {
+  const [filterText, setFilterText] = useState("");
+
+  const props = { ...p, filterText };
+
   const names = lng.names;
   return <div>
     <Lines text={original.content} footer={"© " + original.author} className={"original"} />
+
+    <Form.Control placeholder={messages.searchPlaceholder}
+                  value={filterText}
+                  onChange={e => setFilterText(e.target.value)}
+                  className="search-field" />
 
     <ol>
       <Node {...props} item={lng.arda} names={names.arda} />

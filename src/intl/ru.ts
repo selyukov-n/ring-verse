@@ -46,4 +46,5 @@ export const msg = {
   translation: {
     source: "Источник",
   },
+  searchPlaceholder: "Поиск",
 };

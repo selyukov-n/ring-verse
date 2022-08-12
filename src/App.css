@@ -16,6 +16,12 @@
   padding: 0 15px;
 }
 
+.search-field {
+  float: right;
+  width: 300px;
+  margin-top: 3px;
+}
+
 .exp > span {
   cursor: pointer;
 }

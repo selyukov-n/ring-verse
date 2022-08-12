@@ -46,4 +46,5 @@ export const msg: typeof m = {
   translation: {
     source: "Origen",
   },
+  searchPlaceholder: "Buscar un idioma",
 };

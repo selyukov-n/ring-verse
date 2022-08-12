@@ -74,3 +74,21 @@ export const findLanguage = (id: string, names: (typeof lng)["names"]) => {
     ? { lang, name: findItem(id, names) }
     : undefined;
 }
+
+export const filterByName = <T extends string>(
+    item: lng.LangGroupItem<T>, names: Record<T, string>, filterText: string
+): boolean => {
+  filterText = filterText.trim().toLocaleLowerCase();
+
+  const checkName = (name = "") => {
+    const normalized = name.normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\u0142/g, "l");
+    return normalized.toLocaleLowerCase().indexOf(filterText) >= 0;
+  }
+
+  return (
+      item.type === "lang" && checkName(names[item.id] ?? item.name) ||
+      item.type === "group" && item.items.some(t => filterByName(t, names, filterText))
+  );
+}
