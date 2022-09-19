@@ -1,0 +1,18 @@
+:global(.navbar-brand) {
+    padding-top: 0;
+}
+
+.right {
+    margin-left: auto;
+}
+.right :global(.dropdown) {
+    margin-right: 5px;
+}
+
+.counts {
+    color: #000;
+}
+
+.main {
+    padding: 0 15px;
+}

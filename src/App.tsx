@@ -3,7 +3,9 @@ import { Route, Switch } from "react-router";
 import { BrowserRouter, HashRouter, Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import cls from "classnames";
+
+import css from "./App.module.css";
 
 import { Provider } from "./context";
 import Credits from "./Credits";
@@ -19,6 +21,13 @@ const routes = [
   { path: "/credits", component: Credits, title: messages.header.credits },
 ];
 
+const cssNav = {
+  link: "nav-link",
+  navbarBrand: "navbar-brand",
+  navbarNav: "navbar-nav",
+  navbarText: "navbar-text",
+};
+
 function App() {
   const treeProps = useTreeState();
 
@@ -30,18 +39,18 @@ function App() {
     <Provider value={data}>
       <Router>
         <Navbar>
-          <Link to="/" className="navbar-brand">Ring Verse</Link>
+          <Link to="/" className={cssNav.navbarBrand}>Ring Verse</Link>
           <Nav>
-            {routes.map(r => <Link key={r.path} to={r.path} className="nav-link">{r.title}</Link>)}
+            {routes.map(r => <Link key={r.path} to={r.path} className={cssNav.link}>{r.title}</Link>)}
           </Nav>
-          <div className="navbar-nav right">
+          <div className={cls(cssNav.navbarNav, css.right)}>
             <LanguageSelector current={locale} />
-            <span className="navbar-text">
-              {messages.header.total}: <span className="counts">{counts.me} / {counts.count}</span>
+            <span className={cssNav.navbarText}>
+              {messages.header.total}: <span className={css.counts}>{counts.me} / {counts.count}</span>
             </span>
           </div>
         </Navbar>
-        <div className="main">
+        <div className={css.main}>
           <Switch>
             <Route path="/" exact render={props => <LangTree {...props} {...treeProps} />}/>
             <Route path="/show/:id" component={Translation}/>

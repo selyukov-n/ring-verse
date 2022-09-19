@@ -7,7 +7,7 @@ h6 .date {
     font-size: smaller;
     font-style: italic;
 }
-.card-header .comment {
+:global(.card-header) .comment {
     margin-bottom: 0;
 }
 
@@ -27,7 +27,7 @@ h6 .date {
     margin-bottom: 0;
 }
 
-.translation-content {
+.translationContent {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;

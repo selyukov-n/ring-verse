@@ -1,24 +1,26 @@
 import React, { FC, Fragment, useCallback } from "react";
 import { Badge } from "react-bootstrap";
+import classnames from "classnames";
 
 import { useDataContext } from "../context";
 import { messages } from "../intl";
 import { LangGroupItem } from "../languages";
 
+import css from "./LangTree.module.css";
 import LangName from "./LangName";
 import { filterByName, getCounts } from "./utils";
 
 const Counter: FC<{ count: number, me: number, lang: number, forceCount: boolean }> = (
   { count, me, lang, forceCount }
 ) => {
-  const cls = me ? "success" : undefined;
+  const cls = me ? css.success : undefined;
   const tr = count
     ? <Badge variant="light" className={cls}>{me ? `${me} / ${count}` : count}</Badge>
     : <Badge variant="danger">{count}</Badge>;
   const showCount = forceCount || lang > 1;
   return <>
     {tr}
-    {showCount && <Badge variant="light" className="badge-lang" title={messages.langCount(lang)}>({lang})</Badge>}
+    {showCount && <Badge variant="light" className={css.badgeLang} title={messages.langCount(lang)}>({lang})</Badge>}
   </>;
 };
 
@@ -59,11 +61,15 @@ const Node = <T extends string>({ item, ...props }: Props<T>): JSX.Element => {
       .filter(isVisible)
       .map(it => <Node {...props} item={it} key={it.id} />);
 
-  const className = open ? "exp expanded" : "exp collapsed";
-  return <li className={childItems.length ? className : undefined}>
+  const className = classnames({
+    [css.exp]: childItems.length,
+    [css.expanded]: childItems.length && open,
+    [css.collapsed]: childItems.length && !open,
+  });
+  return <li className={className}>
     <span onClick={onClick}>{item.name} {counter}</span>
     {open && childItems.length ? (
-        <ul className="content">
+        <ul>
           {childItems}
         </ul>
     ) : null}

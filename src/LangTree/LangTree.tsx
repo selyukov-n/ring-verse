@@ -1,10 +1,12 @@
 import React, { FC, useState } from "react";
 import { Form } from "react-bootstrap";
+
 import original from "../data/main";
 import { messages } from "../intl";
 import * as lng from "../languages";
 import { Lines } from "../Lines";
 
+import css from "./LangTree.module.css";
 import Node, { StateProps } from "./Node";
 import { getCounts, langTypes } from "./utils";
 
@@ -21,12 +23,12 @@ const LangTree: FC<StateProps> = (p) => {
 
   const names = lng.names;
   return <div>
-    <Lines text={original.content} footer={"© " + original.author} className={"original"} />
+    <Lines text={original.content} footer={"© " + original.author} original />
 
     <Form.Control placeholder={messages.searchPlaceholder}
                   value={filterText}
                   onChange={e => setFilterText(e.target.value)}
-                  className="search-field" />
+                  className={css.searchField} />
 
     <ol>
       <Node {...props} item={lng.arda} names={names.arda} />

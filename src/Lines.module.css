@@ -1,8 +1,8 @@
-.poem .card-text {
+.poem :global(.card-text) {
   white-space: pre-wrap;
 }
 
-.poem .card-footer {
+.poem :global(.card-footer) {
   font-size: smaller;
   padding-top: 0;
   font-style: italic;
@@ -10,7 +10,7 @@
   border-top: none;
 }
 
-.poem.original .card-text {
+.poem.original :global(.card-text) {
   font-weight: bold;
   font-style: italic;
 }
@@ -38,50 +38,50 @@
 }
 
 /* classes */
-.text-large .card-body {
+.textLarge :global(.card-body) {
   font-size: 20px;
 }
-.braille .card-body {
+.braille :global(.card-body) {
   /*noinspection CssNoGenericFontName*/
   font-family: Braille;
   font-size: 24px;
 }
-.mono .card-body {
+.mono :global(.card-body) {
   font-family: monospace;
 }
-.morse .card-body {
+.morse :global(.card-body) {
   /*noinspection CssNoGenericFontName*/
   font-family: Morse;
   font-size: 24px;
 }
-.translit .card-body {
+.translit :global(.card-body) {
   font-family: serif;
   font-style: italic;
   font-size: 20px;
 }
-.translit.hgn .card-body {
+.translit.hgn :global(.card-body) {
   font-family: HGNTransliteration, serif;
   font-weight: bold;
   font-size: 24px;
 }
-.cuneiform-assur .card-body {
+.cuneiformAssur :global(.card-body) {
   font-size: 32px;
   /*noinspection CssNoGenericFontName*/
   font-family: Assurbanipal;
 }
-.cuneiform-na .card-body {
+.cuneiformNA :global(.card-body) {
   font-size: 24px;
   /*noinspection CssNoGenericFontName*/
   font-family: CuneiformNA;
   font-weight: bold;
 }
 
-.rtl .card-body {
+.rtl :global(.card-body) {
   text-align: initial;
   direction: rtl;
   font-size: 24px;
   font-family: serif;
 }
-.rtl .card-body .card-title {
+.rtl :global(.card-body) :global(.card-title) {
   font-size: 1.25em;
 }

@@ -1,0 +1,41 @@
+.exp > span {
+    cursor: pointer;
+}
+.exp > span::after {
+    margin: 0 5px;
+    color: #007bff;
+}
+.exp.expanded > span::after {
+    content: "-";
+}
+.exp.collapsed > span::after {
+    content: "+";
+}
+
+.success {
+    color: #28a745;
+}
+
+.badgeLang {
+    background: none;
+    margin-left: .25em;
+    color: rgba(0, 0, 0, .5);
+}
+
+
+@media (min-width: 600px) {
+    .searchField {
+        float: right;
+        width: 300px;
+        margin-top: 3px;
+    }
+}
+@media (max-width: 599px) {
+    .searchField {
+        position: sticky;
+        top: 0;
+    }
+    .searchField:focus {
+        box-shadow: none;
+    }
+}

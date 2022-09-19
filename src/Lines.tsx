@@ -1,6 +1,8 @@
 import React, { FC } from "react";
 import { Card } from "react-bootstrap";
-import "./Lines.css";
+import cls from "classnames";
+
+import css from "./Lines.module.css";
 
 type Props = {
   text: React.ReactNode;
@@ -8,9 +10,12 @@ type Props = {
   title?: string;
   footer?: string;
   className?: string;
+  original?: boolean;
 };
 
-export const Lines: FC<Props> = (props) => <Card className={"poem " + props.className}>
+export const Lines: FC<Props> = (props) => <Card
+  className={cls(css.poem, props.className, props.original && css.original)}
+>
   {props.header && <Card.Header>{props.header}</Card.Header>}
   <Card.Body>
     {props.title && <Card.Title>{props.title}</Card.Title>}

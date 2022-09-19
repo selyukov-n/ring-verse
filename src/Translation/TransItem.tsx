@@ -1,12 +1,24 @@
 import React, { FC } from "react";
 import { Alert } from "react-bootstrap";
+import classnames from "classnames";
+
 import { sources as src } from "../data/sources";
 import { Input, inputs, ItemNum, ItemVariant } from "../data";
 import { messages } from "../intl";
 import { findLanguage, LangName } from "../LangTree";
 import { names } from "../languages";
 import { Lines } from "../Lines";
-import "./trans.css";
+import cssLines from "../Lines.module.css";
+
+import css from "./trans.module.css";
+
+type ItemVariantType = ItemVariant['type'] & string;
+const customClassNames: Partial<Record<ItemVariantType, string>> = {
+  "cuneiform-assur": cssLines.cuneiformAssur,
+  "cuneiform-na": cssLines.cuneiformNA,
+  "text-large": cssLines.textLarge,
+  "translit hgn": classnames(cssLines.translit, cssLines.hgn),
+};
 
 const getContent = (variant: ItemVariant): React.ReactNode => {
   switch (variant.type) {
@@ -17,12 +29,12 @@ const getContent = (variant: ItemVariant): React.ReactNode => {
 };
 
 const makeHeader = (name?: string, author?: string) => (name || author) && <>
-  {name} {author && <span className="author" title="Authors"> ({author})</span>}
+  {name} {author && <span className={css.author} title="Authors"> ({author})</span>}
 </>;
 
 const Comment: FC<{ type?: "warning" | "error" }> = ({ type, children }) => type
-  ? <Alert className="comment" variant={type === "error" ? "danger" : type}>{children}</Alert>
-  : <p className="comment">{children}</p>;
+  ? <Alert className={css.comment} variant={type === "error" ? "danger" : type}>{children}</Alert>
+  : <p className={css.comment}>{children}</p>;
 
 const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   const author = variant.author?.filter(Boolean).join(", ");
@@ -33,7 +45,8 @@ const Variant: FC<{ item: ItemNum, variant: ItemVariant }> = ({ variant }) => {
   </> : null;
 
   const { type, ...v } = variant;
-  return <Lines {...v} text={getContent(variant)} header={linesHeader} className={type} />;
+  const cls = type && customClassNames[type] || type;
+  return <Lines {...v} text={getContent(variant)} header={linesHeader} className={cls} />;
 };
 
 const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
@@ -60,7 +73,7 @@ const renderSource = ({ book: b, ...item }: ItemNum, input: Input) => {
     if (book) sources.push(<p key="book">{book}</p>);
   }
 
-  return sources.length === 0 ? null : <section className="sources">
+  return sources.length === 0 ? null : <section className={css.sources}>
     {sources}
   </section>;
 };
@@ -73,7 +86,7 @@ export const TransItem: FC<{ item: ItemNum, linkToLang?: boolean }> = ({ item, l
   const content = typeof item.content === "string" ? [{ text: item.content }] : item.content;
   const input = item.input && inputs[item.input];
   const date = item.index > 1 && input.date
-    && <span className="date" title="added to the collection">{messages.formatDate(input.date)}</span>;
+    && <span className={css.date} title="added to the collection">{messages.formatDate(input.date)}</span>;
   return <>
     {info && <LangName {...info} head link={linkToLang} />}
     <h6>
@@ -85,7 +98,7 @@ export const TransItem: FC<{ item: ItemNum, linkToLang?: boolean }> = ({ item, l
       ? <Comment key={i}>{c}</Comment>
       : <Comment key={i} type={c.type}>{c.text}</Comment>)}
 
-    <div className="translation-content">
+    <div className={css.translationContent}>
       {content.map((c, i) => <Variant key={i} item={item} variant={c} />)}
     </div>
 

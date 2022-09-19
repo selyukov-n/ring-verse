@@ -4,7 +4,7 @@ import { useDataContext } from "../context";
 import { Data, inputs } from "../data";
 import { messages } from "../intl";
 
-import "./history.css";
+import css from "./history.module.css";
 import { compareVersions, LangGrouping, StatHelper } from "./utils";
 
 const concat = (separator: string, a: React.ReactNode, b: React.ReactNode) => a && b ? <>{a}{separator} {b}</> : (a || b);
@@ -14,7 +14,7 @@ const Languages: FC<{ groups: LangGrouping }> = ({ groups }) => {
     ? items.sort((a, b) => a.localeCompare(b)).join(", ")
     : null;
   const main = concat(",",
-    groups.arda.length ? <span className="arda-lang">{makeString(groups.arda)}</span> : null,
+    groups.arda.length ? <span className={css.ardaLang}>{makeString(groups.arda)}</span> : null,
     makeString(groups.lang));
   const other = concat(";",
     makeString(groups.conlangs),
@@ -22,7 +22,7 @@ const Languages: FC<{ groups: LangGrouping }> = ({ groups }) => {
 
   return <>
     {main && <p>{main}{other ? ";" : null}</p>}
-    {other && <p className="secondary">{other}</p>}
+    {other && <p className={css.secondary}>{other}</p>}
   </>;
 };
 
@@ -59,7 +59,7 @@ const makeHistoryItems = (data: Data) => {
           <td>{acc.count}</td>
           <td>
             <Languages groups={result.current} />
-            {input.description && <div className="description">{input.description}</div>}
+            {input.description && <div className={css.description}>{input.description}</div>}
           </td>
           <td>
             {Array.from(sources.values()).map((s, i) => {
@@ -69,10 +69,10 @@ const makeHistoryItems = (data: Data) => {
                   : item;
             })}
           </td>
-          <td className="nobr">{result.lang}{result.conlang ? ` + ${result.conlang}` : null} ({result.me})</td>
+          <td className={css.nobr}>{result.lang}{result.conlang ? ` + ${result.conlang}` : null} ({result.me})</td>
         </>;
       } else {
-        cells = <td colSpan={5} className="description">
+        cells = <td colSpan={5} className={css.description}>
           {input.description}
         </td>;
       }
@@ -91,7 +91,7 @@ export const Table = () => {
   const rows = useMemo(() => makeHistoryItems(data), [data]);
   const { history } = messages;
 
-  return <T bordered className="history">
+  return <T bordered className={css.history}>
     <thead>
       <tr>
         <th>{history.version}</th>
