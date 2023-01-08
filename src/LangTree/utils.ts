@@ -78,13 +78,17 @@ export const findLanguage = (id: string, names: (typeof lng)["names"]) => {
 export const filterByName = <T extends string>(
     item: lng.LangGroupItem<T>, names: Record<T, string>, filterText: string
 ): boolean => {
-  filterText = filterText.trim().toLocaleLowerCase();
+
+  const normalize = (s: string) => s.normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\u0142/g, "l")
+    .trim()
+    .toLocaleLowerCase();
+  filterText = normalize(filterText);
 
   const checkName = (name = "") => {
-    const normalized = name.normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/\u0142/g, "l");
-    return normalized.toLocaleLowerCase().indexOf(filterText) >= 0;
+    const normalized = normalize(name);
+    return normalized.indexOf(filterText) >= 0;
   }
 
   return (
